@@ -2676,6 +2676,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/dash\/hands_nice_vimeo_gray-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41071,
+		"inputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_gray-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_gray-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/dash\/hands_nice_vimeo_gray.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2683,17 +2694,6 @@
 		"initialSize": 41078,
 		"inputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_gray.jpg",
 		"outputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_gray.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/images\/dash\/hands_nice_vimeo_graybig.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53605,
-		"inputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_graybig.jpg",
-		"outputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_graybig.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -192,8 +192,11 @@ h5 {
 #dash {
 }
 #dash-photo {
-	background: #e3e3e3 url(/images/dash/hands_nice_vimeo_gray.jpg) center center no-repeat;
+	background-color: #e3e3e3;
+	.img-retina("/images/dash/hands_nice_vimeo_gray.jpg", "/images/dash/hands_nice_vimeo_gray-2x.jpg", auto, 210px);
 	background-size: auto 210px;
+	background-position: center center;
+	background-repeat: no-repeat;
 	height: 210px;
 	width: 100%;
 	margin-top: @padding-large-vertical + 2px;
