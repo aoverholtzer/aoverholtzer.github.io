@@ -2608,7 +2608,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/AppIcon-29@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/AppIcon-40@2x.png": {
 		"fileType": 32768,
@@ -2619,7 +2619,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/AppIcon-40@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/AppIcon-60@2x.png": {
 		"fileType": 32768,
@@ -2630,7 +2630,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/AppIcon-60@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/AppIcon-76.png": {
 		"fileType": 32768,
@@ -2641,7 +2641,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/AppIcon-76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/AppIcon-76@2x.png": {
 		"fileType": 32768,
@@ -2652,7 +2652,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/AppIcon-76@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/AppStore.jpg": {
 		"fileType": 16384,
@@ -2663,7 +2663,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/AppStore.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/hands_nice_vimeo.jpg": {
 		"fileType": 16384,
@@ -2674,7 +2674,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/hands_nice_vimeo_gray.jpg": {
 		"fileType": 16384,
@@ -2685,7 +2685,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_gray.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/hands_nice_vimeo_graybig.jpg": {
 		"fileType": 16384,
@@ -2718,7 +2718,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/icon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/iphone-auto-2x.png": {
 		"fileType": 32768,
@@ -2740,7 +2740,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/iphone-build-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/dash\/iphone-drive-2x.png": {
 		"fileType": 32768,
@@ -2773,7 +2773,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/graphs.002.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/graphs.003.png": {
 		"fileType": 32768,
@@ -2784,7 +2784,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/graphs.003.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/icon-100.png": {
 		"fileType": 32768,
@@ -2795,7 +2795,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/icon-100.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/icon-140.png": {
 		"fileType": 32768,
@@ -2806,7 +2806,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/icon-140.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/icon-2x.jpg": {
 		"fileType": 16384,
@@ -2828,7 +2828,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/inquire-ask.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/inquire-diff-rotated.jpg": {
 		"fileType": 16384,
@@ -2839,7 +2839,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/inquire-diff-rotated.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/inquire-diff.png": {
 		"fileType": 32768,
@@ -2850,7 +2850,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/inquire-diff.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/inquire-glossary.jpg": {
 		"fileType": 16384,
@@ -2861,7 +2861,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/inquire-glossary.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/inquire-reading.png": {
 		"fileType": 32768,
@@ -2883,7 +2883,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/ipad-photo2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/inquire\/iTunesArtwork.png": {
 		"fileType": 32768,
@@ -2894,7 +2894,7 @@
 		"outputAbbreviatedPath": "\/images\/inquire\/iTunesArtwork.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/ipad-2x.png": {
 		"fileType": 32768,
@@ -2938,7 +2938,7 @@
 		"outputAbbreviatedPath": "\/images\/ipad-portrait-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/ipad.png": {
 		"fileType": 32768,
@@ -3004,7 +3004,7 @@
 		"outputAbbreviatedPath": "\/images\/logo-white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/me.jpg": {
 		"fileType": 16384,
@@ -3026,7 +3026,7 @@
 		"outputAbbreviatedPath": "\/images\/perls\/AppStore.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/perls\/hn-2x.png": {
 		"fileType": 32768,
@@ -3059,7 +3059,7 @@
 		"outputAbbreviatedPath": "\/images\/perls\/Icon-76@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/perls\/qp-2x.png": {
 		"fileType": 32768,
@@ -3081,7 +3081,7 @@
 		"outputAbbreviatedPath": "\/images\/perls\/sm-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/perls\/td-2x.png": {
 		"fileType": 32768,
@@ -3125,7 +3125,7 @@
 		"outputAbbreviatedPath": "\/images\/ww\/AppStore.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/ww\/icon-2x.jpg": {
 		"fileType": 16384,
@@ -3147,7 +3147,7 @@
 		"outputAbbreviatedPath": "\/images\/ww\/Icon-76@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/ww\/ww.png": {
 		"fileType": 32768,
