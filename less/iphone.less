@@ -1,0 +1,164 @@
+
+@iphone-width: 288px;
+@iphone-img-width: 240px;
+@iphone-height: 602px;
+@iphone-img-height: 426px;
+
+@ipad-img-width: 100% * (392px/480px); 
+@ipad-img-height: 100% * (294px/339px);
+
+.iphone, .ipad, .ipad-portrait {
+	margin: 0 auto;
+	position: relative;
+	&>img {
+		position: absolute;
+		.transition(opacity 200ms ease-in);
+		margin: -2px 0 0 -2px;
+		box-sizing: padding-box;
+		border: 2px solid #bbb;
+	}
+  .transition-transform(500ms 200ms ease-in-out);
+}
+
+.iphone {
+  .img-retina("/images/iphone.png", "/images/iphone-2x.png", @iphone-width, @iphone-height);
+  background-repeat: no-repeat;
+  .size(@iphone-width; @iphone-height);
+  &.dark {
+  	.img-retina("/images/iphone-dark.png", "/images/iphone-dark-2x.png", @iphone-width, @iphone-height);
+  }
+  &>img {
+	 .size(@iphone-img-width; @iphone-img-height);
+	 left: (@iphone-width - @iphone-img-width)/2;
+	 top: (@iphone-height - @iphone-img-height)/2;
+  }
+}
+
+.ipad {
+  z-index: 666;
+  margin: 1.85% auto 0;
+  width: 100%;
+  padding-bottom: 100% * 339px/480px;
+  .img-retina("/images/ipad-dark.png", "/images/ipad-dark-2x.png", 100%, 100%);
+  background-size: contain;
+  &>img {
+	width: @ipad-img-width;
+	height: auto;
+	left: (100% - @ipad-img-width)/2;
+	top: (100% - @ipad-img-height)/2;
+  }
+  &.rotate {
+	  -webkit-transform: rotate(90deg) translate3d(15%, 0.5px, 0);
+	    -ms-transform: rotate(90deg) translate(15%, 0.5px);
+	     -o-transform: rotate(90deg) translate(15%, 0.5px);
+	        transform: rotate(90deg) translate(15%, 0.5px);
+  }
+}
+
+@media only screen and (max-width: @screen-xs-max) {
+	.iphone > img, .ipad > img {
+		border-width: 1px;
+	}
+	.iphone {
+		background-size: @iphone-width * 0.6667  @iphone-height * 0.6667;
+		.size(@iphone-width * 0.6667; @iphone-height * 0.6667);
+		&>img {
+			.size(@iphone-img-width * 0.6667; @iphone-img-height * 0.6667);
+			left: ((@iphone-width - @iphone-img-width)/2 * 0.6667);
+			top: ((@iphone-height - @iphone-img-height)/2) * 0.6667;
+		}
+	}
+	.ipad-box {
+		margin-left: -(100% - @ipad-img-width)/2;
+		margin-right: -(100% - @ipad-img-width)/2;
+	}
+}
+
+@media only screen and (min-width: @screen-sm-min) {
+	.iphone {
+		margin-left: -2px;
+	}
+	.ipad-box {
+		padding: 1px 0;
+	}
+}
+
+@media only screen and (min-width: @fun-size) {
+	.iphone {
+		margin-left: -@grid-gutter-width/2;
+	}
+	.ipad-box {
+		margin: 0 -@grid-gutter-width/2;
+	}
+	.row.pop {
+		margin-left: -@grid-gutter-width;
+		margin-right: -@grid-gutter-width;
+	}
+}
+
+
+.spinner {
+	height:60px;
+	width:60px;
+	position:absolute;
+	left: ~"calc(50% - 30px)";
+	top: ~"calc(50% - 30px)";
+	-webkit-animation: rotation .6s infinite linear;
+	-moz-animation: rotation .6s infinite linear;
+	-o-animation: rotation .6s infinite linear;
+	animation: rotation .6s infinite linear;
+	border-left:6px solid @body-bg-alt;
+	border-right:6px solid @body-bg-alt;
+	border-bottom:6px solid @body-bg-alt;
+	border-top:6px solid @brand-primary;
+	border-radius:100%;
+}
+
+@-webkit-keyframes rotation {
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(359deg);}
+}
+
+@-moz-keyframes rotation {
+	from {-moz-transform: rotate(0deg);}
+	to {-moz-transform: rotate(359deg);}
+}
+
+@-o-keyframes rotation {
+	from {-o-transform: rotate(0deg);}
+	to {-o-transform: rotate(359deg);}
+}
+
+@keyframes rotation {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(359deg);}
+}
+
+
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(-1deg);
+        }
+        50% {
+        transform: rotate(1deg);
+        }
+}
+ 
+@-webkit-keyframes jiggle {
+    0% {
+        -webkit-transform: rotate(-1deg);
+        }
+        50% {
+        -webkit-transform: rotate(1deg);
+        }
+}
+ 
+@-moz-keyframes jiggle {
+    0% {
+        -moz-transform: rotate(-1deg);
+        }
+        50% {
+                -moz-transform: rotate(1deg);
+        }
+}

@@ -1,0 +1,264 @@
+// Core variables and mixins
+@import "../bower_components/bootstrap/less/variables.less";
+@import "../bower_components/bootstrap/less/mixins.less";
+@import "overrides.less";
+
+// Reset and dependencies
+@import "../bower_components/bootstrap/less/normalize.less";
+@import "../bower_components/bootstrap/less/print.less";
+
+// Core CSS
+@import "../bower_components/bootstrap/less/scaffolding.less";
+@import "../bower_components/bootstrap/less/type.less";
+@import "../bower_components/bootstrap/less/grid.less";
+@import "../bower_components/bootstrap/less/buttons.less";
+
+// Components
+@import "../bower_components/bootstrap/less/component-animations.less";
+
+// Utility classes
+@import "../bower_components/bootstrap/less/utilities.less";
+@import "../bower_components/bootstrap/less/responsive-utilities.less";
+
+/* @import "../bower_components/bootstrap/less/bootstrap.less"; */
+
+@import "iphone.less";
+@import "links.less";
+
+#home {
+	position: relative;
+	h1 {
+		color: @brand-primary !important;
+		position: fixed;
+		width: 100%;
+		height: 2em;
+		line-height: 2em;
+		overflow: visible;
+		margin: auto;
+		top: 0; left: 0; bottom: 0; right: 0;
+		z-index: 999;
+	}
+}
+
+section:not(#about), header {
+	p:not(.lead), li {
+		text-align: justify;
+		
+		.hyphens(auto);
+		
+    	-webkit-hyphenate-limit-lines: 2;
+		-moz-hyphenate-limit-lines: 2; /* not supported yet */
+		-ms-hyphenate-limit-lines: 2;
+		hyphenate-limit-lines: 2;
+		
+		-webkit-hyphenate-limit-before: 3;
+		-moz-hyphenate-limit-before: 3;
+		-ms-hyphenate-limit-before: 3;
+		hyphenate-limit-before: 3;
+		
+		-webkit-hyphenate-limit-after: 4;
+		-moz-hyphenate-limit-after: 4;
+		-ms-hyphenate-limit-after: 4;
+		hyphenate-limit-after: 4;
+	}
+}
+
+section, footer, header {
+	padding: 90px 0;
+}
+
+header {
+	background: @brand-primary;
+	padding: 6em 0 0.5em;
+}
+
+.gray-section {
+	background: @body-bg-alt;//#2980B9;
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+
+
+footer {
+	padding: 32px 0 30px;
+	background: @body-bg-darkest;//#2C3E50;
+	text-transform: uppercase;
+	text-align: center;
+	color: @body-bg-gray;//rgba(255,255,255,0.3);
+	font-family: @headings-font-family; 
+	p {
+		margin: 0;
+	}
+}
+
+h1, h2, h5 {
+	text-transform: uppercase;
+}
+
+h1 {
+	color: white !important;
+	margin-bottom: 0;
+	text-rendering: optimizelegibility;
+	font-weight: 300;
+	font-size: 56px;
+	letter-spacing: 2px;
+	text-align: center;
+	strong {
+		font-weight: 500;
+	}
+}
+
+h2 {
+	letter-spacing: 0.5px;
+	margin-left: -1px;
+	&.nopad {
+		margin-top: 0;
+	}
+}
+
+h5 {
+	letter-spacing: 1px;
+	margin-top: @padding-large-vertical * 2;
+	&:first-child {
+		margin-top: @padding-large-vertical/2;
+	}
+	&.nopad {
+		margin-top: 0;
+	}
+}
+
+.lead {
+	font-family: @headings-font-family;
+	color: @headings-color;
+	font-size: ceil(@font-size-base * 1.65); 
+	line-height: 1.3;
+	&.nopad {
+		margin-top: 0;
+		margin-bottom: @line-height-computed/2 !important; // regular p margin
+	}
+	a {
+		font-weight: 400;
+	}
+}
+
+
+
+#projects {
+	margin-top:2em;
+	.project {
+		display: block;
+		position: relative;
+		background: white url(/images/dash/icon-2x.jpg) no-repeat center center;
+		background-size: 100%;
+		width: 100%;
+		height: 0;
+		padding-bottom: 100%;
+		border-radius: 100%/6.4;
+		color: transparent;
+		font-weight: 600;
+		text-transform: uppercase;
+		text-decoration: none;
+		.transition(all 200ms ease-both);
+		&[href="#inquire"] {
+			background-image: url(/images/inquire/icon-2x.jpg);
+		}
+		&[href="#ww"] {
+			background-image: url(/images/ww/icon-2x.jpg);
+		}
+		&[href="#perls"] {
+			background-image: url(/images/perls/icon-2x.jpg);
+		}
+		span {
+			position: absolute;
+			top: 50%;
+			margin-top: -9px;
+			width: 100%;
+			text-align: center !important;	
+			font-family: @headings-font-family;
+			letter-spacing: 1px;
+		}
+	}
+}
+
+@media only screen and (min-width: @screen-xs-min) {
+	body:not(.touchable) #projects .project:hover {
+		background: @brand-primary;
+		color: white;
+	}
+}
+
+
+#dash {
+}
+#dash-photo {
+	background: #e3e3e3 url(/images/dash/hands_nice_vimeo_gray.jpg) center center no-repeat;
+	background-size: auto 210px;
+	height: 210px;
+	width: 100%;
+	margin-top: @padding-large-vertical + 2px;
+	margin-bottom: @padding-large-vertical;
+}
+#inquire {
+}
+#perls {
+}
+#ww {
+}
+#about {
+	background: @body-bg-gray;
+}
+
+#me-photo {
+	padding-top: 4px;
+}
+
+
+@media only screen and (max-width: @screen-xs-max) {
+	h1 {
+		font-size: 36px;
+		letter-spacing: 0.5px;
+	}
+	h2 {
+		margin-top: 0;
+	}
+	.xs-padless {
+		padding: 0;
+		margin: 0 -20px;
+	}
+	.lead {
+		font-size: floor(@font-size-base * 1.65);
+		text-align: left;
+	}
+	section {
+		padding: 60px 0;
+	}
+	#projects {
+		.col-xs-3 { // squeeze icons together
+			padding-left: 0 !important;
+		}
+		&.row { // pad row to compensate
+			padding-left: @grid-gutter-width/2 !important;
+		}
+		.project>span {
+			display: none !important;
+		}
+	}
+	#dash-photo {
+		margin-left: -@grid-gutter-width/2 !important;
+		margin-right: -@grid-gutter-width/2 !important;
+		width: calc(~"100% + " @grid-gutter-width);
+	}
+}
+
+
+@fun-size: (@screen-sm-min + @grid-gutter-width);
+@media only screen and (min-width: @fun-size) {
+	.row.pop {
+		margin-left: -@grid-gutter-width;
+		margin-right: -@grid-gutter-width;
+	}
+}
+
+
+

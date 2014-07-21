@@ -1,0 +1,88 @@
+
+@chevron-width: 18px;
+@chevron-height: 12px;
+
+.container.link2top {
+	position: relative; // needed to position back2top 
+}
+.back2top {
+	position: absolute;
+	bottom: -45px;
+	left: 50%;
+	margin: 0 0 -@chevron-height -@chevron-width;
+	display: block;
+	.size(@chevron-width * 2; @chevron-height * 2);
+    padding-top: @chevron-height/2 - 2px; // tiny offset to account for chevron's pointy top
+    padding-left: @chevron-width/2;
+	.chevron { // size is 18x12
+		fill: rgba(0,0,0,0.2);
+	}
+	&:hover, &:active, &:focus {
+		.chevron {
+			fill: @brand-primary !important;
+		}
+	}
+}
+
+.image-links-panel:not(:first-child) {
+	margin-top: 2em;
+}
+
+.image-links {
+	display: block;
+	list-style: none;
+	.clearfix;
+	& > li {
+		line-height: 25px;
+		display: inline-block;
+		margin: 0;
+		margin-right: 8px;
+	}
+	& > li {
+		font-weight: 600;
+		font-family: @headings-font-family;
+		color: @link-color;
+		background: @body-bg-alt;
+		cursor: pointer;
+		box-sizing: border-box;
+		text-align: center !important;
+		.square(25px);
+		border-radius: 0;
+		&.active, &:hover, &:focus {
+			color: @component-active-color;
+			background: @component-active-bg !important;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	&.pull-right {
+		margin-right: @grid-gutter-width/2;
+	}
+}
+
+.gray-section .image-links > li {
+	background: @body-bg;
+}
+
+.image-captions {
+	list-style: none;
+	& > li {
+		display: none;
+		&.active {
+			display: block;
+		}
+	}
+}
+
+@media only screen and (max-width: @screen-xs-max) {
+	.back2top {
+		display: none !important;
+	}
+	.image-links {
+		text-align: center; // centers boxes on screen
+	}
+	.image-links-panel {
+		margin-top: 20px !important;
+	}
+}
