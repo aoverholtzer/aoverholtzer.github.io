@@ -16,12 +16,18 @@ $(document).ready(function(){
     $('a[href^="#"]').bind('click.smoothscroll',function (e) {
         e.preventDefault();
       
-        var target = this.hash,
-        $target = $(target);
+        var target = this.hash, $target = $(target);
+        
+        var speed = 500;
+        if (this.hash === '#top') {
+        	speed = $(this).offset().top / 4;
+        } else {
+	        speed = $target.offset().top / 3;
+        }
       
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 500, function () {
+        }, speed, function () {
             var baseUrl = window.location.href.split('#')[0];
 			window.location.replace( baseUrl + target );
         });
