@@ -1,6 +1,8 @@
 
 @chevron-width: 18px;
 @chevron-height: 12px;
+@chevron-wScalar: 4;
+@chevron-hScalar: 3;
 
 .container.link2top {
 	position: relative; // needed to position back2top 
@@ -9,11 +11,11 @@
 	position: absolute;
 	bottom: -45px;
 	left: 50%;
-	margin: 0 0 -@chevron-height -@chevron-width;
+	margin: 0 0 (-@chevron-height * @chevron-hScalar / 2) (-@chevron-width * @chevron-wScalar / 2);
 	display: block;
-	.size(@chevron-width * 2; @chevron-height * 2);
-    padding-top: @chevron-height/2 - 2px; // tiny offset to account for chevron's pointy top
-    padding-left: @chevron-width/2;
+	.size(@chevron-width * @chevron-wScalar; @chevron-height * @chevron-hScalar);
+    padding-top: ((@chevron-hScalar - 1) * @chevron-height) / 2 - 2px; // tiny offset to account for chevron's pointy top
+    padding-left: ((@chevron-wScalar - 1) * @chevron-width) / 2;
 	.chevron { // size is 18x12
 		fill: rgba(0,0,0,0.2);
 	}
