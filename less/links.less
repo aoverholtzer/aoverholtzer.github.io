@@ -27,6 +27,17 @@
 }
 
 
+.btn-primary {
+	border: none;
+/* 	font-family: @headings-font-family; */
+/* 	text-transform: uppercase; */
+/* 	letter-spacing: 1px; */
+	&:hover {
+		background-color: @link-hover-color;
+	}
+}
+
+
 .image-links {
 	display: block;
 	list-style: none;
@@ -53,6 +64,10 @@
 		&.active, &:hover, &:focus {
 			color: @component-active-color;
 			background: @component-active-bg !important;
+		}
+		&:hover, &:focus {
+			color: @component-active-color;
+			background: @link-hover-color !important;
 		}
 		&:last-child {
 			margin-right: 0;
