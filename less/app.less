@@ -40,7 +40,7 @@
 	}
 }
 
-section:not(#about), header {
+section:not(#about) {
 	p:not(.lead), li {
 		text-align: justify;
 		
@@ -106,7 +106,11 @@ h1 {
 	text-align: center;
 	strong {
 		font-weight: 500;
-	letter-spacing: 2.5px;
+		letter-spacing: 2.5px;
+	}
+	a {
+		color: white !important;
+		text-decoration: none !important;
 	}
 }
 
@@ -141,8 +145,14 @@ h5 {
 	a {
 		font-weight: 400;
 	}
+	.small-caps {
+		font-size: 92%;
+	}
 }
 
+.img-responsive {
+	margin-bottom: @line-height-computed/2 !important; // regular p margin
+}
 
 #projects {
 	margin-top:2em;
@@ -251,9 +261,12 @@ h5 {
 		}
 	}
 	#dash-photo {
+		width: calc(~"100% + " @grid-gutter-width);
+	}
+	.img-pop {
 		margin-left: -@grid-gutter-width/2 !important;
 		margin-right: -@grid-gutter-width/2 !important;
-		width: calc(~"100% + " @grid-gutter-width);
+		max-width: calc(~"100% + " @grid-gutter-width);
 	}
 }
 
