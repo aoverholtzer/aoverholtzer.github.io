@@ -56,10 +56,6 @@ a {
 	margin: @padding-large-vertical * 3 0 @padding-large-vertical * 4;
 }
 
-.center {
-	margin: @padding-large-vertical * 3 auto;
-	display: block;
-}
 
 @-webkit-keyframes slideDown {
     0%, 50% { -webkit-transform: translateY(-101%); }
@@ -73,17 +69,30 @@ a {
     0%, 50% { transform: translateY(-101%); }
     5%, 48% { transform: translateY(0px); }
 }
+
 #widget {
 	border-color: transparent;
 	.translate(0, -101%);
 	.animation(slideDown 12s 5.0s infinite ease forwards);
 }
+
 .frame {
 	.box-sizing(content-box);
 	position: relative;
 	overflow: hidden;
+	img {
+		position: absolute;
+		width: 100%;
+	}
 }
-.frame img {
-	position: absolute;
-	width: 100%;
+
+@media only screen and (max-width: @screen-xs-max) {
+	h1, .small {
+		text-align: center;
+	}
+	.pad {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
 }

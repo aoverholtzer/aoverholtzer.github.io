@@ -2232,10 +2232,6 @@ a:hover {
 .pad {
   margin: 30px 0 40px;
 }
-.center {
-  margin: 30px auto;
-  display: block;
-}
 @-webkit-keyframes slideDown {
   0%,
   50% {
@@ -2286,4 +2282,15 @@ a:hover {
 .frame img {
   position: absolute;
   width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  h1,
+  .small {
+    text-align: center;
+  }
+  .pad {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
