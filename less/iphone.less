@@ -54,13 +54,13 @@
 }
 
 @media only screen and (max-width: @screen-xs-max) {
-	.iphone > img, .ipad > img {
+	.iphone > img, .iphone > .frame, .ipad > img {
 		border-width: 1px;
 	}
 	.iphone {
 		background-size: @iphone-width * 0.6667  @iphone-height * 0.6667;
 		.size(@iphone-width * 0.6667; @iphone-height * 0.6667);
-		&>img {
+		&>img, &>.frame {
 			.size(@iphone-img-width * 0.6667; @iphone-img-height * 0.6667);
 			left: ((@iphone-width - @iphone-img-width)/2 * 0.6667);
 			top: ((@iphone-height - @iphone-img-height)/2) * 0.6667;
@@ -130,14 +130,6 @@
 
 
 
-@keyframes jiggle {
-    0% {
-        transform: rotate(-1deg);
-        }
-        50% {
-        transform: rotate(1deg);
-        }
-}
  
 @-webkit-keyframes jiggle {
     0% {
@@ -154,5 +146,14 @@
         }
         50% {
                 -moz-transform: rotate(1deg);
+        }
+}
+
+@keyframes jiggle {
+    0% {
+        transform: rotate(-1deg);
+        }
+        50% {
+        transform: rotate(1deg);
         }
 }

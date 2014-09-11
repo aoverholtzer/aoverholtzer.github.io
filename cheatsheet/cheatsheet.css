@@ -2094,6 +2094,7 @@ tbody.collapse.in {
 }
 @media only screen and (max-width: 767px) {
   .iphone > img,
+  .iphone > .frame,
   .ipad > img {
     border-width: 1px;
   }
@@ -2102,7 +2103,8 @@ tbody.collapse.in {
     width: 192.0096px;
     height: 401.3534px;
   }
-  .iphone > img {
+  .iphone > img,
+  .iphone > .frame {
     width: 160.008px;
     height: 284.0142px;
     left: 16.0008px;
@@ -2177,14 +2179,6 @@ tbody.collapse.in {
     transform: rotate(359deg);
   }
 }
-@keyframes jiggle {
-  0% {
-    transform: rotate(-1deg);
-  }
-  50% {
-    transform: rotate(1deg);
-  }
-}
 @-webkit-keyframes jiggle {
   0% {
     -webkit-transform: rotate(-1deg);
@@ -2199,6 +2193,14 @@ tbody.collapse.in {
   }
   50% {
     -moz-transform: rotate(1deg);
+  }
+}
+@keyframes jiggle {
+  0% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(1deg);
   }
 }
 body {
@@ -2252,6 +2254,16 @@ a:hover {
   5%,
   48% {
     -moz-transform: translateY(0px);
+  }
+}
+@keyframes slideDown {
+  0%,
+  50% {
+    transform: translateY(-101%);
+  }
+  5%,
+  48% {
+    transform: translateY(0px);
   }
 }
 #widget {
