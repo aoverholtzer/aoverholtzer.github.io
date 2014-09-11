@@ -1,0 +1,72 @@
+// Core variables and mixins
+@import "../../bower_components/bootstrap/less/variables.less";
+@import "../../bower_components/bootstrap/less/mixins.less";
+@import "../../less/overrides.less";
+
+// Reset and dependencies
+@import "../../bower_components/bootstrap/less/normalize.less";
+@import "../../bower_components/bootstrap/less/print.less";
+
+// Core CSS
+@import "../../bower_components/bootstrap/less/scaffolding.less";
+@import "../../bower_components/bootstrap/less/type.less";
+@import "../../bower_components/bootstrap/less/grid.less";
+@import "../../bower_components/bootstrap/less/buttons.less";
+
+// Components
+@import "../../bower_components/bootstrap/less/component-animations.less";
+
+// Utility classes
+@import "../../bower_components/bootstrap/less/utilities.less";
+@import "../../bower_components/bootstrap/less/responsive-utilities.less";
+
+@import "../../less/iphone.less";
+
+body {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: @body-bg-alt;
+/* 	font-family: "HelveticaNeue", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif;  */
+	font-weight: 300 !important;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 18px;
+}
+
+.lead {
+/* 	line-height: 1.5; */
+/* 	font-size: 22px; */
+/* 	text-align: justify; */
+/*
+	font-weight: 300 !important;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
+*/
+}
+		
+h1 {
+	font-size: 56px;
+	font-weight: 200 !important;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	margin-top: @padding-large-vertical * 9;
+	margin-bottom: 0;//@padding-large-vertical * 5;
+/* 	text-align: center; */
+}
+
+.lead {
+	margin-bottom: @padding-large-vertical;
+}
+
+a {
+	color: #FF2D55 !important;
+	&:hover {
+		color: #FF2A68 !important;
+	}
+}
+
+.pad {
+	margin: @padding-large-vertical * 3 0 @padding-large-vertical * 4;
+}
+
+.center {
+	margin: @padding-large-vertical * 3 auto;
+	display: block;
+}
