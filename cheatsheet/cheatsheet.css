@@ -2034,7 +2034,10 @@ tbody.collapse.in {
 }
 .iphone > img,
 .ipad > img,
-.ipad-portrait > img {
+.ipad-portrait > img,
+.iphone > .frame,
+.ipad > .frame,
+.ipad-portrait > .frame {
   position: absolute;
   -webkit-transition: opacity 200ms ease-in;
   -o-transition: opacity 200ms ease-in;
@@ -2055,7 +2058,8 @@ tbody.collapse.in {
     background-size: 288px 602px;
   }
 }
-.iphone > img {
+.iphone > img,
+.iphone > .frame {
   width: 240px;
   height: 426px;
   left: 24px;
@@ -2206,15 +2210,6 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
 }
-.lead {
-  /* 	line-height: 1.5; */
-  /* 	font-size: 22px; */
-  /* 	text-align: justify; */
-  /*
-	font-weight: 300 !important;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
-*/
-}
 h1 {
   font-size: 56px;
   font-weight: 200 !important;
@@ -2238,4 +2233,45 @@ a:hover {
 .center {
   margin: 30px auto;
   display: block;
+}
+@-webkit-keyframes slideDown {
+  0%,
+  50% {
+    -webkit-transform: translateY(-101%);
+  }
+  5%,
+  48% {
+    -webkit-transform: translateY(0px);
+  }
+}
+@-moz-keyframes slideDown {
+  0%,
+  50% {
+    -moz-transform: translateY(-101%);
+  }
+  5%,
+  48% {
+    -moz-transform: translateY(0px);
+  }
+}
+#widget {
+  border-color: transparent;
+  -webkit-transform: translate(0, -101%);
+  -ms-transform: translate(0, -101%);
+  -o-transform: translate(0, -101%);
+  transform: translate(0, -101%);
+  -webkit-animation: slideDown 12s 5s infinite ease forwards;
+  -o-animation: slideDown 12s 5s infinite ease forwards;
+  animation: slideDown 12s 5s infinite ease forwards;
+}
+.frame {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+}
+.frame img {
+  position: absolute;
+  width: 100%;
 }

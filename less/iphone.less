@@ -10,7 +10,7 @@
 .iphone, .ipad, .ipad-portrait {
 	margin: 0 auto;
 	position: relative;
-	&>img {
+	&>img, &>.frame {
 		position: absolute;
 		.transition(opacity 200ms ease-in);
 		margin: -2px 0 0 -2px;
@@ -24,7 +24,7 @@
   .img-retina("/images/iphone.png", "/images/iphone-2x.png", @iphone-width, @iphone-height);
   background-repeat: no-repeat;
   .size(@iphone-width; @iphone-height);
-  &>img {
+  &>img, &>.frame {
 	 .size(@iphone-img-width; @iphone-img-height);
 	 left: (@iphone-width - @iphone-img-width)/2;
 	 top: (@iphone-height - @iphone-img-height)/2;

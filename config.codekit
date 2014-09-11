@@ -2581,6 +2581,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/cheatsheet\/AppIcon120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8642,
+		"inputAbbreviatedPath": "\/cheatsheet\/AppIcon120.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/AppIcon120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/cheatsheet\/cheatsheet.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -2598,6 +2609,61 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/cheatsheet\/iTunesArtwork@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12034,
+		"inputAbbreviatedPath": "\/cheatsheet\/iTunesArtwork@2x.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/iTunesArtwork@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/main.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33040,
+		"inputAbbreviatedPath": "\/cheatsheet\/main.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/main.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/main852.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36501,
+		"inputAbbreviatedPath": "\/cheatsheet\/main852.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/main852.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/widget.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60481,
+		"inputAbbreviatedPath": "\/cheatsheet\/widget.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/widget.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/widget852.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47685,
+		"inputAbbreviatedPath": "\/cheatsheet\/widget852.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/widget852.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/css\/app.css": {
 		"fileType": 16,

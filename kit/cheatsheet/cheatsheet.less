@@ -31,16 +31,6 @@ body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-size: 18px;
 }
-
-.lead {
-/* 	line-height: 1.5; */
-/* 	font-size: 22px; */
-/* 	text-align: justify; */
-/*
-	font-weight: 300 !important;
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
-*/
-}
 		
 h1 {
 	font-size: 56px;
@@ -69,4 +59,27 @@ a {
 .center {
 	margin: @padding-large-vertical * 3 auto;
 	display: block;
+}
+
+@-webkit-keyframes slideDown {
+    0%, 50% { -webkit-transform: translateY(-101%); }
+    5%, 48% { -webkit-transform: translateY(0px); }
+}
+@-moz-keyframes slideDown {
+    0%, 50% { -moz-transform: translateY(-101%); }
+    5%, 48% { -moz-transform: translateY(0px); }
+}
+#widget {
+	border-color: transparent;
+	.translate(0, -101%);
+	.animation(slideDown 12s 5.0s infinite ease forwards);
+}
+.frame {
+	.box-sizing(content-box);
+	position: relative;
+	overflow: hidden;
+}
+.frame img {
+	position: absolute;
+	width: 100%;
 }
