@@ -26,8 +26,13 @@
 @import "links.less";
 
 #home {
-	position: relative;
-	h1 {
+/* 	position: relative; */
+	header {
+		background: none;
+	}
+	h1, footer {
+		color: @body-bg-gray !important;
+/*
 		color: @brand-primary !important;
 		position: fixed;
 		width: 100%;
@@ -37,8 +42,13 @@
 		margin: auto;
 		top: 0; left: 0; bottom: 0; right: 0;
 		z-index: 999;
+*/
+	}
+	a, a:hover {
+		color: #FF2D55;
 	}
 }
+
 
 section:not(#about) {
 	p:not(.lead), li {
@@ -63,8 +73,8 @@ section:not(#about) {
 	}
 }
 
-section, footer, header {
-	padding: 90px 0;
+section, header {
+	padding: 85px 0 90px;
 }
 
 header {
@@ -81,15 +91,17 @@ header {
 
 
 footer {
-	padding: 32px 0 30px;
-	background: @body-bg-darkest;//#2C3E50;
-	text-transform: uppercase;
 	text-align: center;
-	color: @body-bg-gray;//rgba(255,255,255,0.3);
+	text-transform: uppercase;
 	font-family: @headings-font-family; 
 	p {
 		margin: 0;
 	}
+}
+#portfolio footer {
+	background: @body-bg-darkest;//#2C3E50;
+	color: @body-bg-gray;//rgba(255,255,255,0.3);
+	padding: 32px 0 30px;
 }
 
 h1, h2, h5 {
@@ -150,8 +162,12 @@ h5 {
 	}
 }
 
-.img-responsive {
+.p-pad {
 	margin-bottom: @line-height-computed/2 !important; // regular p margin
+}
+
+.rounded {
+	border-radius: 100%/6.4;
 }
 
 #projects {
@@ -164,11 +180,11 @@ h5 {
 		width: 100%;
 		height: 0;
 		padding-bottom: 100%;
-		border-radius: 100%/6.4;
 		color: transparent;
 		font-weight: 600;
 		text-transform: uppercase;
 		text-decoration: none;
+		.rounded;
 		.transition(all 200ms ease-both);
 		&[href="#inquire"] {
 			background-position: right top;
