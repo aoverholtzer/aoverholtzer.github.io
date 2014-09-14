@@ -2065,6 +2065,15 @@ tbody.collapse.in {
   left: 24px;
   top: 88px;
 }
+.iphone.dark {
+  background-image: url("/images/iphone-dark.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iphone.dark {
+    background-image: url("/images/iphone-dark-2x.png");
+    background-size: 288px 602px;
+  }
+}
 .ipad {
   z-index: 666;
   margin: 1.85% auto 0;
@@ -2207,7 +2216,6 @@ body {
   padding-top: 80px;
   padding-bottom: 80px;
   background: #f2f2f2;
-  /* 	font-family: "HelveticaNeue", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif;  */
   font-weight: 300 !important;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 18px;
@@ -2218,7 +2226,6 @@ h1 {
   font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-top: 90px;
   margin-bottom: 0;
-  /* 	text-align: center; */
 }
 .lead {
   margin-bottom: 10px;
@@ -2271,6 +2278,12 @@ a:hover {
   -webkit-animation: slideDown 12s 5s infinite ease forwards;
   -o-animation: slideDown 12s 5s infinite ease forwards;
   animation: slideDown 12s 5s infinite ease forwards;
+  -webkit-animation-play-state: running;
+  animation-play-state: running;
+}
+#widget.paused {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
 }
 .frame {
   -webkit-box-sizing: content-box;
@@ -2278,6 +2291,7 @@ a:hover {
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 .frame img {
   position: absolute;

@@ -31,9 +31,9 @@
 		<div class="row">
 		
 			
-			<div class="col-sm-5 zcol-sm-offset-1">
+			<div class="col-sm-5">
 				<div class="iphone" id="dash-demo">
-					<div class="frame">					
+					<div class="frame" id="screenshot-frame">					
 						<img src="/cheatsheet/main852.png" alt="Screenshot of Cheatsheet app">
 						<img src="/cheatsheet/widget852.png" alt="Screenshot of Cheatsheet Today widget" id="widget">
 					</div>
@@ -44,10 +44,9 @@
 			
 				<h1>Cheatsheet</h1>
 				<img src="/cheatsheet/icons.svg" alt="Cheatsheet app icons" width="200" height="40" class="pad">
-<!-- 				<img src="/cheatsheet/AppIcon120.png" alt="iTunesArtwork@2x" width="60" height="60" class="pad"> -->
 			
-				<p class="leazd">Cheatsheet is for those little things you always forget: hotel room number, license plate, luggage combination, employee ID number, and so on. </p>
-				<p class="leazd">Add them to Cheatsheet and then look them up instantly in the Today Widget for iOS 8.</p>
+				<p>Cheatsheet is for the little things you never remember: hotel rooms, license plates, luggage combination, employee ID number. </p>
+				<p>Add them to Cheatsheet and then look them up instantly in the Today Widget for iOS 8.</p>
 				
 				<a href="http://itunes.apple.com/app/id914665829"><img src="/cheatsheet/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Download on the App Store" class="pad"></a>
 				
@@ -61,6 +60,12 @@
 		</div> <!-- /row -->
 	</div><!-- /container -->
 
+	<script charset="utf-8">
+		document.getElementById("screenshot-frame").addEventListener("click", toggleAnimation);
+		function toggleAnimation() {
+		    document.getElementById("widget").classList.toggle("paused");
+		}
 
+	</script>
 </body>
 </html>

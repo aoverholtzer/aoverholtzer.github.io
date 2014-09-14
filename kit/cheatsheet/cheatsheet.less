@@ -26,7 +26,6 @@ body {
 	padding-top: 80px;
 	padding-bottom: 80px;
 	background: @body-bg-alt;
-/* 	font-family: "HelveticaNeue", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif;  */
 	font-weight: 300 !important;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-size: 18px;
@@ -37,8 +36,7 @@ h1 {
 	font-weight: 200 !important;
 	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	margin-top: @padding-large-vertical * 9;
-	margin-bottom: 0;//@padding-large-vertical * 5;
-/* 	text-align: center; */
+	margin-bottom: 0;
 }
 
 .lead {
@@ -74,12 +72,19 @@ a {
 	border-color: transparent;
 	.translate(0, -101%);
 	.animation(slideDown 12s 5.0s infinite ease forwards);
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+	&.paused {
+		-webkit-animation-play-state: paused;
+		animation-play-state: paused;
+	}
 }
 
 .frame {
 	.box-sizing(content-box);
 	position: relative;
 	overflow: hidden;
+	cursor: pointer;
 	img {
 		position: absolute;
 		width: 100%;
