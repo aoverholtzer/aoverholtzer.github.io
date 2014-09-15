@@ -2619,6 +2619,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/cheatsheet\/csfavicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1723,
+		"inputAbbreviatedPath": "\/cheatsheet\/csfavicon.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/csfavicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/cheatsheet\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
