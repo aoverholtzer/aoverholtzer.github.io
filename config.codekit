@@ -2610,6 +2610,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/cheatsheet\/banner-icons-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3017,
+		"inputAbbreviatedPath": "\/cheatsheet\/banner-icons-2x.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/banner-icons-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/cheatsheet\/cheatsheet.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -2618,6 +2629,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/cheatsheet\/csfavicon-152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3496,
+		"inputAbbreviatedPath": "\/cheatsheet\/csfavicon-152.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/csfavicon-152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/cheatsheet\/csfavicon.png": {
 		"fileType": 32768,
