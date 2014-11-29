@@ -2791,6 +2791,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/cheatsheet316.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7292,
+		"inputAbbreviatedPath": "\/images\/cheatsheet316.png",
+		"outputAbbreviatedPath": "\/images\/cheatsheet316.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/dash\/AppIcon-29@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
