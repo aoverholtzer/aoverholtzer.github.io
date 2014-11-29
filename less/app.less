@@ -27,11 +27,30 @@
 
 #home {
 	h1, footer {
-		color: @body-bg-gray !important;
+		color: darken(@body-bg-gray, 5%) !important;
 		text-align: center;
+		a {
+			color: darken(@body-bg-gray, 5%);
+			text-decoration: underline;
+			&:hover {
+				color: @brand-primary;
+			}
+		}
 	}
-	a, a:hover {
-		color: #FF2D55;
+	.tiny {
+		letter-spacing: 1px;
+		font-size: @font-size-base;
+		font-weight: 400;
+		white-space: nowrap;
+	}
+	h2 {
+		font-weight: 400;
+	}
+	section {
+		padding: 100px 0 120px;
+	}
+	.row-pad-below {
+		margin-bottom: 60px;
 	}
 }
 
@@ -50,7 +69,7 @@
 }
 
 section:not(#about) {
-	p:not(.lead), li {
+	p:not(.lead), .force-justify, li {
 		text-align: justify;
 		
 		.hyphens(auto);
@@ -80,6 +99,7 @@ header {
 // 	background: @brand-primary;
 // 	background: @body-bg-alt;
 	padding: 6em 0 0;//0.5em;
+	text-align: center;
 	&+section {
 		padding-top: 60px;
 	}
@@ -116,9 +136,8 @@ h1 {
 	margin-bottom: 0;
 	text-rendering: optimizelegibility;
 	font-weight: 300;
-	font-size: 48px;
+	font-size: @font-size-h1;
 	letter-spacing: 2px;
-	text-align: left;
 	strong {
 		font-weight: 500;
 		letter-spacing: 2.5px;
@@ -130,6 +149,11 @@ h1 {
 		&:hover {
 			border-bottom: solid 1px @link-hover-color;
 		}
+	}
+	&>.small {
+		font-size: 100%;
+		font-weight: 300;
+		color: darken(@body-bg-gray, 15%);
 	}
 }
 

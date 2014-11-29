@@ -2956,17 +2956,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/icons-2x-old.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45567,
-		"inputAbbreviatedPath": "\/images\/icons-2x-old.jpg",
-		"outputAbbreviatedPath": "\/images\/icons-2x-old.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/icons-2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3282,6 +3271,17 @@
 		"initialSize": 30652,
 		"inputAbbreviatedPath": "\/images\/perls\/trajectorize-2x.png",
 		"outputAbbreviatedPath": "\/images\/perls\/trajectorize-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45567,
+		"inputAbbreviatedPath": "\/images\/portfolio-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/portfolio-2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
