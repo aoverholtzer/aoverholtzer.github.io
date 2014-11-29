@@ -8,38 +8,87 @@
 </head>
 
 <body id="portfolio">
-	<header id="top">
+	<header id="top" class="gray-section">
 		<div class="container">
-			<h1><strong>over</strong>designed</h1>
+			<h1><a href="/"><strong>over</strong>designed</a> <span class="small">Portfolio</span></h1>
 		</div>
 	</header>
 
-	<section>
+	<section class="gray-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<p class="lead">I&rsquo;m <a href="#about">Adam</a>: a <span class="small-caps">UX</span> designer and i<span class="small-caps">OS</span> developer. I make apps for complex domains: <span class="small-caps">AI</span>, robotics, education. Here is some of my work.</p>
+				<div class="col-xs-12">
+					<p class="lead nopad">I&rsquo;m <a href="#about">Adam</a>: a <span class="small-caps">UX</span> designer and i<span class="small-caps">OS</span> developer. I make apps for complex domains: <span class="small-caps">AI</span>, robotics, education. I also made a neat little app called <a href="#cheatsheet">Cheatsheet</a>. Here is some of my work.</p>
 				</div>
 			</div> <!-- /row -->
 
 			<div class="row pop" id="projects">
-				<div class="col-xs-3">
+				<div class="col-sm-2 col-xs-4">
+					<a href="#cheatsheet" class="project"><span>Cheatsheet</span></a>
+				</div>
+				
+				<div class="col-sm-2 col-xs-4">
 					<a href="#dash" class="project"><span>Dash Drive</span></a>
 				</div>
 
-				<div class="col-xs-3">
+				<div class="col-sm-2 col-xs-4">
 					<a href="#inquire" class="project"><span>Inquire</span></a>
 				</div>
 
-				<div class="col-xs-3">
+				<div class="col-sm-2 col-xs-4">
 					<a href="#perls" class="project"><span>Perls</span></a>
 				</div>
 
-				<div class="col-xs-3">
+				<div class="col-sm-2 col-xs-4">
 					<a href="#ww" class="project"><span>Warrior Web</span></a>
+				</div>
+				
+				<div class="col-sm-2 col-xs-4">
+					<a href="#about" class="project"><span>About</span></a>
 				</div>
 			</div> <!-- /row -->
 		</div> <!-- /container -->
+	</section>
+
+	<section id="cheatsheet" class="">
+		<div class="container link2top">
+			<div class="row">
+			
+				<div class="col-sm-7 col-sm-push-5">
+					<h2>Cheatsheet</h2>
+
+					<p class="lead">An app for the little things you never remember: hotel rooms, license plates, luggage combination, employee ID number.</p>
+
+					<p>Write things down in Cheatsheet and then refer to them anytime in the Cheatsheet Today Widget. No more fumbling to unlock your phone and find your notes app; Cheatsheet is as easy as pulling down Notification Center.</p>
+					
+					<p>I made the <a href="/cheatsheet">Cheatsheet iPhone and iPad app</a> in my spare time. It has more than 50,000 downloads and a &starf;&starf;&starf;&starf;&starf; rating in the App Store.</p>
+					
+					<a href="https://itunes.apple.com/us/app/cheatsheet-quick-reference/id914665829"><img src="/cheatsheet/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Cheatsheet in the App Store"></a>
+
+
+					<ul class="image-links list-unstyled" data-od-id="cheatsheet-demo">
+						<li class="active" data-od-url="/images/cheatsheet/main852.png">1</li>
+						<li data-od-url="/images/cheatsheet/widget852.png">2</li>
+						<li data-od-url="/images/cheatsheet/add852.png">3</li>
+					</ul>
+
+					<ul class="image-captions list-unstyled hidden-xs">
+						<li class="active">Write down the things you often forget. Pick icons you’ll recognize.</li>
+
+						<li>Next time you need to reference one of them, just pull down Notification Center.</li>
+
+						<li>Cheatsheet comes with 49 icons, all designed by me.</li>
+					</ul>
+				</div>
+
+				<div class="col-sm-5 col-sm-pull-7">
+					<div class="iphone dark" id="cheatsheet-demo">
+						<img src="/images/cheatsheet/main852.png" alt="Screenshot of Cheatsheet app">
+					</div>
+				</div>
+				
+			</div> <!-- /row -->
+		</div><!-- /container -->
 	</section>
 
 	<section id="dash" class="gray-section">
@@ -133,9 +182,10 @@
 
 					<p class="lead">A pervasive learning platform that uses your interests and your context to suggest the best lesson to learn right now.</p>
 
-					<p>Perls is an ongoing research project to create a context-aware education platform with a mobile-first learning experience. Based on a user&rsquo;s learning goals, location, schedule, and patterns of use, Perls recommends the best thing to learn next.</p>
-					<p>I am the design lead and iPhone developer for Perls.</p>
+					<p>Perls is a context-aware education platform with a mobile-first learning experience. Based on a user&rsquo;s learning goals and habits, plus their current activity, schedule, and location, Perls recommends lessons and helps the user develop positive learning strategies.</p>
+					<p>I am the design lead and iPhone developer for Perls, which is an ongoing research project at SRI.</p>
 
+<!--
 					<ul class="image-links list-unstyled" data-od-id="perls-demo">
 						<li class="active" data-od-url="/images/perls/hn-2x.png">1</li>
 						<li data-od-url="/images/perls/qp-2x.png">2</li>
@@ -158,6 +208,7 @@
 
 						<li>Your path through a topic is defined by your goal, level of interest, and current expertise. Perls boils this down to four simple options: Explore, Study, Master, and Stay Sharp. Once you make a choice, Perls can filter and sequence content to suit your path.</li>
 					</ul>
+-->
 				</div>
 
 				<div class="col-sm-5 col-sm-pull-7">
@@ -209,7 +260,8 @@
 					
 <!-- 					<p>I like UX, mobile development, and Lego.</p> -->
 
-					<p>I dislike narrowly-defined roles, slow turn-around times, and small ideas.</p><a href="mailto:adam@overdesigned.net" class="btn btn-primary">Contact</a>
+					<p>I dislike narrowly-defined roles, slow turn-around times, and small ideas.</p>
+					<a href="mailto:adam@overdesigned.net" class="btn btn-primary">Email Me</a>
 				</div>
 
 				<div class="col-sm-5 hidden-xs">

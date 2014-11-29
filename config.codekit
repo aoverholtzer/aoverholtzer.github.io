@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17756",
+"creatorBuild": "18270",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -2725,6 +2725,72 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/beard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1206,
+		"inputAbbreviatedPath": "\/images\/beard.png",
+		"outputAbbreviatedPath": "\/images\/beard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/cheatsheet\/add.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58564,
+		"inputAbbreviatedPath": "\/images\/cheatsheet\/add.png",
+		"outputAbbreviatedPath": "\/images\/cheatsheet\/add.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/cheatsheet\/add852.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25816,
+		"inputAbbreviatedPath": "\/images\/cheatsheet\/add852.png",
+		"outputAbbreviatedPath": "\/images\/cheatsheet\/add852.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/cheatsheet\/iTunesArtwork@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10938,
+		"inputAbbreviatedPath": "\/images\/cheatsheet\/iTunesArtwork@2x.png",
+		"outputAbbreviatedPath": "\/images\/cheatsheet\/iTunesArtwork@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/cheatsheet\/main852.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29536,
+		"inputAbbreviatedPath": "\/images\/cheatsheet\/main852.png",
+		"outputAbbreviatedPath": "\/images\/cheatsheet\/main852.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/cheatsheet\/widget852.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47685,
+		"inputAbbreviatedPath": "\/images\/cheatsheet\/widget852.png",
+		"outputAbbreviatedPath": "\/images\/cheatsheet\/widget852.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/dash\/AppIcon-29@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2890,6 +2956,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/icons-2x-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45567,
+		"inputAbbreviatedPath": "\/images\/icons-2x-old.jpg",
+		"outputAbbreviatedPath": "\/images\/icons-2x-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/icons-2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2899,7 +2976,7 @@
 		"outputAbbreviatedPath": "\/images\/icons-2x.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/inquire\/graphs.002.png": {
 		"fileType": 32768,
@@ -3902,6 +3979,10 @@
 			"flagValue": -1
 			},
 		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},

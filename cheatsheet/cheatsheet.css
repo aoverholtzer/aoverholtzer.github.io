@@ -2136,6 +2136,9 @@ tbody.collapse.in {
   .iphone {
     margin-left: -15px;
   }
+  .iphone-push {
+    margin-left: 15px;
+  }
   .ipad-box {
     margin: 0 -15px;
   }
