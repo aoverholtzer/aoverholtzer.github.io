@@ -2058,13 +2058,6 @@ tbody.collapse.in {
     background-size: 288px 602px;
   }
 }
-.iphone > img,
-.iphone > .frame {
-  width: 240px;
-  height: 426px;
-  left: 24px;
-  top: 88px;
-}
 .iphone.dark {
   background-image: url("/images/iphone-dark.png");
 }
@@ -2073,6 +2066,13 @@ tbody.collapse.in {
     background-image: url("/images/iphone-dark-2x.png");
     background-size: 288px 602px;
   }
+}
+.iphone > img,
+.iphone > .frame {
+  width: 240px;
+  height: 426px;
+  left: 24px;
+  top: 88px;
 }
 .ipad {
   z-index: 666;
@@ -2107,13 +2107,16 @@ tbody.collapse.in {
   .ipad > img {
     border-width: 1px;
   }
-  .iphone {
+  .iphone,
+  .iphone.dark {
     background-size: 192.0096px 401.3534px;
     width: 192.0096px;
     height: 401.3534px;
   }
   .iphone > img,
-  .iphone > .frame {
+  .iphone.dark > img,
+  .iphone > .frame,
+  .iphone.dark > .frame {
     width: 160.008px;
     height: 284.0142px;
     left: 16.0008px;

@@ -22,15 +22,15 @@
 
 .iphone {
   .img-retina("/images/iphone.png", "/images/iphone-2x.png", @iphone-width, @iphone-height);
+  &.dark {
+  	.img-retina("/images/iphone-dark.png", "/images/iphone-dark-2x.png", @iphone-width, @iphone-height);
+  }
   background-repeat: no-repeat;
   .size(@iphone-width; @iphone-height);
   &>img, &>.frame {
 	 .size(@iphone-img-width; @iphone-img-height);
 	 left: (@iphone-width - @iphone-img-width)/2;
 	 top: (@iphone-height - @iphone-img-height)/2;
-  }
-  &.dark {
-  	.img-retina("/images/iphone-dark.png", "/images/iphone-dark-2x.png", @iphone-width, @iphone-height);
   }
 }
 
@@ -60,7 +60,7 @@
 	.iphone > img, .iphone > .frame, .ipad > img {
 		border-width: 1px;
 	}
-	.iphone {
+	.iphone, .iphone.dark {
 		background-size: @iphone-width * 0.6667  @iphone-height * 0.6667;
 		.size(@iphone-width * 0.6667; @iphone-height * 0.6667);
 		&>img, &>.frame {
