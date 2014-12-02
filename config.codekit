@@ -2621,61 +2621,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cheatsheet\/cheatsheet-press-kit\/AppIcon120.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8642,
-		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/AppIcon120.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/AppIcon120.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/cheatsheet-press-kit\/iTunesArtwork.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 12034,
-		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/iTunesArtwork.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/iTunesArtwork.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/cheatsheet-press-kit\/screenshot-1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 96095,
-		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-1.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/cheatsheet-press-kit\/screenshot-2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 255829,
-		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-2.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/cheatsheet-press-kit\/screenshot-3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 103710,
-		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-3.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/cheatsheet\/cheatsheet.css": {
 		"fileType": 16,
 		"ignore": 1,
