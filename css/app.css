@@ -2423,6 +2423,7 @@ section:not(#about) li {
 section,
 header {
   padding: 85px 0 90px;
+  overflow-x: hidden;
 }
 header {
   padding: 6em 0 0;
@@ -2438,6 +2439,7 @@ header + section {
   overflow: hidden;
 }
 footer {
+  padding-bottom: 30px;
   text-align: center;
   text-transform: uppercase;
   font-family: "brandon-grotesque-1", "brandon-grotesque-2", "Futura LT", "Helvetica Neue", Helvetica, Arial, sans-serif;
