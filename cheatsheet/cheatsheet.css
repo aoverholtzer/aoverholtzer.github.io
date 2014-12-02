@@ -2119,15 +2119,15 @@ tbody.collapse.in {
     border-width: 1px;
   }
   .iphone,
-  .iphone.dark {
+  .gray-section .iphone {
     background-size: 192.0096px 401.3534px;
     width: 192.0096px;
     height: 401.3534px;
   }
   .iphone > img,
-  .iphone.dark > img,
+  .gray-section .iphone > img,
   .iphone > .frame,
-  .iphone.dark > .frame {
+  .gray-section .iphone > .frame {
     width: 160.008px;
     height: 284.0142px;
     left: 16.0008px;
