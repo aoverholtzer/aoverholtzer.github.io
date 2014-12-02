@@ -2047,22 +2047,13 @@ tbody.collapse.in {
   border: 2px solid #bbb;
 }
 .iphone {
-  background-image: url("/images/iphone.png");
+  background-image: url("/images/iphone-dark.png");
   background-repeat: no-repeat;
   width: 288px;
   height: 602px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .iphone {
-    background-image: url("/images/iphone-2x.png");
-    background-size: 288px 602px;
-  }
-}
-.iphone.dark {
-  background-image: url("/images/iphone-dark.png");
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  .iphone.dark {
     background-image: url("/images/iphone-dark-2x.png");
     background-size: 288px 602px;
   }
@@ -2074,18 +2065,36 @@ tbody.collapse.in {
   left: 24px;
   top: 88px;
 }
+.gray-section .iphone {
+  background-image: url("/images/iphone.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gray-section .iphone {
+    background-image: url("/images/iphone-2x.png");
+    background-size: 288px 602px;
+  }
+}
+.gray-section .ipad {
+  background-image: url("/images/ipad.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gray-section .ipad {
+    background-image: url("/images/ipad-2x.png");
+    background-size: 100% 100%;
+  }
+}
 .ipad {
   z-index: 666;
   margin: 1.85% auto 0;
   width: 100%;
   padding-bottom: 70.625%;
-  background-image: url("/images/ipad.png");
+  background-image: url("/images/ipad-dark.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .ipad {
-    background-image: url("/images/ipad-2x.png");
+    background-image: url("/images/ipad-dark-2x.png");
     background-size: 100% 100%;
   }
 }

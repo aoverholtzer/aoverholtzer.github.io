@@ -2621,6 +2621,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/cheatsheet\/cheatsheet-press-kit\/AppIcon120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8642,
+		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/AppIcon120.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/AppIcon120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/cheatsheet-press-kit\/iTunesArtwork.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12034,
+		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/iTunesArtwork.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/iTunesArtwork.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/cheatsheet-press-kit\/screenshot-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96095,
+		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-1.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/cheatsheet-press-kit\/screenshot-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255829,
+		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-2.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/cheatsheet-press-kit\/screenshot-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103710,
+		"inputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-3.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/cheatsheet-press-kit\/screenshot-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/cheatsheet\/cheatsheet.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -2724,6 +2779,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1399,
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/beard.png": {
 		"fileType": 32768,
@@ -2868,6 +2934,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/dash\/hands_nice_vimeo-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42467,
+		"inputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo-2x.jpg",
+		"outputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/dash\/hands_nice_vimeo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2877,7 +2954,7 @@
 		"outputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/dash\/hands_nice_vimeo_gray-2x.jpg": {
 		"fileType": 16384,
@@ -3114,9 +3191,31 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8548,
+		"initialSize": 5920,
 		"inputAbbreviatedPath": "\/images\/ipad-2x.png",
 		"outputAbbreviatedPath": "\/images\/ipad-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ipad-dark-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5913,
+		"inputAbbreviatedPath": "\/images\/ipad-dark-2x.png",
+		"outputAbbreviatedPath": "\/images\/ipad-dark-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ipad-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2705,
+		"inputAbbreviatedPath": "\/images\/ipad-dark.png",
+		"outputAbbreviatedPath": "\/images\/ipad-dark.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3125,7 +3224,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5337,
+		"initialSize": 2727,
 		"inputAbbreviatedPath": "\/images\/ipad.png",
 		"outputAbbreviatedPath": "\/images\/ipad.png",
 		"outputPathIsOutsideProject": 0,

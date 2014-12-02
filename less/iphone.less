@@ -21,10 +21,7 @@
 }
 
 .iphone {
-  .img-retina("/images/iphone.png", "/images/iphone-2x.png", @iphone-width, @iphone-height);
-  &.dark {
-  	.img-retina("/images/iphone-dark.png", "/images/iphone-dark-2x.png", @iphone-width, @iphone-height);
-  }
+  .img-retina("/images/iphone-dark.png", "/images/iphone-dark-2x.png", @iphone-width, @iphone-height);
   background-repeat: no-repeat;
   .size(@iphone-width; @iphone-height);
   &>img, &>.frame {
@@ -34,12 +31,20 @@
   }
 }
 
+.gray-section .iphone {
+  .img-retina("/images/iphone.png", "/images/iphone-2x.png", @iphone-width, @iphone-height);
+}
+
+.gray-section .ipad {
+  .img-retina("/images/ipad.png", "/images/ipad-2x.png", 100%, 100%);
+}
+
 .ipad {
   z-index: 666;
   margin: 1.85% auto 0;
   width: 100%;
   padding-bottom: 100% * 339px/480px;
-  .img-retina("/images/ipad.png", "/images/ipad-2x.png", 100%, 100%);
+  .img-retina("/images/ipad-dark.png", "/images/ipad-dark-2x.png", 100%, 100%);
   background-size: contain;
   background-repeat: no-repeat;
   &>img {
