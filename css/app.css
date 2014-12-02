@@ -2122,6 +2122,7 @@ tbody.collapse.in {
   .iphone,
   .iphone.white,
   .gray-section .iphone {
+    margin-top: 20px !important;
     background-size: 192.0096px 401.3534px;
     width: 192.0096px;
     height: 401.3534px;
