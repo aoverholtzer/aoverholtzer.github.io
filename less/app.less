@@ -278,6 +278,11 @@ h5 {
 	margin-bottom: @padding-large-vertical;
 	border-bottom: 1px solid @body-bg-gray;
 }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {  // retina
+    #dash-photo {
+	    border-bottom-width: 0.5px;
+    }
+}
 #inquire {
 }
 #perls {

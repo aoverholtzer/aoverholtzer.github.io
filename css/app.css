@@ -2601,6 +2601,11 @@ h5.nopad {
     background-size: auto 210px;
   }
 }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  #dash-photo {
+    border-bottom-width: 0.5px;
+  }
+}
 #about {
   background: #dbdbdb;
 }
