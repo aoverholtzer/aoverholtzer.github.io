@@ -2144,7 +2144,8 @@ tbody.collapse.in {
   }
 }
 @media only screen and (min-width: 768px) {
-  .iphone {
+  .col-sm-pull-7 .iphone,
+  .iphone.pull {
     margin-left: -2px;
   }
   .ipad-box {
@@ -2153,10 +2154,11 @@ tbody.collapse.in {
 }
 @media only screen and (min-width: 798px) {
   .iphone {
-    margin-left: -15px;
+    margin-left: 10px;
   }
-  .iphone-push {
-    margin-left: 15px;
+  .col-sm-pull-7 .iphone,
+  .iphone.pull {
+    margin-left: -15px;
   }
   .ipad-box {
     margin: 0 -15px;

@@ -2143,7 +2143,8 @@ tbody.collapse.in {
   }
 }
 @media only screen and (min-width: 768px) {
-  .iphone {
+  .col-sm-pull-7 .iphone,
+  .iphone.pull {
     margin-left: -2px;
   }
   .ipad-box {
@@ -2152,10 +2153,11 @@ tbody.collapse.in {
 }
 @media only screen and (min-width: 798px) {
   .iphone {
-    margin-left: -15px;
+    margin-left: 10px;
   }
-  .iphone-push {
-    margin-left: 15px;
+  .col-sm-pull-7 .iphone,
+  .iphone.pull {
+    margin-left: -15px;
   }
   .ipad-box {
     margin: 0 -15px;
@@ -2245,7 +2247,7 @@ h1 {
   font-size: 56px;
   font-weight: 200 !important;
   font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif;
-  margin-top: 90px;
+  margin-top: 80px;
   margin-bottom: 0;
 }
 .lead {

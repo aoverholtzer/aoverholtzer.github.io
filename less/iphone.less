@@ -82,7 +82,7 @@
 }
 
 @media only screen and (min-width: @screen-sm-min) {
-	.iphone {
+	.col-sm-pull-7 .iphone, .iphone.pull {
 		margin-left: -2px;
 	}
 	.ipad-box {
@@ -92,10 +92,10 @@
 
 @media only screen and (min-width: @fun-size) {
 	.iphone {
-		margin-left: -@grid-gutter-width/2;
+		margin-left: @grid-gutter-width/3;
 	}
-	.iphone-push {
-		margin-left: @grid-gutter-width/2;
+	.col-sm-pull-7 .iphone, .iphone.pull {
+		margin-left: -@grid-gutter-width/2;
 	}
 	.ipad-box {
 		margin: 0 -@grid-gutter-width/2;
