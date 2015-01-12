@@ -1,0 +1,112 @@
+// Core variables and mixins
+@import "../../bower_components/bootstrap/less/variables.less";
+@import "../../bower_components/bootstrap/less/mixins.less";
+@import "../../less/overrides.less";
+
+// Reset and dependencies
+@import "../../bower_components/bootstrap/less/normalize.less";
+@import "../../bower_components/bootstrap/less/print.less";
+
+// Core CSS
+@import "../../bower_components/bootstrap/less/scaffolding.less";
+@import "../../bower_components/bootstrap/less/type.less";
+@import "../../bower_components/bootstrap/less/grid.less";
+@import "../../bower_components/bootstrap/less/buttons.less";
+
+// Components
+@import "../../bower_components/bootstrap/less/component-animations.less";
+
+// Utility classes
+@import "../../bower_components/bootstrap/less/utilities.less";
+@import "../../bower_components/bootstrap/less/responsive-utilities.less";
+
+@import "../../less/iphone.less";
+
+body {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: @body-bg-alt;
+	font-weight: 300 !important;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 18px;
+}
+		
+h1 {
+	font-size: 66px;
+	font-weight: 200 !important;
+	font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "pragmatica-web", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	margin-top: 80px;
+// 	margin-bottom: 0;
+}
+
+.lead {
+	font-size: 24px;
+// 	margin-bottom: @padding-large-vertical;
+}
+
+.pad {
+	margin: @padding-large-vertical * 3 0 @padding-large-vertical * 4;
+}
+
+
+@-webkit-keyframes slideDown {
+    0%, 50% { -webkit-transform: translateY(-101%); }
+    5%, 48% { -webkit-transform: translateY(0px); }
+}
+@-moz-keyframes slideDown {
+    0%, 50% { -moz-transform: translateY(-101%); }
+    5%, 48% { -moz-transform: translateY(0px); }
+}
+@keyframes slideDown {
+    0%, 50% { transform: translateY(-101%); }
+    5%, 48% { transform: translateY(0px); }
+}
+
+#widget {
+	border-color: transparent;
+	.translate(0, -101%);
+	.animation(slideDown 12s 5.0s infinite ease forwards);
+	-webkit-animation-play-state: running;
+	animation-play-state: running;
+	&.paused {
+		-webkit-animation-play-state: paused;
+		animation-play-state: paused;
+	}
+}
+
+.frame {
+	.box-sizing(content-box);
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	img {
+		position: absolute;
+		width: 100%;
+	}
+	.pause-label {
+		position: absolute;
+		bottom: 40px;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+		z-index: 1000;
+		text-align: center;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: gray;
+	}
+}
+
+@media only screen and (max-width: @screen-xs-max) {
+	h1, .small {
+		text-align: center;
+	}
+	h1 {
+		font-size: 55px;
+	}
+	.pad {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+}
