@@ -3702,6 +3702,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/worldclock\/main.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57556,
+		"inputAbbreviatedPath": "\/worldclock\/main.png",
+		"outputAbbreviatedPath": "\/worldclock\/main.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/worldclock\/main852.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3709,6 +3720,17 @@
 		"initialSize": 49140,
 		"inputAbbreviatedPath": "\/worldclock\/main852.png",
 		"outputAbbreviatedPath": "\/worldclock\/main852.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/worldclock\/widget.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83949,
+		"inputAbbreviatedPath": "\/worldclock\/widget.png",
+		"outputAbbreviatedPath": "\/worldclock\/widget.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
