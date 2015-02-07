@@ -269,7 +269,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #222222;
-  background-color: #ffffff;
+  background-color: white;
 }
 input,
 button,
@@ -311,7 +311,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #ffffff;
+  background-color: white;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2326,7 +2326,7 @@ tbody.collapse.in {
   margin-right: 15px;
 }
 .gray-section .image-links > li {
-  background: #ffffff;
+  background: white;
 }
 .image-captions {
   list-style: none;
@@ -2525,11 +2525,11 @@ h5.nopad {
 }
 .rounded {
   border-radius: 17.544%;
-  /*
-	-webkit-mask-image: url('/images/ios7-icon.svg');
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-size: 100% 100%;
-*/
+}
+.rounded.fancy {
+  -webkit-mask-image: url('/images/ios7-icon.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
 }
 #projects {
   margin-top: 75px;
@@ -2546,11 +2546,11 @@ h5.nopad {
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 17.544%;
-  /*
-	-webkit-mask-image: url('/images/ios7-icon.svg');
-	-webkit-mask-repeat: no-repeat;
-	-webkit-mask-size: 100% 100%;
-*/
+}
+#projects .project.fancy {
+  -webkit-mask-image: url('/images/ios7-icon.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
 }
 #projects .project[href="#inquire"] {
   background-position: right top;
