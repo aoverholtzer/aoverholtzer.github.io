@@ -1645,6 +1645,9 @@ body {
     font-size: 21px;
   }
 }
+.small {
+  font-size: 15px;
+}
 section,
 header,
 footer {
@@ -1652,7 +1655,7 @@ footer {
   overflow-x: hidden;
 }
 header {
-  padding: 200px 0;
+  padding: 160px 0;
 }
 footer {
   background: #DBDBDB;
