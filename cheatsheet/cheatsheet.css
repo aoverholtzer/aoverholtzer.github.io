@@ -1696,7 +1696,8 @@ h1 {
 }
 #coming-soon {
   margin: 0;
-  line-height: 389px;
+  font-size: 56px;
+  line-height: 422px;
 }
 p:last-child {
   margin-bottom: 0;
