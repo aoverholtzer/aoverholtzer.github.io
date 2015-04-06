@@ -1677,7 +1677,7 @@ section.red a:hover {
   color: white;
 }
 section.red p {
-  padding: 20px 0;
+  padding: 20px 0 0;
 }
 .white-text {
   color: white;
@@ -1710,5 +1710,8 @@ p:last-child {
   }
   h1 {
     font-size: 56px;
+  }
+  section.red p {
+    padding-bottom: 60px;
   }
 }
