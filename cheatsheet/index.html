@@ -10,9 +10,6 @@
 	<link rel="icon" href="/cheatsheet/csfavicon.png" type="image/png">
 	<link rel="apple-touch-icon-precomposed" href="/cheatsheet/csfavicon-152.png">
 	
-	<script type="text/javascript" src="//use.typekit.net/tgx0qjv.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>	
-	
 	<link href="/cheatsheet/cheatsheet.css" rel="stylesheet">
 	
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -37,45 +34,74 @@
 
 <body>
 
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-sm-5">
-				<div class="iphone white pull" id="dash-demo">
-					<div class="frame" id="screenshot-frame">					
-						<img src="/cheatsheet/main852.png" alt="Screenshot of Cheatsheet app">
-						<img src="/cheatsheet/widget852.png" alt="Screenshot of Cheatsheet Today widget" id="widget">
-					</div>
+	<header>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-sm-4 hidden-xs">
+					<img src="/cheatsheet/AppIcon440.png" id="icon" alt="Cheatsheet app icon" class="center-block" width="220" height="220">
+				</div>
+				
+				<div class="col-sm-8">
+				
+					<h1>Cheatsheet</h1>
+					<p>For the little things you never&nbsp;remember.</p>
+					
+					<a href="https://itunes.apple.com/us/app/cheatsheet-quick-reference/id914665829"><img src="/cheatsheet/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Cheatsheet in the App Store" class="pad"></a>
+									
+				</div>
+			</div> <!-- /row -->
+		</div><!-- /container -->
+	</header>
+	
+	<section class="red">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<img src="/cheatsheet/screenshot1.png" alt="screenshot" class="img-responsive">
+					<p>Add those little things you&nbsp;never&nbsp;remember.</p>
+				</div>
+				<div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<img src="/cheatsheet/screenshot2.png" alt="screenshot" class="img-responsive">
+					<p>Look them up anytime with&nbsp;the&nbsp;Today&nbsp;widget.</p>
+				</div>
+				<div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+					<img src="/cheatsheet/screenshot3d.png" alt="screenshot" class="img-responsive">
+					<p>Paste them anywhere with&nbsp;the&nbsp;keyboard.</p>
 				</div>
 			</div>
-			
-			<div class="col-sm-7">
-			
-				<h1>Cheatsheet</h1>
-				<img src="/cheatsheet/banner-icons-2x.png" alt="Cheatsheet app icons" width="204" height="36" class="pad">
-			
-				<p>Cheatsheet is for the little things you never remember: hotel rooms, license plates, luggage combination, employee ID number.</p>
-				<p>Add them to Cheatsheet and then look them up instantly in the Notification Center Widget for iOS&nbsp;8.</p>
-				
-				<a href="https://itunes.apple.com/us/app/cheatsheet-quick-reference/id914665829"><img src="/cheatsheet/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Cheatsheet in the App Store" class="pad"></a>
-				
-				<p class="small">
-					<a href="/">Made by Adam in California</a> &#8729; 
-					<a href="/cheatsheet/cheatsheet-press-kit.zip">Press Kit</a> &#8729; 
-					<a href="mailto:cheatsheet@overdesigned.net">Contact</a>
-				</p>
-
+		</div>
+	</section>
+	
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1 class="visible-xs-block text-center">Coming Soon</h1>
+					<img src="../../cheatsheet/watch.png" alt="Cheatsheet for Apple Watch" width="222" height="389" class="center-block">
+				</div>
+				<div class="col-sm-8">
+					<h1 id="coming-soon" class="hidden-xs hidden-sm">Coming Soon</h1>
+					<h1 id="coming-soon" class="text-center visible-sm-block">Coming Soon</h1>
+				</div>
 			</div>
-			
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<p class="small"> 
+						<a href="/">&copy;2015 Adam Overholtzer</a> &#8729; 
+						<a href="/cheatsheet/cheatsheet-press-kit.zip">Press Kit</a> &#8729; 
+						<a href="mailto:cheatsheet@overdesigned.net">Contact</a>
+					</p>				
+				</div>
+			</div>
+		</div>
+	</footer>
 
-		</div> <!-- /row -->
-	</div><!-- /container -->
 
-	<script charset="utf-8">
-		document.getElementById("screenshot-frame").addEventListener("click", toggleAnimation);
-		function toggleAnimation() {
-		    document.getElementById("widget").classList.toggle("paused");
-		}
-	</script>
 </body>
 </html>
