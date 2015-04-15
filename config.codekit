@@ -2599,6 +2599,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/cheatsheet\/42mm Apple Watch Sports - Space Gray - Sports Band Black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159695,
+		"inputAbbreviatedPath": "\/cheatsheet\/42mm Apple Watch Sports - Space Gray - Sports Band Black.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/42mm Apple Watch Sports - Space Gray - Sports Band Black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/cheatsheet\/AppIcon120.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2639,6 +2650,17 @@
 		"initialSize": 3017,
 		"inputAbbreviatedPath": "\/cheatsheet\/banner-icons-2x.png",
 		"outputAbbreviatedPath": "\/cheatsheet\/banner-icons-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155460,
+		"inputAbbreviatedPath": "\/cheatsheet\/banner.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/banner.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2749,6 +2771,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/cheatsheet\/screenshot1e.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31588,
+		"inputAbbreviatedPath": "\/cheatsheet\/screenshot1e.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/screenshot1e.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/cheatsheet\/screenshot2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2756,6 +2789,17 @@
 		"initialSize": 132596,
 		"inputAbbreviatedPath": "\/cheatsheet\/screenshot2.png",
 		"outputAbbreviatedPath": "\/cheatsheet\/screenshot2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/screenshot2e.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102158,
+		"inputAbbreviatedPath": "\/cheatsheet\/screenshot2e.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/screenshot2e.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2771,24 +2815,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cheatsheet\/watch-black.png": {
+	"\/cheatsheet\/screenshot3e.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61538,
-		"inputAbbreviatedPath": "\/cheatsheet\/watch-black.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/watch-black.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/watch-sport.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 32743,
-		"inputAbbreviatedPath": "\/cheatsheet\/watch-sport.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/watch-sport.png",
+		"initialSize": 39055,
+		"inputAbbreviatedPath": "\/cheatsheet\/screenshot3e.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/screenshot3e.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2800,6 +2833,17 @@
 		"initialSize": 61238,
 		"inputAbbreviatedPath": "\/cheatsheet\/watch.png",
 		"outputAbbreviatedPath": "\/cheatsheet\/watch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/watch3d.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152085,
+		"inputAbbreviatedPath": "\/cheatsheet\/watch3d.jpg",
+		"outputAbbreviatedPath": "\/cheatsheet\/watch3d.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
