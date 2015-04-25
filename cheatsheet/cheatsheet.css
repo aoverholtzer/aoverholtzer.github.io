@@ -1731,10 +1731,36 @@ p:last-child {
     font-size: 56px;
   }
   h3 {
-    margin-top: 0px;
+    margin-top: 20px;
     font-size: 21px;
   }
   section.red p {
     padding-bottom: 60px;
   }
+  .xs-center {
+    text-align: center;
+  }
 }
+/*
+.image-links {
+	display: block;
+	list-style: none;
+	.clearfix;
+	& > li {
+		display: inline-block;
+		margin: 0;
+		margin-right: 10px;
+		color: transparent;
+		background: @link-hover-color;
+		cursor: pointer;
+		box-sizing: border-box;
+		text-align: center !important;
+		.square(20px);
+		border-radius: 10px;
+		&.active, &:hover, &:focus {
+			color: transparent;
+			background: @link-color !important;
+		}
+	}
+}
+*/
