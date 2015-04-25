@@ -1697,6 +1697,11 @@ h1 {
   margin-top: 8px;
   margin-bottom: 18px;
 }
+h3 {
+  font-weight: 500 !important;
+  font-size: 24px;
+  margin-top: 150px;
+}
 #coming-soon {
   margin: 0;
   font-size: 56px;
@@ -1724,6 +1729,10 @@ p:last-child {
   }
   h1 {
     font-size: 56px;
+  }
+  h3 {
+    margin-top: 0px;
+    font-size: 21px;
   }
   section.red p {
     padding-bottom: 60px;
