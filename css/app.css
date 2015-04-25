@@ -2338,6 +2338,9 @@ tbody.collapse.in {
 .image-captions > li.active {
   display: block;
 }
+.app-link > img {
+  padding-top: 10px;
+}
 @media only screen and (max-width: 767px) {
   .back2top {
     display: none !important;
@@ -2354,6 +2357,9 @@ tbody.collapse.in {
     display: block;
     width: 135px;
     margin: 0 auto;
+  }
+  .app-link > img {
+    padding-top: 6px;
   }
 }
 body {
