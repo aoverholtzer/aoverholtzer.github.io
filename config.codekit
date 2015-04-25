@@ -2599,17 +2599,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/cheatsheet\/42mm Apple Watch Sports - Space Gray - Sports Band Black.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 159695,
-		"inputAbbreviatedPath": "\/cheatsheet\/42mm Apple Watch Sports - Space Gray - Sports Band Black.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/42mm Apple Watch Sports - Space Gray - Sports Band Black.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/cheatsheet\/AppIcon120.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2703,6 +2692,17 @@
 		"initialSize": 1723,
 		"inputAbbreviatedPath": "\/cheatsheet\/csfavicon.png",
 		"outputAbbreviatedPath": "\/cheatsheet\/csfavicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cheatsheet\/glance-dots.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1415,
+		"inputAbbreviatedPath": "\/cheatsheet\/glance-dots.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/glance-dots.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2826,11 +2826,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/cheatsheet\/watch-al.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53358,
+		"inputAbbreviatedPath": "\/cheatsheet\/watch-al.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/watch-al.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/cheatsheet\/watch.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61238,
+		"initialSize": 159695,
 		"inputAbbreviatedPath": "\/cheatsheet\/watch.png",
 		"outputAbbreviatedPath": "\/cheatsheet\/watch.png",
 		"outputPathIsOutsideProject": 0,
@@ -2901,17 +2912,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/cheatsheet\/add.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 58564,
-		"inputAbbreviatedPath": "\/images\/cheatsheet\/add.png",
-		"outputAbbreviatedPath": "\/images\/cheatsheet\/add.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/cheatsheet\/add852.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2930,6 +2930,17 @@
 		"initialSize": 10938,
 		"inputAbbreviatedPath": "\/images\/cheatsheet\/iTunesArtwork@2x.png",
 		"outputAbbreviatedPath": "\/images\/cheatsheet\/iTunesArtwork@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/cheatsheet\/keyboard852.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61835,
+		"inputAbbreviatedPath": "\/images\/cheatsheet\/keyboard852.png",
+		"outputAbbreviatedPath": "\/images\/cheatsheet\/keyboard852.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
