@@ -74,7 +74,7 @@ body {
 }
 
 section:not(#about) {
-	p:not(.lead), .force-justify, li {
+	p:not(.lead), .force-justify, lis {
 		text-align: justify;
 		
 		.hyphens(auto);
@@ -169,6 +169,14 @@ h2 {
 	&.nopad {
 		margin-top: 0;
 	}
+	&>small {
+		font-size: 40% !important;
+		letter-spacing: 0.333px;
+		font-weight: 500;
+// 		float: right;
+// 		display: inline-block;
+// 		padding-top: 1em;
+	}
 }
 
 h5 {
@@ -210,6 +218,10 @@ h5 {
 		-webkit-mask-repeat: no-repeat;
 		-webkit-mask-size: 100% 100%;
 	}
+}
+
+.btn {
+	text-transform: uppercase;
 }
 
 #projects {

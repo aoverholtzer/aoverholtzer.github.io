@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18892",
+"creatorBuild": "19033",
 "files": {
 	"\/404.html": {
 		"fileType": 8192,
@@ -2749,17 +2749,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cheatsheet\/glance-dots.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1415,
-		"inputAbbreviatedPath": "\/cheatsheet\/glance-dots.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/glance-dots.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/cheatsheet\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2791,28 +2780,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cheatsheet\/main.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33040,
-		"inputAbbreviatedPath": "\/cheatsheet\/main.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/main.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/main852.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 36501,
-		"inputAbbreviatedPath": "\/cheatsheet\/main852.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/main852.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/cheatsheet\/screenshot1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2820,17 +2787,6 @@
 		"initialSize": 31447,
 		"inputAbbreviatedPath": "\/cheatsheet\/screenshot1.png",
 		"outputAbbreviatedPath": "\/cheatsheet\/screenshot1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/screenshot1e.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 31588,
-		"inputAbbreviatedPath": "\/cheatsheet\/screenshot1e.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/screenshot1e.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2846,46 +2802,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cheatsheet\/screenshot2e.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 102158,
-		"inputAbbreviatedPath": "\/cheatsheet\/screenshot2e.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/screenshot2e.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/screenshot3d.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45146,
-		"inputAbbreviatedPath": "\/cheatsheet\/screenshot3d.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/screenshot3d.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/screenshot3e.png": {
+	"\/cheatsheet\/screenshot3.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 39055,
-		"inputAbbreviatedPath": "\/cheatsheet\/screenshot3e.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/screenshot3e.png",
+		"inputAbbreviatedPath": "\/cheatsheet\/screenshot3.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/screenshot3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cheatsheet\/watch-al.png": {
+	"\/cheatsheet\/watch-complication.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 53358,
-		"inputAbbreviatedPath": "\/cheatsheet\/watch-al.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/watch-al.png",
+		"initialSize": 25270,
+		"inputAbbreviatedPath": "\/cheatsheet\/watch-complication.png",
+		"outputAbbreviatedPath": "\/cheatsheet\/watch-complication.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2894,45 +2828,21 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 159695,
+		"initialSize": 100692,
 		"inputAbbreviatedPath": "\/cheatsheet\/watch.png",
 		"outputAbbreviatedPath": "\/cheatsheet\/watch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/cheatsheet\/watch3d.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
+	"\/css\/app.css": {
+		"fileType": 16,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 152085,
-		"inputAbbreviatedPath": "\/cheatsheet\/watch3d.jpg",
-		"outputAbbreviatedPath": "\/cheatsheet\/watch3d.jpg",
+		"inputAbbreviatedPath": "\/css\/app.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/widget.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 60481,
-		"inputAbbreviatedPath": "\/cheatsheet\/widget.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/widget.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/cheatsheet\/widget852.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47685,
-		"inputAbbreviatedPath": "\/cheatsheet\/widget852.png",
-		"outputAbbreviatedPath": "\/cheatsheet\/widget852.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/favicon.png": {
 		"fileType": 32768,
@@ -3770,6 +3680,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/less\/app.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/app.less",
+		"outputAbbreviatedPath": "\/css\/app.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/less\/iphone.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -3800,6 +3730,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/less\/links.less",
 		"outputAbbreviatedPath": "\/css\/links.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/less\/overrides.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/less\/overrides.less",
+		"outputAbbreviatedPath": "\/css\/overrides.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3967,6 +3917,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/worldclock\/worldclock.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/worldclock\/worldclock.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

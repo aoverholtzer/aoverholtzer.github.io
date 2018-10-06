@@ -2411,7 +2411,7 @@ body {
 }
 section:not(#about) p:not(.lead),
 section:not(#about) .force-justify,
-section:not(#about) li {
+section:not(#about) lis {
   text-align: justify;
   word-wrap: break-word;
   -webkit-hyphens: auto;
@@ -2501,6 +2501,11 @@ h2 {
 h2.nopad {
   margin-top: 0;
 }
+h2 > small {
+  font-size: 40% !important;
+  letter-spacing: 0.333px;
+  font-weight: 500;
+}
 h5 {
   letter-spacing: 1px;
   margin-top: 20px;
@@ -2536,6 +2541,9 @@ h5.nopad {
   -webkit-mask-image: url('/images/ios7-icon.svg');
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
+}
+.btn {
+  text-transform: uppercase;
 }
 #projects {
   margin-top: 75px;
