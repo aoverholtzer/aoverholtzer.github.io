@@ -3339,6 +3339,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/iphone-landscape-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5215,
+		"inputAbbreviatedPath": "\/images\/iphone-landscape-2x.png",
+		"outputAbbreviatedPath": "\/images\/iphone-landscape-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/iphone-landscape-dark-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8920,
+		"inputAbbreviatedPath": "\/images\/iphone-landscape-dark-2x.png",
+		"outputAbbreviatedPath": "\/images\/iphone-landscape-dark-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/iphone-landscape-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5645,
+		"inputAbbreviatedPath": "\/images\/iphone-landscape-dark.png",
+		"outputAbbreviatedPath": "\/images\/iphone-landscape-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/iphone-landscape.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2133,
+		"inputAbbreviatedPath": "\/images\/iphone-landscape.png",
+		"outputAbbreviatedPath": "\/images\/iphone-landscape.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/iphone.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3346,6 +3390,61 @@
 		"initialSize": 5655,
 		"inputAbbreviatedPath": "\/images\/iphone.png",
 		"outputAbbreviatedPath": "\/images\/iphone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kamigami2\/achievement.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230862,
+		"inputAbbreviatedPath": "\/images\/kamigami2\/achievement.png",
+		"outputAbbreviatedPath": "\/images\/kamigami2\/achievement.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kamigami2\/battle.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159382,
+		"inputAbbreviatedPath": "\/images\/kamigami2\/battle.png",
+		"outputAbbreviatedPath": "\/images\/kamigami2\/battle.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kamigami2\/code-drag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 190161,
+		"inputAbbreviatedPath": "\/images\/kamigami2\/code-drag.png",
+		"outputAbbreviatedPath": "\/images\/kamigami2\/code-drag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kamigami2\/lina.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36731,
+		"inputAbbreviatedPath": "\/images\/kamigami2\/lina.jpg",
+		"outputAbbreviatedPath": "\/images\/kamigami2\/lina.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kamigami2\/menu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136152,
+		"inputAbbreviatedPath": "\/images\/kamigami2\/menu.png",
+		"outputAbbreviatedPath": "\/images\/kamigami2\/menu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3563,6 +3662,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/app.min.js",
 		"outputAbbreviatedPath": "\/js\/min\/app.min.min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/app.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/app.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/app.min.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

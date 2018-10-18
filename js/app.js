@@ -18,7 +18,7 @@ $(document).ready(function(){
       
         var target = this.hash, $target = $(target);
         
-        var speed = 500;
+        var speed = 1000;
         if (this.hash === '#top') {
         	speed = $(this).offset().top / 4;
         } else {

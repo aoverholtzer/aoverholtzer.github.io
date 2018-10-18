@@ -2043,7 +2043,6 @@ tbody.collapse.in {
   -webkit-transition: opacity 200ms ease-in;
   -o-transition: opacity 200ms ease-in;
   transition: opacity 200ms ease-in;
-  margin: -2px 0 0 -2px;
   box-sizing: padding-box;
   border: 2px solid #bbb;
 }
@@ -2066,6 +2065,27 @@ tbody.collapse.in {
   left: 24px;
   top: 88px;
 }
+.iphone.landscape {
+  background-image: url("/images/iphone-landscape-dark.png");
+  position: relative;
+  overflow: hidden;
+  margin: 1.85% auto 0;
+  width: 602px;
+  height: 288px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iphone.landscape {
+    background-image: url("/images/iphone-landscape-dark-2x.png");
+    background-size: 602px 288px;
+  }
+}
+.iphone.landscape > img,
+.iphone.landscape > .frame {
+  width: 426px;
+  height: 240px;
+  left: 88px;
+  top: 24px;
+}
 .gray-section .iphone,
 .iphone.white {
   background-image: url("/images/iphone.png");
@@ -2075,6 +2095,15 @@ tbody.collapse.in {
   .iphone.white {
     background-image: url("/images/iphone-2x.png");
     background-size: 288px 602px;
+  }
+}
+.gray-section .iphone.landscape {
+  background-image: url("/images/iphone-landscape.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gray-section .iphone.landscape {
+    background-image: url("/images/iphone-landscape-2x.png");
+    background-size: 602px 288px;
   }
 }
 .gray-section .ipad {
@@ -2545,14 +2574,17 @@ h5.nopad {
 .btn {
   text-transform: uppercase;
 }
-#projects {
+.projects {
   margin-top: 75px;
 }
-#projects .project {
+.projects:last-child {
+  margin-top: 40px;
+}
+.projects .project {
   display: block;
   position: relative;
   background: #f2f2f2 url(/images/icons-2x.jpg) no-repeat left top;
-  background-size: 200% 300%;
+  background-size: 300% 300%;
   width: 100%;
   height: 0;
   padding-bottom: 100%;
@@ -2561,28 +2593,37 @@ h5.nopad {
   text-decoration: none;
   border-radius: 17.544%;
 }
-#projects .project.fancy {
+.projects .project.fancy {
   -webkit-mask-image: url('/images/ios7-icon.svg');
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
 }
-#projects .project[href="#inquire"] {
-  background-position: right top;
+.projects .project[href="#inquire"] {
+  background-position: center top;
 }
-#projects .project[href="#perls"] {
+.projects .project[href="#perls"] {
   background-position: left bottom;
 }
-#projects .project[href="#cheatsheet"] {
+.projects .project[href="#cheatsheet"] {
   background-position: left center;
 }
-#projects .project[href="#ww"] {
+.projects .project[href="#ww"] {
+  background-position: center bottom;
+}
+.projects .project[href="#kamigami1"] {
+  background-position: left top;
+}
+.projects .project[href="#kamigami2"] {
   background-position: right bottom;
 }
-#projects .project[href="#about"] {
+.projects .project[href="#kamigamiJW"] {
+  background-position: right top;
+}
+.projects .project[href="#about"] {
   background: #f2f2f2 url(/images/beard.png) no-repeat center center;
   background-size: 54px;
 }
-#projects .project span {
+.projects .project span {
   position: absolute;
   top: calc(100% + 20px);
   left: -50%;
@@ -2595,12 +2636,13 @@ h5.nopad {
   opacity: 0;
 }
 @media only screen and (min-width: 480px) {
-  body:not(.touchable) #projects .project:hover span {
+  body:not(.touchable) .projects .project:hover span {
     opacity: 1;
   }
 }
-#dash-photo {
-  background-image: url("/images/dash/hands_nice_vimeo.jpg");
+#dash-photo,
+#k2-photo {
+  background-image: url("/images/dash/hands_nice_vimeo_gray.jpg");
   background-size: auto 210px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2611,14 +2653,28 @@ h5.nopad {
   border-bottom: 1px solid #dbdbdb;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  #dash-photo {
-    background-image: url("/images/dash/hands_nice_vimeo-2x.jpg");
+  #dash-photo,
+  #k2-photo {
+    background-image: url("/images/dash/hands_nice_vimeo_gray-2x.jpg");
     background-size: auto 210px;
   }
+}
+#k2-photo {
+  border-bottom: none;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #dash-photo {
     border-bottom-width: 0.5px;
+  }
+}
+#k2-photo {
+  background-image: url("/images/kamigami2/lina.jpg");
+  margin-top: 0;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  #k2-photo {
+    background-image: url("/images/kamigami2/lina.jpg");
+    background-size: auto 210px;
   }
 }
 #about {
@@ -2649,17 +2705,20 @@ h5.nopad {
   section {
     padding: 60px 0;
   }
-  #projects .col-xs-2,
-  #projects .col-xs-4 {
-    padding-left: 0 !important;
-    padding-bottom: 15px !important;
-  }
-  #projects.row {
-    padding-left: 15px !important;
-  }
-  #projects .project > span {
-    display: none !important;
-  }
+  /*
+	#projects {
+		.col-sm-2, .col-xs-3 { // squeeze icons together
+			padding-left: 0 !important;
+			padding-bottom: @grid-gutter-width/2 !important;
+		}
+		&.row { // pad row to compensate
+			padding-left: @grid-gutter-width/2 !important;
+		}
+		.project>span {
+			display: none !important;
+		}
+	}
+*/
   #dash-photo {
     width: calc(100% +  30px);
   }
