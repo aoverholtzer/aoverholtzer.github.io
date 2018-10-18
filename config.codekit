@@ -3394,6 +3394,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/kamigami1\/drive.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33986,
+		"inputAbbreviatedPath": "\/images\/kamigami1\/drive.png",
+		"outputAbbreviatedPath": "\/images\/kamigami1\/drive.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/kamigami1\/musubi.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3401,6 +3412,39 @@
 		"initialSize": 64153,
 		"inputAbbreviatedPath": "\/images\/kamigami1\/musubi.jpg",
 		"outputAbbreviatedPath": "\/images\/kamigami1\/musubi.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kamigami1\/profile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29438,
+		"inputAbbreviatedPath": "\/images\/kamigami1\/profile.png",
+		"outputAbbreviatedPath": "\/images\/kamigami1\/profile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kamigami1\/program.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39164,
+		"inputAbbreviatedPath": "\/images\/kamigami1\/program.png",
+		"outputAbbreviatedPath": "\/images\/kamigami1\/program.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kamigami1\/trigger.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28585,
+		"inputAbbreviatedPath": "\/images\/kamigami1\/trigger.png",
+		"outputAbbreviatedPath": "\/images\/kamigami1\/trigger.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
