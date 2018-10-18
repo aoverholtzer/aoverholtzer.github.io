@@ -2641,7 +2641,9 @@ h5.nopad {
   }
 }
 #dash-photo,
-#k2-photo {
+#k2-photo,
+#k1-photo,
+#kjw-photo {
   background-image: url("/images/dash/hands_nice_vimeo_gray.jpg");
   background-size: auto 210px;
   background-position: center center;
@@ -2654,13 +2656,12 @@ h5.nopad {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #dash-photo,
-  #k2-photo {
+  #k2-photo,
+  #k1-photo,
+  #kjw-photo {
     background-image: url("/images/dash/hands_nice_vimeo_gray-2x.jpg");
     background-size: auto 210px;
   }
-}
-#k2-photo {
-  border-bottom: none;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #dash-photo {
@@ -2670,10 +2671,32 @@ h5.nopad {
 #k2-photo {
   background-image: url("/images/kamigami2/lina.jpg");
   margin-top: 0;
+  border-bottom: none;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #k2-photo {
     background-image: url("/images/kamigami2/lina.jpg");
+    background-size: auto 210px;
+  }
+}
+#k1-photo {
+  background-image: url("/images/kamigami1/musubi.jpg");
+  margin-top: 0;
+  border-bottom: none;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  #k1-photo {
+    background-image: url("/images/kamigami1/musubi.jpg");
+    background-size: auto 210px;
+  }
+}
+#kjw-photo {
+  background-image: url("/images/kwj/blue.jpg");
+  border-bottom: none;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  #kjw-photo {
+    background-image: url("/images/kjw/blue.jpg");
     background-size: auto 210px;
   }
 }

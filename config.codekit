@@ -3394,6 +3394,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/kamigami1\/musubi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64153,
+		"inputAbbreviatedPath": "\/images\/kamigami1\/musubi.jpg",
+		"outputAbbreviatedPath": "\/images\/kamigami1\/musubi.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/kamigami2\/achievement.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3445,6 +3456,17 @@
 		"initialSize": 136152,
 		"inputAbbreviatedPath": "\/images\/kamigami2\/menu.png",
 		"outputAbbreviatedPath": "\/images\/kamigami2\/menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kjw\/blue.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70513,
+		"inputAbbreviatedPath": "\/images\/kjw\/blue.jpg",
+		"outputAbbreviatedPath": "\/images\/kjw\/blue.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

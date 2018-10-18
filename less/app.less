@@ -290,7 +290,7 @@ h5 {
 
 #dash {
 }
-#dash-photo, #k2-photo {
+#dash-photo, #k2-photo, #k1-photo, #kjw-photo {
 // 	background-color: #e3e3e3;
 	.img-retina("/images/dash/hands_nice_vimeo_gray.jpg", "/images/dash/hands_nice_vimeo_gray-2x.jpg", auto, 210px);
 	background-size: auto 210px;
@@ -302,9 +302,6 @@ h5 {
 	margin-bottom: @padding-large-vertical;
 	border-bottom: 1px solid @body-bg-gray;
 }
-#k2-photo {
-	border-bottom: none;
-}
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {  // retina
     #dash-photo {
 	    border-bottom-width: 0.5px;
@@ -315,6 +312,17 @@ h5 {
 #k2-photo {
 	.img-retina("/images/kamigami2/lina.jpg", "/images/kamigami2/lina.jpg", auto, 210px);
 	margin-top: 0;
+	border-bottom: none;
+}
+#k1-photo {
+	.img-retina("/images/kamigami1/musubi.jpg", "/images/kamigami1/musubi.jpg", auto, 210px);
+	margin-top: 0;
+	border-bottom: none;
+}
+#kjw-photo {
+	.img-retina("/images/kwj/blue.jpg", "/images/kjw/blue.jpg", auto, 210px);
+// 	margin-top: 0;
+	border-bottom: none;
 }
 #inquire {
 }
