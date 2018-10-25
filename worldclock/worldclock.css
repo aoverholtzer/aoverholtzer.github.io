@@ -2176,6 +2176,7 @@ tbody.collapse.in {
     width: 136%;
     left: -18%;
     padding-top: 65.06312292%;
+    height: 0;
   }
 }
 @media only screen and (min-width: 768px) {
