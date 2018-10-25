@@ -361,11 +361,10 @@ h5 {
 	section {
 		padding: 60px 0;
 	}
-/*
-	#projects {
-		.col-sm-2, .col-xs-3 { // squeeze icons together
+	.projects {
+		margin-top: 50px;
+		.col-xs-3 { // squeeze icons together
 			padding-left: 0 !important;
-			padding-bottom: @grid-gutter-width/2 !important;
 		}
 		&.row { // pad row to compensate
 			padding-left: @grid-gutter-width/2 !important;
@@ -373,15 +372,17 @@ h5 {
 		.project>span {
 			display: none !important;
 		}
+		&:last-child {
+			margin-top: @grid-gutter-width/2;
+		}
 	}
-*/
 	#dash-photo {
 		width: calc(~"100% + " @grid-gutter-width);
 	}
 	.img-pop {
 		margin-left: -@grid-gutter-width/2 !important;
 		margin-right: -@grid-gutter-width/2 !important;
-		max-width: calc(~"100% + " @grid-gutter-width);
+		width: calc(~"100% + " @grid-gutter-width) !important;
 	}
 }
 

@@ -3024,7 +3024,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 41071,
+		"initialSize": 57127,
 		"inputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_gray-2x.jpg",
 		"outputAbbreviatedPath": "\/images\/dash\/hands_nice_vimeo_gray-2x.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3123,7 +3123,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 47814,
+		"initialSize": 210186,
 		"inputAbbreviatedPath": "\/images\/icons-2x.jpg",
 		"outputAbbreviatedPath": "\/images\/icons-2x.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3873,14 +3873,23 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
+	"\/kit\/portfolio\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/portfolio\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/kit\/portfolio\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/kit\/portfolio\/index.kit",
-		"outputAbbreviatedPath": "\/portfolio\/index.html",
+		"outputAbbreviatedPath": "\/kit\/portfolio\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1
+		"outputPathIsSetByUser": 0
 		},
 	"\/kit\/worldclock\/index.kit": {
 		"fileType": 2048,
@@ -4013,7 +4022,7 @@
 		},
 	"\/portfolio\/index.html": {
 		"fileType": 8192,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio\/index.html",
 		"outputAbbreviatedPath": "No Output Path",

@@ -7,6 +7,9 @@
 @ipad-img-width: 100% * (392px/480px); 
 @ipad-img-height: 100% * (294px/339px);
 
+@iphone-landscape-img-width: 100% * (426px/602px);
+@iphone-landscape-img-height: 100% * (240px/288px);
+
 .iphone, .ipad, .ipad-portrait {
 	margin: 0 auto;
 	position: relative;
@@ -32,16 +35,18 @@
 }
 
 .iphone.landscape {
-// 	background: none !important;
-  .img-retina("/images/iphone-landscape-dark.png", "/images/iphone-landscape-dark-2x.png", @iphone-height, @iphone-width);
+  .img-retina("/images/iphone-landscape-dark.png", "/images/iphone-landscape-dark-2x.png", 100%, 100%);
 	position: relative;
 	overflow: hidden;
 	margin: 1.85% auto 0;
   .size(@iphone-height; @iphone-width);
-  &>img, &>.frame {
-	 .size(@iphone-img-height; @iphone-img-width);
-	 left: (@iphone-height - @iphone-img-height)/2;
-	 top: (@iphone-width - @iphone-img-width)/2;
+  background-size: contain;
+  background-repeat: no-repeat;
+  &>img {
+		width: @iphone-landscape-img-width;
+		height: auto;
+		left: (100% - @iphone-landscape-img-width)/2;
+		top: (100% - @iphone-landscape-img-height)/2;
   }
 }
 
@@ -50,7 +55,7 @@
 }
 
 .gray-section .iphone.landscape {
-  .img-retina("/images/iphone-landscape.png", "/images/iphone-landscape-2x.png", @iphone-height, @iphone-width);
+  .img-retina("/images/iphone-landscape.png", "/images/iphone-landscape-2x.png", 100%, 100%);
 }
 
 .gray-section .ipad {
@@ -60,16 +65,16 @@
 .ipad {
   z-index: 666;
   margin: 1.85% auto 0;
-  width: 100%;
+//   width: 100%;
   padding-bottom: 100% * 339px/480px;
   .img-retina("/images/ipad-dark.png", "/images/ipad-dark-2x.png", 100%, 100%);
   background-size: contain;
   background-repeat: no-repeat;
   &>img {
-	width: @ipad-img-width;
-	height: auto;
-	left: (100% - @ipad-img-width)/2;
-	top: (100% - @ipad-img-height)/2;
+		width: @ipad-img-width;
+		height: auto;
+		left: (100% - @ipad-img-width)/2;
+		top: (100% - @ipad-img-height)/2;
   }
   &.rotate {
 	  -webkit-transform: rotate(90deg) translate3d(15%, 0.5px, 0);
@@ -83,7 +88,7 @@
 	.iphone > img, .iphone > .frame, .ipad > img {
 		border-width: 1px;
 	}
-	.iphone, .iphone.white, .gray-section .iphone {
+	.iphone, .iphone.white, .gray-section .iphone:not(.landscape) {
 		margin-top: 20px !important;
 		background-size: @iphone-width * 0.6667  @iphone-height * 0.6667;
 		.size(@iphone-width * 0.6667; @iphone-height * 0.6667);
@@ -96,6 +101,13 @@
 	.ipad-box {
 		margin-left: -(100% - @ipad-img-width)/2;
 		margin-right: -(100% - @ipad-img-width)/2;
+	}
+}
+@media only screen and (max-width: @iphone-height) {
+	.iphone.landscape {
+		width: 136%;
+		left: -18%;
+		padding-top: 136% * @iphone-width/@iphone-height;
 	}
 }
 

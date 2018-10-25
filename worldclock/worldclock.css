@@ -2071,19 +2071,20 @@ tbody.collapse.in {
   margin: 1.85% auto 0;
   width: 602px;
   height: 288px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .iphone.landscape {
     background-image: url("/images/iphone-landscape-dark-2x.png");
-    background-size: 602px 288px;
+    background-size: 100% 100%;
   }
 }
-.iphone.landscape > img,
-.iphone.landscape > .frame {
-  width: 426px;
-  height: 240px;
-  left: 88px;
-  top: 24px;
+.iphone.landscape > img {
+  width: 70.7641196%;
+  height: auto;
+  left: 14.6179402%;
+  top: 8.33333333%;
 }
 .gray-section .iphone,
 .iphone.white {
@@ -2102,7 +2103,7 @@ tbody.collapse.in {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .gray-section .iphone.landscape {
     background-image: url("/images/iphone-landscape-2x.png");
-    background-size: 602px 288px;
+    background-size: 100% 100%;
   }
 }
 .gray-section .ipad {
@@ -2117,7 +2118,6 @@ tbody.collapse.in {
 .ipad {
   z-index: 666;
   margin: 1.85% auto 0;
-  width: 100%;
   padding-bottom: 70.625%;
   background-image: url("/images/ipad-dark.png");
   background-size: contain;
@@ -2149,7 +2149,7 @@ tbody.collapse.in {
   }
   .iphone,
   .iphone.white,
-  .gray-section .iphone {
+  .gray-section .iphone:not(.landscape) {
     margin-top: 20px !important;
     background-size: 192.0096px 401.3534px;
     width: 192.0096px;
@@ -2157,10 +2157,10 @@ tbody.collapse.in {
   }
   .iphone > img,
   .iphone.white > img,
-  .gray-section .iphone > img,
+  .gray-section .iphone:not(.landscape) > img,
   .iphone > .frame,
   .iphone.white > .frame,
-  .gray-section .iphone > .frame {
+  .gray-section .iphone:not(.landscape) > .frame {
     width: 160.008px;
     height: 284.0142px;
     left: 16.0008px;
@@ -2169,6 +2169,13 @@ tbody.collapse.in {
   .ipad-box {
     margin-left: -9.16666667%;
     margin-right: -9.16666667%;
+  }
+}
+@media only screen and (max-width: 602px) {
+  .iphone.landscape {
+    width: 136%;
+    left: -18%;
+    padding-top: 65.06312292%;
   }
 }
 @media only screen and (min-width: 768px) {
