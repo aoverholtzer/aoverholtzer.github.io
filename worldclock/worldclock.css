@@ -2042,7 +2042,6 @@ tbody.collapse.in {
   -webkit-transition: opacity 200ms ease-in;
   -o-transition: opacity 200ms ease-in;
   transition: opacity 200ms ease-in;
-  margin: -2px 0 0 -2px;
   box-sizing: padding-box;
   border: 2px solid #bbb;
 }
@@ -2065,6 +2064,27 @@ tbody.collapse.in {
   left: 24px;
   top: 88px;
 }
+.iphone.landscape {
+  background-image: url("/images/iphone-landscape-dark.png");
+  position: relative;
+  overflow: hidden;
+  margin: 1.85% auto 0;
+  width: 602px;
+  height: 288px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .iphone.landscape {
+    background-image: url("/images/iphone-landscape-dark-2x.png");
+    background-size: 602px 288px;
+  }
+}
+.iphone.landscape > img,
+.iphone.landscape > .frame {
+  width: 426px;
+  height: 240px;
+  left: 88px;
+  top: 24px;
+}
 .gray-section .iphone,
 .iphone.white {
   background-image: url("/images/iphone.png");
@@ -2074,6 +2094,15 @@ tbody.collapse.in {
   .iphone.white {
     background-image: url("/images/iphone-2x.png");
     background-size: 288px 602px;
+  }
+}
+.gray-section .iphone.landscape {
+  background-image: url("/images/iphone-landscape.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .gray-section .iphone.landscape {
+    background-image: url("/images/iphone-landscape-2x.png");
+    background-size: 602px 288px;
   }
 }
 .gray-section .ipad {

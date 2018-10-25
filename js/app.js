@@ -18,18 +18,18 @@ $(document).ready(function(){
       
         var target = this.hash, $target = $(target);
         
-        var speed = 500;
+        var speed = 1000;
         if (this.hash === '#top') {
-        	speed = $(this).offset().top / 4;
+        	speed = $(this).offset().top / 3;
         } else {
-	        speed = $target.offset().top / 3;
+	        speed = $target.offset().top / 2;
         }
       
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
         }, speed, function () {
             var baseUrl = window.location.href.split('#')[0];
-			window.location.replace( baseUrl + target );
+            window.location.replace( baseUrl + target );
         });
     });
     
