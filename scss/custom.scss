@@ -1,25 +1,54 @@
+/*
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+*/
 
-// $body-bg: #000;
-// $body-color: red;
+// $primary: #3bc0f5;
+$primary: #B51700;
+$secondary: #bbbbbb;
 
-$primary: #3bc0f5;
-$secondary: #cecece;
+$link-color: $primary;
+$link-hover-color: lighten($link-color, 15%);
 
-$font-family-sans-serif: myriad-pro, sans-serif;
+$font-family-sans-serif: myriad-pro-1, myriad-pro-2, sans-serif;
 
 $navbar-brand-font-size: 1.5rem;
+$h1-font-size: 3rem;
 
-$navbar-light-color:                $primary;
-$navbar-light-hover-color:          darken($primary, 15%);
-$navbar-light-active-color:         darken($primary, 15%);
+$navbar-light-color:        $link-color;
+$navbar-light-hover-color:  $link-hover-color;
+$navbar-light-active-color: $link-hover-color;
 
-$navbar-light-brand-color: $primary;
-$navbar-light-brand-hover-color: darken($navbar-light-brand-color, 15%);
-
+$navbar-light-brand-color: $link-color;
+$navbar-light-brand-hover-color: $link-hover-color;
 
 @import "bootstrap/bootstrap";
 
+.row {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+header > .row {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+footer > .row {
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
 
 .nav-link:focus {
 	outline: none;
@@ -28,8 +57,27 @@ $navbar-light-brand-hover-color: darken($navbar-light-brand-color, 15%);
 h1 {
 	color: $secondary;
 	font-weight: 300;
-// 	text-transform: uppercase;
 	strong {
 		font-weight: 600;
 	}
+}
+
+h4 {
+	font-weight: 600;
+// 	font-size: 1.25rem;
+// 	text-transform: uppercase;
+// 	letter-spacing: 1pt;
+}
+
+.rounded {
+  border-radius: 17.544%;
+}
+.rounded.fancy {
+  -webkit-mask-image: url('/images/ios7-icon.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+}
+
+h4 {
+// 	font-weight: 600;
 }
