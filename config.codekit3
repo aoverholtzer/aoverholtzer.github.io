@@ -33,6 +33,19 @@
 		"oAP": "/_head.html",
 		"oF": 0
 		},
+	"/_modal.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 1,
+		"oAP": "/_modal.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
 	"/app-ads.txt": {
 		"cB": 0,
 		"ft": 8192,
