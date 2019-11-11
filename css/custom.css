@@ -337,7 +337,7 @@ h6, .h6 {
   font-size: 1rem; }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.333rem;
   font-weight: 300; }
 
 .display-1 {
@@ -7067,3 +7067,6 @@ h4 {
   -webkit-mask-image: url("/images/ios7-icon.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%; }
+
+.mb-gutter {
+  margin-bottom: 30px; }

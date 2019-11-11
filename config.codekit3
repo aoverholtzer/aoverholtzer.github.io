@@ -1035,6 +1035,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/kjw/blue2.jpg": {
+		"ft": 16384,
+		"iS": 66634,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kjw/blue2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/images/kjw/code.png": {
 		"ft": 32768,
 		"iS": 83264,
@@ -1311,6 +1322,27 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/portfolio/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/portfolio/index.html",
+		"oF": 0
+		},
+	"/portfolio/index.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 0,
+		"oAP": "/portfolio/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
 		},
 	"/README.md": {
 		"cB": 0,
@@ -4674,7 +4706,7 @@
 		"compileOnly": 0,
 		"logicless": 0,
 		"outputFormat": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"railsCompatible": 0,
 		"shouldRunCacheBuster": 0,
 		"shouldRunHTMLMinifier": 0

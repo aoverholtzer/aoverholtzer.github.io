@@ -24,8 +24,10 @@ $link-hover-color: lighten($link-color, 15%);
 
 $font-family-sans-serif: myriad-pro-1, myriad-pro-2, sans-serif;
 
+$lead-font-size: 1.333rem;
 $navbar-brand-font-size: 1.5rem;
 $h1-font-size: 3rem;
+
 
 $navbar-light-color:        $link-color;
 $navbar-light-hover-color:  $link-hover-color;
@@ -80,4 +82,8 @@ h4 {
 
 h4 {
 // 	font-weight: 600;
+}
+
+.mb-gutter {
+	margin-bottom: 30px;
 }
