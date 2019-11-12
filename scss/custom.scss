@@ -44,12 +44,12 @@ $navbar-light-brand-hover-color: $link-hover-color;
 }
 
 header > .row {
-	padding-top: 3rem;
-	padding-bottom: 2rem;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
 }
 footer > .row {
-	padding-top: 3rem;
-	padding-bottom: 1rem;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
 }
 
 .nav-link:focus {
@@ -61,6 +61,9 @@ h1 {
 	font-weight: 300;
 	strong {
 		font-weight: 600;
+	}
+	:hover {
+		text-decoration-thickness: 1pt;
 	}
 }
 

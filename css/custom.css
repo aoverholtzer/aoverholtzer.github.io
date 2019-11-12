@@ -7041,12 +7041,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding-bottom: 1rem; }
 
 header > .row {
-  padding-top: 3rem;
-  padding-bottom: 2rem; }
+  padding-top: 4rem;
+  padding-bottom: 3rem; }
 
 footer > .row {
-  padding-top: 3rem;
-  padding-bottom: 1rem; }
+  padding-top: 4rem;
+  padding-bottom: 2rem; }
 
 .nav-link:focus {
   outline: none; }
@@ -7056,6 +7056,8 @@ h1 {
   font-weight: 300; }
   h1 strong {
     font-weight: 600; }
+  h1 :hover {
+    text-decoration-thickness: 1pt; }
 
 h4 {
   font-weight: 600; }
