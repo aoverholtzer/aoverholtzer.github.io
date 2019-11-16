@@ -4,7 +4,7 @@
     <title>overdesigned portfolio</title>
     <link href="https://use.typekit.net/zmy3izz.css" rel="stylesheet">
     <link href="/css/custom.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="/lightbox2/css/lightbox.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -18,13 +18,27 @@
         </div>
       </header>
       <div class="row">
-        <div class="col-sm col-lg-8 offset-lg-2">
+        <div class="col">
           <p class="lead text-justify">
             I&rsquo;m Adam: a UX designer and iOS developer living in California. I make complex domains like robotics, AI, and education more approachable through user-centered design. Here is some of my work.
           </p>
         </div>
       </div>
       <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-gutter">
+          <div class="card">
+            <img class="card-img-top" src="/images/kamigami2/lina.jpg">
+            <div class="card-body">
+              <h5 class="card-title">
+                Kamigami Robots<br /><small class="text-muted">iOS/Android &bull; 2015&ndash;2016</small>
+              </h5>
+              <p class="card-text">
+                Kamigami are the world&rsquo;s first lightning-fast, build-it-yourself origami robots.
+              </p>
+              <a 	 class="stretched-link btn btn-outline-primary btn-blockx" href="kamigami.html">Read More</a>
+            </div>
+          </div>
+        </div>
         <div class="col-sm-6 col-lg-4 mb-gutter">
           <div class="card">
             <img class="card-img-top" src="/images/kjw/blue2.jpg">
@@ -35,7 +49,46 @@
               <p class="card-text">
                 Build, code, and evolve your own walking dinosaur toy.
               </p>
-              <a class="stretched-link btn btn-outline-primary btn-blockz" href="..">Read More</a>
+              <a 	 class="stretched-link btn btn-outline-primary btn-blockx" href="kamigamijw.html">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-gutter">
+          <div class="card">
+            <img class="card-img-top" src="/images/inquire/ipad-photo2.jpg">
+            <div class="card-body">
+              <h5 class="card-title">
+                Inquire Biology<br /><small class="text-muted">iPad &bull; 2010&ndash;2011</small>
+              </h5>
+              <p class="card-text">
+                An intelligent textbook that answers students&rsquo; questions, engages their interest, and improves their understanding.
+              </p>
+              <a 	 class="stretched-link btn btn-outline-primary btn-blockx" href="inquire.html">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-gutter">
+          <div class="card">
+            <img class="card-img-top" src="https://via.placeholder.com/400.png">
+            <div class="card-body">
+              <h5 class="card-title">
+                Adept Editor<br /><small class="text-muted">desktop &bull; 2009</small>
+              </h5>
+              <a 	 class="stretched-link btn btn-outline-primary btn-blockx" href="adept.html">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-gutter">
+          <div class="card">
+            <img class="card-img-top" src="/images/ww/ww-suit-old.jpg">
+            <div class="card-body">
+              <h5 class="card-title">
+                Warrior Web<br /><small class="text-muted">iPad &bull; 2010&ndash;2011</small>
+              </h5>
+              <p class="card-text mb-0">
+                Real-time monitoring and tuning for a lightweight, powered exosuit. It has since spun out as &ldquo;powered clothing&rdquo; startup <a href="https://www.myseismic.com/">Seismic</a>.
+              </p>
+              <a 	 class="stretched-link" data-lightbox="ww" data-title="Real-time monitoring and tuning for a lightweight, powered exosuit. It has since spun out as &amp;ldquo;powered clothing&amp;rdquo; startup Seismic." href="/images/ww/ww-suit-old.jpg"></a>
             </div>
           </div>
         </div>
@@ -52,3 +105,11 @@
     </div>
   </body>
 </html>
+<script src="/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+<script>
+  lightbox.option({
+  'fadeDuration': 300,
+  'imageFadeDuration': 300,
+  'resizeDuration' : 0
+  })
+</script>

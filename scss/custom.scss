@@ -1,19 +1,21 @@
-/*
 $grid-breakpoints: (
   xs: 0,
-  sm: 576px,
+  sm: 480px,
   md: 768px,
-  lg: 992px,
-  xl: 1200px
+  lg: 840px
 );
 
 $container-max-widths: (
-  sm: 540px,
+  sm: 420px,
   md: 720px,
-  lg: 960px,
-  xl: 1140px
+  lg: 800px
 );
-*/
+
+$white:    #fff;
+$gray-900: #212529;
+
+$body-bg:    $white;
+$body-color: $gray-900;
 
 // $primary: #3bc0f5;
 $primary: #B51700;
@@ -28,13 +30,12 @@ $lead-font-size: 1.333rem;
 $navbar-brand-font-size: 1.5rem;
 $h1-font-size: 3rem;
 
-
 $navbar-light-color:        $link-color;
 $navbar-light-hover-color:  $link-hover-color;
 $navbar-light-active-color: $link-hover-color;
 
-$navbar-light-brand-color: $link-color;
-$navbar-light-brand-hover-color: $link-hover-color;
+$navbar-light-brand-color: $body-color !important;//$link-color;
+$navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 
 @import "bootstrap/bootstrap";
 
@@ -67,11 +68,41 @@ h1 {
 	}
 }
 
+h2 {
+// 	margin-bottom: 1rem;
+	:last-child {
+		margin-bottom: 0;
+	}
+}
+
 h4 {
 	font-weight: 600;
 // 	font-size: 1.25rem;
 // 	text-transform: uppercase;
 // 	letter-spacing: 1pt;
+}
+
+h5 {
+	text-transform: uppercase;
+	letter-spacing: 1pt;
+	margin-bottom: 1rem;
+	:last-child {
+		margin-bottom: 0;
+	}
+}
+
+h6 {
+	font-weight: 600;
+	margin-bottom: 1rem;
+	:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@include media-breakpoint-up(md) { 
+	p:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .rounded {
@@ -83,10 +114,13 @@ h4 {
   -webkit-mask-size: 100% 100%;
 }
 
-h4 {
-// 	font-weight: 600;
-}
-
 .mb-gutter {
 	margin-bottom: 30px;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+	padding-left: 0 !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+	padding-right: 0 !important;
 }
