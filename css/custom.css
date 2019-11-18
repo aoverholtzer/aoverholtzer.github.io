@@ -6525,11 +6525,12 @@ h4 {
   font-weight: 600; }
 
 h5 {
-  text-transform: uppercase;
-  letter-spacing: 1pt;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-weight: 600; }
   h5 :last-child {
     margin-bottom: 0; }
+  h5.text-uppercase {
+    letter-spacing: 1pt; }
 
 h6 {
   font-weight: 600;
