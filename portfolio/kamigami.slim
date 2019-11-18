@@ -1,0 +1,119 @@
+doctype html
+html
+  head
+    title overdesigned portfolio &mdash; Kamigami Robots
+    link rel="stylesheet" href="https://use.typekit.net/zmy3izz.css"
+    link rel="stylesheet" href="/css/custom.css"
+    link rel="stylesheet" href="/lightbox2/css/lightbox.min.css"    
+    
+  body
+				
+		div.container
+		
+			include _nav.slim
+		
+			div.row
+				div.col
+					div.embed-responsive.embed-responsive-16by9
+						iframe.embed-responsive-item [
+							src="https://www.youtube-nocookie.com/embed/R5dallCrM0k?rel=0" 
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						]
+						
+						
+			div.row
+				div.col
+					h2.mb-0
+						| Kamigami Robots
+						small.text-muted< &bull; iOS/Android &bull; 10/2015&ndash;5/2016
+					
+			div.row
+				div.col
+					h5.text-uppercase Summary
+					p 
+						strong> Challenge:
+						| Create mobile apps for a line of fast, fun insect-inspired toy robots. The apps needed a kid-friendly visual programming interface that allowed children as young as 8 to make their own interactive games with their robots.
+					p 
+						strong> Role:
+						| Designer, user researcher, lead developer. I worked with an industrial designer and a couple of contract developers.
+					p
+						strong> Outcome:
+						| <em>Kamigami Robots</em> earned a 4.5-star rating on Amazon and a spot on New York Magazine’s “Best STEM Toys” list. The product’s appeal to both home and education market led to 7-figure licensing deal with Mattel.
+			
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase Research
+				div.col-sm
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/800x600.png'
+						figcaption.figure-caption Screenshot of Blockly.
+				div.col-sm
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/800x600.png'
+						figcaption.figure-caption Notes from user testing.
+				div.col-12
+					p Visual programming has been an area of research for decades, which I was already familiar with from my work on <a href="/portfolio/adept.html">Adept at SRI</a>. So for this project, I focused on educational tools such as Scratch and Blockly, with an eye toward making them simpler and more mobile-friendly.
+					p From my past work, I knew that the language used in our interface would be key — we needed to use words and phrases that kids would understand. The first step of that was to observe dozens of kids playing with the robots, so we could document what the robots were capable of, what the kids wanted them to do, and how the kids described the robot’s moves and behavior. From this, we distilled a list of “triggers” and “actions” a child could use to build simple if-this-then-that style programs.
+					
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase Design & Prototype
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/900x333.png'
+					p I sketched a half-dozen possible interfaces for review with the team. I also sketched a UI flow diagram, showing how the programming interface would fit in with the existing app.
+					p From the sketches, I built an iOS prototype app so we could test with users. This allowed users to test their programs with a robot and then make changes if needed.
+					
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase User Testing
+				div.col-md
+					figure.figure
+						img.img-fluid.figure-img.border src='/images/kamigami1/testing.png'
+				div.col-md
+					p User testing with children can be difficult, but we went to classrooms, after-school events, and robotics events until we completed a half-dozen rounds of testing. These were invaluable for improving both the UI and the language we used to describe the robot’s sensors and behaviors.
+						
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase App Development
+				div.col
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/900x220.png'
+					p I built the final version of the iOS app, with backend help from a second developer, and managed contractors who built the Android app. I provided most of the final artwork.
+
+			hr
+
+			div.row
+				div.col
+					h5.text-uppercase Links
+					ul
+						li
+							a href='https://itunes.apple.com/us/app/dash-drive-2016/id1051507116?mt=8' Kamigami Robots App
+						li
+							a href='https://www.amazon.com/Mattel-FRC98-Kamigami-Lina-Robot/dp/B0734VPX2J' Kamigami Robots on Amazon
+						
+			hr
+			
+			div.row.mt-5.center.text-center
+				div.col
+					a.btn.btn-outline-primary href='/portfolio' Back to Portfolio
+
+			
+			include _footer.slim
+
+| <script src="/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+javascript:
+	lightbox.option({
+    'fadeDuration': 300,
+    'imageFadeDuration': 300,
+    'resizeDuration' : 0
+  })
+

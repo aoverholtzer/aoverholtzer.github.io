@@ -1,0 +1,111 @@
+doctype html
+html
+  head
+    title overdesigned portfolio &mdash; Kamigami Jurassic World
+    link rel="stylesheet" href="https://use.typekit.net/zmy3izz.css"
+    link rel="stylesheet" href="/css/custom.css"
+    link rel="stylesheet" href="/lightbox2/css/lightbox.min.css"    
+    
+  body
+				
+		div.container
+		
+			include _nav.slim
+		
+			div.row
+				div.col
+					div.embed-responsive.embed-responsive-16by9
+						iframe.embed-responsive-item [
+							src="https://www.youtube-nocookie.com/embed/2VxdHn36gVU?rel=0" 
+							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						]
+						
+						
+			div.row
+				div.col
+					h2.mb-0
+						| Kamigami Jurassic World
+						small.text-muted< &bull; iOS/Android &bull; 12/2017&ndash;3/2018
+					
+			div.row
+				div.col
+					h5.text-uppercase Summary
+					p 
+						strong> Challenge:
+						| Redo the <a href="/portfolio/kamigami.html">Kamigami Robots app</a> for a Jurassic World walking dinosaur toy. Give the robot more personality and physical interactivity, and increase user engagement with the app. And do it all in ten weeks.
+					p 
+						strong> Role:
+						| Software team lead, UX designer, iOS developer. I led a team of four developers, plus a couple design contractors who provided artwork.
+			
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase Process
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/1200x600.png'
+					p Pragmatic approach: need to map what app/robot can do now onto achievable set of new features (best bang for the buck).
+					p For interactivity, mapped current behaviors and in-process work to “realistic” dino behaviors.
+					p For engagement: challenges + unlockables. Reuse game engine to build “challenges” — meaning little new code, no new UI, and challenges could be built by non-devs using drag-and-drop UI; add unlockable features and personalizable elements to increase engagement (give users more to do)
+					
+			hr
+			
+			div.row
+				div.col
+					h5.text-uppercase Design Concepts
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/1200x600.png'
+					
+			hr
+			
+			div.row
+				div.col
+					h5.text-uppercase App Flow
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/1200x600.png'
+					
+			hr
+			
+			div.row
+				div.col
+					h5.text-uppercase Wireframes
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/1200x600.png'
+						
+			hr
+			
+			div.row
+				div.col
+					h5.text-uppercase Mockups
+					figure.figure
+						img.img-fluid.figure-img.border src='https://via.placeholder.com/1200x600.png'
+
+			hr
+
+			div.row
+				div.col
+					h5.text-uppercase Links
+					ul
+						li
+							a href='https://itunes.apple.com/us/app/kamigami-jurassic-world/id1328030335?mt=8' iOS App
+						li
+							a href='https://play.google.com/store/apps/details?id=com.dashrobotics.kamigamiJW' Android App
+						
+			hr
+			
+			div.row.mt-5.center.text-center
+				div.col
+					a.btn.btn-outline-primary href='/portfolio' Back to Portfolio
+
+			
+			include _footer.slim
+
+| <script src="/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+javascript:
+	lightbox.option({
+    'fadeDuration': 300,
+    'imageFadeDuration': 300,
+    'resizeDuration' : 0
+  })
+

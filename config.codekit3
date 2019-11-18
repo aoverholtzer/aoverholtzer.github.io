@@ -378,6 +378,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/adept/photo.png": {
+		"ft": 32768,
+		"iS": 1185047,
+		"oA": 0,
+		"oAP": "/images/adept/photo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/beard.png": {
 		"ft": 32768,
 		"iS": 601,
@@ -993,6 +1004,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/kamigami1/testing.png": {
+		"ft": 32768,
+		"iS": 1699386,
+		"oA": 0,
+		"oAP": "/images/kamigami1/testing.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/kamigami1/trigger.png": {
 		"ft": 32768,
 		"iS": 44280,
@@ -1002,6 +1024,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami2/0x0ss-P3.jpg": {
+		"ft": 16384,
+		"iS": 430416,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami2/0x0ss-P3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kamigami2/achievement.png": {
@@ -1112,6 +1145,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/kjw/hero.jpg": {
+		"ft": 16384,
+		"iS": 831070,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kjw/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/kjw/indo.png": {
@@ -1505,6 +1549,27 @@
 		"oS": 0,
 		"rAC": 0
 		},
+	"/portfolio/adept.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/portfolio/adept.html",
+		"oF": 0
+		},
+	"/portfolio/adept.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 0,
+		"oAP": "/portfolio/adept.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
 	"/portfolio/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1542,6 +1607,48 @@
 		"llg": 0,
 		"oA": 0,
 		"oAP": "/portfolio/inquire.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
+	"/portfolio/kamigami.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/portfolio/kamigami.html",
+		"oF": 0
+		},
+	"/portfolio/kamigami.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 0,
+		"oAP": "/portfolio/kamigami.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
+	"/portfolio/kjw.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/portfolio/kjw.html",
+		"oF": 0
+		},
+	"/portfolio/kjw.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 0,
+		"oAP": "/portfolio/kjw.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
