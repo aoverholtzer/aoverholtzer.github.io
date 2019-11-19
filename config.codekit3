@@ -411,6 +411,72 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/adept/scenario1.jpg": {
+		"ft": 16384,
+		"iS": 30849,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/adept/scenario1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/adept/scenario2.jpg": {
+		"ft": 16384,
+		"iS": 34710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/adept/scenario2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/adept/scenario3.jpg": {
+		"ft": 16384,
+		"iS": 38040,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/adept/scenario3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/adept/spec.png": {
+		"ft": 32768,
+		"iS": 59073,
+		"oA": 0,
+		"oAP": "/images/adept/spec.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/adept/wireframes.png": {
+		"ft": 32768,
+		"iS": 74262,
+		"oA": 0,
+		"oAP": "/images/adept/wireframes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/banners-assets/adept.jpg": {
+		"ft": 16384,
+		"iS": 196065,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/banners-assets/adept.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/banners-assets/inquire.jpg": {
 		"ft": 16384,
 		"iS": 137789,

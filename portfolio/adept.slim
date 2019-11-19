@@ -16,14 +16,14 @@ html
 			div.row
 				div.col
 					figure.figure.mb-0
-						img.img-fluid.figure-img.border src='/images/adept/desktop.jpg'
+						img.img-fluid.figure-img src='/images/adept/desktop.jpg'
 
 						
 			div.row
 				div.col
 					h2.mb-0
 						| Adept Editor
-						small.text-muted< &bull; desktop &bull; 5/2009&thinsp;&ndash;&thinsp;9/2009
+						small.text-muted< &bull; desktop &bull; 5&thinsp;&ndash;&thinsp;9/2009
 					
 			div.row
 				div.col
@@ -45,11 +45,13 @@ html
 					h5.text-uppercase Research
 				div.col-md
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/800x600.png'
-					p End-user programming &mdash; i.e., programming for non-programmers &mdash; has been an area of research for decades, so we began with an extensive literature review and analysis of existing desktop automation tools.
-				div.col-md
+						img.img-fluid.figure-img src='/images/adept/scenario1.jpg'
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/800x600.png'
+						img.img-fluid.figure-img.border src='/images/adept/scenario2.jpg'
+					figure.figure
+						img.img-fluid.figure-img.border src='/images/adept/scenario3.jpg'
+				div.col-md
+					p End-user programming &mdash; i.e., programming for non-programmers &mdash; has been an area of research for decades, so we began with an extensive literature review and analysis of existing desktop automation tools.
 					p Next we developed personas and example workflows, using data from prior contextual interviews conducted by my colleagues. I led a focus group exploring several ways to represent batch operations and loops, knowing they were both a key feature of Adept and a common stumbling block for users.
 					
 			hr
@@ -58,7 +60,7 @@ html
 				div.col-12
 					h5.text-uppercase Design
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/900x333.png'
+						img.img-fluid.figure-img.border src='/images/adept/wireframes.png'
 					p Working from the data we had gathered, we sketched solutions for three main challenges:
 					ol
 						li How to visualize a procedure, including loops.
@@ -82,25 +84,22 @@ html
 			div.row
 				div.col-12
 					h5.text-uppercase Rapid Prototyping
-				div.col-sm
+				div.col-md
 					figure.figure 
-							a data-lightbox="answers" href='/images/adept/desktop.jpg'
-								img.img-fluid.figure-img.border src='/images/adept/desktop.jpg'
-				div.col-sm
-					figure.figure
-						img.img-fluid.figure-img.border src='/images/adept/army.jpg'
-				div.col-12
-					p I implemented a functional prototype of the editor using JavaFX. We conducted three rounds of user studies with office workers and US Army personnel, iterating on the design each time. The prototype not only let us test interactions like drag-and-drop and inline feedback, but it also enabled “Wizard of Oz”-style testing of the learning-by-demonstration model: I would watch the user perform a task, quickly build a procedure based on what the user did, and then present that procedure to them as the output of the AI, ready for editing.
+						img.img-fluid.figure-img src='/images/adept/desktop.jpg'
+				div.col-md
+					p I implemented a functional prototype of the editor using JavaFX. We conducted three rounds of user studies with office workers and US Army personnel, iterating on the design each time. A prototype enabled “Wizard of Oz”-style testing of the learning-by-demonstration model: I would watch the user perform a task, quickly build a procedure based on what the user did, and then present that procedure to them as the output of the AI, ready for editing in the prototype.
 
 			hr
 			
 			div.row
 				div.col-12
 					h5.text-uppercase Design Spec
-				div.col
+				div.col-md
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/900x220.png'
-					p We created a specification document that explained our motivating design principles and provided a full walkthrough of the interface and user interactions. Appendices spelled out interactions, sizes, colors, and fonts.
+						img.img-fluid.figure-img src='/images/adept/spec.png'
+				div.col-md
+					p I created a specification document that explained our motivating design principles and provided a full walkthrough of the interface and user interactions. Appendices spelled out naming conventions, sizes, colors, and fonts.
 					p Working from the spec, our software developers built a system that was deployed with thousands of US Army intel analysts in 2013. Users praised the power and simplicity of the design.
 						
 						
