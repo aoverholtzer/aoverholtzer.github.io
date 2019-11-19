@@ -6538,6 +6538,11 @@ h6 {
   h6 :last-child {
     margin-bottom: 0; }
 
+/*
+ul:last-child, ol:last-child {
+	margin-bottom: 0;
+}
+*/
 @media (min-width: 768px) {
   p:last-child {
     margin-bottom: 0; } }
