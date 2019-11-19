@@ -378,37 +378,37 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/adept/photo.png": {
-		"ft": 32768,
-		"iS": 1185047,
+	"/images/adept/army.jpg": {
+		"ft": 16384,
+		"iS": 62794,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/adept/photo.png",
+		"oAP": "/images/adept/army.jpg",
 		"oF": 0,
-		"oIPL": 1,
+		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
-	"/images/banners-assets/.adept~imageoptim.jpg": {
+	"/images/adept/desktop.jpg": {
 		"ft": 16384,
-		"iS": 200139,
+		"iS": 298714,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/banners-assets/.adept~imageoptim.jpg",
+		"oAP": "/images/adept/desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/images/banners-assets/.inquire~imageoptim.jpg": {
+	"/images/adept/paper.jpg": {
 		"ft": 16384,
-		"iS": 129789,
+		"iS": 76373,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/banners-assets/.inquire~imageoptim.jpg",
+		"oAP": "/images/adept/paper.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/inquire.jpg": {
@@ -443,14 +443,6 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
-		},
-	"/images/banners.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/images/banners.psd",
-		"oF": 0
 		},
 	"/images/beard.png": {
 		"ft": 32768,
