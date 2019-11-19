@@ -449,7 +449,7 @@ pre {
   margin-left: auto; }
   @media (min-width: 480px) {
     .container {
-      max-width: 420px; } }
+      max-width: 600px; } }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } }
@@ -6557,6 +6557,10 @@ ul:last-child, ol:last-child {
 
 .mb-gutter {
   margin-bottom: 30px; }
+
+@media (min-width: 480px) {
+  .mb-sm-gutter {
+    margin-bottom: 30px; } }
 
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0 !important; }

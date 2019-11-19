@@ -6,7 +6,7 @@ $grid-breakpoints: (
 );
 
 $container-max-widths: (
-  sm: 420px,
+  sm: 600px,
   md: 720px,
   lg: 800px
 );
@@ -125,6 +125,11 @@ ul:last-child, ol:last-child {
 
 .mb-gutter {
 	margin-bottom: 30px;
+}
+@include media-breakpoint-up(sm) { 
+	.mb-sm-gutter {
+		margin-bottom: 30px;
+	}
 }
 
 .breadcrumb-item + .breadcrumb-item {

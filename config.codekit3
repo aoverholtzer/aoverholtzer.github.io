@@ -1226,7 +1226,7 @@
 		},
 	"/images/kjw/blue2.jpg": {
 		"ft": 16384,
-		"iS": 66634,
+		"iS": 50668,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kjw/blue2.jpg",
@@ -1246,14 +1246,58 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/kjw/concepts.001.png": {
+		"ft": 32768,
+		"iS": 219376,
+		"oA": 0,
+		"oAP": "/images/kjw/concepts.001.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kjw/concepts.002.png": {
+		"ft": 32768,
+		"iS": 164203,
+		"oA": 0,
+		"oAP": "/images/kjw/concepts.002.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kjw/concepts.003.png": {
+		"ft": 32768,
+		"iS": 141730,
+		"oA": 0,
+		"oAP": "/images/kjw/concepts.003.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kjw/concepts.004.png": {
+		"ft": 32768,
+		"iS": 375779,
+		"oA": 0,
+		"oAP": "/images/kjw/concepts.004.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/kjw/drive.png": {
 		"ft": 32768,
 		"iS": 125122,
 		"oA": 0,
 		"oAP": "/images/kjw/drive.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1268,6 +1312,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/kjw/flow.png": {
+		"ft": 32768,
+		"iS": 34331,
+		"oA": 0,
+		"oAP": "/images/kjw/flow.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/kjw/hero.jpg": {
 		"ft": 16384,
 		"iS": 831070,
@@ -1276,7 +1331,7 @@
 		"oAP": "/images/kjw/hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kjw/indo.png": {
@@ -1298,6 +1353,61 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kjw/splash.jpg": {
+		"ft": 16384,
+		"iS": 164205,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kjw/splash.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/kjw/wireframes1.png": {
+		"ft": 32768,
+		"iS": 183448,
+		"oA": 0,
+		"oAP": "/images/kjw/wireframes1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kjw/wireframes2.png": {
+		"ft": 32768,
+		"iS": 46013,
+		"oA": 0,
+		"oAP": "/images/kjw/wireframes2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kjw/wireframes3.png": {
+		"ft": 32768,
+		"iS": 102047,
+		"oA": 0,
+		"oAP": "/images/kjw/wireframes3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kjw/wireframes4.png": {
+		"ft": 32768,
+		"iS": 108979,
+		"oA": 0,
+		"oAP": "/images/kjw/wireframes4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
