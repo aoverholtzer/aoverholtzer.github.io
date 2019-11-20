@@ -521,6 +521,22 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/bigr2/video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/bigr2/video.mp4",
+		"oF": 0
+		},
+	"/images/bigr2/video.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/bigr2/video.webm",
+		"oF": 0
+		},
 	"/images/cheatsheet/add852.png": {
 		"ft": 32768,
 		"iS": 23662,
@@ -1152,6 +1168,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/kamigami1/poster.jpg": {
+		"ft": 16384,
+		"iS": 174445,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami1/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/kamigami1/profile.png": {
 		"ft": 32768,
 		"iS": 38179,
@@ -1295,6 +1322,38 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/kamigami1/video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami1/video.mp4",
+		"oF": 0
+		},
+	"/images/kamigami1/video.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami1/video.webm",
+		"oF": 0
+		},
+	"/images/kamigami1/video_alt.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami1/video_alt.mp4",
+		"oF": 0
+		},
+	"/images/kamigami1/video_alt.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami1/video_alt.webm",
+		"oF": 0
+		},
 	"/images/kamigami2/0x0ss-P3.jpg": {
 		"ft": 16384,
 		"iS": 430416,
@@ -1374,7 +1433,7 @@
 		},
 	"/images/kjw/blue2.jpg": {
 		"ft": 16384,
-		"iS": 50668,
+		"iS": 66634,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kjw/blue2.jpg",
@@ -1493,6 +1552,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/kjw/poster.jpg": {
+		"ft": 16384,
+		"iS": 186155,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kjw/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/kjw/profile.png": {
 		"ft": 32768,
 		"iS": 94027,
@@ -1514,6 +1584,22 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/kjw/video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kjw/video.mp4",
+		"oF": 0
+		},
+	"/images/kjw/video.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kjw/video.webm",
+		"oF": 0
 		},
 	"/images/kjw/wireframes1.png": {
 		"ft": 32768,

@@ -17,11 +17,18 @@ html
 			div.row
 				div.col
 					div.embed-responsive.embed-responsive-16by9.border
-						iframe.embed-responsive-item [
-							src="https://www.youtube-nocookie.com/embed/2VxdHn36gVU?rel=0" 
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen
-						]
+						video.embed-responsive-item [
+								poster="/images/kjw/poster.jpg"
+								controls
+								preload
+							]
+							source src="/images/kjw/video.mp4"
+							source src="/images/kjw/video.webm"
+						/iframe.embed-responsive-item [
+								src="https://www.youtube-nocookie.com/embed/2VxdHn36gVU?rel=0" 
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							]
 						
 						
 			div.row

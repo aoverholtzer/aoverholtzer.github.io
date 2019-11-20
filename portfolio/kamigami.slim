@@ -17,11 +17,18 @@ html
 			div.row
 				div.col
 					div.embed-responsive.embed-responsive-16by9.border
-						iframe.embed-responsive-item [
-							src="https://www.youtube-nocookie.com/embed/R5dallCrM0k?rel=0" 
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen
-						]
+						video.embed-responsive-item [
+								poster="/images/kamigami1/poster.jpg"
+								controls
+								preload
+							]
+							source src="/images/kamigami1/video.mp4"
+							source src="/images/kamigami1/video.webm"
+						/iframe.embed-responsive-item [
+								src="https://www.youtube-nocookie.com/embed/R5dallCrM0k?rel=0" 
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							]
 						
 						
 			div.row
@@ -117,6 +124,8 @@ html
 					ul
 						li
 							a href='https://itunes.apple.com/us/app/dash-drive-2016/id1051507116?mt=8' Kamigami Robots App
+						li
+							a href='/images/kamigami1/video_alt.mp4' Kickstarter Video
 						li
 							a href='https://www.amazon.com/Mattel-FRC98-Kamigami-Lina-Robot/dp/B0734VPX2J' Kamigami Robots on Amazon
 						
