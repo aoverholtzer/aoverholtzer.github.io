@@ -18,7 +18,7 @@ html
 				div.col
 					div.embed-responsive.embed-responsive-16by9.border
 						video.embed-responsive-item [
-								poster="/images/inquire/iTunesArtwork.png"
+								poster="/images/inquire/poster.jpg"
 								controls
 								preload
 							]
@@ -68,11 +68,11 @@ html
 					h5.text-uppercase Research
 				div.col-md
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/800x600.png'
+						img.img-fluid.figure-img src='/images/inquire/research.png'
 					p To understand the must-have features and existing best practices of e-books and e-readers, I conducted a competitive analysis of everything from mobile apps to hardware devices like the Kindle. There was no prior art in iPad textbooks — this was early 2010, when the iPad had been announced but not yet released.
 				div.col-md
 					figure.figure
-						img.img-fluid.figure-img.border src='/images/inquire/scrolling.jpg'
+						img.img-fluid.figure-img.border src='/images/inquire/layout.png'
 						/figcaption.figure-caption Presentation slide about scrolling.
 					p Should users scroll content like a webpage or swipe between discrete pages? Textbooks have complex layouts with graphics and callouts, so changing the layout would affect the meaning. I presented pros and cons to our client; we decided on a scrolling layout as the more practical solution.
 						
@@ -81,12 +81,12 @@ html
 			div.row
 				div.col-12
 					h5.text-uppercase Concept Validation
-				div.col-sm
+				div.col-md
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/900x390.png'
-				div.col-sm
+						img.img-fluid.figure-img.border src='/images/inquire/cv1.png'
+				div.col-md
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/900x390.png'
+						img.img-fluid.figure-img.border src='/images/inquire/cv2.png'
 				div.col-12
 					p I ran a focus group to validate several key features of the app:
 					ol
@@ -102,13 +102,11 @@ html
 					h5.text-uppercase Design
 				div.col-sm
 					figure.figure 
-							a data-lightbox="answers" href='/images/inquire/scrolling.jpg'
-								img.img-fluid.figure-img.border src='/images/inquire/scrolling.jpg'
+							img.img-fluid.figure-img.border src='/images/inquire/mockup.jpg'
 					p I produced high-fidelity, interactive mockups that we could demo on a real iPad using Keynote. This gave us better feedback in user studies, because users didn’t have to imagine what using an iPad was like — remember, the iPad was brand new in 2010!
 				div.col-sm
 					figure.figure
-						a data-lightbox="answers" href='/images/inquire/paging.png'
-							img.img-fluid.figure-img.border src='/images/inquire/paging.png'
+						img.img-fluid.figure-img.border src='/images/inquire/mockup3.jpg'
 					p I also redesigned the structure and content of answers. I created HTML templates and worked with our biology experts to develop better heuristics for the AI, which (after dozens of iterations) resulted in a dramatic increase in answer quality and readability.
 
 
@@ -117,9 +115,19 @@ html
 			div.row
 				div.col-12
 					h5.text-uppercase App Development
-				div.col
+				div.col-sm
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/900x220.png'
+						a href="/images/inquire/inquire-reading.png" data-lightbox="image" data-title="Reading the textbook"
+							img.img-fluid.figure-img.border src='/images/inquire/inquire-reading.png' alt="Screenshot of textbook with highlights and notes"
+				div.col-sm
+					figure.figure
+						a href="/images/inquire/inquire-glossary.jpg" data-lightbox="image" data-title="Glossary page"
+							img.img-fluid.figure-img.border src='/images/inquire/inquire-glossary.jpg' alt="Screenshot of a glossary page"
+				div.col-sm
+					figure.figure
+						a href="/images/inquire/inquire-ask.jpg" data-lightbox="image" data-title="Asking a question"
+							img.img-fluid.figure-img.border src='/images/inquire/inquire-ask.jpg' alt="Screenshot of asking a question"
+				div.col-12
 					p As we moved to development, I provided the production assets for the iPad app, including icons, buttons with multiple states, and sliced backgrounds. I also took the opportunity to learn iOS development, eventually taking over development of the Inquire app in its second year.
 
 			hr
@@ -129,9 +137,13 @@ html
 					h5.text-uppercase Controlled Study
 				div.col-md
 					figure.figure
-						img.img-fluid.figure-img.border src='https://via.placeholder.com/900x220.png'
+						img.img-fluid.figure-img.border src='/images/inquire/graphs.002.png' alt="Chart showing average grades"
+				div.col-md
+					figure.figure
+						img.img-fluid.figure-img.border src='/images/inquire/graphs.003.png' alt="Chart showing grade distribution"
+				div.col-12
 					p In a study in January 2012, we tested Inquire against both electronic and paper versions of the textbook with groups of biology students from De Anza College. Each group of 24–25 students spent four hours studying a section of text, completing a homework assignment, and then taking a closed-book quiz.
-					p Students using Inquire received significantly higher scores on the homework and quiz, a full letter grade on average. In addition, no Inquire student got a D or F on the quiz, while nearly a third of the other students did (result was not statistically significant). This suggests Inquire may be especially helpful for lower performing students, which we hope to explore in a future study.
+					p Students using Inquire received significantly higher scores on the homework and quiz, a full letter grade on average. In addition, no Inquire student got a D or F on the quiz, while nearly a third of the other students did. This suggests Inquire may be especially helpful for lower performing students, which we hope to explore in a future study.
 
 			hr
 

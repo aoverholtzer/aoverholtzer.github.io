@@ -801,6 +801,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/inquire/cv1.png": {
+		"ft": 32768,
+		"iS": 136225,
+		"oA": 0,
+		"oAP": "/images/inquire/cv1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/inquire/cv2.png": {
+		"ft": 32768,
+		"iS": 146931,
+		"oA": 0,
+		"oAP": "/images/inquire/cv2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/inquire/graphs.002.png": {
 		"ft": 32768,
 		"iS": 7349,
@@ -933,26 +955,92 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/inquire/paging.png": {
+	"/images/inquire/layout.png": {
 		"ft": 32768,
-		"iS": 578036,
+		"iS": 46918,
 		"oA": 0,
-		"oAP": "/images/inquire/paging.png",
+		"oAP": "/images/inquire/layout.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/inquire/scrolling.jpg": {
+	"/images/inquire/mockup-relationship.png": {
+		"ft": 32768,
+		"iS": 97281,
+		"oA": 0,
+		"oAP": "/images/inquire/mockup-relationship.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/inquire/mockup-simdiff.png": {
+		"ft": 32768,
+		"iS": 224779,
+		"oA": 0,
+		"oAP": "/images/inquire/mockup-simdiff.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/inquire/mockup.jpg": {
 		"ft": 16384,
-		"iS": 348847,
+		"iS": 134891,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/inquire/scrolling.jpg",
+		"oAP": "/images/inquire/mockup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/images/inquire/mockup2.jpg": {
+		"ft": 16384,
+		"iS": 86165,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/inquire/mockup2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/inquire/mockup3.jpg": {
+		"ft": 16384,
+		"iS": 99385,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/inquire/mockup3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/inquire/poster.jpg": {
+		"ft": 16384,
+		"iS": 110070,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/inquire/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/inquire/research.png": {
+		"ft": 32768,
+		"iS": 116074,
+		"oA": 0,
+		"oAP": "/images/inquire/research.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/images/inquire/video.mp4": {
@@ -1433,7 +1521,7 @@
 		},
 	"/images/kjw/blue2.jpg": {
 		"ft": 16384,
-		"iS": 66634,
+		"iS": 50668,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kjw/blue2.jpg",
