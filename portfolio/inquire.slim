@@ -17,16 +17,29 @@ html
 			div.row
 				div.col
 					div.embed-responsive.embed-responsive-16by9.border
-						iframe.embed-responsive-item [
-							src="https://www.youtube-nocookie.com/embed/uTEMWfU4iOY?rel=0" 
-							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							allowfullscreen
-						]
+						video.embed-responsive-item [
+								poster="/images/inquire/iTunesArtwork.png"
+								controls
+								preload
+							]
+							source src="/images/inquire/video.mp4"
+							source src="/images/inquire/video.webm"
+						/iframe.embed-responsive-item [
+								src="https://www.youtube-nocookie.com/embed/uTEMWfU4iOY?rel=0" 
+								allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen
+							]
 						
 						
 			div.row
 				div.col
 					h2.mb-0
+						/img.rounded-icon.align-middle.mr-3 [
+								src="/images/inquire/icon-2x.jpg"
+								alt="app icon"
+								width=48
+								height=48
+							]
 						| Inquire Biology
 						small.text-muted< &bull; iPad &bull; 2010&thinsp;&ndash;&thinsp;2011
 					

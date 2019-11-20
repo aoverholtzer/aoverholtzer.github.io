@@ -6553,10 +6553,8 @@ ul:last-child, ol:last-child {
   .pl-xs-0 {
     padding-left: 7.5px !important; } }
 
-.rounded {
-  border-radius: 17.544%; }
-
-.rounded.fancy {
+.rounded-icon {
+  border-radius: 17.544%;
   -webkit-mask-image: url("/images/ios7-icon.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%; }

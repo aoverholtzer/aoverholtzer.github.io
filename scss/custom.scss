@@ -123,10 +123,8 @@ ul:last-child, ol:last-child {
 	}
 }
 
-.rounded {
+.rounded-icon {
   border-radius: 17.544%;
-}
-.rounded.fancy {
   -webkit-mask-image: url('/images/ios7-icon.svg');
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
