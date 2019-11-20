@@ -6547,6 +6547,12 @@ ul:last-child, ol:last-child {
   p:last-child {
     margin-bottom: 0; } }
 
+@media (max-width: 479.98px) {
+  .pr-xs-0 {
+    padding-right: 7.5px !important; }
+  .pl-xs-0 {
+    padding-left: 7.5px !important; } }
+
 .rounded {
   border-radius: 17.544%; }
 

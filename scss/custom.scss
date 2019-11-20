@@ -114,6 +114,15 @@ ul:last-child, ol:last-child {
 	}
 }
 
+@include media-breakpoint-only(xs) { 
+	.pr-xs-0 {
+		padding-right: 7.5px !important;
+	}
+	.pl-xs-0 {
+		padding-left: 7.5px !important;
+	}
+}
+
 .rounded {
   border-radius: 17.544%;
 }

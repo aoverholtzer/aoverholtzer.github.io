@@ -1103,6 +1103,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/kamigami1/notes.jpg": {
+		"ft": 16384,
+		"iS": 1951576,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami1/notes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/images/kamigami1/profile.png": {
 		"ft": 32768,
 		"iS": 38179,
@@ -1121,6 +1132,105 @@
 		"oAP": "/images/kamigami1/program.png",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot1.png": {
+		"ft": 32768,
+		"iS": 376192,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot2.png": {
+		"ft": 32768,
+		"iS": 243093,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot3.png": {
+		"ft": 32768,
+		"iS": 204299,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot4.png": {
+		"ft": 32768,
+		"iS": 143505,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot5.png": {
+		"ft": 32768,
+		"iS": 205743,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot6.png": {
+		"ft": 32768,
+		"iS": 260099,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot6.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot7.png": {
+		"ft": 32768,
+		"iS": 176611,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot7.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot8.png": {
+		"ft": 32768,
+		"iS": 184596,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot8.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/screenshot9.png": {
+		"ft": 32768,
+		"iS": 178843,
+		"oA": 0,
+		"oAP": "/images/kamigami1/screenshot9.png",
+		"oF": 0,
+		"oIPL": 1,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
