@@ -1081,11 +1081,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/kamigami1/bad.png": {
+		"ft": 32768,
+		"iS": 48758,
+		"oA": 0,
+		"oAP": "/images/kamigami1/bad.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/kamigami1/drive.png": {
 		"ft": 32768,
 		"iS": 48051,
 		"oA": 0,
 		"oAP": "/images/kamigami1/drive.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/flow.png": {
+		"ft": 32768,
+		"iS": 34812,
+		"oA": 0,
+		"oAP": "/images/kamigami1/flow.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1136,17 +1158,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/kamigami1/screenshot1.png": {
-		"ft": 32768,
-		"iS": 376192,
-		"oA": 0,
-		"oAP": "/images/kamigami1/screenshot1.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/kamigami1/screenshot2.png": {
 		"ft": 32768,
 		"iS": 243093,
@@ -1166,17 +1177,6 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/kamigami1/screenshot4.png": {
-		"ft": 32768,
-		"iS": 143505,
-		"oA": 0,
-		"oAP": "/images/kamigami1/screenshot4.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1224,15 +1224,37 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/kamigami1/screenshot9.png": {
+	"/images/kamigami1/sketch1.png": {
 		"ft": 32768,
-		"iS": 178843,
+		"iS": 27065,
 		"oA": 0,
-		"oAP": "/images/kamigami1/screenshot9.png",
+		"oAP": "/images/kamigami1/sketch1.png",
 		"oF": 0,
-		"oIPL": 1,
+		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/sketch2.png": {
+		"ft": 32768,
+		"iS": 32369,
+		"oA": 0,
+		"oAP": "/images/kamigami1/sketch2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/testing.jpg": {
+		"ft": 16384,
+		"iS": 116167,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami1/testing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/kamigami1/testing.png": {
