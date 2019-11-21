@@ -411,6 +411,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/images/adept/research.jpg": {
+		"ft": 16384,
+		"iS": 82129,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/adept/research.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/adept/scenario1.jpg": {
 		"ft": 16384,
 		"iS": 30849,
@@ -439,6 +450,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/adept/scenario3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/adept/scenarios.jpg": {
+		"ft": 16384,
+		"iS": 46407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/adept/scenarios.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -886,29 +908,18 @@
 		"oAP": "/images/inquire/inquire-ask.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"/images/inquire/inquire-diff-rotated.jpg": {
+	"/images/inquire/inquire-diff.jpg": {
 		"ft": 16384,
-		"iS": 152225,
+		"iS": 88411,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/inquire/inquire-diff-rotated.jpg",
+		"oAP": "/images/inquire/inquire-diff.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/inquire/inquire-diff.png": {
-		"ft": 32768,
-		"iS": 240120,
-		"oA": 0,
-		"oAP": "/images/inquire/inquire-diff.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/inquire-glossary.jpg": {
@@ -922,15 +933,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/inquire/inquire-reading.png": {
-		"ft": 32768,
-		"iS": 130987,
+	"/images/inquire/inquire-reading.jpg": {
+		"ft": 16384,
+		"iS": 137872,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/inquire/inquire-reading.png",
+		"oAP": "/images/inquire/inquire-reading.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/images/inquire/ipad-photo2.jpg": {
@@ -1027,6 +1038,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/inquire/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/inquire/poster_alt.jpg": {
+		"ft": 16384,
+		"iS": 102436,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/inquire/poster_alt.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1287,6 +1309,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/kamigami1/research.jpg": {
+		"ft": 16384,
+		"iS": 58399,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami1/research.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/kamigami1/screenshot2.png": {
