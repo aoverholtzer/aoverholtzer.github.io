@@ -503,7 +503,7 @@
 		},
 	"/images/banners-assets/adept.jpg": {
 		"ft": 16384,
-		"iS": 196065,
+		"iS": 92421,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/adept.jpg",
@@ -512,37 +512,59 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/banners-assets/artoo.jpg": {
+		"ft": 16384,
+		"iS": 127670,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/banners-assets/artoo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/banners-assets/inquire.jpg": {
 		"ft": 16384,
-		"iS": 137789,
+		"iS": 56305,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/inquire.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/banners-assets/kamigami.jpg": {
 		"ft": 16384,
-		"iS": 239948,
+		"iS": 113549,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/kamigami.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/banners-assets/kjw.jpg": {
 		"ft": 16384,
-		"iS": 279600,
+		"iS": 108585,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/kjw.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/banners-assets/warriorweb.jpg": {
+		"ft": 16384,
+		"iS": 71996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/banners-assets/warriorweb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/beard.png": {
@@ -550,6 +572,28 @@
 		"iS": 601,
 		"oA": 0,
 		"oAP": "/images/beard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/bigr2/artoo.jpg": {
+		"ft": 16384,
+		"iS": 349644,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/bigr2/artoo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/bigr2/sketch.png": {
+		"ft": 32768,
+		"iS": 58734,
+		"oA": 0,
+		"oAP": "/images/bigr2/sketch.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

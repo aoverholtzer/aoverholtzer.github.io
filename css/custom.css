@@ -6575,6 +6575,9 @@ ul:last-child, ol:last-child {
 .figure .figure-img:last-child {
   margin-bottom: 0; }
 
+.card {
+  cursor: default; }
+
 .ekko-lightbox {
   display: -ms-flexbox !important;
   display: flex !important;

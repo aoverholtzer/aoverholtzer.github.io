@@ -6,11 +6,6 @@ html
     meta name="format-detection" content="telephone=no"
     link rel="stylesheet" href="https://use.typekit.net/zmy3izz.css"
     link rel="stylesheet" href="/css/custom.css"
-    link rel="stylesheet" href="/lightbox2/css/lightbox.min.css"    
-    
-    /<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    /<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    /<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   body
 		
@@ -89,7 +84,7 @@ html
 							
 				div.col-sm-6.col-lg-4.mb-gutter
 					div.card
-						img.card-img-top src='/images/ww/ww-suit-old.jpg'
+						img.card-img-top src='/images/banners-assets/warriorweb.jpg'
 						div.card-body
 							h5.card-title 
 								| Warrior Web
@@ -98,18 +93,29 @@ html
 							p.card-text.mb-0.d-none
 								| Real-time monitoring and tuning for a lightweight, powered exosuit. It has since spun out as &ldquo;powered clothing&rdquo; startup <a href="https://www.myseismic.com/">Seismic</a>.
 							a.stretched-link [
-								href='/images/ww/ww-suit-old.jpg'
-								data-lightbox="ww" 
-								data-title="Real-time monitoring and tuning for a lightweight, powered exosuit. It has since spun out as &ldquo;powered clothing&rdquo; startup Seismic."
+								href='/images/ww/ww.png'
+								data-toggle="lightbox"
+								data-title="Warrior Web App"
+								data-footer="Real-time monitoring and tuning for a lightweight, powered exosuit. It has since spun out as &ldquo;powered clothing&rdquo; startup Seismic."
+							]
+							
+				div.col-sm-6.col-lg-4.mb-gutter
+					div.card
+						img.card-img-top src='/images/banners-assets/artoo.jpg'
+						div.card-body
+							h5.card-title 
+								| Follow-Me R2
+								<br />
+								small.text-muted toy concept &bull; 2010&ndash;2018
+							a.stretched-link [
+								href='/images/bigr2/video.mp4'
+								data-type="video"
+								data-width="1280"
+								data-toggle="lightbox"
+								data-title="Life-Sized Follow-Me R2-D2"
+								data-footer="I pitched the concept of a life-sized droid made of fabric and wire, and the folks at Dash Robotics helped prototype a low-cost, life-sized R2 that collapses into a retail-ready box."
 							]
 
 			include _footer.slim
 
-| <script src="/lightbox2/js/lightbox-plus-jquery.min.js"></script>
-javascript:
-	lightbox.option({
-    'fadeDuration': 300,
-    'imageFadeDuration': 300,
-    'resizeDuration' : 0
-  })
-
+include ../_lightbox.slim
