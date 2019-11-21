@@ -6,7 +6,6 @@ html
     meta name="format-detection" content="telephone=no"
     link rel="stylesheet" href="https://use.typekit.net/zmy3izz.css"
     link rel="stylesheet" href="/css/custom.css"
-    link rel="stylesheet" href="/lightbox2/css/lightbox.min.css"    
     
   body
 				
@@ -101,22 +100,52 @@ html
 					p.mb-3 I led the team that built the final iOS and Android apps, building most of the iOS interface myself. I also created most of the final artwork.
 				div.col-6.col-sm-4.pr-xs-0
 					figure.figure.mb-sm-gutter
-						img.img-fluid.figure-img.border src='/images/kamigami1/screenshot2.png'
+						a [ href="/images/kamigami1/screenshot2.png"
+								data-toggle="lightbox"
+								data-title="Gameplay Screen"
+								data-gallery="screenshots"
+								]
+							img.img-fluid.figure-img.border src='/images/kamigami1/screenshot2.png'
 				div.col-6.col-sm-4.pl-xs-0
 					figure.figure.mb-sm-gutter
-						img.img-fluid.figure-img.border src='/images/kamigami1/screenshot3.png'
+						a [ href="/images/kamigami1/screenshot3.png"
+								data-toggle="lightbox"
+								data-title="Editing a Game"
+								data-gallery="screenshots"
+								]
+							img.img-fluid.figure-img.border src='/images/kamigami1/screenshot3.png'
 				div.col-6.col-sm-4.pr-xs-0
 					figure.figure.mb-sm-gutter
-						img.img-fluid.figure-img.border src='/images/kamigami1/screenshot5.png'
+						a [ href="/images/kamigami1/screenshot5.png"
+								data-toggle="lightbox"
+								data-title="Editing a Game Trigger"
+								data-gallery="screenshots"
+								]
+							img.img-fluid.figure-img.border src='/images/kamigami1/screenshot5.png'
 				div.col-6.col-sm-4.pl-xs-0
 					figure.figure.mb-sm-gutter
-						img.img-fluid.figure-img.border src='/images/kamigami1/screenshot8.png'
+						a [ href="/images/kamigami1/screenshot8.png"
+								data-toggle="lightbox"
+								data-title="Robot’s Profile Screen"
+								data-gallery="screenshots"
+								]
+							img.img-fluid.figure-img.border src='/images/kamigami1/screenshot8.png'
 				div.col-6.col-sm-4.pr-xs-0.d-none.d-sm-block
 					figure.figure.mb-sm-gutter
-						img.img-fluid.figure-img.border src='/images/kamigami1/screenshot7.png'
+						a [ href="/images/kamigami1/screenshot7.png"
+								data-toggle="lightbox"
+								data-title="Acheivements"
+								data-gallery="screenshots"
+								]
+							img.img-fluid.figure-img.border src='/images/kamigami1/screenshot7.png'
 				div.col-6.col-sm-4.pl-xs-0.d-none.d-sm-block
 					figure.figure.mb-sm-gutter
-						img.img-fluid.figure-img.border src='/images/kamigami1/screenshot6.png'
+						a [ href="/images/kamigami1/screenshot6.png"
+								data-toggle="lightbox"
+								data-title="Another Gameplay Screen"
+								data-gallery="screenshots"
+								]
+							img.img-fluid.figure-img.border src='/images/kamigami1/screenshot6.png'
 
 			hr
 
@@ -140,11 +169,4 @@ html
 			
 			include _footer.slim
 
-| <script src="/lightbox2/js/lightbox-plus-jquery.min.js"></script>
-javascript:
-	lightbox.option({
-    'fadeDuration': 300,
-    'imageFadeDuration': 300,
-    'resizeDuration' : 0
-  })
-
+include ../_lightbox.slim

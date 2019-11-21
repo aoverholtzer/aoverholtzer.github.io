@@ -33,6 +33,19 @@
 		"oAP": "/_head.html",
 		"oF": 0
 		},
+	"/_lightbox.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 1,
+		"oAP": "/_lightbox.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
 	"/_modal.slim": {
 		"cB": 0,
 		"cmO": 0,
@@ -930,7 +943,7 @@
 		"oAP": "/images/inquire/inquire-glossary.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/inquire-reading.jpg": {
@@ -1980,125 +1993,42 @@
 		"oAP": "/index.html",
 		"oF": 1
 		},
-	"/lightbox2/css/lightbox.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/lightbox2/css/lightbox-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/lightbox2/css/lightbox.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/lightbox2/css/lightbox.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/lightbox2/images/close.png": {
-		"ft": 32768,
-		"iS": 280,
-		"oA": 0,
-		"oAP": "/lightbox2/images/close.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lightbox2/images/loading.gif": {
-		"ft": 4194304,
-		"iS": 8476,
-		"oA": 0,
-		"oAP": "/lightbox2/images/loading.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/lightbox2/images/next.png": {
-		"ft": 32768,
-		"iS": 1350,
-		"oA": 0,
-		"oAP": "/lightbox2/images/next.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lightbox2/images/prev.png": {
-		"ft": 32768,
-		"iS": 1360,
-		"oA": 0,
-		"oAP": "/lightbox2/images/prev.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/lightbox2/js/lightbox-plus-jquery.js": {
+	"/js/modal.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/lightbox2/js/lightbox-plus-jquery-min.js",
+		"oAP": "/js/modal-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/lightbox2/js/lightbox-plus-jquery.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/lightbox2/js/lightbox-plus-jquery.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/lightbox2/js/lightbox-plus-jquery.min.map": {
+	"/js/modal.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/lightbox2/js/lightbox-plus-jquery.min.map",
+		"oAP": "/js/modal.js.map",
 		"oF": 0
 		},
-	"/lightbox2/js/lightbox.js": {
+	"/js/util.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/lightbox2/js/lightbox-min.js",
+		"oAP": "/js/util-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/lightbox2/js/lightbox.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/lightbox2/js/lightbox.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/lightbox2/js/lightbox.min.map": {
+	"/js/util.js.map": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/lightbox2/js/lightbox.min.map",
+		"oAP": "/js/util.js.map",
 		"oF": 0
 		},
 	"/package.json": {
