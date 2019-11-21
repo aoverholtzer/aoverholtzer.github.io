@@ -534,12 +534,23 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/banners-assets/kamigami.jpg": {
+	"/images/banners-assets/kamigami1.jpg": {
+		"ft": 16384,
+		"iS": 83779,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/banners-assets/kamigami1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/banners-assets/kamigami2.jpg": {
 		"ft": 16384,
 		"iS": 113549,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/banners-assets/kamigami.jpg",
+		"oAP": "/images/banners-assets/kamigami2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1011,6 +1022,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/inquire/ipad-photo2.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/inquire/ipad-photo2.psd",
+		"oF": 0
 		},
 	"/images/inquire/iTunesArtwork.png": {
 		"ft": 32768,

@@ -69,17 +69,17 @@ h1 {
 }
 
 h2 {
-// 	margin-bottom: 1rem;
 	:last-child {
 		margin-bottom: 0;
+	}
+	line-height: 1;
+	small {
+		font-size: $font-size-base * 1.25;
 	}
 }
 
 h4 {
 	font-weight: 600;
-// 	font-size: 1.25rem;
-// 	text-transform: uppercase;
-// 	letter-spacing: 1pt;
 }
 
 h5 {
@@ -90,6 +90,11 @@ h5 {
 		margin-bottom: 0;
 	}
 	&.text-uppercase {
+		letter-spacing: 1pt;
+	}
+	&.text-muted {
+		font-weight: normal;
+		text-transform: uppercase;
 		letter-spacing: 1pt;
 	}
 }
@@ -158,4 +163,7 @@ ul:last-child, ol:last-child {
 
 .ekko-lightbox-nav-overlay a span {
 	text-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+.ekko-lightbox .modal-footer {
+	display: block !important;
 }

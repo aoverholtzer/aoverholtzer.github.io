@@ -6518,8 +6518,12 @@ h1 {
   h1 :hover {
     text-decoration-thickness: 1pt; }
 
-h2 :last-child {
-  margin-bottom: 0; }
+h2 {
+  line-height: 1; }
+  h2 :last-child {
+    margin-bottom: 0; }
+  h2 small {
+    font-size: 1.25rem; }
 
 h4 {
   font-weight: 600; }
@@ -6530,6 +6534,10 @@ h5 {
   h5 :last-child {
     margin-bottom: 0; }
   h5.text-uppercase {
+    letter-spacing: 1pt; }
+  h5.text-muted {
+    font-weight: normal;
+    text-transform: uppercase;
     letter-spacing: 1pt; }
 
 h6 {
@@ -6707,3 +6715,6 @@ ul:last-child, ol:last-child {
 
 .ekko-lightbox-nav-overlay a span {
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.6); }
+
+.ekko-lightbox .modal-footer {
+  display: block !important; }
