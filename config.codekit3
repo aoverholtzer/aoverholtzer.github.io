@@ -393,7 +393,7 @@
 		},
 	"/images/adept/army.jpg": {
 		"ft": 16384,
-		"iS": 62794,
+		"iS": 73993,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/adept/army.jpg",
@@ -415,7 +415,7 @@
 		},
 	"/images/adept/paper.jpg": {
 		"ft": 16384,
-		"iS": 76373,
+		"iS": 60904,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/adept/paper.jpg",
@@ -1631,6 +1631,49 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/kamigami2/poster.jpg": {
+		"ft": 16384,
+		"iS": 174445,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami2/poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/kamigami2/video.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami2/video.mp4",
+		"oF": 0
+		},
+	"/images/kamigami2/video.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami2/video.webm",
+		"oF": 0
+		},
+	"/images/kamigami2/video_short.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami2/video_short.mp4",
+		"oF": 0
+		},
+	"/images/kamigami2/video_short.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/images/kamigami2/video_short.webm",
+		"oF": 0
+		},
 	"/images/kjw/blue.jpg": {
 		"ft": 16384,
 		"iS": 66634,
@@ -1644,7 +1687,7 @@
 		},
 	"/images/kjw/blue2.jpg": {
 		"ft": 16384,
-		"iS": 50668,
+		"iS": 66634,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kjw/blue2.jpg",
@@ -1825,7 +1868,7 @@
 		},
 	"/images/kjw/wireframes2.png": {
 		"ft": 32768,
-		"iS": 46013,
+		"iS": 186583,
 		"oA": 0,
 		"oAP": "/images/kjw/wireframes2.png",
 		"oF": 0,
