@@ -503,7 +503,7 @@
 		},
 	"/images/banners-assets/adept.jpg": {
 		"ft": 16384,
-		"iS": 92421,
+		"iS": 45975,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/adept.jpg",
@@ -514,7 +514,7 @@
 		},
 	"/images/banners-assets/artoo.jpg": {
 		"ft": 16384,
-		"iS": 127670,
+		"iS": 64921,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/artoo.jpg",
@@ -523,9 +523,20 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/banners-assets/cheatsheet.jpg": {
+		"ft": 16384,
+		"iS": 27180,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/banners-assets/cheatsheet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/banners-assets/inquire.jpg": {
 		"ft": 16384,
-		"iS": 56305,
+		"iS": 38320,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/inquire.jpg",
@@ -536,7 +547,7 @@
 		},
 	"/images/banners-assets/kamigami1.jpg": {
 		"ft": 16384,
-		"iS": 83779,
+		"iS": 54302,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/kamigami1.jpg",
@@ -547,7 +558,7 @@
 		},
 	"/images/banners-assets/kamigami2.jpg": {
 		"ft": 16384,
-		"iS": 113549,
+		"iS": 67073,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/kamigami2.jpg",
@@ -558,7 +569,7 @@
 		},
 	"/images/banners-assets/kjw.jpg": {
 		"ft": 16384,
-		"iS": 108585,
+		"iS": 62973,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/kjw.jpg",
@@ -569,10 +580,21 @@
 		},
 	"/images/banners-assets/warriorweb.jpg": {
 		"ft": 16384,
-		"iS": 71996,
+		"iS": 47572,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/warriorweb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/banners-assets/worldclock.jpg": {
+		"ft": 16384,
+		"iS": 38440,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/banners-assets/worldclock.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1022,14 +1044,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/images/inquire/ipad-photo2.psd": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/images/inquire/ipad-photo2.psd",
-		"oF": 0
 		},
 	"/images/inquire/iTunesArtwork.png": {
 		"ft": 32768,
