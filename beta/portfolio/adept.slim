@@ -1,0 +1,113 @@
+doctype html
+html
+  head
+    title overdesigned portfolio &mdash; Adept Editor
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    meta name="format-detection" content="telephone=no"
+    link rel="stylesheet" href="https://use.typekit.net/zmy3izz.css"
+    link rel="stylesheet" href="../css/custom.css"
+    
+  body
+				
+		div.container
+		
+			include _nav.slim
+		
+			div.row
+				div.col
+					figure.figure.mb-0
+						img.img-fluid.figure-img src='../images/adept/desktop.jpg'
+
+						
+			div.row
+				div.col
+					h2.mb-0
+						| Adept Editor
+						<br />
+						small.text-muted desktop prototype &bull; SRI International & US Army &bull; 5&thinsp;&ndash;&thinsp;9/2009
+					
+			div.row
+				div.col
+					h5.text-uppercase Summary
+					p 
+						strong> Challenge:
+						| Design a visual programming interface for a desktop automation system. The existing system used learning-by-demonstration backed by AI, but offered no way for users to see or edit the automation they had created. Targeted at non-programmers, it would have to overcome the complexity of the Adept scripting language and its abstract concepts like loops and variables.
+					p 
+						strong> Role:
+						| Designer, user researcher, prototyper. I was assisted by a second UX researcher.
+					p
+						strong> Outcome:
+						| Software based on our design spec was deployed with thousands of US Army intel analysts in 2013. Users praised the design’s power and simplicity.
+			
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase Research
+				div.col-sm
+					figure.figure
+						img.img-fluid.figure-img src='../images/adept/research.jpg'
+					p End-user programming &mdash; i.e., programming for non-programmers &mdash; has been an area of research for decades, so we began with an extensive literature review and analysis of existing desktop automation tools.
+				div.col-sm
+					figure.figure
+						img.img-fluid.figure-img src='../images/adept/scenarios.jpg'
+					p Next we developed personas and example workflows, using data from prior contextual interviews conducted by my colleagues. I led a focus group exploring several ways to represent batch operations and loops, knowing they were both a key feature of Adept and a common stumbling block for users.
+					
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase Design
+					figure.figure
+						img.img-fluid.figure-img.border src='../images/adept/wireframes.png'
+					p Working from the data we had gathered, we sketched solutions for three main challenges:
+					ol
+						li How to visualize a procedure, including loops.
+						li How to make an edit, while constraining the user to valid edits whenever possible.
+						li How to correct an error, without a full-fledged debugger. 
+					p The most difficult challenge was crafting the language for modeling the user’s task. The user needed to recognize what each step of the task did, which meant we need to use the terms and phrases they would expect. Refining that language meant lots and lots of user testing.
+					
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase User Testing
+				div.col-md
+					figure.figure
+						img.img-fluid.figure-img.border src='../images/adept/paper.jpg'
+				div.col-md
+					p We selected tasks based on our research and created paper prototypes for our user tests. We conducted four iterations over the course of four weeks: each week we refined our mockups, recruited users (office workers), and ran think-aloud usability studies.
+						
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase Rapid Prototyping
+				div.col-md
+					figure.figure 
+						img.img-fluid.figure-img src='../images/adept/desktop.jpg'
+				div.col-md
+					p I implemented a functional prototype of the editor using JavaFX. We conducted three rounds of user studies with office workers and US Army personnel, iterating on the design each time. A prototype enabled “Wizard of Oz”-style testing of the learning-by-demonstration model: I would watch the user perform a task, quickly build a procedure based on what the user did, and then present that procedure to them as the output of the AI, ready for editing in the prototype.
+
+			hr
+			
+			div.row
+				div.col-12
+					h5.text-uppercase Design Spec
+				div.col-md
+					figure.figure
+						img.img-fluid.figure-img src='../images/adept/spec.png'
+				div.col-md
+					p I created a specification document that explained our motivating design principles and provided a full walkthrough of the interface and user interactions. Appendices spelled out naming conventions, sizes, colors, and fonts.
+					p Working from the spec, our software developers built a system that was deployed with thousands of US Army intel analysts in 2013. Users praised the power and simplicity of the design.
+						
+						
+			hr
+			
+			div.row.mt-5.center.text-center
+				div.col
+					a.btn.btn-outline-primary href='index.html' Back to Portfolio
+
+			
+			include _footer.slim
+
