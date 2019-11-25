@@ -33,19 +33,6 @@
 		"oAP": "/_head.html",
 		"oF": 0
 		},
-	"/_lightbox.slim": {
-		"cB": 0,
-		"cmO": 0,
-		"ft": 1024,
-		"hM": 0,
-		"llg": 0,
-		"oA": 1,
-		"oAP": "/_lightbox.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"rAC": 0
-		},
 	"/_modal.slim": {
 		"cB": 0,
 		"cmO": 0,
@@ -1806,6 +1793,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/kjw/mapping.png": {
+		"ft": 32768,
+		"iS": 61743,
+		"oA": 0,
+		"oAP": "/images/kjw/mapping.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/kjw/poster.jpg": {
 		"ft": 16384,
 		"iS": 186155,
@@ -2167,6 +2165,19 @@
 		"llg": 0,
 		"oA": 1,
 		"oAP": "/portfolio/_footer.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
+	"/portfolio/_lightbox.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 1,
+		"oAP": "/portfolio/_lightbox.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
