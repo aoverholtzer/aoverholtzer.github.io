@@ -6515,7 +6515,7 @@ h1 {
   font-weight: 300; }
   h1 strong {
     font-weight: 600; }
-  h1 :hover {
+  h1:hover {
     text-decoration-thickness: 1pt; }
 
 h2 {
@@ -6584,7 +6584,9 @@ ul:last-child, ol:last-child {
   margin-bottom: 0; }
 
 .card {
-  cursor: default; }
+  cursor: pointer; }
+  .card:hover {
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.333); }
 
 .ekko-lightbox {
   display: -ms-flexbox !important;
