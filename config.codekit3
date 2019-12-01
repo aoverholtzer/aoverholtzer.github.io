@@ -632,6 +632,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/beta/images/cheatsheet/summary.png": {
+		"ft": 32768,
+		"iS": 88265,
+		"oA": 0,
+		"oAP": "/beta/images/cheatsheet/summary.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/beta/images/cheatsheet/widget852.png": {
 		"ft": 32768,
 		"iS": 341001,
@@ -2132,14 +2143,6 @@
 		"oS": 0,
 		"rAC": 0
 		},
-	"/beta/portfolio/adept.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/beta/portfolio/adept.html",
-		"oF": 0
-		},
 	"/beta/portfolio/adept.slim": {
 		"cB": 0,
 		"cmO": 0,
@@ -2152,14 +2155,6 @@
 		"oFM": 0,
 		"oS": 0,
 		"rAC": 0
-		},
-	"/beta/portfolio/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/beta/portfolio/index.html",
-		"oF": 0
 		},
 	"/beta/portfolio/index.slim": {
 		"cB": 0,
@@ -2194,14 +2189,6 @@
 		"oFM": 0,
 		"oS": 0,
 		"rAC": 0
-		},
-	"/beta/portfolio/kamigami.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/beta/portfolio/kamigami.html",
-		"oF": 0
 		},
 	"/beta/portfolio/kamigami.slim": {
 		"cB": 0,
