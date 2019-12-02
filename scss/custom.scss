@@ -157,8 +157,18 @@ ul:last-child, ol:last-child {
 
 .card {
 	cursor: pointer;
+	border: none !important;
 	&:hover {
 		box-shadow: 0 0 32px rgba(0,0,0,0.333);
+	}
+	.card-body {
+		border-left: 1px solid rgba(0,0,0,0.125);
+		border-right: 1px solid rgba(0,0,0,0.125);
+		border-bottom: 1px solid rgba(0,0,0,0.125);
+		border-radius: 0 0 0.25rem 0.25rem;
+		&:hover {
+			border-color: white;
+		}
 	}
 }
 
