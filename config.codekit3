@@ -396,7 +396,7 @@
 		},
 	"/images/adept/army.jpg": {
 		"ft": 16384,
-		"iS": 73993,
+		"iS": 62794,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/adept/army.jpg",
@@ -407,7 +407,7 @@
 		},
 	"/images/adept/desktop.jpg": {
 		"ft": 16384,
-		"iS": 298714,
+		"iS": 279026,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/adept/desktop.jpg",
@@ -594,7 +594,7 @@
 		},
 	"/images/banners-assets/worldclock.jpg": {
 		"ft": 16384,
-		"iS": 38440,
+		"iS": 36489,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/banners-assets/worldclock.jpg",
@@ -616,7 +616,7 @@
 		},
 	"/images/bigr2/artoo.jpg": {
 		"ft": 16384,
-		"iS": 349644,
+		"iS": 157634,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/bigr2/artoo.jpg",
@@ -698,7 +698,7 @@
 		},
 	"/images/cheatsheet/summary.png": {
 		"ft": 32768,
-		"iS": 1495530,
+		"iS": 88265,
 		"oA": 0,
 		"oAP": "/images/cheatsheet/summary.png",
 		"oF": 0,
@@ -1017,7 +1017,7 @@
 		},
 	"/images/inquire/inquire-diff.jpg": {
 		"ft": 16384,
-		"iS": 88411,
+		"iS": 85233,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/inquire/inquire-diff.jpg",
@@ -1083,7 +1083,7 @@
 		},
 	"/images/inquire/mockup-relationship.png": {
 		"ft": 32768,
-		"iS": 97281,
+		"iS": 31713,
 		"oA": 0,
 		"oAP": "/images/inquire/mockup-relationship.png",
 		"oF": 0,
@@ -1094,7 +1094,7 @@
 		},
 	"/images/inquire/mockup-simdiff.png": {
 		"ft": 32768,
-		"iS": 224779,
+		"iS": 70039,
 		"oA": 0,
 		"oAP": "/images/inquire/mockup-simdiff.png",
 		"oF": 0,
@@ -1329,7 +1329,7 @@
 		},
 	"/images/kamigami1/bad.png": {
 		"ft": 32768,
-		"iS": 48758,
+		"iS": 23878,
 		"oA": 0,
 		"oAP": "/images/kamigami1/bad.png",
 		"oF": 0,
@@ -1373,7 +1373,7 @@
 		},
 	"/images/kamigami1/notes.jpg": {
 		"ft": 16384,
-		"iS": 1951576,
+		"iS": 88278,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kamigami1/notes.jpg",
@@ -1428,7 +1428,7 @@
 		},
 	"/images/kamigami1/screenshot2.png": {
 		"ft": 32768,
-		"iS": 243093,
+		"iS": 58692,
 		"oA": 0,
 		"oAP": "/images/kamigami1/screenshot2.png",
 		"oF": 0,
@@ -1439,7 +1439,7 @@
 		},
 	"/images/kamigami1/screenshot3.png": {
 		"ft": 32768,
-		"iS": 204299,
+		"iS": 72585,
 		"oA": 0,
 		"oAP": "/images/kamigami1/screenshot3.png",
 		"oF": 0,
@@ -1450,7 +1450,7 @@
 		},
 	"/images/kamigami1/screenshot5.png": {
 		"ft": 32768,
-		"iS": 205743,
+		"iS": 53114,
 		"oA": 0,
 		"oAP": "/images/kamigami1/screenshot5.png",
 		"oF": 0,
@@ -1461,7 +1461,7 @@
 		},
 	"/images/kamigami1/screenshot6.png": {
 		"ft": 32768,
-		"iS": 260099,
+		"iS": 58854,
 		"oA": 0,
 		"oAP": "/images/kamigami1/screenshot6.png",
 		"oF": 0,
@@ -1472,7 +1472,7 @@
 		},
 	"/images/kamigami1/screenshot7.png": {
 		"ft": 32768,
-		"iS": 176611,
+		"iS": 46040,
 		"oA": 0,
 		"oAP": "/images/kamigami1/screenshot7.png",
 		"oF": 0,
@@ -1483,7 +1483,7 @@
 		},
 	"/images/kamigami1/screenshot8.png": {
 		"ft": 32768,
-		"iS": 184596,
+		"iS": 48758,
 		"oA": 0,
 		"oAP": "/images/kamigami1/screenshot8.png",
 		"oF": 0,
@@ -1527,7 +1527,7 @@
 		},
 	"/images/kamigami1/testing.png": {
 		"ft": 32768,
-		"iS": 1699386,
+		"iS": 379174,
 		"oA": 0,
 		"oAP": "/images/kamigami1/testing.png",
 		"oF": 0,
@@ -1581,7 +1581,7 @@
 		},
 	"/images/kamigami2/0x0ss-P3.jpg": {
 		"ft": 16384,
-		"iS": 430416,
+		"iS": 415699,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kamigami2/0x0ss-P3.jpg",
@@ -1701,7 +1701,7 @@
 		},
 	"/images/kjw/blue2.jpg": {
 		"ft": 16384,
-		"iS": 66634,
+		"iS": 50668,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kjw/blue2.jpg",
@@ -1723,7 +1723,7 @@
 		},
 	"/images/kjw/concepts.001.png": {
 		"ft": 32768,
-		"iS": 219376,
+		"iS": 42896,
 		"oA": 0,
 		"oAP": "/images/kjw/concepts.001.png",
 		"oF": 0,
@@ -1734,7 +1734,7 @@
 		},
 	"/images/kjw/concepts.002.png": {
 		"ft": 32768,
-		"iS": 164203,
+		"iS": 46982,
 		"oA": 0,
 		"oAP": "/images/kjw/concepts.002.png",
 		"oF": 0,
@@ -1745,7 +1745,7 @@
 		},
 	"/images/kjw/concepts.003.png": {
 		"ft": 32768,
-		"iS": 141730,
+		"iS": 33266,
 		"oA": 0,
 		"oAP": "/images/kjw/concepts.003.png",
 		"oF": 0,
@@ -1756,7 +1756,7 @@
 		},
 	"/images/kjw/concepts.004.png": {
 		"ft": 32768,
-		"iS": 375779,
+		"iS": 87778,
 		"oA": 0,
 		"oAP": "/images/kjw/concepts.004.png",
 		"oF": 0,
@@ -1767,7 +1767,7 @@
 		},
 	"/images/kjw/drive.png": {
 		"ft": 32768,
-		"iS": 125122,
+		"iS": 124969,
 		"oA": 0,
 		"oAP": "/images/kjw/drive.png",
 		"oF": 0,
@@ -1789,7 +1789,7 @@
 		},
 	"/images/kjw/flow.png": {
 		"ft": 32768,
-		"iS": 34331,
+		"iS": 29451,
 		"oA": 0,
 		"oAP": "/images/kjw/flow.png",
 		"oF": 0,
@@ -1800,7 +1800,7 @@
 		},
 	"/images/kjw/hero.jpg": {
 		"ft": 16384,
-		"iS": 831070,
+		"iS": 756082,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kjw/hero.jpg",
@@ -1855,7 +1855,7 @@
 		},
 	"/images/kjw/splash.jpg": {
 		"ft": 16384,
-		"iS": 164205,
+		"iS": 160530,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/kjw/splash.jpg",
