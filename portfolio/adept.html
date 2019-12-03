@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>overdesigned portfolio &mdash; Adept Editor</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+    <link href="https://use.typekit.net/zmy3izz.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <nav aria-label="breadcrumb" class="navbar navbar-expand-sm navbar-light px-0 pt-3 pb-0">
+        <ol class="breadcrumb bg-transparent p-0 m-0">
+          <li class="breadcrumb-item">
+            <a href="/">overdesigned</a>&nbsp;
+          </li>
+          <li class="breadcrumb-item">
+            <a aria-current="page" href="index.html">portfolio</a>
+          </li>
+        </ol>
+      </nav>
+      <div class="row">
+        <div class="col">
+          <figure class="figure mb-0">
+            <img class="img-fluid figure-img" src="../images/adept/desktop.jpg">
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h2 class="mb-0">
+            Adept Editor<br /><small class="text-muted">desktop prototype &bull; SRI International & US Army &bull; 5&thinsp;&ndash;&thinsp;9/2009</small>
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h5 class="text-uppercase">
+            Summary
+          </h5>
+          <p>
+            <strong>Challenge:</strong> Design a visual programming interface for a desktop automation system. The existing system used learning-by-demonstration backed by AI, but offered no way for users to see or edit the automation they had created. Targeted at non-programmers, it would have to overcome the complexity of the Adept scripting language and its abstract concepts like loops and variables.
+          </p>
+          <p>
+            <strong>Role:</strong> Designer, user researcher, prototyper. I was assisted by a second UX researcher.
+          </p>
+          <p>
+            <strong>Outcome:</strong> Software based on our design spec was deployed with thousands of US Army intel analysts in 2013. Users praised the design’s power and simplicity.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-uppercase">
+            Research
+          </h5>
+        </div>
+        <div class="col-sm">
+          <figure class="figure">
+            <img class="img-fluid figure-img" src="../images/adept/scenarios.jpg">
+          </figure>
+        </div>
+        <div class="col-sm">
+          <p>
+            End-user programming &mdash; i.e., programming for non-programmers &mdash; has been an area of research for decades, so we began with an extensive literature review and analysis of existing desktop automation tools.
+          </p>
+          <p>
+            Next we developed personas and example workflows, using data from prior contextual interviews conducted by my colleagues. I led a focus group exploring several ways to represent batch operations and loops, knowing they were both a key feature of Adept and a common stumbling block for users.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-uppercase">
+            Design
+          </h5>
+          <figure class="figure">
+            <img class="img-fluid figure-img border" src="../images/adept/wireframes.png">
+          </figure>
+          <p>
+            Working from the data we had gathered, we sketched solutions for three main challenges:
+          </p>
+          <ol>
+            <li>
+              How to visualize a procedure, including loops.
+            </li>
+            <li>
+              How to make an edit, while constraining the user to valid edits whenever possible.
+            </li>
+            <li>
+              How to correct an error, without a full-fledged debugger. 
+            </li>
+          </ol>
+          <p>
+            The most difficult challenge was crafting the language for modeling the user’s task. The user needed to recognize what each step of the task did, which meant we need to use the terms and phrases they would expect. Refining that language meant lots and lots of user testing.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-uppercase">
+            User Testing
+          </h5>
+        </div>
+        <div class="col-md">
+          <figure class="figure">
+            <img class="img-fluid figure-img border" src="../images/adept/paper.jpg">
+          </figure>
+        </div>
+        <div class="col-md">
+          <p>
+            We selected tasks based on our research and created paper prototypes for our user tests. We conducted four iterations over the course of four weeks: each week we refined our mockups, recruited users (office workers), and ran think-aloud usability studies.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-uppercase">
+            Rapid Prototyping
+          </h5>
+        </div>
+        <div class="col-md">
+          <figure class="figure">
+            <img class="img-fluid figure-img" src="../images/adept/desktop.jpg">
+          </figure>
+        </div>
+        <div class="col-md">
+          <p>
+            I implemented a functional prototype of the editor using JavaFX. We conducted three rounds of user studies with office workers and US Army personnel, iterating on the design each time. A prototype enabled “Wizard of Oz”-style testing of the learning-by-demonstration model: I would watch the user perform a task, quickly build a procedure based on what the user did, and then present that procedure to them as the output of the AI, ready for editing in the prototype.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <h5 class="text-uppercase">
+            Design Spec
+          </h5>
+        </div>
+        <div class="col-md">
+          <figure class="figure">
+            <img class="img-fluid figure-img" src="../images/adept/spec.png">
+          </figure>
+        </div>
+        <div class="col-md">
+          <p>
+            I created a specification document that explained our motivating design principles and provided a full walkthrough of the interface and user interactions. Appendices spelled out naming conventions, sizes, colors, and fonts.
+          </p>
+          <p>
+            Working from the spec, our software developers built a system that was deployed with thousands of US Army intel analysts in 2013. Users praised the power and simplicity of the design.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="row mt-5 center text-center">
+        <div class="col">
+          <a class="btn btn-outline-primary" href="index.html">Back to Portfolio</a>
+        </div>
+      </div>
+      <footer>
+        <div class="row">
+          <div class="col">
+            <p class="text-center text-secondary small">
+              &copy; 2019 C. Adam Overholtzer &bull;  <a class="text-secondary" href="mailto:adam@overdesigned.net">Contact</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
