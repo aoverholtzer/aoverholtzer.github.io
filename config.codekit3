@@ -2166,6 +2166,22 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/incognito/privacy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/incognito/privacy.html",
+		"oF": 0
+		},
+	"/incognito/tos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/incognito/tos.html",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
