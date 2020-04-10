@@ -1,0 +1,63 @@
+/*
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 840px
+);
+
+$container-max-widths: (
+  sm: 600px,
+  md: 720px,
+  lg: 800px
+);
+
+$white:    #fff;
+$gray-900: #212529;
+
+$body-bg:    $white;
+$body-color: $gray-900;
+*/
+
+$primary: #B553E4;
+// $secondary: #bbbbbb;
+
+/*
+$link-color: $primary;
+$link-hover-color: lighten($link-color, 15%);
+*/
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+/*
+$lead-font-size: 1.333rem;
+$navbar-brand-font-size: 1.5rem;
+$h1-font-size: 3rem;
+
+$navbar-light-color:        $link-color;
+$navbar-light-hover-color:  $link-hover-color;
+$navbar-light-active-color: $link-hover-color;
+
+$navbar-light-brand-color: $body-color !important;//$link-color;
+$navbar-light-brand-hover-color: $body-color;//$link-hover-color;
+*/
+
+@import "bootstrap/bootstrap";
+
+header, section {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.themed {
+	background: $primary;
+	background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
+	color: white;
+}
+
+h1 {
+	font-weight: 900;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
