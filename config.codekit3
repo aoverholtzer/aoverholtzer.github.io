@@ -3405,20 +3405,42 @@
 		},
 	"/incognito/web1.png": {
 		"ft": 32768,
-		"iS": 30061,
+		"iS": 16893,
 		"oA": 0,
 		"oAP": "/incognito/web1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/web1@2x.png": {
+		"ft": 32768,
+		"iS": 71529,
+		"oA": 0,
+		"oAP": "/incognito/web1@2x.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/web1@2x.png": {
+	"/incognito/web1a.png": {
+		"ft": 32768,
+		"iS": 30061,
+		"oA": 0,
+		"oAP": "/incognito/web1a.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/web1a@2x.png": {
 		"ft": 32768,
 		"iS": 70646,
 		"oA": 0,
-		"oAP": "/incognito/web1@2x.png",
+		"oAP": "/incognito/web1a@2x.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,

@@ -7173,8 +7173,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 header, section {
-  padding-top: 2em;
-  padding-bottom: 2em; }
+  padding-top: 4em;
+  padding-bottom: 4em; }
 
 .themed {
   background: #B553E4;
