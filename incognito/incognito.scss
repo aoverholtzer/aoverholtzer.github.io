@@ -52,14 +52,16 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 }
 
 header, section {
-	padding-top: 4em;
-	padding-bottom: 4em;
-}
+	padding: 6em $spacer*3;
+	margin-left: $spacer * -3 !important;
+	margin-right: $spacer * -3 !important;
 
-.themed {
-	background: $primary;
-	background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
-	color: white;
+	&.themed {
+		background: $primary;
+		background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
+		color: white;
+		border-radius: $spacer*2;
+	}
 }
 
 h1 {

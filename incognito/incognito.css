@@ -7177,13 +7177,14 @@ a.text-dark:hover, a.text-dark:focus {
     overflow: hidden; } }
 
 header, section {
-  padding-top: 4em;
-  padding-bottom: 4em; }
-
-.themed {
-  background: #B553E4;
-  background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
-  color: white; }
+  padding: 6em 3rem;
+  margin-left: -3rem !important;
+  margin-right: -3rem !important; }
+  header.themed, section.themed {
+    background: #B553E4;
+    background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
+    color: white;
+    border-radius: 2rem; }
 
 h1 {
   font-weight: 900;
