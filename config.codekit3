@@ -3440,6 +3440,14 @@
 		"oS": 0,
 		"rAC": 0
 		},
+	"/incognito/press/blank.gif": {
+		"ft": 4194304,
+		"iS": 43,
+		"oA": 0,
+		"oAP": "/incognito/press/blank.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/incognito/press/ipad1.png": {
 		"ft": 32768,
 		"iS": 167737,
@@ -3572,55 +3580,132 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/press/screenshot1.png": {
+	"/incognito/press/screenshot-about.png": {
 		"ft": 32768,
 		"iS": 96231,
 		"oA": 0,
-		"oAP": "/incognito/press/screenshot1.png",
+		"oAP": "/incognito/press/screenshot-about.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/press/screenshot2.png": {
-		"ft": 32768,
-		"iS": 119896,
-		"oA": 0,
-		"oAP": "/incognito/press/screenshot2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/incognito/press/screenshot3.png": {
-		"ft": 32768,
-		"iS": 118691,
-		"oA": 0,
-		"oAP": "/incognito/press/screenshot3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/incognito/press/screenshot4.png": {
-		"ft": 32768,
-		"iS": 201632,
-		"oA": 0,
-		"oAP": "/incognito/press/screenshot4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/incognito/press/screenshot5.png": {
+	"/incognito/press/screenshot-blank.png": {
 		"ft": 32768,
 		"iS": 212211,
 		"oA": 0,
-		"oAP": "/incognito/press/screenshot5.png",
+		"oAP": "/incognito/press/screenshot-blank.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-bookmarks.png": {
+		"ft": 32768,
+		"iS": 300222,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-bookmarks.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-browser-share.png": {
+		"ft": 32768,
+		"iS": 269139,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-browser-share.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-browser.png": {
+		"ft": 32768,
+		"iS": 224208,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-browser.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-context-menu.png": {
+		"ft": 32768,
+		"iS": 751277,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-context-menu.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-history-locked.png": {
+		"ft": 32768,
+		"iS": 781765,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-history-locked.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-history.png": {
+		"ft": 32768,
+		"iS": 365001,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-history.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-lock.png": {
+		"ft": 32768,
+		"iS": 422696,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-lock.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-purchase.png": {
+		"ft": 32768,
+		"iS": 161003,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-purchase.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-safari.png": {
+		"ft": 32768,
+		"iS": 549930,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-safari.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot-settings.png": {
+		"ft": 32768,
+		"iS": 259465,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot-settings.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
