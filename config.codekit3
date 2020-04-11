@@ -927,6 +927,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/incognito316.png": {
+		"ft": 32768,
+		"iS": 227559,
+		"oA": 0,
+		"oAP": "/images/incognito316.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/inquire/cv1.png": {
 		"ft": 32768,
 		"iS": 136225,
@@ -3344,7 +3355,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/icon.png": {
+	"/incognito/Icon.png": {
 		"ft": 32768,
 		"iS": 227550,
 		"oA": 0,
@@ -3355,7 +3366,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/icon.svg": {
+	"/incognito/Icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
