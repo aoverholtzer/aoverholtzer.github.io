@@ -63,7 +63,7 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 }
 
 
-header, section {
+header, section, footer {
 	padding: 6em $spacer*3;
 	margin-left: $spacer * -3 !important;
 	margin-right: $spacer * -3 !important;
@@ -74,11 +74,30 @@ header, section {
 		color: white;
 		border-radius: $spacer*2;
 	}
+	&.dark {
+		background: $dark;
+		color: $secondary;
+		border-radius: $spacer*2 $spacer*2 0 0;
+	}
+}
+footer {
+		padding-bottom: 2em;
 }
 
 h1 {
 	font-weight: 900;
 	font-style: italic;
 	text-transform: uppercase;
-	letter-spacing: 0.05em;
+	letter-spacing: 0.04em;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.rounded-icon {
+  border-radius: 17.544%;
+  -webkit-mask-image: url('/images/ios7-icon.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
 }

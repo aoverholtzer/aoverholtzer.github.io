@@ -7186,18 +7186,34 @@ a.text-dark:hover, a.text-dark:focus {
   .container-xl {
     overflow: hidden; } }
 
-header, section {
+header, section, footer {
   padding: 6em 3rem;
   margin-left: -3rem !important;
   margin-right: -3rem !important; }
-  header.themed, section.themed {
+  header.themed, section.themed, footer.themed {
     background: #B553E4;
     background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
     color: white;
     border-radius: 2rem; }
+  header.dark, section.dark, footer.dark {
+    background: #343a40;
+    color: #6c757d;
+    border-radius: 2rem 2rem 0 0; }
+
+footer {
+  padding-bottom: 2em; }
 
 h1 {
   font-weight: 900;
   font-style: italic;
   text-transform: uppercase;
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.04em; }
+
+h4 {
+  font-weight: bold; }
+
+.rounded-icon {
+  border-radius: 17.544%;
+  -webkit-mask-image: url("/images/ios7-icon.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%; }
