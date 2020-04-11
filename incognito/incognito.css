@@ -22,6 +22,16 @@ $body-color: $gray-900;
 $link-color: $primary;
 $link-hover-color: lighten($link-color, 15%);
 */
+@font-face {
+  font-family: sfrounded;
+  font-weight: normal;
+  src: local(".SFNSRounded-Regular"); }
+
+@font-face {
+  font-family: sfrounded-bold;
+  font-weight: bold;
+  src: local(".SFNSRounded-Bold"); }
+
 /*
 $lead-font-size: 1.333rem;
 $navbar-brand-font-size: 1.5rem;
