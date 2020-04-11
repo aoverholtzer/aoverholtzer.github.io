@@ -3344,7 +3344,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/Icon.png": {
+	"/incognito/icon.png": {
 		"ft": 32768,
 		"iS": 227550,
 		"oA": 0,
@@ -3355,7 +3355,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/Icon.svg": {
+	"/incognito/icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
@@ -3418,6 +3418,16 @@
 		"oFM": 0,
 		"oS": 0,
 		"rAC": 0
+		},
+	"/incognito/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/incognito/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/incognito/press.html": {
 		"cB": 0,
@@ -3494,7 +3504,7 @@
 		},
 	"/incognito/press/max1.png": {
 		"ft": 32768,
-		"iS": 159972,
+		"iS": 159996,
 		"oA": 0,
 		"oAP": "/incognito/press/max1.png",
 		"oF": 0,
@@ -3505,7 +3515,7 @@
 		},
 	"/incognito/press/max2.png": {
 		"ft": 32768,
-		"iS": 133067,
+		"iS": 132181,
 		"oA": 0,
 		"oAP": "/incognito/press/max2.png",
 		"oF": 0,
@@ -3516,7 +3526,7 @@
 		},
 	"/incognito/press/max3.png": {
 		"ft": 32768,
-		"iS": 265807,
+		"iS": 274360,
 		"oA": 0,
 		"oAP": "/incognito/press/max3.png",
 		"oF": 0,
@@ -3527,7 +3537,7 @@
 		},
 	"/incognito/press/max4.png": {
 		"ft": 32768,
-		"iS": 214703,
+		"iS": 186573,
 		"oA": 0,
 		"oAP": "/incognito/press/max4.png",
 		"oF": 0,
@@ -3538,7 +3548,7 @@
 		},
 	"/incognito/press/plus1.png": {
 		"ft": 32768,
-		"iS": 148876,
+		"iS": 148949,
 		"oA": 0,
 		"oAP": "/incognito/press/plus1.png",
 		"oF": 0,
@@ -3549,7 +3559,7 @@
 		},
 	"/incognito/press/plus2.png": {
 		"ft": 32768,
-		"iS": 110539,
+		"iS": 123695,
 		"oA": 0,
 		"oAP": "/incognito/press/plus2.png",
 		"oF": 0,
@@ -3560,7 +3570,7 @@
 		},
 	"/incognito/press/plus3.png": {
 		"ft": 32768,
-		"iS": 217908,
+		"iS": 246606,
 		"oA": 0,
 		"oAP": "/incognito/press/plus3.png",
 		"oF": 0,
@@ -3571,7 +3581,7 @@
 		},
 	"/incognito/press/plus4.png": {
 		"ft": 32768,
-		"iS": 177752,
+		"iS": 154950,
 		"oA": 0,
 		"oAP": "/incognito/press/plus4.png",
 		"oF": 0,
