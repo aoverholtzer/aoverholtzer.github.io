@@ -3333,6 +3333,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/incognito/icon-action.png": {
+		"ft": 32768,
+		"iS": 53139,
+		"oA": 0,
+		"oAP": "/incognito/icon-action.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/incognito/Icon.png": {
 		"ft": 32768,
 		"iS": 227550,
@@ -3407,6 +3418,214 @@
 		"oFM": 0,
 		"oS": 0,
 		"rAC": 0
+		},
+	"/incognito/press.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/incognito/press.html",
+		"oF": 0
+		},
+	"/incognito/press.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 0,
+		"oAP": "/incognito/press.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
+	"/incognito/press/ipad1.png": {
+		"ft": 32768,
+		"iS": 167737,
+		"oA": 0,
+		"oAP": "/incognito/press/ipad1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/ipad2.png": {
+		"ft": 32768,
+		"iS": 131032,
+		"oA": 0,
+		"oAP": "/incognito/press/ipad2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/ipad3.png": {
+		"ft": 32768,
+		"iS": 306515,
+		"oA": 0,
+		"oAP": "/incognito/press/ipad3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/ipad4.png": {
+		"ft": 32768,
+		"iS": 1271770,
+		"oA": 0,
+		"oAP": "/incognito/press/ipad4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/max1.png": {
+		"ft": 32768,
+		"iS": 159972,
+		"oA": 0,
+		"oAP": "/incognito/press/max1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/max2.png": {
+		"ft": 32768,
+		"iS": 133067,
+		"oA": 0,
+		"oAP": "/incognito/press/max2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/max3.png": {
+		"ft": 32768,
+		"iS": 265807,
+		"oA": 0,
+		"oAP": "/incognito/press/max3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/max4.png": {
+		"ft": 32768,
+		"iS": 214703,
+		"oA": 0,
+		"oAP": "/incognito/press/max4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/plus1.png": {
+		"ft": 32768,
+		"iS": 148876,
+		"oA": 0,
+		"oAP": "/incognito/press/plus1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/plus2.png": {
+		"ft": 32768,
+		"iS": 110539,
+		"oA": 0,
+		"oAP": "/incognito/press/plus2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/plus3.png": {
+		"ft": 32768,
+		"iS": 217908,
+		"oA": 0,
+		"oAP": "/incognito/press/plus3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/plus4.png": {
+		"ft": 32768,
+		"iS": 177752,
+		"oA": 0,
+		"oAP": "/incognito/press/plus4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot1.png": {
+		"ft": 32768,
+		"iS": 96231,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot2.png": {
+		"ft": 32768,
+		"iS": 119896,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot3.png": {
+		"ft": 32768,
+		"iS": 118691,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot4.png": {
+		"ft": 32768,
+		"iS": 201632,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/incognito/press/screenshot5.png": {
+		"ft": 32768,
+		"iS": 212211,
+		"oA": 0,
+		"oAP": "/incognito/press/screenshot5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/incognito/privacy.html": {
 		"cB": 0,
