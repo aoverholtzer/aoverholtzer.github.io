@@ -3355,7 +3355,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/Icon.png": {
+	"/incognito/icon.png": {
 		"ft": 32768,
 		"iS": 227550,
 		"oA": 0,
@@ -3366,7 +3366,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/incognito/Icon.svg": {
+	"/incognito/icon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
@@ -3460,6 +3460,17 @@
 		"oFM": 0,
 		"oS": 0,
 		"rAC": 0
+		},
+	"/incognito/press/banner.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/incognito/press/banner.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/incognito/press/blank.gif": {
 		"ft": 4194304,
