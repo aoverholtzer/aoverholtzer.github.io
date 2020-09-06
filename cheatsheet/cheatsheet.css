@@ -1676,6 +1676,10 @@ section.red {
 section.red a {
   color: white;
 }
+section.red h3 {
+  font-weight: 600 !important;
+  margin-bottom: 40px;
+}
 section.red a:hover {
   color: white;
 }
