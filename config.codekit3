@@ -144,6 +144,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/cheatsheet/cheatsheet-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/cheatsheet/cheatsheet-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/cheatsheet/cheatsheet-press-kit.zip": {
 		"cB": 0,
 		"ft": 8192,
@@ -301,6 +311,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/cheatsheet/screenshot1.png": {
+		"ft": 32768,
+		"iS": 32427,
+		"oA": 0,
+		"oAP": "/cheatsheet/screenshot1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/cheatsheet/screenshot2.png": {
 		"ft": 32768,
