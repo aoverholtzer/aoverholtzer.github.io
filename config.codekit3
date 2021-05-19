@@ -302,6 +302,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/cheatsheet/mac4.png": {
+		"ft": 32768,
+		"iS": 227507,
+		"oA": 0,
+		"oAP": "/cheatsheet/mac4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/cheatsheet/Pre-order_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_121217.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -318,27 +329,16 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/screenshot1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"/cheatsheet/screenshot2.png": {
 		"ft": 32768,
-		"iS": 216116,
-		"oA": 0,
-		"oAP": "/cheatsheet/screenshot2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/cheatsheet/screenshot2b.png": {
-		"ft": 32768,
 		"iS": 247023,
 		"oA": 0,
-		"oAP": "/cheatsheet/screenshot2b.png",
+		"oAP": "/cheatsheet/screenshot2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -351,8 +351,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/screenshot3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
