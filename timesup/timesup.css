@@ -7198,9 +7198,9 @@ header, section, footer {
     background: #343a40;
     color: #6c757d;
     border-radius: 2rem 2rem 0 0; }
-
-footer {
-  padding-bottom: 2em; }
+  header.gray, section.gray, footer.gray {
+    background: #e9ecef;
+    border-radius: 2rem; }
 
 h1 {
   font-weight: 800; }

@@ -79,9 +79,14 @@ header, section, footer {
 		color: $secondary;
 		border-radius: $spacer*2 $spacer*2 0 0;
 	}
+	&.gray {
+		background: $gray-200;
+// 		color: $secondary;
+		border-radius: $spacer*2;
+	}
 }
 footer {
-		padding-bottom: 2em;
+// 	padding-bottom: 2em;
 }
 
 h1 {
