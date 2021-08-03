@@ -6600,6 +6600,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/timesup/tos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/timesup/tos.html",
+		"oF": 0
+		},
 	"/timesup/web1.png": {
 		"ft": 32768,
 		"iS": 44853,
