@@ -356,11 +356,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/cheatsheet/twitter-cheatsheet.png": {
+		"ft": 32768,
+		"iS": 3493675,
+		"oA": 0,
+		"oAP": "/cheatsheet/twitter-cheatsheet.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/cheatsheet/watch-complication.png": {
 		"ft": 32768,
 		"iS": 15319,
 		"oA": 0,
 		"oAP": "/cheatsheet/watch-complication.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/cheatsheet/watch-complication2.png": {
+		"ft": 32768,
+		"iS": 54476,
+		"oA": 0,
+		"oAP": "/cheatsheet/watch-complication2.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -640,6 +662,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/beard316.png": {
+		"ft": 32768,
+		"iS": 4905,
+		"oA": 0,
+		"oAP": "/images/beard316.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6516,7 +6549,7 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/timesup/Icon.png": {
+	"/timesup/icon.png": {
 		"ft": 32768,
 		"iS": 279876,
 		"oA": 0,
