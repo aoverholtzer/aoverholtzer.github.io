@@ -6603,6 +6603,27 @@
 		"oS": 0,
 		"rAC": 0
 		},
+	"/switcheroo/presskit.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/switcheroo/presskit.html",
+		"oF": 0
+		},
+	"/switcheroo/presskit.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 0,
+		"oAP": "/switcheroo/presskit.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
 	"/switcheroo/privacy.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -6610,6 +6631,39 @@
 		"oA": 0,
 		"oAP": "/switcheroo/privacy.html",
 		"oF": 0
+		},
+	"/switcheroo/Screenshot-1.png": {
+		"ft": 32768,
+		"iS": 1139401,
+		"oA": 0,
+		"oAP": "/switcheroo/Screenshot-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/switcheroo/Screenshot-2.png": {
+		"ft": 32768,
+		"iS": 840958,
+		"oA": 0,
+		"oAP": "/switcheroo/Screenshot-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/switcheroo/Screenshot-3.png": {
+		"ft": 32768,
+		"iS": 578287,
+		"oA": 0,
+		"oAP": "/switcheroo/Screenshot-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/switcheroo/timesup.css": {
 		"aP": 1,
