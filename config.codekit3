@@ -2162,6 +2162,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/switcheroo316.png": {
+		"ft": 32768,
+		"iS": 60522,
+		"oA": 0,
+		"oAP": "/images/switcheroo316.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/timesup316.png": {
 		"ft": 32768,
 		"iS": 17956,
@@ -6592,6 +6603,17 @@
 		"oS": 0,
 		"rAC": 0
 		},
+	"/switcheroo/main.jpg": {
+		"ft": 16384,
+		"iS": 133761,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/switcheroo/main.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/switcheroo/presskit.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -6627,8 +6649,8 @@
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
