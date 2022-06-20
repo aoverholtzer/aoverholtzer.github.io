@@ -2162,17 +2162,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/switcheroo316.png": {
-		"ft": 32768,
-		"iS": 59783,
-		"oA": 0,
-		"oAP": "/images/switcheroo316.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/images/timesup316.png": {
 		"ft": 32768,
 		"iS": 17956,
@@ -6573,7 +6562,7 @@
 		},
 	"/switcheroo/icon.png": {
 		"ft": 32768,
-		"iS": 95673,
+		"iS": 98775,
 		"oA": 0,
 		"oAP": "/switcheroo/icon.png",
 		"oF": 0,
@@ -6695,6 +6684,17 @@
 		"oA": 0,
 		"oAP": "/switcheroo/tos.html",
 		"oF": 0
+		},
+	"/switcheroo/twitter.png": {
+		"ft": 32768,
+		"iS": 688741,
+		"oA": 0,
+		"oAP": "/switcheroo/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/timesup/bootstrap/_alert.scss": {
 		"aP": 0,
