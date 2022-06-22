@@ -64,9 +64,10 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 
 
 header, section, footer {
-	padding: $spacer*3 $spacer*3;
-	margin-left: $spacer * -3 !important;
-	margin-right: $spacer * -3 !important;
+// 	padding: $spacer*3 $spacer*3;
+	padding: $spacer 0;
+	//margin-left: $spacer * -3 !important;
+	//margin-right: $spacer * -3 !important;
 
 	&.themed {
 		background: $primary;

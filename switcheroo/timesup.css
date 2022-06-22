@@ -7187,9 +7187,7 @@ a.text-dark:hover, a.text-dark:focus {
     overflow: hidden; } }
 
 header, section, footer {
-  padding: 3rem 3rem;
-  margin-left: -3rem !important;
-  margin-right: -3rem !important; }
+  padding: 1rem 0; }
   header.themed, section.themed, footer.themed {
     background: #1C1C1E;
     color: white;
