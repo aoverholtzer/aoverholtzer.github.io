@@ -5393,6 +5393,17 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/switcheroo/.main~imageoptim.jpg": {
+		"ft": 16384,
+		"iS": 105042,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/switcheroo/.main~imageoptim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/switcheroo/banner.png": {
 		"ft": 32768,
 		"iS": 814448,
@@ -6605,13 +6616,13 @@
 		},
 	"/switcheroo/main.jpg": {
 		"ft": 16384,
-		"iS": 105940,
+		"iS": 118794,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/switcheroo/main.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/switcheroo/presskit.html": {
@@ -6645,7 +6656,7 @@
 		},
 	"/switcheroo/Screenshot-1.png": {
 		"ft": 32768,
-		"iS": 1097506,
+		"iS": 1082834,
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-1.png",
 		"oF": 0,
@@ -6656,18 +6667,18 @@
 		},
 	"/switcheroo/Screenshot-2.png": {
 		"ft": 32768,
-		"iS": 707290,
+		"iS": 1117111,
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"/switcheroo/Screenshot-3.png": {
 		"ft": 32768,
-		"iS": 615674,
+		"iS": 498344,
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-3.png",
 		"oF": 0,
@@ -6678,7 +6689,7 @@
 		},
 	"/switcheroo/Screenshot-4.png": {
 		"ft": 32768,
-		"iS": 696122,
+		"iS": 617970,
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-4.png",
 		"oF": 0,
@@ -6689,9 +6700,20 @@
 		},
 	"/switcheroo/Screenshot-5.png": {
 		"ft": 32768,
-		"iS": 562141,
+		"iS": 611142,
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/switcheroo/Screenshot-6.png": {
+		"ft": 32768,
+		"iS": 511667,
+		"oA": 0,
+		"oAP": "/switcheroo/Screenshot-6.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
