@@ -84,8 +84,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/action.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -95,8 +95,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/AppIcon120.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -106,8 +106,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/AppIcon120b.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -117,8 +117,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/AppIcon440.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -128,8 +128,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/banner-icons-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -139,8 +139,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/banner.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -178,8 +178,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/csfavicon-152.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -189,8 +189,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/csfavicon-152old.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -216,8 +216,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/csfavicon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -275,8 +275,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/iTunesArtwork.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -286,8 +286,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/iTunesArtwork@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -340,8 +340,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/screenshot2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -395,8 +395,8 @@
 		"oA": 0,
 		"oAP": "/cheatsheet/watch.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -440,8 +440,8 @@
 		"oA": 0,
 		"oAP": "/favicon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -464,7 +464,7 @@
 		"oAP": "/images/adept/desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/adept/paper.jpg": {
@@ -486,7 +486,7 @@
 		"oAP": "/images/adept/research.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/adept/scenario1.jpg": {
@@ -497,7 +497,7 @@
 		"oAP": "/images/adept/scenario1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/adept/scenario2.jpg": {
@@ -508,7 +508,7 @@
 		"oAP": "/images/adept/scenario2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/adept/scenario3.jpg": {
@@ -519,7 +519,7 @@
 		"oAP": "/images/adept/scenario3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/adept/scenarios.jpg": {
@@ -530,7 +530,7 @@
 		"oAP": "/images/adept/scenarios.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/adept/spec.png": {
@@ -539,8 +539,8 @@
 		"oA": 0,
 		"oAP": "/images/adept/spec.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -550,8 +550,8 @@
 		"oA": 0,
 		"oAP": "/images/adept/wireframes.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -563,7 +563,7 @@
 		"oAP": "/images/banners-assets/adept.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/artoo.jpg": {
@@ -574,7 +574,7 @@
 		"oAP": "/images/banners-assets/artoo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/cheatsheet.jpg": {
@@ -585,7 +585,7 @@
 		"oAP": "/images/banners-assets/cheatsheet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/inquire.jpg": {
@@ -596,7 +596,7 @@
 		"oAP": "/images/banners-assets/inquire.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/kamigami1.jpg": {
@@ -607,7 +607,7 @@
 		"oAP": "/images/banners-assets/kamigami1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/kamigami2.jpg": {
@@ -618,7 +618,7 @@
 		"oAP": "/images/banners-assets/kamigami2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/kjw.jpg": {
@@ -629,7 +629,7 @@
 		"oAP": "/images/banners-assets/kjw.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/warriorweb.jpg": {
@@ -640,7 +640,7 @@
 		"oAP": "/images/banners-assets/warriorweb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/banners-assets/worldclock.jpg": {
@@ -651,7 +651,7 @@
 		"oAP": "/images/banners-assets/worldclock.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/beard.png": {
@@ -660,8 +660,8 @@
 		"oA": 0,
 		"oAP": "/images/beard.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -693,8 +693,8 @@
 		"oA": 0,
 		"oAP": "/images/bigr2/sketch.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -720,8 +720,8 @@
 		"oA": 0,
 		"oAP": "/images/cheatsheet/add852.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -731,8 +731,8 @@
 		"oA": 0,
 		"oAP": "/images/cheatsheet/iTunesArtwork@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -742,8 +742,8 @@
 		"oA": 0,
 		"oAP": "/images/cheatsheet/keyboard852.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -753,8 +753,8 @@
 		"oA": 0,
 		"oAP": "/images/cheatsheet/main852.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -775,8 +775,8 @@
 		"oA": 0,
 		"oAP": "/images/cheatsheet/widget852.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -786,8 +786,8 @@
 		"oA": 0,
 		"oAP": "/images/cheatsheet316.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -797,8 +797,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/AppIcon-29@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -808,8 +808,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/AppIcon-40@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -819,8 +819,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/AppIcon-60@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -830,8 +830,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/AppIcon-76.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -841,8 +841,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/AppIcon-76@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -854,7 +854,7 @@
 		"oAP": "/images/dash/AppStore.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/dash/hands_nice_vimeo-2x.jpg": {
@@ -865,7 +865,7 @@
 		"oAP": "/images/dash/hands_nice_vimeo-2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/dash/hands_nice_vimeo.jpg": {
@@ -876,7 +876,7 @@
 		"oAP": "/images/dash/hands_nice_vimeo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/dash/hands_nice_vimeo_gray-2x.jpg": {
@@ -887,7 +887,7 @@
 		"oAP": "/images/dash/hands_nice_vimeo_gray-2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/dash/hands_nice_vimeo_gray.jpg": {
@@ -898,7 +898,7 @@
 		"oAP": "/images/dash/hands_nice_vimeo_gray.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/dash/icon-2x.jpg": {
@@ -909,7 +909,7 @@
 		"oAP": "/images/dash/icon-2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/dash/icon.jpg": {
@@ -920,7 +920,7 @@
 		"oAP": "/images/dash/icon.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/dash/iphone-auto-2x.png": {
@@ -929,8 +929,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/iphone-auto-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -940,8 +940,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/iphone-build-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -951,8 +951,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/iphone-drive-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -962,8 +962,8 @@
 		"oA": 0,
 		"oAP": "/images/dash/iphone-scan-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -975,7 +975,7 @@
 		"oAP": "/images/icons-2x-old.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/icons-2x.jpg": {
@@ -986,7 +986,7 @@
 		"oAP": "/images/icons-2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/incognito316.png": {
@@ -1006,8 +1006,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/cv1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1017,8 +1017,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/cv2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1028,8 +1028,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/graphs.002.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1039,8 +1039,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/graphs.003.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1050,8 +1050,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/icon-100.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1061,8 +1061,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/icon-140.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1074,7 +1074,7 @@
 		"oAP": "/images/inquire/icon-2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/inquire-ask.jpg": {
@@ -1118,7 +1118,7 @@
 		"oAP": "/images/inquire/inquire-reading.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/ipad-photo2.jpg": {
@@ -1129,7 +1129,7 @@
 		"oAP": "/images/inquire/ipad-photo2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/iTunesArtwork.png": {
@@ -1138,8 +1138,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/iTunesArtwork.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1149,8 +1149,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/layout.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1184,7 +1184,7 @@
 		"oAP": "/images/inquire/mockup.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/mockup2.jpg": {
@@ -1195,7 +1195,7 @@
 		"oAP": "/images/inquire/mockup2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/mockup3.jpg": {
@@ -1206,7 +1206,7 @@
 		"oAP": "/images/inquire/mockup3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/poster.jpg": {
@@ -1217,7 +1217,7 @@
 		"oAP": "/images/inquire/poster.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/poster_alt.jpg": {
@@ -1228,7 +1228,7 @@
 		"oAP": "/images/inquire/poster_alt.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/research.png": {
@@ -1237,8 +1237,8 @@
 		"oA": 0,
 		"oAP": "/images/inquire/research.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1266,7 +1266,7 @@
 		"oAP": "/images/inquire/website.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/website1.jpg": {
@@ -1277,7 +1277,7 @@
 		"oAP": "/images/inquire/website1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/website2.jpg": {
@@ -1288,7 +1288,7 @@
 		"oAP": "/images/inquire/website2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/inquire/website3.jpg": {
@@ -1299,7 +1299,7 @@
 		"oAP": "/images/inquire/website3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/ios7-icon.svg": {
@@ -1318,8 +1318,8 @@
 		"oA": 0,
 		"oAP": "/images/ipad-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1329,8 +1329,8 @@
 		"oA": 0,
 		"oAP": "/images/ipad-dark-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1340,8 +1340,8 @@
 		"oA": 0,
 		"oAP": "/images/ipad-dark.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1351,8 +1351,8 @@
 		"oA": 0,
 		"oAP": "/images/ipad.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1362,8 +1362,8 @@
 		"oA": 0,
 		"oAP": "/images/iphone-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1373,8 +1373,8 @@
 		"oA": 0,
 		"oAP": "/images/iphone-dark-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1384,8 +1384,8 @@
 		"oA": 0,
 		"oAP": "/images/iphone-dark.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1395,8 +1395,8 @@
 		"oA": 0,
 		"oAP": "/images/iphone-landscape-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1406,8 +1406,8 @@
 		"oA": 0,
 		"oAP": "/images/iphone-landscape-dark-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1417,8 +1417,8 @@
 		"oA": 0,
 		"oAP": "/images/iphone-landscape-dark.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1428,8 +1428,8 @@
 		"oA": 0,
 		"oAP": "/images/iphone-landscape.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1439,8 +1439,8 @@
 		"oA": 0,
 		"oAP": "/images/iphone.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1461,8 +1461,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami1/drive.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1472,8 +1472,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami1/flow.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1485,7 +1485,7 @@
 		"oAP": "/images/kamigami1/musubi.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kamigami1/notes.jpg": {
@@ -1507,7 +1507,7 @@
 		"oAP": "/images/kamigami1/poster.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kamigami1/profile.png": {
@@ -1516,8 +1516,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami1/profile.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1527,8 +1527,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami1/program.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1540,7 +1540,7 @@
 		"oAP": "/images/kamigami1/research.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kamigami1/screenshot2.png": {
@@ -1615,8 +1615,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami1/sketch1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1626,8 +1626,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami1/sketch2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1639,7 +1639,7 @@
 		"oAP": "/images/kamigami1/testing.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kamigami1/testing.png": {
@@ -1659,8 +1659,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami1/trigger.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1713,8 +1713,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami2/achievement.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1724,8 +1724,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami2/battle.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1735,8 +1735,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami2/code-drag.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1748,7 +1748,7 @@
 		"oAP": "/images/kamigami2/lina.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kamigami2/menu.png": {
@@ -1757,8 +1757,8 @@
 		"oA": 0,
 		"oAP": "/images/kamigami2/menu.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1770,7 +1770,7 @@
 		"oAP": "/images/kamigami2/poster.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kamigami2/video.mp4": {
@@ -1813,7 +1813,7 @@
 		"oAP": "/images/kjw/blue.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kjw/blue2.jpg": {
@@ -1833,8 +1833,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/code.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1899,8 +1899,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/evolve.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1932,8 +1932,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/indo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1943,8 +1943,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/mapping.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1956,7 +1956,7 @@
 		"oAP": "/images/kjw/poster.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kjw/profile.png": {
@@ -1965,8 +1965,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/profile.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1978,7 +1978,7 @@
 		"oAP": "/images/kjw/splash.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/kjw/video.mp4": {
@@ -2003,8 +2003,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/wireframes1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2014,8 +2014,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/wireframes2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2025,8 +2025,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/wireframes3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2036,8 +2036,8 @@
 		"oA": 0,
 		"oAP": "/images/kjw/wireframes4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2049,7 +2049,7 @@
 		"oAP": "/images/me.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/perls/AppStore.jpg": {
@@ -2060,7 +2060,7 @@
 		"oAP": "/images/perls/AppStore.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/perls/hn-2x.png": {
@@ -2069,8 +2069,8 @@
 		"oA": 0,
 		"oAP": "/images/perls/hn-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2082,7 +2082,7 @@
 		"oAP": "/images/perls/icon-2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/perls/Icon-76@2x.png": {
@@ -2091,8 +2091,8 @@
 		"oA": 0,
 		"oAP": "/images/perls/Icon-76@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2102,8 +2102,8 @@
 		"oA": 0,
 		"oAP": "/images/perls/qp-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2113,8 +2113,8 @@
 		"oA": 0,
 		"oAP": "/images/perls/sm-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2124,8 +2124,8 @@
 		"oA": 0,
 		"oAP": "/images/perls/td-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2135,8 +2135,8 @@
 		"oA": 0,
 		"oAP": "/images/perls/td-action-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2146,8 +2146,8 @@
 		"oA": 0,
 		"oAP": "/images/perls/trajectorize-2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2159,7 +2159,7 @@
 		"oAP": "/images/portfolio-2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/switcheroo316.png": {
@@ -2168,8 +2168,8 @@
 		"oA": 0,
 		"oAP": "/images/switcheroo316.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2179,8 +2179,8 @@
 		"oA": 0,
 		"oAP": "/images/timesup316.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2190,8 +2190,8 @@
 		"oA": 0,
 		"oAP": "/images/worldclock316.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2203,7 +2203,7 @@
 		"oAP": "/images/ww/AppStore.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/ww/icon-2x.jpg": {
@@ -2214,7 +2214,7 @@
 		"oAP": "/images/ww/icon-2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/ww/Icon-76@2x.png": {
@@ -2223,8 +2223,8 @@
 		"oA": 0,
 		"oAP": "/images/ww/Icon-76@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2236,7 +2236,7 @@
 		"oAP": "/images/ww/ww-suit-old.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/ww/ww-suit.jpg": {
@@ -2247,7 +2247,7 @@
 		"oAP": "/images/ww/ww-suit.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/ww/ww.png": {
@@ -2256,8 +2256,8 @@
 		"oA": 0,
 		"oAP": "/images/ww/ww.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3562,7 +3562,7 @@
 		"oA": 0,
 		"oAP": "/incognito/press/blank.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"/incognito/press/ipad1.png": {
 		"ft": 32768,
@@ -3570,8 +3570,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/ipad1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3581,8 +3581,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/ipad2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3592,8 +3592,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/ipad3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3603,8 +3603,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/ipad4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3614,8 +3614,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/max1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3625,8 +3625,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/max2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3636,8 +3636,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/max3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3647,8 +3647,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/max4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3658,8 +3658,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/plus1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3669,8 +3669,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/plus2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3680,8 +3680,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/plus3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3691,8 +3691,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/plus4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3702,8 +3702,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/screenshot-about.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3790,8 +3790,8 @@
 		"oA": 0,
 		"oAP": "/incognito/press/screenshot-lock.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -5399,8 +5399,8 @@
 		"oA": 0,
 		"oAP": "/switcheroo/banner.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6577,8 +6577,8 @@
 		"oA": 0,
 		"oAP": "/switcheroo/icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6611,7 +6611,7 @@
 		"oAP": "/switcheroo/.main~imageoptim.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/switcheroo/presskit.html": {
@@ -6671,8 +6671,8 @@
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6682,8 +6682,8 @@
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6693,8 +6693,8 @@
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-5.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6704,8 +6704,8 @@
 		"oA": 0,
 		"oAP": "/switcheroo/Screenshot-6.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6746,8 +6746,8 @@
 		"oA": 0,
 		"oAP": "/switcheroo/twitter.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -7982,8 +7982,8 @@
 		"oA": 0,
 		"oAP": "/timesup/promo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8024,8 +8024,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8035,8 +8035,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web1@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8046,8 +8046,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8057,8 +8057,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web2@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8068,8 +8068,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8079,8 +8079,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web3@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8090,8 +8090,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8101,8 +8101,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web4@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8112,8 +8112,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web6.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8123,8 +8123,8 @@
 		"oA": 0,
 		"oAP": "/timesup/web6@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8134,8 +8134,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/AppIcon120.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8145,8 +8145,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/combo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8156,8 +8156,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/combo_big.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8167,8 +8167,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/csfavicon-152.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8178,8 +8178,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/csfavicon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8217,8 +8217,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/main.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8228,8 +8228,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/main852.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8239,8 +8239,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/widget.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8250,8 +8250,8 @@
 		"oA": 0,
 		"oAP": "/worldclock/widget852.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -8283,7 +8283,8 @@
 	"displayValue": "aoverholtzer.github.io",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-brick",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 714074962.33387494
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
