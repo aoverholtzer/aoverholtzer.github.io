@@ -1,0 +1,142 @@
+/*
+$grid-breakpoints: (
+  xs: 0,
+  sm: 480px,
+  md: 768px,
+  lg: 840px
+);
+
+$container-max-widths: (
+  sm: 600px,
+  md: 720px,
+  lg: 800px
+);
+
+$white:    #fff;
+$gray-900: #212529;
+
+$body-bg:    $white;
+$body-color: $gray-900;
+*/
+$body-bg:    #f8f9fa;
+
+$primary: #1C1C1E;
+// $secondary: #bbbbbb;
+
+/*
+$link-color: $primary;
+$link-hover-color: lighten($link-color, 15%);
+*/
+
+@font-face {
+	font-family: sfrounded;
+	font-weight: normal;
+	src: local('.SFNSRounded-Regular');
+}
+@font-face {
+	font-family: sfrounded-bold;
+	font-weight: bold;
+	src: local('.SFNSRounded-Bold');
+}
+
+$font-family-sans-serif: ui-rounded, ".SF Compact Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+/*
+$lead-font-size: 1.333rem;
+$navbar-brand-font-size: 1.5rem;
+$h1-font-size: 3rem;
+
+$navbar-light-color:        $link-color;
+$navbar-light-hover-color:  $link-hover-color;
+$navbar-light-active-color: $link-hover-color;
+
+$navbar-light-brand-color: $body-color !important;//$link-color;
+$navbar-light-brand-hover-color: $body-color;//$link-hover-color;
+*/
+
+@import "bootstrap/bootstrap";
+
+@include media-breakpoint-down(lg) {
+	.container-xl {
+		overflow: hidden;
+	}
+}
+
+
+header, section, footer {
+// 	padding: $spacer*3 $spacer*3;
+	padding: $spacer 0;
+	//margin-left: $spacer * -3 !important;
+	//margin-right: $spacer * -3 !important;
+
+	&.themed {
+		background: $primary;
+// 		background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
+		color: white;
+		border-radius: $spacer*2;
+	}
+	&.dark {
+		background: $dark;
+		color: $secondary;
+		border-radius: $spacer*2 $spacer*2 0 0;
+	}
+	&.gray {
+		background: $gray-200;
+// 		color: $secondary;
+		border-radius: $spacer*2;
+	}
+}
+footer {
+// 	padding-bottom: 2em;
+}
+
+/*
+header {
+	background: url(banner.png) no-repeat;
+	background-size: 100% auto;
+	background-position: center top;
+}
+*/
+
+.dolinks a {
+	color: $blue !important;
+}
+
+h1 {
+	font-weight: 800;
+// 	font-style: italic;
+// 	text-transform: uppercase;
+// 	letter-spacing: 0.025em;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.rounded {
+	border-radius: $spacer !important;
+}
+
+.img-thumbnail {
+	border-radius: 0;
+	padding: 0;
+}
+
+.align-items-end {
+	margin-right: 0px; // fixes layout somehow
+}
+
+.rounded-icon {
+//   border-radius: 17.544%;
+// 	clip-path: inset(1rem 0% 1rem 0% round 17.544%);
+  -webkit-mask-image: url('/images/ios7-icon.svg');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-image: url('/images/ios7-icon.svg');
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}
+
+.fa-solid.fa-circle.fa-stack-2x {
+	color: $gray-200;
+}
