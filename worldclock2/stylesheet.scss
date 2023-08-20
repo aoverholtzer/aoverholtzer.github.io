@@ -98,19 +98,26 @@ section, footer {
 	}
 	&.colorful {
 		padding: $spacer;
-		border-radius: $spacer*2;
+		border-radius: $spacer * 2;
 		background: rgb(131,58,180);
 		background: linear-gradient(342deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+		
+		@include media-breakpoint-only(xl) {
+			border-radius: $spacer * 2.5;
+	    }
+	    @include media-breakpoint-only(xs) {
+			border-radius: $spacer * 1.5;
+		}
 	}
 }
 footer {
 // 	padding-bottom: 2em;
 }
 
-@include media-breakpoint-down(xs) {
-	section.colorful {
-		border-radius: $spacer;
-	}
+.card-columns {
+  @include media-breakpoint-up(sm) {
+	column-count: 2;
+  }
 }
 
 /*
