@@ -39,7 +39,8 @@ $link-hover-color: lighten($link-color, 15%);
 	src: local('.SFNSRounded-Bold');
 }
 
-$font-family-sans-serif: ui-rounded, ".SF Compact Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+/* ui-rounded, ".SF Compact Rounded", */
 
 /*
 $lead-font-size: 1.333rem;
@@ -63,31 +64,53 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 }
 
 
-header, section, footer {
+header {
+	padding: $spacer 0;
+	margin: $spacer 0;
+}
+
+section, footer {
 // 	padding: $spacer*3 $spacer*3;
 	padding: $spacer 0;
-	//margin-left: $spacer * -3 !important;
-	//margin-right: $spacer * -3 !important;
+	margin: $spacer*3 0;
 
 	&.themed {
 		background: $primary;
 // 		background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
 		color: white;
 		border-radius: $spacer*2;
+		// margin-left: $spacer * -1 !important;
+		// margin-right: $spacer * -1 !important;
 	}
 	&.dark {
 		background: $dark;
 		color: $secondary;
 		border-radius: $spacer*2 $spacer*2 0 0;
+		// margin-left: $spacer * -1 !important;
+		// margin-right: $spacer * -1 !important;
 	}
 	&.gray {
 		background: $gray-200;
 // 		color: $secondary;
 		border-radius: $spacer*2;
+		// margin-left: $spacer * -1 !important;
+		// margin-right: $spacer * -1 !important;
+	}
+	&.colorful {
+		padding: $spacer;
+		border-radius: $spacer*2;
+		background: rgb(131,58,180);
+		background: linear-gradient(342deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 	}
 }
 footer {
 // 	padding-bottom: 2em;
+}
+
+@include media-breakpoint-down(xs) {
+	section.colorful {
+		border-radius: $spacer;
+	}
 }
 
 /*
@@ -111,6 +134,11 @@ h1 {
 
 h4 {
 	font-weight: bold;
+}
+
+h6.centered {
+	width: 100%;
+	text-align: center;
 }
 
 .rounded {
