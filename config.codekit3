@@ -8412,6 +8412,19 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/worldclock2/_icon.slim": {
+		"cB": 0,
+		"cmO": 0,
+		"ft": 1024,
+		"hM": 0,
+		"llg": 0,
+		"oA": 1,
+		"oAP": "/worldclock2/_icon.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"rAC": 0
+		},
 	"/worldclock2/bootstrap/_alert.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -9648,19 +9661,19 @@
 		"oA": 0,
 		"oAP": "/worldclock2/images/devices@1x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"/worldclock2/images/devices@2x.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 819940,
 		"oA": 0,
 		"oAP": "/worldclock2/images/devices@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
