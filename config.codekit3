@@ -9662,6 +9662,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/worldclock2\/_icon.slim" : {
+      "cB" : 0,
+      "cmO" : 0,
+      "ft" : 1024,
+      "hM" : 0,
+      "llg" : 0,
+      "oA" : 1,
+      "oAP" : "\/worldclock2\/_icon.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "rAC" : 0
+    },
     "\/worldclock2\/bootstrap\/_alert.scss" : {
       "aP" : 0,
       "bl" : 0,

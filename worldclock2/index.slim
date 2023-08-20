@@ -92,9 +92,25 @@ body
 						div.col-auto.mr-2
 							span.fa-stack
 								span.fa-solid.fa-circle.fa-stack-2x 
-								span.fa-solid.fa-flag.fa-stack-1x
+								span.fa-solid.fa-stack-1x.fa-star
 						div.col
 							p Layers are awesome when you don’t want your page’s background to show through, or when you do want to use multiple colors, layer several icons, layer text, or layer counters onto an icon. For clarity in the example, we’ve added a background color on the layers so you can see the effect.
+							
+					
+					- @links_admin = [{ :icon => 'fa-star',
+					 	:name => 'name1' }, 
+						{ :icon => 'fa-bug', 
+							:name => 'blag',
+						 	:focus => true }]
+					div
+					  - @links_admin.each do | row |
+					  	div.row.no-gutters.align-items-center
+						  	div.col-auto.mr-2
+						  		span.fa-stack
+						  			span.fa-solid.fa-circle.fa-stack-2x 
+						  			span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							div.col
+						  		p.my-3 = row[:name]
 					
 
 		section.gray
