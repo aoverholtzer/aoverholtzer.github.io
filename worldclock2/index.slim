@@ -41,10 +41,11 @@ body
 						
 		section.colorful
 			div.row
-				div.col.d-none.d-sm-flex
-					img.img-fluid src='images/widget-banner@1x.png' srcset='images/widget-banner@1x.png 1x, images/widget-banner@2x.png 2x'
-				div.col.d-sm-none
-					img.img-fluid src='images/widget-banner-iphone@2x.png'
+				div.col.align-items-center
+					picture
+						source srcset='images/widget-banner-iphone@2x.png 1x' media='(max-width: 576px)'
+						source srcset='images/widget-banner@1x.png 1x, images/widget-banner@2x.png 2x'
+						img.img-fluid src='images/widget-banner@1x.png' alt='Screenshots of various World Clock widgets.'
 					
 		section.gray.d-none
 			div.row.px-3.align-items-center
