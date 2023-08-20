@@ -98,19 +98,18 @@ body
 							
 					
 					- @links_admin = [{ :icon => 'fa-star',
-					 	:name => 'name1' }, 
+					 	:text => 'Layers are awesome when you don’t want your page’s background to show through, or when you do want to use multiple colors.' }, 
 						{ :icon => 'fa-bug', 
-							:name => 'blag',
-						 	:focus => true }]
+							:text => 'For clarity in the example, we’ve added a background color on the layers so you can see the effect.' }]
 					div
 					  - @links_admin.each do | row |
-					  	div.row.no-gutters.align-items-center
+					  	div.row.no-gutters.align-items-baseline.mb-3
 						  	div.col-auto.mr-2
 						  		span.fa-stack
 						  			span.fa-solid.fa-circle.fa-stack-2x 
 						  			span class=["fa-solid", "fa-stack-1x", row[:icon]]
 							div.col
-						  		p.my-3 = row[:name]
+						  		p.my-0 = row[:text]
 					
 
 		section.gray
