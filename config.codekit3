@@ -9642,6 +9642,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/worldclock2/images/devices@1x.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/worldclock2/images/devices@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/worldclock2/images/devices@2x.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/worldclock2/images/devices@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/worldclock2/images/web1.jpg": {
 		"ft": 16384,
 		"iS": 42699,
@@ -9838,6 +9860,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/worldclock2/images/widget-banner-iphone@2x.png": {
+		"ft": 32768,
+		"iS": 178811,
+		"oA": 0,
+		"oAP": "/worldclock2/images/widget-banner-iphone@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/worldclock2/images/widget-banner@1x.png": {
