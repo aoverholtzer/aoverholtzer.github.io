@@ -69,47 +69,33 @@ body
 
 		section
 			div.row
-				div.col-sm-6
-					
-					div.row.no-gutters
-						div.col-auto.mr-2
-							span.fa-stack
-								span.fa-solid.fa-circle.fa-stack-2x 
-								span.fa-solid.fa-stack-1x.fa-flag
-						div.col
-							p Layers are awesome when you don't want your page's background to show through, or when you do want to use multiple colors, layer several icons, layer text, or layer counters onto an icon. For clarity in the example, we’ve added a background color on the layers so you can see the effect.
-							
-					div.row.no-gutters
-						div.col-auto.mr-2
-							span.fa-stack
-								span.fa-solid.fa-circle.fa-stack-2x 
-								span.fa-solid.fa-stack-1x.fa-flag
-						div.col
-							p Layers are awesome when you don't want your page's background to show through, or when you do want to use multiple colors, layer several icons, layer text, or layer counters onto an icon. For clarity in the example, we’ve added a background color on the layers so you can see the effect.
-					
-				div.col-sm-6
-					div.row.no-gutters
-						div.col-auto.mr-2
-							span.fa-stack
-								span.fa-solid.fa-circle.fa-stack-2x 
-								span.fa-solid.fa-stack-1x.fa-star
-						div.col
-							p Layers are awesome when you don’t want your page’s background to show through, or when you do want to use multiple colors, layer several icons, layer text, or layer counters onto an icon. For clarity in the example, we’ve added a background color on the layers so you can see the effect.
-							
-					
-					- @links_admin = [{ :icon => 'fa-star',
-					 	:text => 'Layers are awesome when you don’t want your page’s background to show through, or when you do want to use multiple colors.' }, 
-						{ :icon => 'fa-bug', 
-							:text => 'For clarity in the example, we’ve added a background color on the layers so you can see the effect.' }]
-					div
-					  - @links_admin.each do | row |
-					  	div.row.no-gutters.align-items-baseline.mb-3
-						  	div.col-auto.mr-2
-						  		span.fa-stack
-						  			span.fa-solid.fa-circle.fa-stack-2x 
-						  			span class=["fa-solid", "fa-stack-1x", row[:icon]]
+						
+				- @bullets = [{ :icon => 'fa-clock',
+				 	:text => 'Digital or analog clocks. Show seconds or 24-hour time.' }, 
+					{ :icon => 'fa-gear', 
+						:text => 'Customize widgets to show dates, time zones, countries, and more.' },
+					{ :icon => 'fa-palette', 
+						:text => 'Match your aesthetic with dozens of widget styles, colors, and layouts.' },
+					{ :icon => 'fa-map-pin', 
+						:text => 'Select from 10,000 cities around the world or name your own.' },
+					{ :icon => 'fa-location-arrow', 
+						:text => 'Always use the right “Local” time by using your current location (GPS).' },
+					{ :icon => 'fa-sunset', 
+						:text => 'Track daylight hours with accurate sunrise and sunset data.' },
+					{ :icon => 'fa-laptop-mobile', 
+						:text => 'Widgets everywhere you need them: Home Screen, Lock Screen, StandBy, Desktop, and beyond.' },
+					{ :icon => 'fa-award', 
+						:text => '#1 world clock app on iOS and macOS, with a 4.7-star rating and 1 million downloads.' }]
+						
+			  	- @bullets.each do | row |
+			  		div.col-sm-6
+			  			div.row.no-gutters.align-items-baseline.mb-3
+				  			div.col-auto.mr-2
+				  				span.fa-stack
+				  					span.fa-solid.fa-circle.fa-stack-2x 
+				  					span class=["fa-solid", "fa-stack-1x", row[:icon]]
 							div.col
-						  		p.my-0 = row[:text]
+				  				p.my-0 = row[:text]
 					
 
 		section.gray
