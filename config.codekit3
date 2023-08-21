@@ -9677,6 +9677,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/worldclock2/images/ios-icon.png": {
+		"ft": 32768,
+		"iS": 57621,
+		"oA": 0,
+		"oAP": "/worldclock2/images/ios-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/worldclock2/images/mac1.png": {
 		"ft": 32768,
 		"iS": 1968789,
