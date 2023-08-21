@@ -6818,17 +6818,7 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/switcheroo/timesup.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/switcheroo/timesup-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/switcheroo/timesup.scss": {
+	"/switcheroo/stylesheet.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -6836,7 +6826,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/switcheroo/timesup.css",
+		"oAP": "/switcheroo/stylesheet.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

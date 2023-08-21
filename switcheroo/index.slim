@@ -5,8 +5,8 @@ html
     meta charset="utf-8"
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     meta name="format-detection" content="telephone=no"
-    link rel="stylesheet" href="timesup.css"
-    
+    link rel="stylesheet" href="stylesheet.css"
+	script src="https://kit.fontawesome.com/1c498ede56.js" crossorigin="anonymous"
     
 		meta name="twitter:card" content="summary_large_image"
 		meta name="twitter:creator" content="@aoverholtzer"
@@ -35,7 +35,34 @@ html
 					div.col-lg-9.mx-auto
 						img.img-fluid.rounded.pb-1 src='main.jpg' alt='Screenshot of Switcheroo menu.'
 
-						
+			section
+				div.row
+					div.col-lg-9.mx-auto
+						div.row
+							- @bullets = [{ :icon => 'fa-globe fa-regular', 
+									:text => 'Switcheroo is a full drop-in replacement for the macOS “Inputs” menu for switching keyboard languages.' },
+								{ :icon => 'fa-flag', 
+									:text => 'Choose from flags, emoji, common symbols — or select any image from your computer.' },
+								{ :icon => 'fa-command', 
+									:text => 'Supercharge your workflow with customizable keyboard shortcuts.' },
+								{ :icon => 'fa-list-dropdown', 
+									:text => 'Menubar hidden or too crowded? Float Switcheroo in its own window!' },
+								{ :icon => 'fa-robot', 
+									:text => 'Automate your input sources using the Shortcuts app.' },
+								{ :icon => 'fa-language', 
+									:text => 'Localized in English, Czech, French, German, Italian, Japanese, Korean, Russian, Simplified Chinese, and Ukrainian.' }]
+									
+				  			- @bullets.each do | row |
+					  			div.col-sm-6
+						  			div.row.no-gutters.align-items-baseline.mb-3
+							  			div.col-auto.mr-2
+								  			span.fa-stack
+									  			span.fa-solid.fa-circle.fa-stack-2x 
+									  			span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							  			div.col
+								  			p.my-0 = row[:text]
+											  
+			hr
 			
 			footer.mb-xl-4
 				div.row.text-center.small
