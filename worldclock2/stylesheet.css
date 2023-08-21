@@ -7216,9 +7216,9 @@ section, footer {
     @media (max-width: 575.98px) {
       section.colorful, footer.colorful {
         border-radius: 1.5rem; } }
-@media (min-width: 576px) {
-  .card-columns {
-    column-count: 2; } }
+.card {
+  background: none;
+  border: none; }
 
 /*
 header {
@@ -7242,6 +7242,8 @@ h6.centered {
 
 .rounded {
   border-radius: 1rem !important; }
+  .rounded.bordered {
+    border: 1px solid #e9ecef; }
 
 .img-thumbnail {
   border-radius: 0;

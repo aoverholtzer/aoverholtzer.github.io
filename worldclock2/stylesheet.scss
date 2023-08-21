@@ -114,10 +114,14 @@ footer {
 // 	padding-bottom: 2em;
 }
 
-.card-columns {
-  @include media-breakpoint-up(sm) {
-	column-count: 2;
-  }
+// .card-columns {
+//   @include media-breakpoint-up(sm) {
+// 	column-count: 2;
+//   }
+// }
+.card {
+	background: none;
+	border: none;
 }
 
 /*
@@ -150,6 +154,10 @@ h6.centered {
 
 .rounded {
 	border-radius: $spacer !important;
+	
+	&.bordered {
+		border: 1px solid $gray-200;
+	}
 }
 
 .img-thumbnail {

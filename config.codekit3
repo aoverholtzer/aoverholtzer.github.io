@@ -9677,6 +9677,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/worldclock2/images/mac1.png": {
+		"ft": 32768,
+		"iS": 1968789,
+		"oA": 0,
+		"oAP": "/worldclock2/images/mac1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/worldclock2/images/mac2.png": {
+		"ft": 32768,
+		"iS": 2083443,
+		"oA": 0,
+		"oAP": "/worldclock2/images/mac2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/worldclock2/images/web1.jpg": {
 		"ft": 16384,
 		"iS": 42699,

@@ -29,7 +29,7 @@ html
 			section.pb-0.dolinks
 				div.row
 					div.col
-						h4 App Details
+						h4.pb-2 App Details
 						p
 							b Name: 
 							| World Clock Widgets
@@ -80,17 +80,25 @@ html
 							li Daylight hours shown visually, based on actual sunrise and sunset times.
 							li One-time purchase to remove ads and unlock extra features — no subscriptions!
 
-						
+						p World Clock Widgets is the top result for "world clock" in the App Store, with a 4.7-star rating and over <em>1 million downloads</em>. The app is available in English, German, and Japanese, with more languages coming soon.
+
 			section
 				div.row
 					div.col
-						h4 Screenshots
-						img.img-fluid.rounded.pb-1 src='Screenshot-1.png'
-						img.img-fluid.rounded.pb-1 src='Screenshot-2.png'
-						img.img-fluid.rounded.pb-1 src='Screenshot-3.png'
-						img.img-fluid.rounded.pb-1 src='Screenshot-4.png'
-						img.img-fluid.rounded.pb-1 src='Screenshot-5.png'
-						img.img-fluid.rounded src='Screenshot-6.png'
+						h4 iOS Screenshots
+				div.card-columns
+					- for i in (1..9)
+						div.card
+							img.img-fluid.rounded.bordered src='images/web#{i}@2x.jpg'
+							
+			section
+				div.row.no-gutters
+					div.col-12
+						h4 Mac Screenshots
+					div.col-sm.mr-1
+						img.img-fluid.rounded.bordered src='images/mac1.png'
+					div.col-sm.ml-2
+						img.img-fluid.rounded.bordered src='images/mac2.png'
 						
 							
 			footer.mb-xl-4
