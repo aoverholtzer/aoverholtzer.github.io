@@ -7,7 +7,7 @@
       "uuidString" : "CDABA4E0-FA90-44C4-9D66-667B56EA4E7B"
     }
   ],
-  "creatorBuild" : "34513",
+  "creatorBuild" : "34518",
   "files" : {
     "\/_config.yml" : {
       "cB" : 0,
@@ -11036,7 +11036,7 @@
     },
     "\/worldclock\/csfavicon-152.png" : {
       "ft" : 32768,
-      "iS" : 5320,
+      "iS" : 7207,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon-152.png",
       "oF" : 0,
@@ -11049,7 +11049,7 @@
     },
     "\/worldclock\/csfavicon.png" : {
       "ft" : 32768,
-      "iS" : 1717,
+      "iS" : 1786,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon.png",
       "oF" : 0,
@@ -11184,6 +11184,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/worldclock\/images\/mac3.jpg" : {
+      "ft" : 16384,
+      "iS" : 644434,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/mac3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/worldclock\/images\/mac4.jpg" : {
+      "ft" : 16384,
+      "iS" : 653044,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/mac4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/worldclock\/images\/standby1.jpg" : {
       "ft" : 16384,
       "iS" : 108245,
@@ -11229,6 +11255,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/standby4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/worldclock\/images\/standby5.jpg" : {
+      "ft" : 16384,
+      "iS" : 109888,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/standby5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -12306,7 +12345,7 @@
       },
       "no-fallthrough" : {
         "active" : 1,
-        "optionString" : ""
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -12739,7 +12778,7 @@
       },
       "require-atomic-updates" : {
         "active" : 0,
-        "optionString" : ""
+        "optionString" : "{'allowProperties': false}"
       },
       "require-await" : {
         "active" : 0
