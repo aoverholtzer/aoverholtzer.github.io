@@ -11153,7 +11153,7 @@
       "oAP" : "\/worldclock\/images\/ipad2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -11303,13 +11303,13 @@
     },
     "\/worldclock\/images\/web1@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 94303,
+      "iS" : 132345,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web1@2x.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -11366,22 +11366,9 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock\/images\/web4.jpg" : {
-      "ft" : 16384,
-      "iS" : 28472,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/worldclock\/images\/web4@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 66861,
+      "iS" : 89738,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web4@2x.jpg",
@@ -11394,7 +11381,7 @@
     },
     "\/worldclock\/images\/web5.jpg" : {
       "ft" : 16384,
-      "iS" : 25341,
+      "iS" : 28472,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web5.jpg",
@@ -11407,7 +11394,7 @@
     },
     "\/worldclock\/images\/web5@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 61872,
+      "iS" : 66861,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web5@2x.jpg",
@@ -11420,7 +11407,7 @@
     },
     "\/worldclock\/images\/web6.jpg" : {
       "ft" : 16384,
-      "iS" : 30875,
+      "iS" : 25341,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web6.jpg",
@@ -11433,7 +11420,7 @@
     },
     "\/worldclock\/images\/web6@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 73899,
+      "iS" : 61872,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web6@2x.jpg",
@@ -11446,7 +11433,7 @@
     },
     "\/worldclock\/images\/web7.jpg" : {
       "ft" : 16384,
-      "iS" : 31888,
+      "iS" : 30875,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web7.jpg",
@@ -11459,7 +11446,7 @@
     },
     "\/worldclock\/images\/web7@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 75283,
+      "iS" : 73899,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web7@2x.jpg",
