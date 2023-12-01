@@ -7,7 +7,7 @@
       "uuidString" : "CDABA4E0-FA90-44C4-9D66-667B56EA4E7B"
     }
   ],
-  "creatorBuild" : "34518",
+  "creatorBuild" : "34513",
   "files" : {
     "\/_config.yml" : {
       "cB" : 0,
@@ -11036,7 +11036,7 @@
     },
     "\/worldclock\/csfavicon-152.png" : {
       "ft" : 32768,
-      "iS" : 7207,
+      "iS" : 5320,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon-152.png",
       "oF" : 0,
@@ -11049,7 +11049,7 @@
     },
     "\/worldclock\/csfavicon.png" : {
       "ft" : 32768,
-      "iS" : 1786,
+      "iS" : 1717,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon.png",
       "oF" : 0,
@@ -11268,6 +11268,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/standby5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/worldclock\/images\/standby6.jpg" : {
+      "ft" : 16384,
+      "iS" : 98906,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/standby6.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
