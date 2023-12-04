@@ -7,7 +7,7 @@
       "uuidString" : "CDABA4E0-FA90-44C4-9D66-667B56EA4E7B"
     }
   ],
-  "creatorBuild" : "34513",
+  "creatorBuild" : "34564",
   "files" : {
     "\/_config.yml" : {
       "cB" : 0,
@@ -12456,9 +12456,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -12470,6 +12467,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1
