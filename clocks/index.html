@@ -12,17 +12,57 @@
   </head>
 </html>
 <body class="p-5">
-  <div class="card rectangle_wrapper" data-card3d data-card3d-delta="20" data-card3d-no-reset="true" data-card3d-perspective="1000" data-tilt>
-    <img class="rectangle1" src="wc-vision-back.png"><img class="rectangle2" src="wc-vision-middle.png"><img class="rectangle3" src="wc-vision-top.png">
+  <div class="container-md">
+    <header>
+      <div class="row align-items-center">
+        <div class="col-sm-5">
+          <div class="rectangle_wrapper js-tilt mx-auto mr-sm-0 mt-sm-3 d-block">
+            <img class="rectangle1" src="wc-vision-back.png"><img class="rectangle2" src="wc-vision-middle.png"><img class="rectangle3" src="wc-vision-top.png">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 text-sm-left text-center">
+          <h2 class="pb-2">
+            <strong>Clocks for Vision Pro</strong>
+          </h2>
+          <h6 class="mb-4">
+            Check the time — anytime, anywhere.
+          </h6>
+          <a href="https://apps.apple.com/app/id6476429265"><img alt="Download on the iOS App Store" src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="row">
+        <div class="col align-items-center">
+          <img alt="Screenshots of various Clocks windows." class="img-fluid rounded" src="screenshot.jpg">
+        </div>
+      </div>
+    </section>
+    <footer class="mb-xl-4">
+      <div class="row text-center small">
+        <div class="col">
+          <p>
+            <a href="/">&copy;2024 Overdesigned, LLC</a>&nbsp;&#8729;&nbsp;<a href="https://www.iubenda.com/privacy-policy/47509543/full-legal">Privacy</a>&nbsp;&#8729;&nbsp;<a href="mailto:worldclock@overdesigned.net">Contact</a>
+          </p>
+          <p class="mb-0 text-muted">
+            Designed by <a href='/' class='text-muted'>Adam Overholtzer</a> in California.
+          </p>
+        </div>
+      </div>
+    </footer>
   </div>
-  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+  <script src="/js/vanilla-tilt.min.js"></script>
   <script>
-    $('.js-tilt').tilt({
-        glare: true,
-        maxGlare: .5,
-        perspective: 100,
+    VanillaTilt.init(document.querySelector(".js-tilt"), {
+        max: 40,
+        startX: -20,
+        startY: -27,
+        speed: 666,
+        //perspective: 1000,
         reset: false,
-    })
+        reverse: true,
+        "mouse-event-element": "header",
+        //"full-page-listening": true,
+    });
   </script>
 </body>

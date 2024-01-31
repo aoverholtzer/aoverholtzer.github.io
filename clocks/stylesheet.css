@@ -7264,10 +7264,11 @@ h6.centered {
   color: #e9ecef; }
 
 .rectangle_wrapper {
-  height: 250px;
-  width: 250px;
+  aspect-ratio: 1 / 1;
+  width: 100%;
   position: relative;
-  transform-style: preserve-3d; }
+  transform-style: preserve-3d;
+  container-type: size; }
 
 .rectangle1,
 .rectangle2,
@@ -7277,7 +7278,25 @@ h6.centered {
   height: 100%; }
 
 .rectangle2 {
-  transform: translateZ(6px); }
+  transform: translateZ(7px); }
 
 .rectangle3 {
-  transform: translateZ(7px); }
+  transform: translateZ(8px); }
+
+@container (width >= 200px) {
+  .rectangle_wrapper .rectangle2 {
+    transform: translateZ(8px); }
+  .rectangle_wrapper .rectangle3 {
+    transform: translateZ(11px); } }
+
+@container (width >= 290px) {
+  .rectangle_wrapper .rectangle2 {
+    transform: translateZ(11px); }
+  .rectangle_wrapper .rectangle3 {
+    transform: translateZ(13px); } }
+
+@container (width >= 360px) {
+  .rectangle_wrapper .rectangle2 {
+    transform: translateZ(13px); }
+  .rectangle_wrapper .rectangle3 {
+    transform: translateZ(16px); } }

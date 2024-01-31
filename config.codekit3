@@ -452,6 +452,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/clocks\/.screenshot~imageoptim.jpg" : {
+      "ft" : 16384,
+      "iS" : 351975,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/clocks\/screenshot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/clocks\/bootstrap\/_alert.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1811,6 +1824,16 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/clocks\/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/clocks\/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/clocks\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1831,6 +1854,31 @@
       "oFM" : 0,
       "oS" : 0,
       "rAC" : 0
+    },
+    "\/clocks\/screenshot.jpg" : {
+      "ft" : 16384,
+      "iS" : 351975,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/clocks\/screenshot.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/clocks\/stylesheet.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/clocks\/stylesheet-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/clocks\/stylesheet.scss" : {
       "aP" : 0,
@@ -6198,6 +6246,17 @@
       "oA" : 0,
       "oAP" : "\/js\/util.js.map",
       "oF" : 0
+    },
+    "\/js\/vanilla-tilt.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/vanilla-tilt.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/package.json" : {
       "ft" : 524288,
