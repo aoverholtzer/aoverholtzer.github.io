@@ -7263,6 +7263,9 @@ h6.centered {
 .fa-solid.fa-circle.fa-stack-2x {
   color: #e9ecef; }
 
+.fa-stack-1x {
+  line-height: inherit !important; }
+
 .rectangle_wrapper {
   aspect-ratio: 1 / 1;
   width: 100%;

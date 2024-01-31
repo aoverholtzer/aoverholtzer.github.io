@@ -452,19 +452,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/clocks\/.screenshot~imageoptim.jpg" : {
-      "ft" : 16384,
-      "iS" : 351975,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/clocks\/screenshot.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/clocks\/bootstrap\/_alert.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1855,7 +1842,7 @@
       "oS" : 0,
       "rAC" : 0
     },
-    "\/clocks\/screenshot.jpg" : {
+    "\/clocks\/screenshot1.jpg" : {
       "ft" : 16384,
       "iS" : 351975,
       "jF" : 0,
@@ -1864,6 +1851,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/clocks\/screenshot2.jpg" : {
+      "ft" : 16384,
+      "iS" : 293666,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/clocks\/screenshot2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1894,6 +1894,16 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/clocks\/vision-regular.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/clocks\/vision-regular.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/clocks\/wc-vision-back.png" : {
       "ft" : 32768,

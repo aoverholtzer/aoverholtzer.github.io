@@ -29,10 +29,11 @@ body.p-5
 						img.rectangle3 src='wc-vision-top.png'
 					
 				div.col-lg-4.col-md-6.col-sm-6.text-sm-left.text-center
-					h2.pb-2
-						strong Clocks for Vision Pro
+					h2
+						strong Clocks
 						
-					h6.mb-4 Check the time — anytime, anywhere.
+					h6.mb-4 
+						strong for Apple Vision Pro
 					
 					a href='https://apps.apple.com/app/id6476429265'
 						img src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='Download on the iOS App Store'
@@ -40,8 +41,48 @@ body.p-5
 		section
 			div.row
 				div.col.align-items-center
-					img.img-fluid.rounded src='screenshot.jpg' alt='Screenshots of various Clocks windows.'
+					img.img-fluid.rounded src='screenshot1.jpg' alt='Screenshots of various Clocks windows.'
 					
+		section.d-none
+			div.row
+				div.col.align-items-center
+					img.img-fluid.rounded src='screenshot2.jpg' alt='Screenshots of various Clocks windows.'
+					
+		section
+			div.row.px-xl-5.px-lg-4
+						
+				- @bullets = [{ :icon => 'fa-clock',
+				 	:text => 'Create analog or digital clocks with 12- or 24-hour time.' }, 
+					{ :icon => 'fa-gear', 
+						:text => 'Customize to show dates, time zones, countries, and more.' },
+					{ :icon => 'fa-globe fa-regular', 
+						:text => 'Compare times across the globe with a classic world clock.' },
+					
+					{ :icon => 'fa-sun', 
+						:text => 'See daylight hours with accurate sunrise and sunset data.' },
+					{ :icon => 'fa-solid-dollar-sign-slash fa-kit',
+						:text => 'Free app, no ads, no subscriptions!' },
+					{ :icon => 'fa-vision fa-kit',
+						:text => 'Available only on Apple Vision Pro.' }]
+						
+			  	- @bullets.each do | row |
+				  	div.col-sm-6
+					  	div.row.no-gutters.align-items-baseline.mb-3
+						  	div.col-auto.mr-2
+							  	span.fa-stack
+								  	span.fa-solid.fa-circle.fa-stack-2x 
+								  	span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							div.col
+							  	p.my-0 = row[:text]
+				
+				div.col
+					div.row.no-gutters.align-items-baseline.mb-3
+						div.col-auto.mr-2
+							span.fa-stack
+								span.fa-solid.fa-circle.fa-stack-2x 
+								span.fa-solid.fa-stack-1x.fa-star
+						div.col
+							p.my-0 Clocks is a spinoff of <a href='/worldclock'><strong>World Clock Widgets</strong></a>, my top-ranked app for iPhone and Mac. Please check it out!
 		
 		footer.mb-xl-4
 			div.row.text-center.small
@@ -58,7 +99,7 @@ body.p-5
 	script src="/js/vanilla-tilt.min.js"
 	javascript:
 		VanillaTilt.init(document.querySelector(".js-tilt"), {
-			max: 40,
+			max: 30,
 			startX: -20,
 			startY: -27,
 			speed: 666,
