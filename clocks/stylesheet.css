@@ -7269,6 +7269,7 @@ h6.centered {
 .rectangle_wrapper {
   aspect-ratio: 1 / 1;
   width: 100%;
+  max-width: 250px;
   position: relative;
   transform-style: preserve-3d;
   container-type: size; }
@@ -7291,15 +7292,3 @@ h6.centered {
     transform: translateZ(8px); }
   .rectangle_wrapper .rectangle3 {
     transform: translateZ(11px); } }
-
-@container (width >= 290px) {
-  .rectangle_wrapper .rectangle2 {
-    transform: translateZ(11px); }
-  .rectangle_wrapper .rectangle3 {
-    transform: translateZ(13px); } }
-
-@container (width >= 360px) {
-  .rectangle_wrapper .rectangle2 {
-    transform: translateZ(13px); }
-  .rectangle_wrapper .rectangle3 {
-    transform: translateZ(16px); } }

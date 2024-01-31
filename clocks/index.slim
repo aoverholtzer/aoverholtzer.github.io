@@ -50,20 +50,17 @@ body.p-5
 					
 		section
 			div.row.px-xl-5.px-lg-4
-						
+				// { :icon => 'fa-vision fa-kit', :text => 'Available only on Apple Vision Pro.' }
 				- @bullets = [{ :icon => 'fa-clock',
 				 	:text => 'Create analog or digital clocks with 12- or 24-hour time.' }, 
 					 { :icon => 'fa-globe fa-regular', 
 						 :text => 'Compare times across the globe with the world clock.' },
-					 { :icon => 'fa-sun', 
-						 :text => 'See daylight hours with accurate sunrise and sunset data.' },
 					{ :icon => 'fa-gear', 
-						:text => 'Customize to show dates, time zones, countries, and more.' },
+						:text => 'Customize to show date, time zone, and more.' },
 					
 					{ :icon => 'fa-solid-dollar-sign-slash fa-kit',
 						:text => 'Free app, no ads, no subscriptions!' },
-					{ :icon => 'fa-vision fa-kit',
-						:text => 'Available only on Apple Vision Pro.' }]
+					]
 						
 			  	- @bullets.each do | row |
 				  	div.col-sm-6
