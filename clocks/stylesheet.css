@@ -7193,7 +7193,7 @@ header {
 
 section, footer {
   padding: 1rem 0;
-  margin: 3rem 0; }
+  margin: 1rem 0; }
   section.themed, footer.themed {
     background: #1C1C1E;
     color: white;
