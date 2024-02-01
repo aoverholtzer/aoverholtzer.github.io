@@ -1821,6 +1821,32 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/clocks\/icon.png" : {
+      "ft" : 32768,
+      "iS" : 211042,
+      "oA" : 0,
+      "oAP" : "\/clocks\/icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/clocks\/icon2.png" : {
+      "ft" : 32768,
+      "iS" : 352856,
+      "oA" : 0,
+      "oAP" : "\/clocks\/icon2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/clocks\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1837,6 +1863,27 @@
       "llg" : 0,
       "oA" : 0,
       "oAP" : "\/clocks\/index.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "rAC" : 0
+    },
+    "\/clocks\/presskit.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/clocks\/presskit.html",
+      "oF" : 0
+    },
+    "\/clocks\/presskit.slim" : {
+      "cB" : 0,
+      "cmO" : 0,
+      "ft" : 1024,
+      "hM" : 0,
+      "llg" : 0,
+      "oA" : 0,
+      "oAP" : "\/clocks\/presskit.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,

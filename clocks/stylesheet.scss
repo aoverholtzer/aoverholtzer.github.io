@@ -180,6 +180,10 @@ h6.centered {
   mask-size: 100% 100%;
 }
 
+.circled-icon {
+	clip-path: circle(50%);
+}
+
 .fa-solid.fa-circle.fa-stack-2x {
 	color: $gray-200;
 }
