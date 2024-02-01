@@ -18,7 +18,7 @@ body
 		
 		header
 			div.row.align-items-center
-				div.col-sm-5
+				div.col-sm-5.mb-sm-0.mb-2
 					div.rectangle_wrapper.js-tilt.mx-auto.mr-sm-0.mt-sm-3.d-block 
 						img.rectangle1 src='wc-vision-back.png'
 						img.rectangle2 src='wc-vision-middle.png' 
@@ -28,7 +28,7 @@ body
 					h2
 						strong Clocks
 						
-					h6.mb-4 
+					h6.mb-4.text-uppercase
 						strong for Apple Vision Pro
 					
 					a href='https://apps.apple.com/app/id6476429265'
@@ -48,14 +48,14 @@ body
 			div.row.px-xl-5.px-lg-4
 				// { :icon => 'fa-vision fa-kit', :text => 'Available only on Apple Vision Pro.' }
 				- @bullets = [{ :icon => 'fa-clock',
-				 	:text => 'Create analog or digital clocks with 12- or 24-hour time.' }, 
+				 	:text => 'Analog and digital clocks with 12- or 24-hour time.' }, 
 					 { :icon => 'fa-globe fa-regular', 
 						 :text => 'Compare times across the globe with the world clock.' },
 					{ :icon => 'fa-gear', 
-						:text => 'Customize to show date, time zone, and more.' },
+						:text => 'Customize to show date, sunrise, and more.' },
 					
 					{ :icon => 'fa-solid-dollar-sign-slash fa-kit',
-						:text => 'Free app, no ads, no subscriptions!' },
+						:text => 'Free app — no ads, no subscriptions!' },
 					]
 						
 			  	- @bullets.each do | row |
@@ -75,7 +75,7 @@ body
 								span.fa-solid.fa-circle.fa-stack-2x 
 								span.fa-solid.fa-stack-1x.fa-star
 						div.col
-							p.my-0 Clocks is a spinoff of <a href='/worldclock'><strong>World Clock Widgets</strong></a>, my top-ranked app for iPhone and Mac. Please check it out!
+							p.my-0 Clocks is a spinoff of <a href='/worldclock'><strong>World Clock Widgets</strong></a>, my popular app for iPhone and Mac. Please check it out!
 		
 		footer.mb-xl-4
 			div.row.text-center.small
