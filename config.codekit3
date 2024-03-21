@@ -13242,6 +13242,19 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/worldclock\/support.slim" : {
+      "cB" : 0,
+      "cmO" : 0,
+      "ft" : 1024,
+      "hM" : 0,
+      "llg" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/support.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "rAC" : 0
     }
   },
   "hooks" : [
