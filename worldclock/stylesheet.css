@@ -7262,3 +7262,6 @@ h6.centered {
 
 .fa-solid.fa-circle.fa-stack-2x {
   color: #e9ecef; }
+
+dd + dt {
+  margin-top: 1rem; }

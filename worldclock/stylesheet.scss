@@ -183,3 +183,7 @@ h6.centered {
 .fa-solid.fa-circle.fa-stack-2x {
 	color: $gray-200;
 }
+
+dd + dt {
+	margin-top: 1rem;
+}

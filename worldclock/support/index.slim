@@ -5,7 +5,7 @@ html
 	meta charset="utf-8"
 	meta name="viewport" content="width=device-width, initial-scale=1.0"
 	meta name="format-detection" content="telephone=no"
-	link rel="stylesheet" href="stylesheet.css"
+	link rel="stylesheet" href="../stylesheet.css"
 	script src="https://kit.fontawesome.com/1c498ede56.js" crossorigin="anonymous"
 	
   body
@@ -15,7 +15,7 @@ html
 			header.pb-1
 				div.row.align-items-center
 					div.col-sm-5
-						img.rounded-icon.mx-auto.mr-sm-0.d-block.py-3 src='icon.png' alt='World Clock Widgets App Icon' style='max-width: 180px;'
+						img.rounded-icon.mx-auto.mr-sm-0.d-block.py-3 src='../icon.png' alt='World Clock Widgets App Icon' style='max-width: 180px;'
 						
 					div.col-sm-7.text-sm-left.text-center
 						h2.pb-2 World Clock Widgets
@@ -97,7 +97,8 @@ html
 								dd Open Settings and enable the “Use Current Location” option. You also need to grant location permission to the World Clock app. This feature requires World Clock Pro.
 								
 								dt Why do my widgets show the wrong “current location”?
-								dd World Clock does not have permission to update your location in the background. Please open the app to refresh your widgets.
+								dd World Clock’s widget should periodically update with your current location. Please be aware that these location updates may be delayed indefinitely if you enable Low Power Mode or force quit the app. If the widget’s location is out of date, please open the app to refresh your widgets.
+								dd Also be sure Settings → Privacy & Security → Location Services is enabled and Settings → World Clock → Location is set to <em>While Using App</em>.
 								
 				section.pb-0.dolinks
 					div.row
@@ -171,7 +172,7 @@ html
 						  | &nbsp;&#8729;&nbsp;
 						  a href='presskit.html' Press&nbsp;Kit
 						  | &nbsp;&#8729;&nbsp;
-						  a href='support.html' Support
+						  a href='support/index.html' Support
 						  | &nbsp;&#8729;&nbsp;
 						  a href='mailto:worldclock@overdesigned.net' Contact
 						
