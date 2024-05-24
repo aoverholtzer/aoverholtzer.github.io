@@ -7,7 +7,7 @@
       "uuidString" : "CDABA4E0-FA90-44C4-9D66-667B56EA4E7B"
     }
   ],
-  "creatorBuild" : "34564",
+  "creatorBuild" : "34518",
   "files" : {
     "\/_config.yml" : {
       "cB" : 0,
@@ -11072,183 +11072,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock_old\/AppIcon120.png" : {
-      "ft" : 32768,
-      "iS" : 12188,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/AppIcon120.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/combo_big.png" : {
-      "ft" : 32768,
-      "iS" : 144737,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/combo_big.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/combo.png" : {
-      "ft" : 32768,
-      "iS" : 59127,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/combo.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/csfavicon-152.png" : {
-      "ft" : 32768,
-      "iS" : 7207,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/csfavicon-152.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/csfavicon.png" : {
-      "ft" : 32768,
-      "iS" : 1786,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/csfavicon.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/Download_on_the_App_Store_Badge_US-UK_135x40.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/worldclock_old\/Download_on_the_App_Store_Badge_US-UK_135x40.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/worldclock_old\/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/worldclock_old\/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/worldclock_old\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/index.html",
-      "oF" : 0
-    },
-    "\/worldclock_old\/main.png" : {
-      "ft" : 32768,
-      "iS" : 46400,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/main.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/main852.png" : {
-      "ft" : 32768,
-      "iS" : 54049,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/main852.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/widget.png" : {
-      "ft" : 32768,
-      "iS" : 65323,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/widget.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/widget852.png" : {
-      "ft" : 32768,
-      "iS" : 373480,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/widget852.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock_old\/worldclock-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/worldclock-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/worldclock_old\/worldclock-press-kit.zip" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/worldclock-press-kit.zip",
-      "oF" : 0
-    },
-    "\/worldclock_old\/worldclock.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock_old\/worldclock-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/worldclock\/_icon.slim" : {
       "cB" : 0,
       "cmO" : 0,
@@ -12623,7 +12446,7 @@
     },
     "\/worldclock\/csfavicon-152.png" : {
       "ft" : 32768,
-      "iS" : 5320,
+      "iS" : 7207,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon-152.png",
       "oF" : 0,
@@ -12636,7 +12459,7 @@
     },
     "\/worldclock\/csfavicon.png" : {
       "ft" : 32768,
-      "iS" : 1717,
+      "iS" : 1786,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon.png",
       "oF" : 0,
@@ -12888,22 +12711,9 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock\/images\/web1.jpg" : {
-      "ft" : 16384,
-      "iS" : 42699,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/worldclock\/images\/web1@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 132345,
+      "iS" : 125247,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web1@2x.jpg",
@@ -12914,41 +12724,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock\/images\/web2.jpg" : {
-      "ft" : 16384,
-      "iS" : 43675,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/worldclock\/images\/web2@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 99011,
+      "iS" : 144509,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web2@2x.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock\/images\/web3.jpg" : {
-      "ft" : 16384,
-      "iS" : 27043,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -12968,7 +12752,7 @@
     },
     "\/worldclock\/images\/web4@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 89738,
+      "iS" : 66861,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web4@2x.jpg",
@@ -12979,22 +12763,9 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock\/images\/web5.jpg" : {
-      "ft" : 16384,
-      "iS" : 28472,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web5.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/worldclock\/images\/web5@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 66861,
+      "iS" : 61872,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web5@2x.jpg",
@@ -13005,22 +12776,9 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock\/images\/web6.jpg" : {
-      "ft" : 16384,
-      "iS" : 25341,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web6.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/worldclock\/images\/web6@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 61872,
+      "iS" : 73899,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web6@2x.jpg",
@@ -13031,38 +12789,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock\/images\/web7.jpg" : {
-      "ft" : 16384,
-      "iS" : 30875,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web7.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/worldclock\/images\/web7@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 73899,
+      "iS" : 75283,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web7@2x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock\/images\/web8.jpg" : {
-      "ft" : 16384,
-      "iS" : 38905,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web8.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -13076,19 +12808,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web8@2x.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock\/images\/web9.jpg" : {
-      "ft" : 16384,
-      "iS" : 37139,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock\/images\/web9.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -14111,6 +13830,9 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
+      "no-new-object" : {
+        "active" : 0
+      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -14122,9 +13844,6 @@
       },
       "no-obj-calls" : {
         "active" : 1
-      },
-      "no-object-constructor" : {
-        "active" : 0
       },
       "no-octal" : {
         "active" : 1
