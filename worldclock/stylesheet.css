@@ -7265,3 +7265,7 @@ h6.centered {
 
 dd + dt {
   margin-top: 1rem; }
+
+#top a {
+  text-decoration: underline;
+  color: #007bff !important; }
