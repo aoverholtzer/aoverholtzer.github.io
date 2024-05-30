@@ -6690,3 +6690,6 @@ ul:last-child, ol:last-child {
 
 .ekko-lightbox .modal-footer {
   display: block; }
+
+#merch a img:hover {
+  scale: 1.05; }
