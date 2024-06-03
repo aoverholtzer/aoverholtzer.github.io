@@ -6,6 +6,7 @@ html
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     meta name="format-detection" content="telephone=no"
     link rel="stylesheet" href="timesup.css"
+	script src="https://kit.fontawesome.com/1c498ede56.js" crossorigin="anonymous"
     
   body
 				
@@ -49,14 +50,20 @@ html
 				div.row.text-center.small
 					div.col
 					  p 
-							a href='/' &copy;2021 Overdesigned, LLC
+							a href='/' &copy;2024 Overdesigned, LLC
 							| &nbsp;&#8729;&nbsp;
 							a href='privacy.html' Privacy
 							| &nbsp;&#8729;&nbsp;
 							a href='press-kit.zip' Press&nbsp;Kit
 							| &nbsp;&#8729;&nbsp;
-							a href='https://twitter.com/timesupapp' Twitter
+							a href='https://twitter.com/timesupapp' aria-label='Twitter' title='Twitter'
+								i.fa-brands.fa-twitter aria-hidden=true
 							| &nbsp;&#8729;&nbsp;
-							a href='mailto:adam@overdesigned.net' Email
+							a href='https://indieapps.space/@TimesUp' aria-label='Mastodon' title='Mastodon'
+								i.fa-brands.fa-mastodon aria-hidden=true
+							| &nbsp;&#8729;&nbsp;
+							a href='mailto:support@overdesigned.net' aria-label='Email' title='Email'
+								i.fa-solid.fa-envelope aria-hidden=true
 						
 					  p.mb-0.text-muted Time’s Up! was created by <a href='/' class='text-muted'>Adam</a> in California.
+

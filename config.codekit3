@@ -11040,16 +11040,6 @@
       "oS" : 0,
       "rAC" : 0
     },
-    "\/timesup\/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/timesup\/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/timesup\/press-kit.zip" : {
       "cB" : 0,
       "ft" : 8192,
@@ -11194,12 +11184,12 @@
     },
     "\/timesup\/web4.png" : {
       "ft" : 32768,
-      "iS" : 149436,
+      "iS" : 153588,
       "oA" : 0,
       "oAP" : "\/timesup\/web4.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -11207,7 +11197,7 @@
     },
     "\/timesup\/web4@2x.png" : {
       "ft" : 32768,
-      "iS" : 373632,
+      "iS" : 378380,
       "oA" : 0,
       "oAP" : "\/timesup\/web4@2x.png",
       "oF" : 0,
