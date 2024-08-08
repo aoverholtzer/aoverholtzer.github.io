@@ -7208,14 +7208,11 @@ section, footer {
   section.colorful, footer.colorful {
     padding: 1rem;
     border-radius: 2rem;
-    background: #833ab4;
-    background: linear-gradient(342deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%); }
+    background: #e9ecef;
+    background: linear-gradient(342deg, rgba(131, 58, 180, 0.5) 0%, rgba(253, 29, 29, 0.5) 50%, rgba(252, 176, 69, 0.5) 100%); }
     @media (min-width: 1200px) {
       section.colorful, footer.colorful {
         border-radius: 2.5rem; } }
-    @media (max-width: 575.98px) {
-      section.colorful, footer.colorful {
-        border-radius: 1.5rem; } }
 .card {
   background: none;
   border: none; }
