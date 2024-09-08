@@ -7,7 +7,7 @@
       "uuidString" : "CDABA4E0-FA90-44C4-9D66-667B56EA4E7B"
     }
   ],
-  "creatorBuild" : "34518",
+  "creatorBuild" : "34564",
   "files" : {
     "\/_config.yml" : {
       "cB" : 0,
@@ -4101,7 +4101,7 @@
     },
     "\/images\/worldclock316.png" : {
       "ft" : 32768,
-      "iS" : 16944,
+      "iS" : 33573,
       "oA" : 0,
       "oAP" : "\/images\/worldclock316.png",
       "oF" : 0,
@@ -11184,7 +11184,7 @@
     },
     "\/timesup\/web4.png" : {
       "ft" : 32768,
-      "iS" : 149436,
+      "iS" : 153588,
       "oA" : 0,
       "oAP" : "\/timesup\/web4.png",
       "oF" : 0,
@@ -11197,7 +11197,7 @@
     },
     "\/timesup\/web4@2x.png" : {
       "ft" : 32768,
-      "iS" : 373632,
+      "iS" : 378380,
       "oA" : 0,
       "oAP" : "\/timesup\/web4@2x.png",
       "oF" : 0,
@@ -12608,7 +12608,7 @@
     },
     "\/worldclock\/csfavicon-152.png" : {
       "ft" : 32768,
-      "iS" : 7207,
+      "iS" : 5320,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon-152.png",
       "oF" : 0,
@@ -12621,7 +12621,7 @@
     },
     "\/worldclock\/csfavicon.png" : {
       "ft" : 32768,
-      "iS" : 1786,
+      "iS" : 1717,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon.png",
       "oF" : 0,
@@ -12654,7 +12654,7 @@
     },
     "\/worldclock\/icon.png" : {
       "ft" : 32768,
-      "iS" : 56802,
+      "iS" : 58735,
       "oA" : 0,
       "oAP" : "\/worldclock\/icon.png",
       "oF" : 0,
@@ -12667,7 +12667,7 @@
     },
     "\/worldclock\/images\/devices@1x.png" : {
       "ft" : 32768,
-      "iS" : 273956,
+      "iS" : 61523,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/devices@1x.png",
       "oF" : 0,
@@ -12680,7 +12680,7 @@
     },
     "\/worldclock\/images\/devices@2x.png" : {
       "ft" : 32768,
-      "iS" : 819940,
+      "iS" : 241201,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/devices@2x.png",
       "oF" : 0,
@@ -12693,7 +12693,7 @@
     },
     "\/worldclock\/images\/ios-icon.png" : {
       "ft" : 32768,
-      "iS" : 57621,
+      "iS" : 220785,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/ios-icon.png",
       "oF" : 0,
@@ -12706,7 +12706,7 @@
     },
     "\/worldclock\/images\/ipad1.jpg" : {
       "ft" : 16384,
-      "iS" : 272662,
+      "iS" : 272878,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/ipad1.jpg",
@@ -12927,7 +12927,7 @@
     },
     "\/worldclock\/images\/web1@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 125247,
+      "iS" : 97098,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web1@2x.jpg",
@@ -12940,7 +12940,7 @@
     },
     "\/worldclock\/images\/web2@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 144509,
+      "iS" : 106382,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web2@2x.jpg",
@@ -12953,7 +12953,7 @@
     },
     "\/worldclock\/images\/web3@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 63489,
+      "iS" : 72445,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web3@2x.jpg",
@@ -12966,7 +12966,7 @@
     },
     "\/worldclock\/images\/web4@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 66861,
+      "iS" : 89738,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web4@2x.jpg",
@@ -12979,7 +12979,7 @@
     },
     "\/worldclock\/images\/web5@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 61872,
+      "iS" : 68183,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web5@2x.jpg",
@@ -12992,7 +12992,7 @@
     },
     "\/worldclock\/images\/web6@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 73899,
+      "iS" : 69901,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web6@2x.jpg",
@@ -13005,7 +13005,7 @@
     },
     "\/worldclock\/images\/web7@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 75283,
+      "iS" : 83184,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web7@2x.jpg",
@@ -13018,7 +13018,7 @@
     },
     "\/worldclock\/images\/web8@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 89510,
+      "iS" : 98408,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web8@2x.jpg",
@@ -13031,7 +13031,7 @@
     },
     "\/worldclock\/images\/web9@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 86652,
+      "iS" : 81492,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web9@2x.jpg",
@@ -13070,7 +13070,7 @@
     },
     "\/worldclock\/images\/widget-banner-iphone@2x.png" : {
       "ft" : 32768,
-      "iS" : 178811,
+      "iS" : 306385,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/widget-banner-iphone@2x.png",
       "oF" : 0,
@@ -13083,7 +13083,7 @@
     },
     "\/worldclock\/images\/widget-banner@1x.png" : {
       "ft" : 32768,
-      "iS" : 84996,
+      "iS" : 165132,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/widget-banner@1x.png",
       "oF" : 0,
@@ -13096,7 +13096,7 @@
     },
     "\/worldclock\/images\/widget-banner@2x.png" : {
       "ft" : 32768,
-      "iS" : 220525,
+      "iS" : 429991,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/widget-banner@2x.png",
       "oF" : 0,
@@ -14044,9 +14044,6 @@
       "no-new-native-nonconstructor" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
       "no-new-symbol" : {
         "active" : 1
       },
@@ -14058,6 +14055,9 @@
       },
       "no-obj-calls" : {
         "active" : 1
+      },
+      "no-object-constructor" : {
+        "active" : 0
       },
       "no-octal" : {
         "active" : 1

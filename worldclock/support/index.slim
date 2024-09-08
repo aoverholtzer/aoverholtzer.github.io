@@ -32,6 +32,8 @@ html
 								a href='#tutorials' Tutorials (How To)
 							li 
 								a href='#common' Common Issues
+							li
+								a href='#live' Live Activities
 							li 
 								a href='#local' “Local” Time & Current Location
 							li 
@@ -114,11 +116,24 @@ html
 							dt Why are my widgets “stuck” or showing the wrong time?
 							dd If your widgets are “stuck” showing the wrong time, please first try restarting your device. Sometimes widgets get stuck after an app or OS update; this is an OS bug. The OS sometimes “throttles“ widget updates to preserve battery life. I have worked hard to ensure that widgets are always up-to-date, but you may occasionally see the wrong time for a second or two. On iOS, you can also encourage the system to update more reliably by adding Lock Screen widgets or another Home Screen widget. If you <i>consistently</i> see the wrong time, <a href='#contact'>please contact me</a> using one of the methods linked above.
 							
-							dt Why do my Live Activities disappear?
-							dd All Live Activities expire after 12 hours. Open the app to restart the Live Activity. If you have World Clock Pro, you can work around this limitation <a href='https://youtu.be/YjLr4E46Asw?hd=1&vq=large&rel=0'>using Shortcuts Automations</a>.
-							
 							a href='#top' <i class="fa-solid fa-arrow-up-to-line"></i>
 							
+				section.pb-0.dolinks#live
+					div.row
+						div.col
+							h4 Live Activities
+							dl
+								dt Why do my Live Activities disappear?
+								dd All Live Activities expire after 12 hours. Open the app to restart the Live Activity. If you have World Clock Pro, you can work around this limitation <a href='https://youtu.be/YjLr4E46Asw?hd=1&vq=large&rel=0'>using Shortcuts Automations</a>.
+								
+								dt Why doesn’t the <i>Start Live Activity</i> shortcut not work? Why does the <i>Start Live Activity</i> Control Center button not work?
+								dd Live Activities require iOS 16.2 or iPadOS 17. You must also grant permission for World Clock to show Live Activities; to change this setting, go to the Settings app → Apps → World Clock. 
+								
+								dt How do I get Live Activities on my Apple Watch? Or: How do I stop the Live Activity from appearing on my Apple Watch?
+								dd With iOS 18 and watchOS 11, your Live Activity should automatically appear on the Smart Stack of your Apple Watch. 
+								dd To disable this feature: Open the Watch app on your iPhone, then select Smart Stack. Scroll down to find World Clock, tap it, and then switch off <i>Mirror Live Activity from Phone</i>.
+								
+								a href='#top' <i class="fa-solid fa-arrow-up-to-line"></i>
 							
 				section.pb-0.dolinks#local
 					div.row
@@ -198,7 +213,8 @@ html
 								dd All of the solar and lunar data is calculated offline in the app, but it should be accurate to within a few minutes. Upcoming lunar events (e.g., next full moon) have been provided by the <a href='https://aa.usno.navy.mil/data/api'>U.S. Navy Astronomical Applications Department</a>.
 							
 								dt I just updated iOS and now my Today widget is missing!
-								dd Don’t worry, World Clock’s Today widget is still available! When you update iOS, Apple will “helpfully“ upgrade your Today widget to a Home Screen widget, but you can add back the Today widget by going to Notification Center, scrolling to the bottom and tapping Edit, then scrolling down and tapping Customize.
+								dd Unfortunately, Today widgets are no longer available in iOS 18. Please use the modern Home Screen widgets instead.
+								dd The World Clock widget remains available on iOS 17 and older. To add it, go to Notification Center, scroll to the bottom and tap Edit, then scroll down and tap Customize.
 								
 								dt How do I set an alarm?
 								dd World Clock does not have alarms. Please use Apple’s Clock app for alarms.

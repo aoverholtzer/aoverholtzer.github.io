@@ -184,6 +184,10 @@ h6.centered {
 	color: $gray-200;
 }
 
+dt, dd {
+	margin-bottom: 0.25rem;
+}
+
 dd + dt {
 	margin-top: 1rem;
 }
