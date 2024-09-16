@@ -12925,6 +12925,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/worldclock\/images\/tinted.png" : {
+      "ft" : 32768,
+      "iS" : 870976,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/tinted.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/worldclock\/images\/web1@2x.jpg" : {
       "ft" : 16384,
       "iS" : 97098,
