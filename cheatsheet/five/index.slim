@@ -50,9 +50,9 @@ body
 						{ :icon => 'fa-icons', 
 							:text => 'Choose from 200 icons to make your note easy to recognize.' },
 						{ :icon => 'fa-note-sticky', 
-							:text => 'Stick your Cheatsheet widget everywhere: Home Screen, Lock Screen, Watch face, Desktop, and beyond.' },
+							:text => 'Stick widgets everywhere: Home Screen, Lock Screen, Watch face, Desktop, and beyond.' },
 						{ :icon => 'fa-keyboard', 
-							:text => 'Paste anywhere with iOS custom keyboard.' },
+							:text => 'Paste into other apps with iOS custom keyboard.' },
 						{ :icon => 'fa-robot', 
 							:text => 'Supercharge your workflow with Shortcuts.' },
 						{ :icon => 'fa-party-horn', 
@@ -96,7 +96,7 @@ body
 			div.row.align-items-center
 				div.col-sm-6.order-12.order-sm-1
 					- @bullets = [ { :icon => 'fa-computer-classic', 
-							:text => 'Mac app puts notes on your Desktop and menu bar.' },
+							:text => 'Cheatsheet for Mac puts notes on your Desktop and menu bar.' },
 						{ :icon => 'fa-font-case', 
 							:text => 'Format with bold, italic, links, lists.' },
 						{ :icon => 'fa-globe fa-regular', 
@@ -113,52 +113,6 @@ body
 				div.col-sm-6.order-1.order-sm-12.mb-4.mb-sm-0
 					img.img-fluid.mx-auto.d-block src='images/web-mac@1x.png' srcset='images/web-mac@1x.png 1x, images/web-mac@2x.png 2x' alt='Cheatsheet on a Mac.'
 
-		section.d-none
-			div.row.px-xl-5.px-lg-4
-						
-				- @bullets = [ { :icon => 'fa-pencil',
-						:text => 'For the little things you never remember: put them in Cheatsheet.' }, 
-					{ :icon => 'fa-icons', 
-						:text => 'Choose from 200 icons to make your note easy to recognize.' },
-					{ :icon => 'fa-note-sticky', 
-						:text => 'Stick your notes everywhere: Home Screen, Lock Screen, and beyond.' },
-					{ :icon => 'fa-watch-smart', 
-						:text => 'Full-featured Watch app with editing, sync, and complications.' },
-					{ :icon => 'fa-computer-classic', 
-						:text => 'Mac app puts notes on your Desktop and menu bar.' },
-					{ :icon => 'fa-cloud', 
-						:text => 'Sync notes to all your devices with iCloud.' },
-					{ :icon => 'fa-font-case', 
-						:text => 'Format with bold, italic, links, lists.' },
-					{ :icon => 'fa-folder-closed', 
-						:text => 'Organize with folders.' },
-					{ :icon => 'fa-keyboard', 
-						:text => 'Paste anywhere with iOS custom keyboard.' },
-					{ :icon => 'fa-robot', 
-						:text => 'Supercharge your workflow with Shortcuts.' },
-					{ :icon => 'fa-party-horn', 
-						:text => 'Celebrating 10 years on the App Store. Thousands of 5-star reviews.' },
-					{ :icon => 'fa-globe fa-regular', 
-						:text => 'Localized in English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Chinese, and Spanish.' }]
-						
-			  	- @bullets.each do | row |
-			  		div.col-sm-6
-			  			div.row.no-gutters.align-items-baseline.mb-3
-				  			div.col-auto.mr-2
-				  				span.fa-stack
-				  					span.fa-solid.fa-circle.fa-stack-2x 
-				  					span class=["fa-solid", "fa-stack-1x", row[:icon]]
-							div.col
-				  				p.my-0 = row[:text]
-					
-
-		section.gray.d-none
-			div.row.align-items-center
-			  div.col-12.text-center
-				img.img-fluid src='images/devices@1x.png' srcset='images/devices@1x.png 1x, images/devices@2x.png 2x' alt='Cheatsheet Notes app running on a Mac, an iPhone, and an iPad.'
-				p 
-					a href='https://itunes.apple.com/app/id914665829'
-				    	strong Cheatsheet Notes is a free download for iOS.
 						
 		section
 			div.row
