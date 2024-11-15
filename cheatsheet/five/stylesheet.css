@@ -7237,6 +7237,11 @@ h6.centered {
   width: 100%;
   text-align: center; }
 
+ul {
+  padding-inline-start: 1rem; }
+  ul h6 {
+    margin-left: -1rem; }
+
 .rounded {
   border-radius: 1rem !important; }
   .rounded.bordered {
@@ -7267,7 +7272,7 @@ dt, dd {
   margin-bottom: 0.25rem; }
 
 dd + dt {
-  margin-top: 1rem; }
+  margin-top: 1.5rem; }
 
 #top a {
   text-decoration: underline;
