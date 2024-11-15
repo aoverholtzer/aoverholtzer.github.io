@@ -7270,6 +7270,8 @@ ul {
 
 dt, dd {
   margin-bottom: 0.25rem; }
+  dt p, dd p {
+    margin-bottom: 0.5rem; }
 
 dd + dt {
   margin-top: 1.5rem; }
