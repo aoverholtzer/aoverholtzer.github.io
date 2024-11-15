@@ -1,0 +1,111 @@
+doctype html
+html
+  head
+    title Cheatsheet Notes
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    meta name="format-detection" content="telephone=no"
+	// meta name="apple-itunes-app" content="app-id=956377119"
+    
+	// meta name="twitter:card" content="summary_large_image"
+	// meta name="twitter:creator" content="@aoverholtzer"
+	// meta name="twitter:title" content="Cheatsheet Notes"
+	// meta name="twitter:description" content="Check the time — anytime, anywhere."
+	// meta name="twitter:image" content="https://overdesigned.net/worldclock/twitter.jpg"
+	
+	link rel="stylesheet" href="stylesheet.css"
+	link rel="icon" href="csfavicon.jpg" type="image/jpg"
+	link rel="apple-touch-icon-precomposed" href="csfavicon-152.jpg"
+	link rel="stylesheet" href="https://kit.fontawesome.com/1c498ede56.css" crossorigin="anonymous"
+
+body
+			
+	div.container-md
+			
+		header
+			div.row.align-items-center
+				div.col-sm-5
+					img.rounded-icon.mx-auto.mr-sm-0.mt-sm-3.d-block src='icon.png' alt='App Icon' style='max-width: 232px;'
+					
+				div.col-lg-4.col-md-6.col-sm-6.text-sm-left.text-center
+					h2.pb-2
+						strong Cheatsheet Notes
+						
+					h6.mb-4 Write once, recall anywhere
+					
+					a href='https://itunes.apple.com/app/id914665829'
+						img src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='Download on the iOS App Store'
+					| &nbsp;
+					a href='https://itunes.apple.com/app/id1468213484'
+						img src='Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='Download on the Mac App Store'
+						
+		section.colorful
+			div.row
+				div.col.align-items-center
+					picture
+						source srcset='images/widget-banner-iphone@2x.png 1x' media='(max-width: 576px)'
+						source srcset='images/widget-banner@1x.png 1x, images/widget-banner@2x.png 2x'
+						img.img-fluid src='images/widget-banner@1x.png' alt='Screenshots of various Cheatsheet Notes widgets.'
+
+		section
+			div.row.px-xl-5.px-lg-4
+						
+				- @bullets = [ { :icon => 'fa-pencil',
+						:text => 'For the little things you never remember: put them in Cheatsheet.' }, 
+					{ :icon => 'fa-icons', 
+						:text => 'Choose from 200 icons to make your note easy to recognize.' },
+					{ :icon => 'fa-note-sticky', 
+						:text => 'Stick your notes everywhere: Home Screen, Lock Screen, and beyond.' },
+					{ :icon => 'fa-watch-smart', 
+						:text => 'Full-featured Watch app with editing, sync, and complications.' },
+					{ :icon => 'fa-computer-classic', 
+						:text => 'Mac app puts notes on your Desktop and menu bar.' },
+					{ :icon => 'fa-cloud', 
+						:text => 'Sync notes to all your devices with iCloud.' },
+					{ :icon => 'fa-font-case', 
+						:text => 'Format with bold, italic, links, lists.' },
+					{ :icon => 'fa-folder-closed', 
+						:text => 'Organize with folders.' },
+					{ :icon => 'fa-keyboard', 
+						:text => 'Paste anywhere with iOS custom keyboard.' },
+					{ :icon => 'fa-robot', 
+						:text => 'Supercharge your workflow with Shortcuts.' },
+					{ :icon => 'fa-party-horn', 
+						:text => 'Celebrating 10 years on the App Store. Thousands of 5-star reviews.' },
+					{ :icon => 'fa-globe fa-regular', 
+						:text => 'Localized in English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Chinese, and Spanish.' }]
+						
+			  	- @bullets.each do | row |
+			  		div.col-sm-6
+			  			div.row.no-gutters.align-items-baseline.mb-3
+				  			div.col-auto.mr-2
+				  				span.fa-stack
+				  					span.fa-solid.fa-circle.fa-stack-2x 
+				  					span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							div.col
+				  				p.my-0 = row[:text]
+					
+
+		section.gray
+			div.row.align-items-center
+			  div.col-12.text-center
+				img.img-fluid src='images/devices@1x.png' srcset='images/devices@1x.png 1x, images/devices@2x.png 2x' alt='Cheatsheet Notes app running on a Mac, an iPhone, and an iPad.'
+				p 
+					a href='https://itunes.apple.com/app/id914665829'
+				    	strong Cheatsheet Notes is a free download for iOS.
+		
+		footer.mb-xl-4
+			div.row.text-center.small
+				div.col
+				  p 
+						a href='/' &copy;2024 Overdesigned, LLC
+						| &nbsp;&#8729;&nbsp;
+						a href='https://www.iubenda.com/privacy-policy/298613/full-legal' Privacy
+						| &nbsp;&#8729;&nbsp;
+						a href='presskit.html' Press&nbsp;Kit
+						| &nbsp;&#8729;&nbsp;
+						a href='support/index.html' Support
+						| &nbsp;&#8729;&nbsp;
+						a href='support/index.html#contact' Contact
+					
+				  p.mb-0.text-muted Designed by <a href='/' class='text-muted'>Adam Overholtzer</a> in California.
