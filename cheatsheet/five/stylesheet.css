@@ -7260,6 +7260,9 @@ h6.centered {
 .fa-solid.fa-circle.fa-stack-2x {
   color: #e9ecef; }
 
+.gray .fa-solid.fa-circle.fa-stack-2x {
+  color: #f8f9fa; }
+
 dt, dd {
   margin-bottom: 0.25rem; }
 

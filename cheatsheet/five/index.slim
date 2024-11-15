@@ -20,14 +20,14 @@ html
 
 body
 			
-	div.container-md
+	div.container-md style='max-width: 768px;'
 			
 		header
 			div.row.align-items-center
 				div.col-sm-5
 					img.rounded-icon.mx-auto.mr-sm-0.mt-sm-3.d-block src='icon.png' alt='App Icon' style='max-width: 232px;'
 					
-				div.col-lg-4.col-md-6.col-sm-6.text-sm-left.text-center
+				div.col-lg-6.col-md-6.col-sm-6.text-sm-left.text-center
 					h2.pb-2
 						strong Cheatsheet Notes
 						
@@ -39,15 +39,81 @@ body
 					a href='https://itunes.apple.com/app/id1468213484'
 						img src='Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='Download on the Mac App Store'
 						
-		section.colorful
-			div.row
-				div.col.align-items-center
-					picture
-						source srcset='images/widget-banner-iphone@2x.png 1x' media='(max-width: 576px)'
-						source srcset='images/widget-banner@1x.png 1x, images/widget-banner@2x.png 2x'
-						img.img-fluid src='images/widget-banner@1x.png' alt='Screenshots of various Cheatsheet Notes widgets.'
-
+						
 		section
+			div.row.align-items-center 
+				//.px-xl-5.px-lg-4
+
+				div.col-sm-8.order-12.order-sm-1
+					- @bullets = [ { :icon => 'fa-pencil',
+							:text => 'For the little things you never remember: put them in Cheatsheet.' }, 
+						{ :icon => 'fa-icons', 
+							:text => 'Choose from 200 icons to make your note easy to recognize.' },
+						{ :icon => 'fa-note-sticky', 
+							:text => 'Stick your Cheatsheet widget everywhere: Home Screen, Lock Screen, Watch face, Desktop, and beyond.' },
+						{ :icon => 'fa-keyboard', 
+							:text => 'Paste anywhere with iOS custom keyboard.' },
+						{ :icon => 'fa-robot', 
+							:text => 'Supercharge your workflow with Shortcuts.' },
+						{ :icon => 'fa-party-horn', 
+							:text => 'Celebrating 10 years on the App Store. Thousands of 5-star reviews.' }]
+							
+			  		- @bullets.each do | row |
+					  	div.row.no-gutters.align-items-baseline.mb-3
+						  	div.col-auto.mr-2
+							  	span.fa-stack
+								  	span.fa-solid.fa-circle.fa-stack-2x 
+								  	span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							div.col
+							  	p.my-0 = row[:text]
+								  
+				div.col-sm-4.order-1.order-sm-12.mb-4.mb-sm-0
+					img.img-fluid.mx-auto.d-block src='images/web-phone@1x.png' srcset='images/web-phone@1x.png 1x, images/web-phone@2x.png 2x' alt='Cheatsheet widgets on an iPhone Home Screen.'
+					
+		section.gray
+			div.row.align-items-center.mr-sm-3.mr-0
+				div.col-sm-4
+					img.img-fluid.mx-auto.d-block src='images/web-watch@1x.png' srcset='images/web-watch@1x.png 1x, images/web-watch@2x.png 2x' alt='Cheatsheet on an Apple Watch.'
+				div.col-sm-8.mt-3
+					- @bullets = [ { :icon => 'fa-watch-smart', 
+							:text => 'Full-featured Watch app with editing, widgets, and complications.' },
+						{ :icon => 'fa-cloud', 
+							:text => 'Sync notes to all your devices with iCloud.' },
+						{ :icon => 'fa-folder-closed', 
+							:text => 'Organize with folders.' }]
+							
+					- @bullets.each do | row |
+						div.row.no-gutters.align-items-baseline.mb-3
+							div.col-auto.mr-2.ml-2.ml-sm-0
+								span.fa-stack
+									span.fa-solid.fa-circle.fa-stack-2x 
+									span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							div.col
+								p.my-0 = row[:text]
+								
+								
+		section
+			div.row.align-items-center
+				div.col-sm-6.order-12.order-sm-1
+					- @bullets = [ { :icon => 'fa-computer-classic', 
+							:text => 'Mac app puts notes on your Desktop and menu bar.' },
+						{ :icon => 'fa-font-case', 
+							:text => 'Format with bold, italic, links, lists.' },
+						{ :icon => 'fa-globe fa-regular', 
+							:text => 'Localized in English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Chinese, and Spanish.' }]
+							
+					- @bullets.each do | row |
+						div.row.no-gutters.align-items-baseline.mb-3
+							div.col-auto.mr-2.ml-2.ml-sm-0
+								span.fa-stack
+									span.fa-solid.fa-circle.fa-stack-2x 
+									span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							div.col
+								p.my-0 = row[:text]
+				div.col-sm-6.order-1.order-sm-12.mb-4.mb-sm-0
+					img.img-fluid.mx-auto.d-block src='images/web-mac@1x.png' srcset='images/web-mac@1x.png 1x, images/web-mac@2x.png 2x' alt='Cheatsheet on a Mac.'
+
+		section.d-none
 			div.row.px-xl-5.px-lg-4
 						
 				- @bullets = [ { :icon => 'fa-pencil',
@@ -86,13 +152,21 @@ body
 				  				p.my-0 = row[:text]
 					
 
-		section.gray
+		section.gray.d-none
 			div.row.align-items-center
 			  div.col-12.text-center
 				img.img-fluid src='images/devices@1x.png' srcset='images/devices@1x.png 1x, images/devices@2x.png 2x' alt='Cheatsheet Notes app running on a Mac, an iPhone, and an iPad.'
 				p 
 					a href='https://itunes.apple.com/app/id914665829'
 				    	strong Cheatsheet Notes is a free download for iOS.
+						
+		section
+			div.row
+				div.col.align-items-center
+					picture
+						//source srcset='images/banner@2x.jpg 1x' media='(max-width: 576px)'
+						source srcset='images/banner@1x.jpg 1x, images/banner@2x.jpg 2x'
+						img.rounded.img-fluid src='images/banner@1x.jpg' alt='Cheatsheet Notes logo'
 		
 		footer.mb-xl-4
 			div.row.text-center.small
