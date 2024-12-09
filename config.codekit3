@@ -198,7 +198,7 @@
     },
     "\/cheatsheet\/csfavicon-152.png" : {
       "ft" : 32768,
-      "iS" : 8853,
+      "iS" : 5361,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/csfavicon-152.png",
       "oF" : 0,
@@ -240,7 +240,7 @@
     },
     "\/cheatsheet\/csfavicon.png" : {
       "ft" : 32768,
-      "iS" : 1998,
+      "iS" : 1775,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/csfavicon.png",
       "oF" : 0,
@@ -13032,6 +13032,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/timesup\/press-kit.zip",
+      "oF" : 0
+    },
+    "\/timesup\/privacy-vpp.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/timesup\/privacy-vpp.html",
       "oF" : 0
     },
     "\/timesup\/privacy.html" : {
