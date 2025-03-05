@@ -18,12 +18,28 @@
     <link href="csfavicon.png" rel="icon" type="image/png">
     <link href="csfavicon-152.png" rel="apple-touch-icon-precomposed">
     <link crossorigin="anonymous" href="https://kit.fontawesome.com/1c498ede56.css" rel="stylesheet">
-    <!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=AW-877429268"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-877429268"></script>
     <script>
+      <!-- Google tag (gtag.js) -->
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag("js", new Date());
       gtag('config', 'AW-877429268');
+    </script>
+    <script>
+      <!-- In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-877429268/zMP3CNngzaYaEJSEsqID',
+            'event_callback': callback
+        });
+        return false;
+      }
     </script>
   </head>
 </html>
@@ -41,7 +57,7 @@
           <h6 class="mb-4">
             Check the time — anytime, anywhere.
           </h6>
-          <a href="https://apps.apple.com/app/id956377119"><img alt="Download on the iOS App Store" src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>&nbsp;<a href="https://apps.apple.com/app/id956377119"><img alt="Download on the Mac App Store" src="Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>
+          <a href="https://apps.apple.com/app/id956377119" onclick="javascript:gtag_report_conversion(&quot;https://apps.apple.com/app/id956377119&quot;)"><img alt="Download on the iOS App Store" src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>&nbsp;<a href="https://apps.apple.com/app/id956377119" onclick="javascript:gtag_report_conversion(&quot;https://apps.apple.com/app/id956377119&quot;)"><img alt="Download on the Mac App Store" src="Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg"></a>
         </div>
       </div>
     </header>
