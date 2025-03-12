@@ -54,6 +54,14 @@
       "oAP" : "\/.nojekyll",
       "oF" : 0
     },
+    "\/.nova\/Configuration.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.nova\/Configuration-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
     "\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
