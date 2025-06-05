@@ -5530,6 +5530,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/merch316.png" : {
+      "ft" : 32768,
+      "iS" : 32798,
+      "oA" : 0,
+      "oAP" : "\/images\/merch316.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/perls\/AppStore.jpg" : {
       "ft" : 16384,
       "iS" : 20380,
