@@ -6691,5 +6691,8 @@ ul:last-child, ol:last-child {
 .ekko-lightbox .modal-footer {
   display: block; }
 
+.text-black {
+  color: black; }
+
 #merch a img:hover {
   scale: 1.05; }
