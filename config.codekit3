@@ -14741,6 +14741,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/worldclock\/images\/web12@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 79679,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/web12@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/worldclock\/images\/web13@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 107497,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/web13@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/worldclock\/images\/web51@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 93700,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/web51@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/worldclock\/images\/widget-banner-iphone@2x.png" : {
       "ft" : 32768,
       "iS" : 732998,
