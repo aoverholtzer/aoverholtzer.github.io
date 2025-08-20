@@ -14429,9 +14429,9 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock-beta\/images\/mac1.jpeg" : {
+    "\/worldclock-beta\/images\/mac1.jpg" : {
       "ft" : 16384,
-      "iS" : 571506,
+      "iS" : 569139,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock-beta\/images\/mac1.jpg",
@@ -14442,51 +14442,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock-beta\/images\/mac2.jpeg" : {
+    "\/worldclock-beta\/images\/mac2.jpg" : {
       "ft" : 16384,
-      "iS" : 548468,
+      "iS" : 583615,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock-beta\/images\/mac2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock-beta\/images\/mac3.jpg" : {
-      "ft" : 16384,
-      "iS" : 644434,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock-beta\/images\/mac3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock-beta\/images\/mac4.jpg" : {
-      "ft" : 16384,
-      "iS" : 653044,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock-beta\/images\/mac4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/worldclock-beta\/images\/mac5.jpg" : {
-      "ft" : 16384,
-      "iS" : 645416,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock-beta\/images\/mac5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
