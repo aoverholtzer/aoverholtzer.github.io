@@ -12894,20 +12894,20 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/worldclock-beta\/index copy.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/worldclock-beta\/index copy.html",
-      "oF" : 0
-    },
     "\/worldclock-beta\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock-beta\/index.html",
+      "oF" : 0
+    },
+    "\/worldclock-beta\/presskit.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock-beta\/presskit.html",
       "oF" : 0
     },
     "\/worldclock\/_icon.slim" : {
@@ -14740,6 +14740,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/worldclock\/images\/web15@2x.jpg" : {
+      "ft" : 16384,
+      "iS" : 337267,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/web15@2x.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
