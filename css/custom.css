@@ -6694,5 +6694,13 @@ ul:last-child, ol:last-child {
 .text-black {
   color: black; }
 
+.text-gray {
+  color: #bbbbbb; }
+
 #merch a img:hover {
   scale: 1.05; }
+
+#index .icons {
+  color: #bbbbbb; }
+  #index .icons i {
+    padding-right: 4px; }

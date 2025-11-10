@@ -197,8 +197,22 @@ ul:last-child, ol:last-child {
 	color: black;
 }
 
+.text-gray {
+	color: $secondary;
+}
+
 #merch {
 	a img:hover {
 		scale: 1.05;
+	}
+}
+
+#index {
+	.icons {
+		color: $secondary;
+		
+		i {
+			padding-right: 4px;
+		}
 	}
 }
