@@ -64,7 +64,7 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 
 
 header, section, footer {
-	padding: 6em $spacer*4;
+	padding: 4em $spacer*4;
 	margin-left: $spacer * -3 !important;
 	margin-right: $spacer * -3 !important;
 
@@ -100,6 +100,10 @@ h4 {
 	padding: 0;
 }
 
+.rounded {
+	border-radius: 1rem !important;
+}
+
 .rounded-icon {
 //   border-radius: 17.544%;
 // 	clip-path: inset(1rem 0% 1rem 0% round 17.544%);
@@ -118,3 +122,4 @@ h4 {
 .fa-duotone {
 	--fa-secondary-opacity: 0;
 }
+

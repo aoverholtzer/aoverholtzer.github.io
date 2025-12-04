@@ -7187,7 +7187,7 @@ a.text-dark:hover, a.text-dark:focus {
     overflow: hidden; } }
 
 header, section, footer {
-  padding: 6em 4rem;
+  padding: 4em 4rem;
   margin-left: -3rem !important;
   margin-right: -3rem !important; }
   header.themed, section.themed, footer.themed {
@@ -7215,6 +7215,9 @@ h4 {
 .img-thumbnail {
   border-radius: 0;
   padding: 0; }
+
+.rounded {
+  border-radius: 1rem !important; }
 
 .rounded-icon {
   -webkit-mask-image: url("/images/ios7-icon.svg");
