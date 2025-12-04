@@ -7187,7 +7187,7 @@ a.text-dark:hover, a.text-dark:focus {
     overflow: hidden; } }
 
 header, section, footer {
-  padding: 6em 3rem;
+  padding: 6em 4rem;
   margin-left: -3rem !important;
   margin-right: -3rem !important; }
   header.themed, section.themed, footer.themed {
@@ -7223,3 +7223,9 @@ h4 {
   mask-image: url("/images/ios7-icon.svg");
   mask-repeat: no-repeat;
   mask-size: 100% 100%; }
+
+.fa-solid.fa-circle.fa-stack-2x {
+  color: #e9ecef; }
+
+.fa-duotone {
+  --fa-secondary-opacity: 0; }

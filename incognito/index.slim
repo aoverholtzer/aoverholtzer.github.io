@@ -6,6 +6,8 @@ html
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     meta name="format-detection" content="telephone=no"
     link rel="stylesheet" href="incognito.css"
+	link rel="stylesheet" href="https://kit.fontawesome.com/1c498ede56.css" crossorigin="anonymous"
+	//link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"
     
   body
 				
@@ -41,24 +43,57 @@ html
 						img.img-fluid.rounded src='web3.png' srcset='web3.png 1x, web3@2x.png 2x' alt='Screenshot of Incognito’s custom actions, including clearing history, removing AMP links, translating a web page, and opening the current page in Safari, Firefox, Chrome, and more.'
 						
 			
+			section
+				div.row
+					div.col-lg-9.mx-auto
+						div.row
+						
+							- @bullets = [{ :icon => 'fa-face-disguise fa-duotone fa-stack-2x', 
+									:text => 'Incognito helps you avoid the spying eyes of in‑app browsers¹.' },
+								{ :icon => 'fa-arrow-up-from-square', 
+									:text => 'Pop-up a secure browser inside any app, right from the share sheet.' },
+								{ :icon => 'fa-magnifying-glass', 
+									:text => 'Choose your search engine: Google, Bing, DuckDuckGo, etc.' },
+								{ :icon => 'fa-rectangle-pro', 
+									:text => 'Pro tools: translate, open in archive.is, automate with Shortcuts.' },
+								{ :icon => 'fa-cookie-bite',
+									:text => 'Reset cookie paywalls and block trackers.' },
+								{ :icon => 'fa-lock', 
+									:text => 'Passcode-lock your history and bookmarks.' },
+								{ :icon => 'fa-up-right-and-down-left-from-center', 
+									:text => 'Fullscreen browsing.' }]
+									
+							- @bullets.each do | row |
+  								div.col-sm-6
+	  								div.row.no-gutters.align-items-baseline.mb-3
+		  								div.col-auto.mr-2
+			  								span.fa-stack
+				  								span.fa-solid.fa-circle.fa-stack-2x 
+				  								span class=["fa-solid", "fa-stack-1x", row[:icon]]
+		  								div.col
+			  								p.my-0 = row[:text]
+											  
+							
+							div.col-12.text-center.small.mt-5.mh-5
+								p 
+								| [1] <a href='https://www.pcmag.com/how-to/how-to-stop-facebook-from-spying-on-your-internet-activity'>Facebook and Instagram Are Spying on Your Internet Activity</a>, <br/><i>PCMag</i>, 3 Sept. 2025
+			
 			section.d-none
 				div.row.align-items-center
-				
-					div.col-sm-6.order-sm-last
+					div.col-sm-6.order-sm-last.d-none
 						p Incognito is a private web browser you can pull up anywhere. 
 						p From <em>any</em> app: long-press a link or select text, choose &ldquo;Share&rdquo;, and then choose the Incognito action extension. Boom: instant web browser!
 						p Incognito has no ads, no third-party trackers, and does not send or re-route your web searches anywhere.
 						
-					div.col-sm-6.order-sm-first.text-center
+					div.col-sm-6.order-sm-first.text-center.d-none
 						img.img-fluid.mb-3 src='web-links@2x.png' srcset='web-links.png 1x, web-links@2x.png 2x, web-links@3x.png 3x'
 						img.img-fluid src='web-search@2x.png' srcset='web-search.png 1x, web-search@2x.png 2x, web-search@3x.png 3x'
-
 			
 			
 			footer.darkz
 				div.row.text-center.small
 					div.col
-						a href='/' &copy;2020 Overdesigned, LLC
+						a href='/' &copy;2025 Overdesigned, LLC
 						| &nbsp;&#8729;&nbsp;
 						a href='privacy.html' Privacy Policy
 						| &nbsp;&#8729;&nbsp;
@@ -68,5 +103,5 @@ html
 						| &nbsp;&#8729;&nbsp;
 						a href='mailto:adam@overdesigned.net' Contact
 						
-						
-						
+			//<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+			//<script src="script.js"></script>

@@ -64,7 +64,7 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 
 
 header, section, footer {
-	padding: 6em $spacer*3;
+	padding: 6em $spacer*4;
 	margin-left: $spacer * -3 !important;
 	margin-right: $spacer * -3 !important;
 
@@ -109,4 +109,12 @@ h4 {
   mask-image: url('/images/ios7-icon.svg');
   mask-repeat: no-repeat;
   mask-size: 100% 100%;
+}
+
+.fa-solid.fa-circle.fa-stack-2x {
+	color: $gray-200;
+}
+
+.fa-duotone {
+	--fa-secondary-opacity: 0;
 }
