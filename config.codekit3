@@ -7958,6 +7958,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/llms.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/llms.txt",
+      "oF" : 0
+    },
     "\/merch\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -8365,9 +8373,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/robots.txt",
-      "oF" : 0
+      "oF" : 1
     },
     "\/scss\/bootstrap\/_alert.scss" : {
       "aP" : 0,
@@ -9747,9 +9755,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/sitemap.xml",
-      "oF" : 0
+      "oF" : 1
     },
     "\/switcheroo\/.main~imageoptim.jpg" : {
       "ft" : 16384,
