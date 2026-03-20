@@ -24,6 +24,32 @@
 - [Standalone Status Menu in a Mac Catalyst App](https://blog.overdesigned.net/posts/2021-08-26-catalyst-status-menu/)
 - [SwiftUI View Modifiers and if #available](https://blog.overdesigned.net/posts/2020-09-23-swiftui-availability/)
 
+## Press
+
+- [Daring Fireball: Two New Apps I Wanted to Flag for You](https://daringfireball.net/2022/06/two_new_apps_to_flag): John Gruber recommends Keyboard Switcheroo for restoring flag icons to the macOS input menu, and calls Incognito Browser "excellent." June 23, 2022.
+- [TapSmart: The classic app: Cheatsheet](https://www.tapsmart.com/features/classics-cheatsheet/): In-depth profile of Cheatsheet Notes with quotes from developer Adam Overholtzer on the app's design philosophy and longevity. August 8, 2024.
+- [9to5Mac: The best iOS 17 apps with interactive widgets, StandBy support, and more](https://9to5mac.com/2023/09/18/the-best-ios-17-apps-with-interactive-widgets-and-standby/): Cheatsheet Notes, World Clock Widgets, and Time's Up! highlighted as top iOS 17 apps with StandBy and interactive widget support. September 18, 2023.
+- [TechCrunch: 18 apps that add useful actions to iOS 18 Control Center](https://techcrunch.com/2024/09/30/18-apps-that-add-useful-actions-to-the-ios-18-control-center/): Cheatsheet Notes featured among 18 top apps adding useful actions to the iOS 18 Control Center. September 30, 2024.
+- [SlashGear: 7 Apps You Should Be Using On Your Apple Watch In 2026](https://www.slashgear.com/2122290/apps-you-should-be-using-apple-watch-2026/): Cheatsheet listed as a top Apple Watch app recommendation. March 18, 2026.
+- [Gizmodo: 11 Apple Watch Apps You Need to Install ASAP](https://gizmodo.com/11-apple-watch-apps-you-need-to-install-asap-1843780828): Cheatsheet Notes listed among 11 essential Apple Watch apps. April 8, 2021.
+- [Macworld: The 10 best free Apple Watch apps](https://www.macworld.com/article/231617/best-free-apple-watch-apps.html): Cheatsheet described as a must-have Apple Watch utility for quick-access notes. July 15, 2018.
+
+## Interviews
+
+- [Indie Dev Monday Issue #59](https://indiedevmonday.com/issue-59): Full interview with Adam Overholtzer about building Cheatsheet and Time's Up!, indie development philosophy, and balancing family with app development. September 6, 2021.
+- [TapSmart: The classic app: Cheatsheet](https://www.tapsmart.com/features/classics-cheatsheet/): In-depth profile of Cheatsheet Notes with quotes from developer Adam Overholtzer on the app's design philosophy and longevity. August 8, 2024.
+
+## Community
+
+- [YouTube: The Cheatsheet app — Your ultimate tool to never forget important details](https://www.youtube.com/shorts/ZHGOsUhUHqE): Third-party walkthrough of Cheatsheet Notes by @TechGeekTXDad.
+- [Product Hunt: Cheatsheet](https://www.producthunt.com/products/cheatsheet/launches/cheatsheet): Cheatsheet Notes listed on Product Hunt.
+- [Product Hunt: Incognito Private Browser](https://www.producthunt.com/products/cheatsheet/launches/incognito-private-browser): Incognito listed on Product Hunt.
+- [Product Hunt: World Clock Widgets](https://www.producthunt.com/products/world-clock-widgets): World Clock Widgets listed on Product Hunt.
+- [r/iOSProgramming: World Clock app with StandBy widgets](https://www.reddit.com/r/iOSProgramming/comments/18jyi9h/my_world_clock_app_now_with_standby_widgets_live/): Developer post announcing StandBy widget support for World Clock Widgets.
+- [r/apple: Time's Up! Timer](https://www.reddit.com/r/apple/comments/q59sce/times_up_timer_fun_kidfriendly_visual_timer_app/): Developer introduction of Time's Up! visual timer to the Apple community.
+- [r/tvos: Time's Up! for Apple TV](https://www.reddit.com/r/tvos/comments/pffkd6/times_up_kidfriendly_visual_timer_for-apple_tv/): Announcement of Time's Up! Apple TV version.
+- [r/SwiftUI: SwiftUI animation tips & tricks](https://www.reddit.com/r/SwiftUI/comments/pykysv/swiftui_animation_tips_tricks/): Developer sharing SwiftUI animation techniques from building Time's Up!
+
 ## Contact
 
 - Developer: adam@overdesigned.net
