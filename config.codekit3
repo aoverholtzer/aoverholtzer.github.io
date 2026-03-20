@@ -38,6 +38,12 @@
       "oS" : 0,
       "rAC" : 0
     },
+    "\/.claude" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/.claude",
+      "oF" : 0
+    },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
@@ -9729,6 +9735,14 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/sitemap.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/sitemap.xml",
+      "oF" : 0
+    },
     "\/switcheroo\/.main~imageoptim.jpg" : {
       "ft" : 16384,
       "iS" : 105042,
@@ -16581,7 +16595,7 @@
     ],
     "rollupTreeshakingEnabled" : 1,
     "rollupTreeshakingModuleSideEffects" : 1,
-    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+    "skippedFoldersString" : "_logs,\/storage\/framework\/sessions,cache,logs,.idea,\/.claude,node_modules,log,_cache",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowArbitraryExtensions" : 0,
