@@ -49,7 +49,7 @@
 <url>
   <loc>https://overdesigned.net/cheatsheet/support/</loc>
   <lastmod>2025-12-04T11:33:53-08:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.72</priority>
 </url>
 <url>
   <loc>https://overdesigned.net/worldclock/presskit.html</loc>
@@ -59,22 +59,22 @@
 <url>
   <loc>https://overdesigned.net/worldclock/support/</loc>
   <lastmod>2026-02-06T11:00:48-08:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.72</priority>
 </url>
 <url>
   <loc>https://overdesigned.net/timesup/privacy.html</loc>
   <lastmod>2025-12-04T11:33:53-08:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.164</priority>
 </url>
 <url>
   <loc>https://overdesigned.net/incognito/privacy.html</loc>
   <lastmod>2022-07-17T11:53:16-07:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.164</priority>
 </url>
 <url>
   <loc>https://overdesigned.net/incognito/tos.html</loc>
   <lastmod>2022-07-17T11:53:16-07:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.164</priority>
 </url>
 <url>
   <loc>https://overdesigned.net/incognito/press.html</loc>
@@ -84,7 +84,7 @@
 <url>
   <loc>https://overdesigned.net/switcheroo/privacy.html</loc>
   <lastmod>2025-12-04T11:33:53-08:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.164</priority>
 </url>
 <url>
   <loc>https://overdesigned.net/switcheroo/presskit.html</loc>
@@ -94,7 +94,7 @@
 <url>
   <loc>https://overdesigned.net/timesup/privacy-vpp.html</loc>
   <lastmod>2025-12-04T11:33:53-08:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.164</priority>
 </url>
 
 
