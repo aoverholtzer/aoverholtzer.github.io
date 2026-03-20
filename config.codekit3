@@ -8361,6 +8361,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/robots.txt",
+      "oF" : 0
+    },
     "\/scss\/bootstrap\/_alert.scss" : {
       "aP" : 0,
       "bl" : 0,
