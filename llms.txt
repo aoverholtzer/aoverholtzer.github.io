@@ -39,6 +39,13 @@
 - [Indie Dev Monday Issue #59](https://indiedevmonday.com/issue-59): Full interview with Adam Overholtzer about building Cheatsheet and Time's Up!, indie development philosophy, and balancing family with app development. September 6, 2021.
 - [TapSmart: The classic app: Cheatsheet](https://www.tapsmart.com/features/classics-cheatsheet/): In-depth profile of Cheatsheet Notes with quotes from developer Adam Overholtzer on the app's design philosophy and longevity. August 8, 2024.
 
+## Features
+
+- Cheatsheet Notes: Apple App Store Apps We Love, Top Productivity Apps, Best New Apps and Updates, [Great Apps Updated for iOS 26](https://apps.apple.com/us/iphone/room/6752529439), The Best Apps for iOS 18, Big Apps From Small Teams.
+- World Clock Widgets: Apple App Store Great Apps Updated for iOS 26, [Supercharge Your Timers and Alarms](https://apps.apple.com/us/story/id1835558510), Big Apps From Small Teams.
+- Time’s Up! Timer: Apple App Store Best New Apps and Updates.
+- Keyboard Switcheroo: Apple Mac App Store [Indispensable Affordable Apps](https://apps.apple.com/us/mac/story/id1555107275).
+
 ## Community
 
 - [YouTube: The Cheatsheet app — Your ultimate tool to never forget important details](https://www.youtube.com/shorts/ZHGOsUhUHqE): Third-party walkthrough of Cheatsheet Notes by @TechGeekTXDad.
