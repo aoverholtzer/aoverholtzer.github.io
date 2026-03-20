@@ -72,9 +72,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/263a51d3a0d748e79229cf281535c6ac.txt",
-      "oF" : 0
+      "oF" : 1
     },
     "\/404.html" : {
       "cB" : 0,
@@ -91,6 +91,14 @@
       "oA" : 0,
       "oAP" : "\/app-ads.txt",
       "oF" : 0
+    },
+    "\/BingSiteAuth.xml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/BingSiteAuth.xml",
+      "oF" : 1
     },
     "\/cheatsheet\/_icon.slim" : {
       "cB" : 0,
@@ -3596,9 +3604,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/CNAME",
-      "oF" : 0
+      "oF" : 1
     },
     "\/css\/custom.css" : {
       "aP" : 1,
