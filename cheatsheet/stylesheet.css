@@ -9342,6 +9342,11 @@ header {
 h1, .h1 {
   font-size: 2rem; }
 
+:not(.underlined) > a {
+  text-decoration: none; }
+  :not(.underlined) > a:hover {
+    text-decoration: underline; }
+
 h4, .h4 {
   font-weight: bold; }
 
@@ -9400,7 +9405,8 @@ dd + dt {
       column-count: 2; } }
   .card-columns .card {
     display: inline-block;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 1.25rem; }
 
 [data-bs-theme="dark"] section.gray, [data-bs-theme="dark"] footer.gray {
   background: #343a40 !important; }
@@ -9413,3 +9419,6 @@ dd + dt {
 
 [data-bs-theme="dark"] .gray .fa-solid.fa-circle.fa-stack-2x {
   color: #6c757d; }
+
+[data-bs-theme="dark"] .dolinks a {
+  color: #0dcaf0 !important; }

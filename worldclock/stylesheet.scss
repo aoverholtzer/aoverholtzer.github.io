@@ -136,6 +136,13 @@ header {
 	color: $blue !important;
 }
 
+:not(.underlined) > a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 h1 {
 	font-size: 2rem;
 }
@@ -198,7 +205,20 @@ dd + dt {
 	section, footer {
 		&.gray {
 			background: $gray-800 !important;
+			a {
+				color: $gray-500;
+			}
 		}
+	}
+	footer {
+		color: $secondary !important;
+		a, .text-muted {
+			color: $secondary !important;
+		}
+	}
+	
+	.dolinks a {
+		color: $cyan !important;
 	}
 	.rounded.bordered {
 		border-color: $gray-700 !important;

@@ -9339,6 +9339,11 @@ header {
 .dolinks a {
   color: #0d6efd !important; }
 
+:not(.underlined) > a {
+  text-decoration: none; }
+  :not(.underlined) > a:hover {
+    text-decoration: underline; }
+
 h1, .h1 {
   font-size: 2rem; }
 
@@ -9384,6 +9389,16 @@ dd + dt {
 
 [data-bs-theme="dark"] section.gray, [data-bs-theme="dark"] footer.gray {
   background: #343a40 !important; }
+  [data-bs-theme="dark"] section.gray a, [data-bs-theme="dark"] footer.gray a {
+    color: #adb5bd; }
+
+[data-bs-theme="dark"] footer {
+  color: #6c757d !important; }
+  [data-bs-theme="dark"] footer a, [data-bs-theme="dark"] footer .text-muted {
+    color: #6c757d !important; }
+
+[data-bs-theme="dark"] .dolinks a {
+  color: #0dcaf0 !important; }
 
 [data-bs-theme="dark"] .rounded.bordered {
   border-color: #495057 !important; }

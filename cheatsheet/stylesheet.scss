@@ -140,6 +140,13 @@ h1 {
 	font-size: 2rem;
 }
 
+:not(.underlined) > a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
 h4 {
 	font-weight: bold;
 }
@@ -211,7 +218,7 @@ dd + dt {
 	column-count: 3;
 	column-gap: 1.25rem;
 	@include media-breakpoint-down(sm) { column-count: 2; }
-	.card { display: inline-block; width: 100%; }
+	.card { display: inline-block; width: 100%; margin-bottom: 1.25rem; }
 }
 
 [data-bs-theme="dark"] {
@@ -228,5 +235,9 @@ dd + dt {
 	}
 	.gray .fa-solid.fa-circle.fa-stack-2x {
 		color: $gray-600;
+	}
+	
+	.dolinks a {
+		color: $cyan !important;
 	}
 }
