@@ -9312,6 +9312,9 @@ header, section, footer {
     background: #e9ecef;
     border-radius: 2rem; }
 
+footer {
+  padding-bottom: 2em; }
+
 /*
 header {
 	background: url(banner.png) no-repeat;
@@ -9321,6 +9324,11 @@ header {
 */
 .dolinks a {
   color: #0d6efd !important; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
 
 h1, .h1 {
   font-size: 1.75rem; }
@@ -9354,3 +9362,11 @@ h4, .h4 {
 
 [data-bs-theme="dark"] .fa-solid.fa-circle.fa-stack-2x {
   color: #495057; }
+
+[data-bs-theme="dark"] .dolinks a {
+  color: #0dcaf0 !important; }
+
+[data-bs-theme="dark"] footer {
+  color: #adb5bd !important; }
+  [data-bs-theme="dark"] footer a, [data-bs-theme="dark"] footer .text-muted {
+    color: #adb5bd !important; }

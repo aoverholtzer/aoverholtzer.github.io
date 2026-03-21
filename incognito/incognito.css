@@ -9298,6 +9298,11 @@ textarea.form-control-lg {
   .container-xl {
     overflow: hidden; } }
 
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 header, section, footer {
   padding: 4em 4rem;
   margin-left: -3rem !important;
