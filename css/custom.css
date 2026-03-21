@@ -6714,4 +6714,6 @@ ul:last-child, ol:last-child {
     a:hover {
       color: #ff735e; }
   .text-black {
-    color: #e0e0e0 !important; } }
+    color: #e0e0e0 !important; }
+  #merch img {
+    filter: drop-shadow(0 0 11px #6c757d); } }

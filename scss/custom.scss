@@ -232,4 +232,9 @@ ul:last-child, ol:last-child {
 	.text-black {
 		color: #e0e0e0 !important;
 	}
+	
+	#merch img {
+		// background: aliceblue;
+		filter: drop-shadow(0 0 11px $gray-600); 
+	}
 }
