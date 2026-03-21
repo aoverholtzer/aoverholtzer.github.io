@@ -9325,6 +9325,17 @@ section, footer {
     @media (min-width: 1200px) {
       section.colorful, footer.colorful {
         border-radius: 2.5rem; } }
+.card-columns {
+  column-count: 3;
+  column-gap: 1.25rem; }
+  @media (max-width: 575.98px) {
+    .card-columns {
+      column-count: 2; } }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.75rem; }
+
 .card {
   background: none;
   border: none; }
@@ -9339,9 +9350,9 @@ header {
 .dolinks a {
   color: #0d6efd !important; }
 
-:not(.underlined) > a {
+:not(.underlined) a {
   text-decoration: none; }
-  :not(.underlined) > a:hover {
+  :not(.underlined) a:hover {
     text-decoration: underline; }
 
 h1, .h1 {
@@ -9396,6 +9407,12 @@ dd + dt {
   color: #6c757d !important; }
   [data-bs-theme="dark"] footer a, [data-bs-theme="dark"] footer .text-muted {
     color: #6c757d !important; }
+
+[data-bs-theme="dark"] h1 a, [data-bs-theme="dark"] .h1 a {
+  color: white; }
+
+[data-bs-theme="dark"] #top a {
+  color: #0dcaf0 !important; }
 
 [data-bs-theme="dark"] .dolinks a {
   color: #0dcaf0 !important; }

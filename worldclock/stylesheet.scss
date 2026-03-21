@@ -114,11 +114,12 @@ footer {
 // 	padding-bottom: 2em;
 }
 
-// .card-columns {
-//   @include media-breakpoint-up(sm) {
-// 	column-count: 2;
-//   }
-// }
+.card-columns {
+  column-count: 3;
+  column-gap: 1.25rem;
+  @include media-breakpoint-down(sm) { column-count: 2; }
+  .card { display: inline-block; width: 100%; margin-bottom: 0.75rem; }
+}
 .card {
 	background: none;
 	border: none;
@@ -136,7 +137,7 @@ header {
 	color: $blue !important;
 }
 
-:not(.underlined) > a {
+:not(.underlined) a {
 	text-decoration: none;
 	&:hover {
 		text-decoration: underline;
@@ -216,7 +217,12 @@ dd + dt {
 			color: $secondary !important;
 		}
 	}
-	
+	h1 a {
+		color: white;
+	}
+	#top a {
+		color: $cyan !important;
+	}
 	.dolinks a {
 		color: $cyan !important;
 	}

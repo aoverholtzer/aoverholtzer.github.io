@@ -9420,5 +9420,8 @@ dd + dt {
 [data-bs-theme="dark"] .gray .fa-solid.fa-circle.fa-stack-2x {
   color: #6c757d; }
 
+[data-bs-theme="dark"] #top a {
+  color: #0dcaf0 !important; }
+
 [data-bs-theme="dark"] .dolinks a {
   color: #0dcaf0 !important; }
