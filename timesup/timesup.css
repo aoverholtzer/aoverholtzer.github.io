@@ -9338,9 +9338,27 @@ h4, .h4 {
   mask-repeat: no-repeat;
   mask-size: 100% 100%; }
 
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 a.linky {
   text-decoration: underline;
   color: teal; }
 
 [data-bs-theme="dark"] section.gray, [data-bs-theme="dark"] footer.gray {
   background: #343a40 !important; }
+  [data-bs-theme="dark"] section.gray a, [data-bs-theme="dark"] footer.gray a {
+    color: #dee2e6; }
+
+[data-bs-theme="dark"] a.linky {
+  color: #0dcaf0; }
+
+[data-bs-theme="dark"] footer {
+  color: #adb5bd !important; }
+  [data-bs-theme="dark"] footer a, [data-bs-theme="dark"] footer .text-muted {
+    color: #adb5bd !important; }
+
+[data-bs-theme="dark"] h1 a, [data-bs-theme="dark"] .h1 a {
+  color: white; }

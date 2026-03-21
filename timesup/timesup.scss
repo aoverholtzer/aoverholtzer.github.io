@@ -124,6 +124,12 @@ h4 {
   mask-size: 100% 100%;
 }
 
+a {
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
 a.linky {
 	text-decoration: underline;
 	color: teal;
@@ -133,6 +139,21 @@ a.linky {
 	section, footer {
 		&.gray {
 			background: $gray-800 !important;
+			a {
+				color: $gray-300;
+			}
 		}
+	}
+	a.linky {
+		color: $cyan;
+	}
+	footer {
+		color: $gray-500 !important;
+		a, .text-muted {
+			color: $gray-500 !important;
+		}
+	}
+	h1 a {
+		color: white;
 	}
 }
