@@ -104,7 +104,7 @@ h5 {
 }
 
 h6 {
-	font-weight: 600;
+	font-weight: 500;
 	margin-bottom: 1rem;
 	:last-child {
 		margin-bottom: 0;
@@ -210,9 +210,26 @@ ul:last-child, ol:last-child {
 #index {
 	.icons {
 		color: $secondary;
-		
+
 		i {
 			padding-right: 4px;
 		}
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #1c1c1e;
+		color: #e0e0e0;
+	}
+	a {
+		// color: #ff6b5b;
+		color: lighten(#B51700, 27%);
+		&:hover { 
+			color: lighten(#B51700, 33%);
+		}
+	}
+	.text-black {
+		color: #e0e0e0 !important;
 	}
 }
