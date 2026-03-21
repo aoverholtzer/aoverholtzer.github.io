@@ -56,7 +56,7 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 
 @import "bootstrap/bootstrap";
 
-@include media-breakpoint-down(lg) {
+@include media-breakpoint-down(xl) {
 	.container-xl {
 		overflow: hidden;
 	}
@@ -121,5 +121,11 @@ h4 {
 
 .fa-duotone {
 	--fa-secondary-opacity: 0;
+}
+
+[data-bs-theme="dark"] {
+	.fa-solid.fa-circle.fa-stack-2x {
+		color: $gray-700;
+	}
 }
 

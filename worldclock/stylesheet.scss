@@ -102,7 +102,7 @@ section, footer {
 		background: $gray-200;
 		background: linear-gradient(342deg, rgba(131,58,180,0.5) 0%, rgba(253,29,29,0.5) 50%, rgba(252,176,69,0.5) 100%);
 		
-		@include media-breakpoint-only(xl) {
+		@include media-breakpoint-up(xl) {
 			border-radius: $spacer * 2.5;
 	    }
 	    // @include media-breakpoint-only(xs) {
@@ -192,4 +192,18 @@ dd + dt {
 #top a {
 	text-decoration: underline;
 	color: $blue !important;
+}
+
+[data-bs-theme="dark"] {
+	section, footer {
+		&.gray {
+			background: $gray-800 !important;
+		}
+	}
+	.rounded.bordered {
+		border-color: $gray-700 !important;
+	}
+	.fa-solid.fa-circle.fa-stack-2x {
+		color: $gray-700;
+	}
 }

@@ -20,6 +20,8 @@ html lang='en'
 	meta name="twitter:description" content="Write once, recall anywhere. Download the top-rated sticky notes app for iPhone, iPad, Apple Watch, and Mac." 
 	meta name="twitter:image" content="https://overdesigned.net/cheatsheet/images/banner@2x.jpg" 
 
+	javascript:
+		document.documentElement.dataset.bsTheme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
 	link rel="stylesheet" href="stylesheet.css"
 	link rel="icon" href="/cheatsheet/csfavicon.png" type="image/png"
 	link rel="apple-touch-icon-precomposed" href="/cheatsheet/csfavicon-152.png"
@@ -209,7 +211,7 @@ body
 		header
 			div.row.align-items-center
 				div.col-sm-5
-					img.rounded-icon.mx-auto.mr-sm-0.mt-sm-3.d-block src='icon.png' alt='App Icon' style='max-width: 232px;'
+					img.rounded-icon.mx-auto.me-sm-0.mt-sm-3.d-block src='icon.png' alt='App Icon' style='max-width: 232px;'
 					
 				div.col-lg-6.col-md-6.col-sm-6.text-sm-left.text-center
 					h1.pb-2
@@ -243,8 +245,8 @@ body
 							:text => 'Celebrating 10 years on the App Store. Thousands of 5-star reviews.' }]
 							
 			  		- @bullets.each do | row |
-					  	div.row.no-gutters.align-items-baseline.mb-3
-						  	div.col-auto.mr-2
+					  	div.row.g-0.align-items-baseline.mb-3
+						  	div.col-auto.me-2
 							  	span.fa-stack
 								  	span.fa-solid.fa-circle.fa-stack-2x 
 								  	span class=["fa-solid", "fa-stack-1x", row[:icon]]
@@ -255,7 +257,7 @@ body
 					img.img-fluid.mx-auto.d-block src='images/web-phone@1x.png' srcset='images/web-phone@1x.png 1x, images/web-phone@2x.png 2x' alt='Cheatsheet widgets on an iPhone Home Screen.'
 					
 		section.gray
-			div.row.align-items-center.mr-sm-3.mr-0
+			div.row.align-items-center.me-sm-3.me-0
 				div.col-sm-4
 					img.img-fluid.mx-auto.d-block src='images/web-watch@1x.png' srcset='images/web-watch@1x.png 1x, images/web-watch@2x.png 2x' alt='Cheatsheet on an Apple Watch.'
 				div.col-sm-8.mt-3
@@ -267,8 +269,8 @@ body
 							:text => 'Organize with folders.' }]
 							
 					- @bullets.each do | row |
-						div.row.no-gutters.align-items-baseline.mb-3
-							div.col-auto.mr-2.ml-2.ml-sm-0
+						div.row.g-0.align-items-baseline.mb-3
+							div.col-auto.me-2.ms-2.ms-sm-0
 								span.fa-stack
 									span.fa-solid.fa-circle.fa-stack-2x 
 									span class=["fa-solid", "fa-stack-1x", row[:icon]]
@@ -287,8 +289,8 @@ body
 							:text => 'Localized in English, French, German, Italian, Japanese, Korean, Portuguese, Russian, Chinese, and Spanish.' }]
 							
 					- @bullets.each do | row |
-						div.row.no-gutters.align-items-baseline.mb-3
-							div.col-auto.mr-2.ml-2.ml-sm-0
+						div.row.g-0.align-items-baseline.mb-3
+							div.col-auto.me-2.ms-2.ms-sm-0
 								span.fa-stack
 									span.fa-solid.fa-circle.fa-stack-2x 
 									span class=["fa-solid", "fa-stack-1x", row[:icon]]
