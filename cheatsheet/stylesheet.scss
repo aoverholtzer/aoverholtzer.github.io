@@ -229,6 +229,14 @@ dd + dt {
 	section, footer {
 		&.gray {
 			background: $gray-800 !important;
+			a {
+				color: #dee2e6 !important;
+			}
+		}
+	}
+	footer {
+		* {
+			color: $gray-500 !important;
 		}
 	}
 	.rounded.bordered {

@@ -9412,6 +9412,11 @@ dd + dt {
 
 [data-bs-theme="dark"] section.gray, [data-bs-theme="dark"] footer.gray {
   background: #343a40 !important; }
+  [data-bs-theme="dark"] section.gray a, [data-bs-theme="dark"] footer.gray a {
+    color: #dee2e6 !important; }
+
+[data-bs-theme="dark"] footer * {
+  color: #adb5bd !important; }
 
 [data-bs-theme="dark"] .rounded.bordered {
   border-color: #495057 !important; }

@@ -93,7 +93,11 @@ header {
 }
 
 footer {
-// 	padding-bottom: 2em;
+	@include media-breakpoint-only(xs) {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+		margin-bottom: 1em;
+	}
 }
 
 h1 {
