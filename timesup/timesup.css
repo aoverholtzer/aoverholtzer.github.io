@@ -9314,6 +9314,10 @@ header, section, footer {
     background: #e9ecef;
     border-radius: 2rem; }
 
+@media (max-width: 575.98px) {
+  header {
+    text-align: center; } }
+
 h1, .h1 {
   font-weight: 800; }
 

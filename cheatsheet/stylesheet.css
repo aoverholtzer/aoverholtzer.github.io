@@ -9302,7 +9302,9 @@ textarea.form-control-lg {
 header {
   padding: 1rem 0;
   margin: 1rem 0; }
-
+  @media (max-width: 575.98px) {
+    header {
+      text-align: center; } }
 section, footer {
   padding: 1rem 0;
   margin: 3rem 0; }

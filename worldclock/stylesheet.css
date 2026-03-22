@@ -9302,7 +9302,9 @@ textarea.form-control-lg {
 header {
   padding: 1rem 0;
   margin: 1rem 0; }
-
+  @media (max-width: 575.98px) {
+    header {
+      text-align: center; } }
 section, footer {
   padding: 1rem 0;
   margin: 3rem 0; }
@@ -9325,6 +9327,14 @@ section, footer {
     @media (min-width: 1200px) {
       section.colorful, footer.colorful {
         border-radius: 2.5rem; } }
+    @media (max-width: 575.98px) {
+      section.colorful, footer.colorful {
+        border-radius: 0;
+        padding: 0.75rem;
+        background: none;
+        filter: drop-shadow(0 0px 1px #00000022);
+        filter: drop-shadow(0 1px 2px #00000022);
+        filter: drop-shadow(0 2px 4px #00000022); } }
 .card-columns {
   column-count: 3;
   column-gap: 1.25rem; }

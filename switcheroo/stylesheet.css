@@ -9312,6 +9312,10 @@ header, section, footer {
     background: #e9ecef;
     border-radius: 2rem; }
 
+@media (max-width: 575.98px) {
+  header {
+    text-align: center; } }
+
 footer {
   padding-bottom: 2em; }
 

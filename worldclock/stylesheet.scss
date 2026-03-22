@@ -67,6 +67,10 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 header {
 	padding: $spacer 0;
 	margin: $spacer 0;
+	
+	@include media-breakpoint-only(xs) {
+		text-align: center;
+	}
 }
 
 section, footer {
@@ -82,6 +86,7 @@ section, footer {
 		// margin-left: $spacer * -1 !important;
 		// margin-right: $spacer * -1 !important;
 	}
+	
 	&.dark {
 		background: $dark;
 		color: $secondary;
@@ -89,6 +94,7 @@ section, footer {
 		// margin-left: $spacer * -1 !important;
 		// margin-right: $spacer * -1 !important;
 	}
+	
 	&.gray {
 		background: $gray-200;
 // 		color: $secondary;
@@ -96,6 +102,7 @@ section, footer {
 		// margin-left: $spacer * -1 !important;
 		// margin-right: $spacer * -1 !important;
 	}
+	
 	&.colorful {
 		padding: $spacer;
 		border-radius: $spacer * 2;
@@ -105,9 +112,14 @@ section, footer {
 		@include media-breakpoint-up(xl) {
 			border-radius: $spacer * 2.5;
 	    }
-	    // @include media-breakpoint-only(xs) {
-		// 	border-radius: $spacer * 1.5;
-		// }
+	    @include media-breakpoint-only(xs) {
+			border-radius: 0;
+			padding: $spacer * 0.75;
+			background: none;
+			filter: drop-shadow(0 0px 1px #00000022); 
+			filter: drop-shadow(0 1px 2px #00000022); 
+			filter: drop-shadow(0 2px 4px #00000022); 
+		}
 	}
 }
 footer {

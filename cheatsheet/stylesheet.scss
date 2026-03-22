@@ -67,6 +67,10 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
 header {
 	padding: $spacer 0;
 	margin: $spacer 0;
+	
+	@include media-breakpoint-only(xs) {
+		text-align: center;
+	}
 }
 
 section, footer {

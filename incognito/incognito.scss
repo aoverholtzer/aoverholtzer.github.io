@@ -86,6 +86,13 @@ header, section, footer {
 		border-radius: $spacer*2 $spacer*2 0 0;
 	}
 }
+
+header {
+	@include media-breakpoint-only(xs) {
+		text-align: center;
+	}
+}
+
 footer {
 		padding-bottom: 2em;
 }
