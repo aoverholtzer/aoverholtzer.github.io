@@ -9352,6 +9352,9 @@ h1, .h1 {
 h4, .h4 {
   font-weight: bold; }
 
+#support h4, #support .h4 {
+  margin-bottom: 1rem; }
+
 h6.centered, .centered.h6 {
   width: 100%;
   text-align: center; }
