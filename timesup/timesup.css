@@ -9294,35 +9294,26 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-@media (max-width: 1199.98px) {
-  .container-xl {
-    overflow: hidden; } }
-
 header, section, footer {
   padding: 3rem 3rem;
-  margin-left: -3rem !important;
-  margin-right: -3rem !important; }
+  margin-left: calc(var(--bs-gutter-x) * -0.5) !important;
+  margin-right: calc(var(--bs-gutter-x) * -0.5) !important; }
   header.themed, section.themed, footer.themed {
     background: #1C1C1E;
-    color: white;
-    border-radius: 2rem; }
+    color: white; }
   header.dark, section.dark, footer.dark {
     background: #212529;
-    color: #6c757d;
-    border-radius: 2rem 2rem 0 0; }
+    color: #6c757d; }
   header.gray, section.gray, footer.gray {
-    background: #e9ecef;
-    border-radius: 2rem; }
-
+    background: #e9ecef; }
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    header, section, footer {
+      margin-left: -3rem !important;
+      margin-right: -3rem !important;
+      border-radius: 2rem !important; } }
 @media (max-width: 575.98px) {
   header {
     text-align: center; } }
-
-@media (max-width: 575.98px) {
-  footer {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    margin-bottom: 1em; } }
 
 h1, .h1 {
   font-weight: 800; }
