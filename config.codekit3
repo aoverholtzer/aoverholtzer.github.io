@@ -14732,6 +14732,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/worldclock\/images\/map.png" : {
+      "ft" : 32768,
+      "iS" : 193481,
+      "oA" : 0,
+      "oAP" : "\/worldclock\/images\/map.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/worldclock\/images\/standby1.jpg" : {
       "ft" : 16384,
       "iS" : 108225,
