@@ -142,3 +142,25 @@ h4 {
 	}
 }
 
+.phone {
+	border-radius: 2rem !important;
+	padding: 12px;
+	background: gray;
+	// border: inset black 10px;
+	box-shadow: inset 0 0 0 12px black;
+	display: inline-block;
+	
+	div {
+		clip-path: inset(0px round calc(2rem - 12px));
+	}
+}
+
+.slideIn {
+	/* Initial state is defined in the keyframes */
+	animation: slideIn 0.4s ease-out forwards; 
+}
+
+@keyframes slideIn {
+	0% { transform: translateY(100%); }
+	100% { transform: translateY(0); }
+}

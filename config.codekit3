@@ -7343,6 +7343,32 @@
       "oS" : 0,
       "rAC" : 0
     },
+    "\/incognito\/intro@1x.png" : {
+      "ft" : 32768,
+      "iS" : 106761,
+      "oA" : 0,
+      "oAP" : "\/incognito\/intro@1x.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/incognito\/intro@2x.png" : {
+      "ft" : 32768,
+      "iS" : 308388,
+      "oA" : 0,
+      "oAP" : "\/incognito\/intro@2x.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/incognito\/Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg" : {
       "ft" : 2097152,
       "miP" : 0,
