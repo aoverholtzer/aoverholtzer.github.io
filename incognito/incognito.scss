@@ -143,15 +143,19 @@ h4 {
 }
 
 .phone {
-	border-radius: 2rem !important;
-	padding: 12px;
-	background: gray;
-	// border: inset black 10px;
-	box-shadow: inset 0 0 0 12px black;
+	background: black;
 	display: inline-block;
+	padding: 12px;
+	clip-path: inset(0 round calc(12.24137931% + 12px) / calc(5.916666667% + 12px));
 	
 	div {
-		clip-path: inset(0px round calc(2rem - 12px));
+		background: gray;
+		clip-path: inset(0px round 12.24137931% / 5.916666667%);
+	}
+	
+	@include media-breakpoint-only(xs) {
+		padding: 8px;
+		clip-path: inset(0 round calc(12.24137931% + 8px) / calc(5.916666667% + 8px));
 	}
 }
 
