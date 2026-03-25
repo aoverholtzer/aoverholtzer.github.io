@@ -22,9 +22,11 @@ html lang='en'
 	meta name="twitter:image" content="https://overdesigned.net/incognito/press/banner.png"
 
     link rel="stylesheet" href="incognito.css"
+	link rel="stylesheet" href="https://kit.fontawesome.com/f2bb7e8aa2.css" crossorigin="anonymous"
+	
 	javascript:
 		document.documentElement.dataset.bsTheme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
-	link rel="stylesheet" href="https://kit.fontawesome.com/1c498ede56.css" crossorigin="anonymous"
+	
 	//link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"
 	
 	javascript type="application/ld+json":
@@ -230,9 +232,9 @@ html lang='en'
 		div.container-xl
 		
 			header
-				div.row.align-items-center
+				div.row.align-items-center.text-center
+				
 					div.col-sm-5.mx-auto
-						
 						div.phone.float-sm-end.mb-sm-0.mb-5
 							div
 								img.slideIn.img-fluid src='intro@2x.png' srcset='intro@1x.png 1x, intro@2x.png 2x' alt='Screenshot of Incognito browser popped-up inside another app.'
@@ -248,12 +250,6 @@ html lang='en'
 							a href='https://itunes.apple.com/app/id1490656387'
 								img src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='Download on the App Store'
 							
-				div.row.align-items-center.d-none
-					div.col-sm-5
-					div.col-sm-7.text-sm-left
-						a href='https://itunes.apple.com/app/id1490656387'
-							img src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='Download on the App Store'
-							
 							
 			section.themed
 				div.row.align-items-top.text-center
@@ -261,35 +257,59 @@ html lang='en'
 					div.col-sm-4.mb-3.mb-sm-0
 						span.fa-stack
 						  span.fa-solid.fa-circle.fa-stack-2x 
-						  span.fa-regular.fa-stack-2x.fa-face-disguise.fa-duotone
+						  span.fa-solid.fa-stack-2x.fa-face-disguise.fa-duotone
 						p.strong Incognito helps you avoid the spying eyes of in&#8209;app&nbsp;browsers.¹
 						
 					div.col-sm-4.mb-3.mb-sm-0
 						span.fa-stack
 							span.fa-solid.fa-circle.fa-stack-2x 
-							span.fa-solid.fa-stack-1x.fa-arrow-up-from-bracket
+							span.fa-solid.fa-stack-1x.fa-arrow-up-from-square
 						p.strong Pop‑up a secure browser inside any app, right from the share sheet.
 						
 					div.col-sm-4
 						span.fa-stack
 							span.fa-solid.fa-circle.fa-stack-2x 
 							span.fa-solid.fa-stack-1x.fa-cookie-bite
-						p.strong Reset cookie paywalls and block trackers.
+						p.strong Reset cookie paywalls and&nbsp;block&nbsp;trackers.
 						
 					div.col-12.text-center.small.mt-3.mh-5
 						p 
 						| [1] <a href='https://www.pcmag.com/how-to/how-to-stop-facebook-from-spying-on-your-internet-activity'>Facebook and Instagram Are Spying on Your Internet Activity</a>, <i>PCMag</i>, 3 Sept. 2025
 						
-			div.row.align-items-center.my-5
+			div.row.align-items-center.text-center.my-5
 				div.col-sm-5.mx-auto
 					
 					div.phone.float-sm-end.mb-sm-0.mb-5
 						div
-							img.img-fluid src='intro@2x.png' srcset='intro@1x.png 1x, intro@2x.png 2x' alt='Screenshot of Incognito browser popped-up inside another app.'
+							img.img-fluid src='intro2@2x.png' srcset='intro2@1x.png 1x, intro2@2x.png 2x' alt='Screenshot of Incognito browser with its powerful actions including clearing history, removing AMP, translating text, opening in Firefox, and more.'
 					
-				div.col-sm-7.text-sm-left
-					h3 100% Private
-					p Incognito is simple: pay once, upfront. No subscriptions or in&#8209;app purchase. No bait&#8209;and&#8209;switch.
+				div.col-sm-7.text-start
+					h3.text-center Advanced Features
+						  
+					- @bullets = [ { :icon => 'fa-screwdriver-wrench', 
+						  :text => 'Pro tools: translate, remove AMP, clear session history.' },
+						{ :icon => 'fa-magnifying-glass', 
+					  	:text => 'Choose your search engine: Google, Kagi, Bing, DuckDuckGo, etc.' },
+					{ :icon => 'fa-layer fa-duotone', 
+						  :text => 'Automate with Shortcuts.' },
+					  { :icon => 'fa-lock fa-regular', 
+						  :text => 'Passcode-lock your history and bookmarks.' },
+						{ :icon => 'fa-cloud fa-regular', 
+						  :text => 'Backup bookmarks and history to iCloud — or don’t!' },
+					  { :icon => 'fa-share-nodes fa-regular', 
+						:text => 'Reopen a page with archive.is.' },
+					  { :icon => 'fa-up-right-and-down-left-from-center', 
+						  :text => 'Fullscreen browsing.' }]
+						  
+					- @bullets.each do | row |
+						div.row.g-0.align-items-baseline.mb-3
+							div.col-auto.me-2
+								span.fa-stack
+									span.fa-solid.fa-circle.fa-stack-2x 
+									span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							div.col
+								p.my-0 = row[:text]
+
 							
 							
 			section.themed
@@ -312,7 +332,7 @@ html lang='en'
 						p.small Some “free” private browser apps use sketchy, potentially unsafe search engines. Incognito lets you choose from Google, Kagi, DuckDuckGo, and many more.
 						button.btn.btn-outline-light type='button' href='https://itunes.apple.com/app/id1490656387' Buy $0.99
 							
-			section.themed
+			section.themed.d-none
 				div.row.align-items-end.text-center
 					div.col-sm-4.mb-4
 						h4.mb-3 Browse Anywhere
@@ -325,7 +345,7 @@ html lang='en'
 						img.img-fluid.rounded src='web3.png' srcset='web3.png 1x, web3@2x.png 2x' alt='Screenshot of Incognito’s custom actions, including clearing history, removing AMP links, translating a web page, and opening the current page in Safari, Firefox, Chrome, and more.'
 						
 			
-			section
+			section.d-none
 				div.row
 					div.col-lg-9.mx-auto
 						div.row

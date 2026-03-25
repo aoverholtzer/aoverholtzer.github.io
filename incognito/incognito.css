@@ -9363,7 +9363,7 @@ h4, .h4 {
 .fa-solid.fa-circle.fa-stack-2x {
   color: #e9ecef; }
 
-.fa-duotone {
+.fa-duotone.fa-face-disguise {
   --fa-secondary-opacity: 0; }
 
 [data-bs-theme="dark"] .fa-solid.fa-circle.fa-stack-2x {
