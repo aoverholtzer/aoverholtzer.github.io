@@ -119,9 +119,13 @@ h4 {
 	border-radius: $spacer !important;
 }
 
+#press .rounded {
+	border-radius: 8px !important;
+}
+
 .img-thumbnail {
-	border-radius: 0;
-	padding: 0;
+	border-radius: 0  !important;
+	padding: 0 !important;
 }
 
 .align-items-end {
@@ -224,7 +228,12 @@ a.linky {
 	column-count: 3;
 	column-gap: 1.25rem;
 	@include media-breakpoint-down(sm) { column-count: 2; }
-	.card { display: inline-block; width: 100%; margin-bottom: 0.75rem; }
+	.card { 
+		display: inline-block;
+		 width: 100%; 
+		 margin-bottom: 0.75rem; 
+		 border: none;
+	 }
 }
 
 // Support page: undo full-bleed negative margins

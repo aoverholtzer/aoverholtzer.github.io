@@ -9331,9 +9331,12 @@ h4, .h4 {
 .rounded {
   border-radius: 1rem !important; }
 
+#press .rounded {
+  border-radius: 8px !important; }
+
 .img-thumbnail {
-  border-radius: 0;
-  padding: 0; }
+  border-radius: 0  !important;
+  padding: 0 !important; }
 
 .align-items-end {
   margin-right: 0px; }
@@ -9416,7 +9419,8 @@ a.linky {
   .card-columns .card {
     display: inline-block;
     width: 100%;
-    margin-bottom: 0.75rem; }
+    margin-bottom: 0.75rem;
+    border: none; }
 
 body#support section, body#support footer {
   padding: 1rem 0;
