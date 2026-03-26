@@ -24,7 +24,7 @@ html lang='en'
 	javascript:
 		document.documentElement.dataset.bsTheme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
     link rel="stylesheet" href="timesup.css"
-	script src="https://kit.fontawesome.com/1c498ede56.js" crossorigin="anonymous"
+	script src="https://kit.fontawesome.com/f2bb7e8aa2.js" crossorigin="anonymous"
 
 	javascript type="application/ld+json":
 		{
@@ -251,8 +251,9 @@ html lang='en'
 								img.img-fluid src='web1.png' srcset='web1.png 1x, web1@2x.png 2x' alt='Fun visual timer counting down with a colorful photo reveal.'
 
 					div.col-sm-7.text-sm-left
-						h1.pb-2 Time’s Up!
-						p.mb-4 <strong>Fun visual timers</strong> for work, kids, and everything in between.
+						img.rounded-icon.mb-4 src='/timesup/icon.png' alt='Time’s Up! App Icon' style='max-width: 180px;'
+						h1.pb-1 Time’s Up!
+						p.mb-4 <strong>Fun visual timers</strong> that you (and your kids) will actually want&nbsp;to&nbsp;use.
 						a href='https://itunes.apple.com/app/id1550456653'
 							img src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='Download on the App Store'
 
@@ -293,12 +294,14 @@ html lang='en'
 						  :text => 'Use any photo from your Camera Roll as the timer.' },
 						{ :icon => 'fa-lock',
 						  :text => 'Guided Access: lock the app so only you can change or stop a timer.' },
+						  { :icon => 'fa-lock',
+							:text => 'Widgets.' },
 						{ :icon => 'fa-tv',
 						  :text => 'AirPlay and Apple TV — put a full-screen timer on the big screen.' },
 						{ :icon => 'fa-cloud',
 						  :text => 'iCloud sync across iPhone, iPad, Mac, and Apple TV.' },
-						{ :icon => 'fa-moon',
-						  :text => 'Focus mode integration.' }]
+						{ :icon => 'fa-layer fa-duotone',
+						  :text => 'Automate with Shortcuts.' }]
 
 					- @bullets.each do |row|
 						div.row.g-0.align-items-baseline.mb-3
