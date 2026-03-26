@@ -20,7 +20,7 @@ $body-color: $gray-900;
 */
 $body-bg:    #f8f9fa;
 
-$primary: teal;
+$primary: rgb(60, 161, 207);
 // $secondary: #bbbbbb;
 
 /*
@@ -147,7 +147,7 @@ a {
 }
 a.linky {
 	text-decoration: underline;
-	color: teal;
+	color: $primary;
 }
 
 // FA icon stacks
@@ -243,9 +243,9 @@ body#support {
 	section, footer {
 		&.gray {
 			background: $gray-800 !important;
-			a {
-				color: $gray-300;
-			}
+			// a {
+			// 	color: $gray-300;
+			// }
 		}
 	}
 	a.linky {
@@ -253,7 +253,7 @@ body#support {
 	}
 	footer {
 		color: $gray-500 !important;
-		a, .text-muted {
+		.text-muted {
 			color: $gray-500 !important;
 		}
 	}

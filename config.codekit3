@@ -12958,6 +12958,32 @@
       "oS" : 0,
       "rAC" : 0
     },
+    "\/timesup\/phone@1x.png" : {
+      "ft" : 32768,
+      "iS" : 22700,
+      "oA" : 0,
+      "oAP" : "\/timesup\/phone@1x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/timesup\/phone@2x.png" : {
+      "ft" : 32768,
+      "iS" : 75933,
+      "oA" : 0,
+      "oAP" : "\/timesup\/phone@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/timesup\/press-kit.zip" : {
       "cB" : 0,
       "ft" : 8192,
