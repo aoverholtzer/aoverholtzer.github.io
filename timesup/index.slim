@@ -10,14 +10,14 @@ html lang='en'
 
 	meta property="og:type" content="website"
 	meta property="og:site_name" content="Overdesigned"
-	meta property="og:title" content="Time's Up! — Visual Timer"
+	meta property="og:title" content="Time’s Up! — Visual Timer"
 	meta property="og:description" content="Download the fun visual timer you (and your kids) will actually want to use. Free to try on iPhone, iPad, Apple TV, and Mac."
 	meta property="og:image" content="https://overdesigned.net/timesup/web6@2x.png"
 	meta property="og:url" content="https://overdesigned.net/timesup/"
 
 	meta name="twitter:card" content="summary_large_image"
 	meta name="twitter:creator" content="@timesupapp"
-	meta name="twitter:title" content="Time's Up! — Visual Timer"
+	meta name="twitter:title" content="Time’s Up! — Visual Timer"
 	meta name="twitter:description" content="Download the fun visual timer you (and your kids) will actually want to use. Free to try on iPhone, iPad, Apple TV, and Mac."
 	meta name="twitter:image" content="https://overdesigned.net/timesup/web6@2x.png"
 
@@ -25,13 +25,13 @@ html lang='en'
 		document.documentElement.dataset.bsTheme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
     link rel="stylesheet" href="timesup.css"
 	script src="https://kit.fontawesome.com/1c498ede56.js" crossorigin="anonymous"
-	
+
 	javascript type="application/ld+json":
 		{
 		  "@context": "https://schema.org",
 		  "@type": "SoftwareApplication",
 		  "name": "Time’s Up! Timer",
-		  "alternateName": "Time's Up!",
+		  "alternateName": "Time’s Up!",
 		  "url": "https://overdesigned.net/timesup",
 		  "description": "Fun visual timers for iOS, tvOS, and macOS that you and your kids will actually want to use. Supports custom photo timers, Guided Access lock, and focus activity integration.",
 		  "applicationCategory": "UtilitiesApplication",
@@ -98,7 +98,7 @@ html lang='en'
 			}
 		  ]
 		}
-		
+
 	javascript type="application/ld+json":
 		  {
 			"@context": "https://schema.org",
@@ -118,65 +118,227 @@ html lang='en'
 			  }
 			]
 		  }
-    
+
+	javascript type="application/ld+json":
+		{
+		  "@context": "https://schema.org",
+		  "@type": "FAQPage",
+		  "mainEntity": [
+			{
+			  "@type": "Question",
+			  "name": "What is Time’s Up!?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Time’s Up! is a fun, visual countdown timer for iPhone, iPad, Mac, and Apple TV. Unlike plain timers, it counts down with colorful animations and photos — making it engaging for kids and adults alike. It supports iCloud sync, Guided Access for kid-friendly use, and AirPlay to show timers on a TV screen."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Is Time’s Up! free?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes, Time’s Up! is a free download. A simple one-time in-app purchase unlocks unlimited timers. There is no subscription, no ads, and no data collection."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "What does the one-time purchase unlock?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The one-time purchase unlocks the ability to run an unlimited number of saved timers. The free version lets you try the app; the purchase removes that limit permanently with no recurring fee."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "What platforms does Time’s Up! support?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Time’s Up! runs on iPhone, iPad (iOS/iPadOS), Mac (macOS), and Apple TV (tvOS). Timers sync across all your devices via iCloud."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "What are the 5 timer styles in Time’s Up!?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Time’s Up! offers 5 countdown styles: Reveal (a photo from your Camera Roll is gradually uncovered as time runs out), Pixelate (a photo becomes clearer as the timer approaches zero), Puzzle (a photo is broken into jigsaw pieces that fall into place as time progresses), plus two classic digital clock face styles. All styles can be customized with a color and alert sound."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Can I use my own photos in a timer?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes. The Reveal, Pixelate, and Puzzle styles can use any photo from your Camera Roll. Kids especially love watching a photo of their pet or favorite character slowly appear as the timer counts down."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Is Time’s Up! good for kids?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes — it was originally built for the developer's toddler. Visual timers help kids understand that time is passing without requiring them to read numbers. Custom photo timers keep them engaged. And Guided Access lets you lock the app so kids can't switch away or change the timer."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "What is Guided Access and how does it work with Time’s Up!?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Guided Access is an Apple iOS feature that locks the device to a single app. When you enable it with Time’s Up!, your child cannot leave the app, stop the timer, or use other apps until a parent triple-clicks the side button and enters a passcode. Enable it in Settings → Accessibility → Guided Access."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Does Time’s Up! work on Apple TV?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes. Time’s Up! has a native Apple TV app, and you can also AirPlay a timer from your iPhone or iPad to any Apple TV. A large-screen timer is great for exercise groups, classrooms, family activities, or anytime everyone in the room needs to see the countdown."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Does Time’s Up! sync across my devices?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes. Time’s Up! syncs your saved timers between iPhone, iPad, Mac, and Apple TV using iCloud, so the timers you create on one device are available everywhere."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Does Time’s Up! have ads or collect data?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "No. Time’s Up! has no ads and no data trackers of any kind. The developer believes your data belongs to you, so nothing is collected. The app is supported by a one-time in-app purchase, not by advertising."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Does Time’s Up! integrate with Focus mode?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes. Time’s Up! integrates with Apple's Focus modes, so you can use timers as part of a focused work or study session."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "How is Time’s Up! different from the built-in iPhone timer?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "The built-in Clock timer is plain — white numbers on a black background. Time’s Up! replaces that with visual countdowns using color, animation, and photos. It also supports saving multiple named timers, iCloud sync across devices, Guided Access for kids, AirPlay to a TV, Focus integration, and Apple Shortcuts automation."
+			  }
+			},
+			{
+			  "@type": "Question",
+			  "name": "Is there a Mac app?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Yes. Time’s Up! runs natively on macOS with a floating timer window you can keep above other apps. Timers sync from your iPhone and iPad via iCloud."
+			  }
+			}
+		  ]
+		}
+
   body
-				
+
 		div.container-lg style='max-width: 1140px;'
-		
+
 			header
 				div.row.align-items-center
 					div.col-sm-5
-						img.rounded-icon.mx-auto.me-sm-0.d-block.py-3 src='/timesup/icon.png' alt='Time’s Up! App Icon' style='max-width: 180px;'
-						
-					div.col-lg-4.col-md-5.col-sm-6.text-sm-left
+						div.phone.float-sm-end.mb-sm-0.mb-5
+							div
+								img.img-fluid src='web1.png' srcset='web1.png 1x, web1@2x.png 2x' alt='Fun visual timer counting down with a colorful photo reveal.'
+
+					div.col-sm-7.text-sm-left
 						h1.pb-2 Time’s Up!
-						//h5 Beautiful Visual Timers
-						p.mb-4 <strong>Fun visual timers</strong> that you (and your kids) will actually want to&nbsp;use.
+						p.mb-4 <strong>Fun visual timers</strong> for work, kids, and everything in between.
 						a href='https://itunes.apple.com/app/id1550456653'
 							img src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' alt='Download on the App Store'
-							//img src='Pre-order_on_the_App_Store_Badge_US-UK_RGB_blk_121217.svg' alt='Pre-Order on the App Store'
-							
-				    
+
+
 			section.themed
-				div.row.align-items-end.text-center
-					div.col-6.col-sm-3.pe-0
-						img.img-fluid.rounded src='web1.png' srcset='web1.png 1x, web1@2x.png 2x' alt='Fun visual timers'
-					div.col-6.col-sm-3.pe-0
-						img.img-fluid.rounded src='web2.png' srcset='web2.png 1x, web2@2x.png 2x' alt='Great for focus'
-					div.col-6.col-sm-3.pe-0.pt-3.pt-sm-0
-						img.img-fluid.rounded src='web3.png' srcset='web3.png 1x, web3@2x.png 2x' alt='Great for kids: Use photos of your kids and pets; Lock app with Guided Access'
-					div.col-6.col-sm-3.pe-0
-						img.img-fluid.rounded src='web4.png' srcset='web4.png 1x, web4@2x.png 2x' alt='Create and customize'
+				div.row.align-items-top.text-center
+					div.col-sm-4.mb-3.mb-sm-0
+						span.fa-stack
+							span.fa-solid.fa-circle.fa-stack-2x
+							span.fa-solid.fa-stack-1x.fa-child-reaching
+						p.strong For Kids: Engaging countdowns with custom photos. Lock the app with Guided Access so only you control time.
+
+					div.col-sm-4.mb-3.mb-sm-0
+						span.fa-stack
+							span.fa-solid.fa-circle.fa-stack-2x
+							span.fa-solid.fa-stack-1x.fa-brain
+						p.strong For Focus: Work sprints and break reminders. Convince kids to tackle homework in manageable chunks.
+
+					div.col-sm-4
+						span.fa-stack
+							span.fa-solid.fa-circle.fa-stack-2x
+							span.fa-solid.fa-stack-1x.fa-tv
+						p.strong For Groups: AirPlay a full-screen timer to your TV for exercise, classrooms, or family activities.
+
+
+			div.row.align-items-center.text-center.my-5
+				div.col-sm-5.mx-auto
+					div.phone.float-sm-end.mb-sm-0.mb-5
+						div
+							img.img-fluid src='web2.png' srcset='web2.png 1x, web2@2x.png 2x' alt='Time’s Up! timer styles including Reveal, Pixelate, and Puzzle.'
+
+				div.col-sm-7.text-start
+					h3.text-center Features
+
+					- @bullets = [{ :icon => 'fa-images',
+						  :text => '5 fun styles: Reveal, Pixelate, Puzzle, and classic clock faces.' },
+						{ :icon => 'fa-image',
+						  :text => 'Use any photo from your Camera Roll as the timer.' },
+						{ :icon => 'fa-lock',
+						  :text => 'Guided Access: lock the app so only you can change or stop a timer.' },
+						{ :icon => 'fa-tv',
+						  :text => 'AirPlay and Apple TV — put a full-screen timer on the big screen.' },
+						{ :icon => 'fa-cloud',
+						  :text => 'iCloud sync across iPhone, iPad, Mac, and Apple TV.' },
+						{ :icon => 'fa-moon',
+						  :text => 'Focus mode integration.' }]
+
+					- @bullets.each do |row|
+						div.row.g-0.align-items-baseline.mb-3
+							div.col-auto.me-2
+								span.fa-stack
+									span.fa-solid.fa-circle.fa-stack-2x
+									span class=["fa-solid", "fa-stack-1x", row[:icon]]
+							div.col
+								p.my-0 = row[:text]
+
 
 			section
 				div.row.align-items-center
-				  div.col-12.text-center
-				    img.img-fluid src='web6.png' srcset='web6.png 1x, web6@2x.png 2x' alt='Time’s Up! app on iPhone, iPad, Mac, and Apple TV.'
-				    p
-						strong Time’s Up! is a free download for iOS, tvOS, and macOS.
-				    p.small Looking for Volume Purchase Program (VPP) pricing? Download <a class='linky' href='https://apps.apple.com/us/app/times-up-timer-vpp/id6737355403'>Time’s Up! VPP</a> for education customers.
-			
-						
-			
+					div.col-12.text-center
+						img.img-fluid src='web6.png' srcset='web6.png 1x, web6@2x.png 2x' alt='Time’s Up! on iPhone, iPad, Mac, and Apple TV.'
+						p
+							strong Time’s Up! is a free download for iPhone, iPad, Mac, and Apple TV.
+						p.small Looking for Volume Purchase Program (VPP) pricing? Download <a class='linky' href='https://apps.apple.com/us/app/times-up-timer-vpp/id6737355403'>Time’s Up! VPP</a> for education customers.
+
+
+
 			footer.gray.mb-xl-4
 				div.row.text-center.small
 					div.col
 						nav
-							p 
-								a href='/' &copy;2026 Overdesigned, LLC
+							p
+								a href='/' &copy;2026&nbsp;Overdesigned,&nbsp;LLC
 								| &nbsp;&#8729;&nbsp;
 								a href='privacy.html' Privacy
 								| &nbsp;&#8729;&nbsp;
 								a href='press-kit.zip' Press&nbsp;Kit
+								| &nbsp;&#8729;&nbsp;
+								a href='support/' Support
+								| &nbsp;&#8729;&nbsp;
+								a href='mailto:support@overdesigned.net' Contact
 								| &nbsp;&#8729;&nbsp;
 								a href='https://twitter.com/timesupapp' aria-label='Twitter' title='Twitter'
 									i.fa-brands.fa-twitter aria-hidden=true
 								| &nbsp;&#8729;&nbsp;
 								a href='https://indieapps.space/@TimesUp' aria-label='Mastodon' title='Mastodon'
 									i.fa-brands.fa-mastodon aria-hidden=true
-								| &nbsp;&#8729;&nbsp;
-								a href='mailto:support@overdesigned.net' aria-label='Email' title='Email'
-									i.fa-solid.fa-envelope aria-hidden=true
-						
-						p.mb-0.text-muted Time’s Up! was created by <a href='/' class='text-muted'>Adam</a> in California.
 
+						p.mb-0.text-muted Time’s Up! was created by <a href='/' class='text-muted'>Adam</a> in California.
