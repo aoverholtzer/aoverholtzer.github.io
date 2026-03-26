@@ -7343,6 +7343,32 @@
       "oS" : 0,
       "rAC" : 0
     },
+    "\/incognito\/intro-overlay@1x.png" : {
+      "ft" : 32768,
+      "iS" : 3600,
+      "oA" : 0,
+      "oAP" : "\/incognito\/intro-overlay@1x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/incognito\/intro-overlay@2x.png" : {
+      "ft" : 32768,
+      "iS" : 13481,
+      "oA" : 0,
+      "oAP" : "\/incognito\/intro-overlay@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/incognito\/intro@1x.png" : {
       "ft" : 32768,
       "iS" : 106761,
@@ -7779,6 +7805,14 @@
       "oF" : 1,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/incognito\/support\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/incognito\/support\/index.html",
+      "oF" : 0
     },
     "\/incognito\/support\/index.slim" : {
       "cB" : 0,

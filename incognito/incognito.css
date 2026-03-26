@@ -9432,15 +9432,29 @@ body#support dd p + ol {
 .phone {
   background: black;
   display: inline-block;
+  position: relative;
   padding: 12px;
   clip-path: inset(0 round calc(12.24137931% + 12px)/calc(5.916666667% + 12px)); }
   .phone div {
     background: gray;
     clip-path: inset(0px round 12.24137931%/5.916666667%); }
+  .phone::after {
+    content: '';
+    position: absolute;
+    inset: 12px;
+    background-image: url("intro-overlay@1x.png");
+    background-size: cover;
+    background-position: center top;
+    pointer-events: none; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+      .phone::after {
+        background-image: url("intro-overlay@2x.png"); } }
   @media (max-width: 575.98px) {
     .phone {
       padding: 8px;
-      clip-path: inset(0 round calc(12.24137931% + 8px)/calc(5.916666667% + 8px)); } }
+      clip-path: inset(0 round calc(12.24137931% + 8px)/calc(5.916666667% + 8px)); }
+      .phone::after {
+        inset: 8px; } }
 .slideIn {
   /* Initial state is defined in the keyframes */
   animation: slideIn 0.4s ease-out forwards; }
