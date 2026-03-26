@@ -23,12 +23,12 @@
 </url>
 <url>
   <loc>https://overdesigned.net/timesup/</loc>
-  <lastmod>2026-03-20T00:00:00-07:00</lastmod>
+  <lastmod>2026-03-26T11:00:00-07:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://overdesigned.net/incognito/</loc>
-  <lastmod>2026-03-20T00:00:00-07:00</lastmod>
+  <lastmod>2026-03-26T11:00:00-07:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -67,9 +67,24 @@
   <priority>0.164</priority>
 </url>
 <url>
+  <loc>https://overdesigned.net/timesup/presskit.html</loc>
+  <lastmod>2026-03-26T11:22:34-08:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://overdesigned.net/incognito/privacy.html</loc>
   <lastmod>2022-07-17T11:53:16-07:00</lastmod>
   <priority>0.164</priority>
+</url>
+<url>
+  <loc>https://overdesigned.net/incognito/support/</loc>
+  <lastmod>2026-03-26T11:33:53-08:00</lastmod>
+  <priority>0.72</priority>
+</url>
+<url>
+  <loc>https://overdesigned.net/timesup/support/</loc>
+  <lastmod>2026-03-26T11:33:53-08:00</lastmod>
+  <priority>0.72</priority>
 </url>
 <url>
   <loc>https://overdesigned.net/incognito/tos.html</loc>
