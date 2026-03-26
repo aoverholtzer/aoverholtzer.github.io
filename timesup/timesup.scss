@@ -82,9 +82,9 @@ header, section, footer {
 		// border-radius: $spacer*2;
 	}
 	
-	@include media-breakpoint-only(xl) {
-		margin-left: $spacer * -3 !important;
-		margin-right: $spacer * -3 !important;
+	@include media-breakpoint-up(lg) {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 		border-radius: $spacer*2 !important;
 	}
 }
@@ -96,6 +96,9 @@ header {
 }
 
 footer {
+	@include media-breakpoint-up(lg) {
+		margin-bottom: 1rem;
+	}
 }
 
 h1 {
@@ -183,6 +186,19 @@ a.linky {
 		padding: 8px;
 		clip-path: inset(0 round calc(12.24137931% + 8px) / calc(5.916666667% + 8px));
 	}
+}
+
+.embed-responsive-9by16 {
+	background: black;
+	clip-path: inset(0px round 12.24137931% / 5.916666667%);
+	
+	&::before {
+		padding-top: 177.78%;
+	}
+}
+
+.max333 {
+	max-width: 320px;
 }
 
 .slideIn {

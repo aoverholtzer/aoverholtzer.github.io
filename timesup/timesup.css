@@ -9306,14 +9306,18 @@ header, section, footer {
     color: #6c757d; }
   header.gray, section.gray, footer.gray {
     background: #e9ecef; }
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
+  @media (min-width: 992px) {
     header, section, footer {
-      margin-left: -3rem !important;
-      margin-right: -3rem !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
       border-radius: 2rem !important; } }
 @media (max-width: 575.98px) {
   header {
     text-align: center; } }
+
+@media (min-width: 992px) {
+  footer {
+    margin-bottom: 1rem; } }
 
 h1, .h1 {
   font-weight: 800; }
@@ -9379,6 +9383,15 @@ a.linky {
     .phone {
       padding: 8px;
       clip-path: inset(0 round calc(12.24137931% + 8px)/calc(5.916666667% + 8px)); } }
+.embed-responsive-9by16 {
+  background: black;
+  clip-path: inset(0px round 12.24137931%/5.916666667%); }
+  .embed-responsive-9by16::before {
+    padding-top: 177.78%; }
+
+.max333 {
+  max-width: 320px; }
+
 .slideIn {
   animation: slideIn 0.4s ease-out forwards; }
 

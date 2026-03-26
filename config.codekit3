@@ -13460,6 +13460,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/timesup\/presskit.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/timesup\/presskit.html",
+      "oF" : 0
+    },
     "\/timesup\/presskit.slim" : {
       "cB" : 0,
       "cmO" : 0,
@@ -13556,6 +13564,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/timesup\/tos.html",
+      "oF" : 0
+    },
+    "\/timesup\/video.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/timesup\/video.mp4",
       "oF" : 0
     },
     "\/timesup\/web1.png" : {
