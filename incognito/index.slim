@@ -146,6 +146,14 @@ html lang='en'
 			},
 			{
 			  "@type": "Question",
+			  "name": "What's the difference between Incognito and Safari Private Browsing?",
+			  "acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Safari Private Browsing is great, but it only works inside Safari. The problem is that most apps — social media, news, email, and others — open links in their own built-in browser, not Safari, so your browsing never reaches Safari's private mode at all. Incognito works from the iOS share sheet, so you can open any link privately from any app in one tap, without ever leaving that app to switch to Safari."
+			  }
+			},
+			{
+			  "@type": "Question",
 			  "name": "How does Incognito work?",
 			  "acceptedAnswer": {
 				"@type": "Answer",
@@ -186,10 +194,10 @@ html lang='en'
 			},
 			{
 			  "@type": "Question",
-			  "name": "What search engines does Incognito support?",
-			  "acceptedAnswer": {
-				"@type": "Answer",
-				"text": "Incognito supports Google, Bing, DuckDuckGo, Kagi, ChatGPT, and other search engines. You can even add your own search engine if it supports Google-style search URL schemes. Incognito never reroutes your searches through its own servers — your search goes directly to the engine you choose."
+			  "name": "Can I search the web from any app using Incognito?",
+				"acceptedAnswer": {
+				  "@type": "Answer",
+				  "text": "Yes — this is one of Incognito's most useful features. Select any text in any app, tap Share, and choose 'Search in Incognito' to instantly search for that text privately without switching apps or copying anything. You can also type directly in Incognito's address bar or open URLs from the share sheet. Supported search engines include Google, Bing, DuckDuckGo, Kagi, ChatGPT, and others — and you can add a custom engine. Incognito never reroutes your searches through its own servers."
 			  }
 			},
 			{
@@ -232,7 +240,7 @@ html lang='en'
 		div.container-xl
 		
 			header
-				div.row.align-items-center.text-center
+				div.row.align-items-center
 				
 					div.col-sm-5.mx-auto
 						div.phone.float-sm-end.mb-sm-0.mb-5
@@ -316,15 +324,16 @@ html lang='en'
 				div.row.align-items-center
 				
 					div.col-sm-5.mx-auto.order-sm-last style='max-width: 404px;'
-						div.boxed.border.rounded.text-center.mb-4.mb-sm-0
-							p <i class="fa-regular fa-circle-check fa-big"></i>
-							h4 Data Not Collected
-							ul.text-muted.text-start
-								li No cookies
-								li No trackers
-								li No ads
-								li No subscriptions
-								li No sketchy search engines
+						div.box-shadow
+							div.boxed.text-center.mb-4.mb-sm-0
+								p <i class="fa-regular fa-circle-check fa-big"></i>
+								h4 Data Not Collected
+								ul.text-muted.text-start
+									li No cookies
+									li No trackers
+									li No ads
+									li No subscriptions
+									li No sketchy search engines
 				
 					div.col-sm-6.text-center.order-sm-first
 						h3 100% Private
