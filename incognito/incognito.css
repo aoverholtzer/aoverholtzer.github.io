@@ -9370,8 +9370,46 @@ h4, .h4 {
 .fa-duotone.fa-face-disguise {
   --fa-secondary-opacity: 0; }
 
+dt, dd {
+  margin-bottom: 0.25rem; }
+
+dd + dt {
+  margin-top: 1.5rem; }
+
+#support h4, #support .h4 {
+  margin-bottom: 1.5rem; }
+
+#top a {
+  text-decoration: underline; }
+
+body#support section, body#support footer {
+  padding: 1rem 0;
+  margin: 3rem 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+body#support dd ol > li + li {
+  margin-top: 0.5em; }
+
+body#support dd p + ol {
+  margin-top: -0.5em; }
+
 [data-bs-theme="dark"] .fa-solid.fa-circle.fa-stack-2x {
   color: #495057; }
+
+[data-bs-theme="dark"] #top a {
+  color: #0dcaf0 !important; }
+
+[data-bs-theme="dark"] .dolinks a {
+  color: #0dcaf0 !important; }
+
+[data-bs-theme="dark"] footer {
+  color: #6c757d !important; }
+  [data-bs-theme="dark"] footer a, [data-bs-theme="dark"] footer .text-muted {
+    color: #6c757d !important; }
+
+[data-bs-theme="dark"] h1 a, [data-bs-theme="dark"] .h1 a {
+  color: white; }
 
 .themed .fa-solid.fa-circle.fa-stack-2x {
   color: #e9ecef !important;

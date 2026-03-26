@@ -158,9 +158,62 @@ h4 {
 	--fa-secondary-opacity: 0;
 }
 
+// .dolinks a {
+// 	color: $blue !important;
+// }
+
+dt, dd {
+	margin-bottom: 0.25rem;
+}
+
+dd + dt {
+	margin-top: 1.5rem;
+}
+
+#support h4 {
+	margin-bottom: 1.5rem;
+}
+
+#top a {
+	text-decoration: underline;
+	// color: $blue !important;
+}
+
+// Support page: undo the full-bleed negative margins used on the main page
+body#support {
+	section, footer {
+		padding: $spacer 0;
+		margin: $spacer*3 0;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+	
+	dd ol > li + li {
+		margin-top: 0.5em;
+	}
+	dd p + ol {
+		margin-top: -0.5em;
+	}
+}
+
 [data-bs-theme="dark"] {
 	.fa-solid.fa-circle.fa-stack-2x {
 		color: $gray-700;
+	}
+	#top a {
+		color: $cyan !important;
+	}
+	.dolinks a {
+		color: $cyan !important;
+	}
+	footer {
+		color: $secondary !important;
+		a, .text-muted {
+			color: $secondary !important;
+		}
+	}
+	h1 a {
+		color: white;
 	}
 }
 

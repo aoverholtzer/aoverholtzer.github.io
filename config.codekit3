@@ -7780,6 +7780,19 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/incognito\/support\/index.slim" : {
+      "cB" : 0,
+      "cmO" : 0,
+      "ft" : 1024,
+      "hM" : 0,
+      "llg" : 0,
+      "oA" : 0,
+      "oAP" : "\/incognito\/support\/index.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "rAC" : 0
+    },
     "\/incognito\/tos.html" : {
       "cB" : 0,
       "ft" : 8192,
