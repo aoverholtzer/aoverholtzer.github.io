@@ -194,6 +194,14 @@ a.linky {
 	100% { transform: translateY(0); }
 }
 
+// Card columns for press kit screenshot grid (Bootstrap 5 removed this)
+.card-columns {
+	column-count: 3;
+	column-gap: 1.25rem;
+	@include media-breakpoint-down(sm) { column-count: 2; }
+	.card { display: inline-block; width: 100%; margin-bottom: 0.75rem; }
+}
+
 // Support page: undo full-bleed negative margins
 body#support {
 	section, footer {

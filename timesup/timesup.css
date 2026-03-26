@@ -116,7 +116,7 @@ $navbar-light-brand-hover-color: $body-color;//$link-hover-color;
   --bs-dark-border-subtle: #adb5bd;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
-  --bs-font-sans-serif: ui-rounded, ".SF Compact Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --bs-font-sans-serif: ui-rounded, ".SF Compact Rounded", "SF Compact Rounded", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -9387,6 +9387,17 @@ a.linky {
     transform: translateY(100%); }
   100% {
     transform: translateY(0); } }
+
+.card-columns {
+  column-count: 3;
+  column-gap: 1.25rem; }
+  @media (max-width: 575.98px) {
+    .card-columns {
+      column-count: 2; } }
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.75rem; }
 
 body#support section, body#support footer {
   padding: 1rem 0;
