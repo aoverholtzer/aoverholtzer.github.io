@@ -23,6 +23,16 @@ html lang='en'
 
 	javascript:
 		document.documentElement.dataset.bsTheme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
+		
+	javascript:
+		function playPauseRestart(videoElement) {
+			if (videoElement.paused || videoElement.ended) {
+				videoElement.play();
+			} else {
+				videoElement.pause();
+			}
+		}
+		
     link rel="stylesheet" href="timesup.css"
 	script src="https://kit.fontawesome.com/f2bb7e8aa2.js" crossorigin="anonymous"
 
@@ -248,7 +258,7 @@ html lang='en'
 					div.col-sm-5
 						//div.phone.float-sm-end.mb-sm-0.mb-5
 						div.embed-responsive.embed-responsive-9by16.float-sm-end.max333
-							<video class="embed-responsive-item" autoplay muted playsinline preload="metadata" width="100%" onclick="this.paused ? this.play() : this.pause();">
+							<video class="embed-responsive-item" autoplay muted playsinline preload="metadata" width="100%" onclick="playPauseRestart(this);">
 							  <source src="video.mp4" type="video/mp4">
 							  Your browser does not support the video tag.
 							</video>
@@ -269,19 +279,19 @@ html lang='en'
 						span.fa-stack
 							span.fa-solid.fa-circle.fa-stack-2x
 							span.fa-solid.fa-stack-1x.fa-child-reaching
-						p.strong For Kids: Engaging countdowns with custom photos. Lock the app with Guided Access so only you control time.
+						p Great for <strong>kids</strong>: Colors, photos, and animations keep them engaged.
 
 					div.col-sm-4.mb-3.mb-sm-0
 						span.fa-stack
 							span.fa-solid.fa-circle.fa-stack-2x
 							span.fa-solid.fa-stack-1x.fa-brain
-						p.strong For Focus: Work sprints and break reminders. Convince kids to tackle homework in manageable chunks.
+						p.strong Great for <strong>focus</strong>: Track your time with a simple, floating timer.
 
 					div.col-sm-4
 						span.fa-stack
 							span.fa-solid.fa-circle.fa-stack-2x
-							span.fa-solid.fa-stack-1x.fa-tv
-						p.strong For Groups: AirPlay a full-screen timer to your TV for exercise, classrooms, or family activities.
+							span.fa-solid.fa-stack-1x.fa-people-group
+						p.strong Great for <strong>groups</strong>: put a timer up on your TV for exercise, classrooms, or family activities.
 
 
 			div.row.align-items-center.text-center.my-5
@@ -291,22 +301,22 @@ html lang='en'
 							img.img-fluid src='web2.png' srcset='web2.png 1x, web2@2x.png 2x' alt='Time’s Up! timer styles including Reveal, Pixelate, and Puzzle.'
 
 				div.col-sm-7.text-start
-					h3.text-center Features
+					h2.mb-4 Visual Timers
 
-					- @bullets = [{ :icon => 'fa-images',
-						  :text => '5 fun styles: Reveal, Pixelate, Puzzle, and classic clock faces.' },
+					- @bullets = [{ :icon => 'fa-palette',
+						  :text => 'Choose from 7 fun styles including Reveal, Pixelate, Puzzle, and Classic.' },
 						{ :icon => 'fa-image',
-						  :text => 'Use any photo from your Camera Roll as the timer.' },
+						  :text => 'Customize with your own photos — perfect for little kids who love seeing photos of themselves!' },
 						{ :icon => 'fa-lock',
-						  :text => 'Guided Access: lock the app so only you can change or stop a timer.' },
-						  { :icon => 'fa-lock',
-							:text => 'Widgets.' },
+						  :text => 'Enable Guided Access to kid-proof the app and disable app switching.' },
+						  { :icon => 'fa-bell-on',
+							:text => 'Notifications, widgets, and Live Activities help you monitor your timer.' },
 						{ :icon => 'fa-tv',
-						  :text => 'AirPlay and Apple TV — put a full-screen timer on the big screen.' },
+						  :text => 'Put your timers on the big screen with AirPlay or Apple TV.' },
 						{ :icon => 'fa-cloud',
-						  :text => 'iCloud sync across iPhone, iPad, Mac, and Apple TV.' },
+						  :text => 'Syncs across all your devices.' },
 						{ :icon => 'fa-layer fa-duotone',
-						  :text => 'Automate with Shortcuts.' }]
+						  :text => 'Schedule and automate timers with Shortcuts.' }]
 
 					- @bullets.each do |row|
 						div.row.g-0.align-items-baseline.mb-3

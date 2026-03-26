@@ -21,6 +21,15 @@
     <script>
       document.documentElement.dataset.bsTheme=matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';
     </script>
+    <script>
+      function playPauseRestart(videoElement) {
+          if (videoElement.paused || videoElement.ended) {
+              videoElement.play();
+          } else {
+              videoElement.pause();
+          }
+      }
+    </script>
     <link href="timesup.css" rel="stylesheet">
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/f2bb7e8aa2.js"></script>
     <script type="application/ld+json">
@@ -243,7 +252,7 @@
         <div class="row align-items-center">
           <div class="col-sm-5">
             <div class="embed-responsive embed-responsive-9by16 float-sm-end max333">
-              <video class="embed-responsive-item" autoplay muted playsinline preload="metadata" width="100%" onclick="this.paused ? this.play() : this.pause();"><source src="video.mp4" type="video/mp4"><Your>browser does not support the video tag.</Your></video>
+              <video class="embed-responsive-item" autoplay muted playsinline preload="metadata" width="100%" onclick="playPauseRestart(this);"><source src="video.mp4" type="video/mp4"><Your>browser does not support the video tag.</Your></video>
             </div>
           </div>
           <div class="col-sm-7 text-sm-left">
@@ -262,20 +271,20 @@
         <div class="row align-items-top text-center">
           <div class="col-sm-4 mb-3 mb-sm-0">
             <span class="fa-stack"><span class="fa-solid fa-circle fa-stack-2x"></span><span class="fa-solid fa-stack-1x fa-child-reaching"></span></span>
-            <p class="strong">
-              For Kids: Engaging countdowns with custom photos. Lock the app with Guided Access so only you control time.
+            <p>
+              Great for <strong>kids</strong>: Colors, photos, and animations keep them engaged.
             </p>
           </div>
           <div class="col-sm-4 mb-3 mb-sm-0">
             <span class="fa-stack"><span class="fa-solid fa-circle fa-stack-2x"></span><span class="fa-solid fa-stack-1x fa-brain"></span></span>
             <p class="strong">
-              For Focus: Work sprints and break reminders. Convince kids to tackle homework in manageable chunks.
+              Great for <strong>focus</strong>: Track your time with a simple, floating timer.
             </p>
           </div>
           <div class="col-sm-4">
-            <span class="fa-stack"><span class="fa-solid fa-circle fa-stack-2x"></span><span class="fa-solid fa-stack-1x fa-tv"></span></span>
+            <span class="fa-stack"><span class="fa-solid fa-circle fa-stack-2x"></span><span class="fa-solid fa-stack-1x fa-people-group"></span></span>
             <p class="strong">
-              For Groups: AirPlay a full-screen timer to your TV for exercise, classrooms, or family activities.
+              Great for <strong>groups</strong>: put a timer up on your TV for exercise, classrooms, or family activities.
             </p>
           </div>
         </div>
@@ -289,16 +298,16 @@
           </div>
         </div>
         <div class="col-sm-7 text-start">
-          <h3 class="text-center">
-            Features
-          </h3>
+          <h2 class="mb-4">
+            Visual Timers
+          </h2>
           <div class="row g-0 align-items-baseline mb-3">
             <div class="col-auto me-2">
-              <span class="fa-stack"><span class="fa-solid fa-circle fa-stack-2x"></span><span class="fa-solid fa-stack-1x fa-images"></span></span>
+              <span class="fa-stack"><span class="fa-solid fa-circle fa-stack-2x"></span><span class="fa-solid fa-stack-1x fa-palette"></span></span>
             </div>
             <div class="col">
               <p class="my-0">
-                5 fun styles: Reveal, Pixelate, Puzzle, and classic clock faces.
+                Choose from 7 fun styles including Reveal, Pixelate, Puzzle, and Classic.
               </p>
             </div>
           </div>
@@ -308,7 +317,7 @@
             </div>
             <div class="col">
               <p class="my-0">
-                Use any photo from your Camera Roll as the timer.
+                Customize with your own photos — perfect for little kids who love seeing photos of themselves!
               </p>
             </div>
           </div>
@@ -318,17 +327,17 @@
             </div>
             <div class="col">
               <p class="my-0">
-                Guided Access: lock the app so only you can change or stop a timer.
+                Enable Guided Access to kid-proof the app and disable app switching.
               </p>
             </div>
           </div>
           <div class="row g-0 align-items-baseline mb-3">
             <div class="col-auto me-2">
-              <span class="fa-stack"><span class="fa-solid fa-circle fa-stack-2x"></span><span class="fa-solid fa-stack-1x fa-lock"></span></span>
+              <span class="fa-stack"><span class="fa-solid fa-circle fa-stack-2x"></span><span class="fa-solid fa-stack-1x fa-bell-on"></span></span>
             </div>
             <div class="col">
               <p class="my-0">
-                Widgets.
+                Notifications, widgets, and Live Activities help you monitor your timer.
               </p>
             </div>
           </div>
@@ -338,7 +347,7 @@
             </div>
             <div class="col">
               <p class="my-0">
-                AirPlay and Apple TV — put a full-screen timer on the big screen.
+                Put your timers on the big screen with AirPlay or Apple TV.
               </p>
             </div>
           </div>
@@ -348,7 +357,7 @@
             </div>
             <div class="col">
               <p class="my-0">
-                iCloud sync across iPhone, iPad, Mac, and Apple TV.
+                Syncs across all your devices.
               </p>
             </div>
           </div>
@@ -358,7 +367,7 @@
             </div>
             <div class="col">
               <p class="my-0">
-                Automate with Shortcuts.
+                Schedule and automate timers with Shortcuts.
               </p>
             </div>
           </div>

@@ -9315,6 +9315,9 @@ header, section, footer {
   header {
     text-align: center; } }
 
+header p {
+  font-size: 1.2rem; }
+
 @media (min-width: 992px) {
   footer {
     margin-bottom: 1rem; } }
@@ -9385,13 +9388,16 @@ a.linky {
       clip-path: inset(0 round calc(12.24137931% + 8px)/calc(5.916666667% + 8px)); } }
 .embed-responsive-9by16 {
   background: black;
+  padding: 0 8px;
   clip-path: inset(0px round 12.24137931%/5.916666667%); }
   .embed-responsive-9by16::before {
-    padding-top: 177.78%; }
+    padding-top: 216.55%; }
 
 .max333 {
   max-width: 320px; }
-
+  @media (max-width: 575.98px) {
+    .max333 {
+      margin: 0 auto; } }
 .slideIn {
   animation: slideIn 0.4s ease-out forwards; }
 
