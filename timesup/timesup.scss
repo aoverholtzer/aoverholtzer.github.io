@@ -20,7 +20,7 @@ $body-color: $gray-900;
 */
 $body-bg:    #f8f9fa;
 
-$primary: #1C1C1E;
+$primary: teal;
 // $secondary: #bbbbbb;
 
 /*
@@ -68,7 +68,7 @@ header, section, footer {
 	margin-right: calc(var(--bs-gutter-x) * -0.5) !important;
 
 	&.themed {
-		background: $primary;
+		background: #1C1C1E;
 // 		background-image: linear-gradient(180deg, #DF7EF4 0%, #B051DE 100%);
 		color: white;
 		// border-radius: $spacer*2;
