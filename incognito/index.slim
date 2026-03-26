@@ -265,7 +265,8 @@ html lang='en'
 					div.col-sm-4.mb-3.mb-sm-0
 						span.fa-stack
 						  span.fa-solid.fa-circle.fa-stack-2x 
-						  span.fa-solid.fa-stack-2x.fa-face-disguise.fa-duotone
+						  span.fa-solid.fa-stack-1x.fa-eye-slash
+						  //span.fa-solid.fa-stack-2x.fa-face-disguise.fa-duotone
 						p.strong Incognito helps you avoid the spying eyes of in&#8209;app&nbsp;browsers.¹
 						
 					div.col-sm-4.mb-3.mb-sm-0
@@ -292,20 +293,24 @@ html lang='en'
 							img.img-fluid src='intro2@2x.png' srcset='intro2@1x.png 1x, intro2@2x.png 2x' alt='Screenshot of Incognito browser with its powerful actions including clearing history, removing AMP, translating text, opening in Firefox, and more.'
 					
 				div.col-sm-7.text-start
-					h3.text-center Advanced Features
+					h3.text-center Features
 						  
-					- @bullets = [ { :icon => 'fa-screwdriver-wrench', 
+					- @bullets = [ { :icon => 'fa-trash', 
+						  :text => 'Start fresh every time: all session data is discarded when you close the window.' },
+							{ :icon => 'fa-arrow-up-from-square', 
+							:text => 'Launch from anywhere via the ubiquitous share menu.' },
+						  { :icon => 'fa-screwdriver-wrench', 
 						  :text => 'Pro tools: translate, remove AMP, clear session history.' },
 						{ :icon => 'fa-magnifying-glass', 
 					  	:text => 'Choose your search engine: Google, Kagi, Bing, DuckDuckGo, etc.' },
-					{ :icon => 'fa-layer fa-duotone', 
-						  :text => 'Automate with Shortcuts.' },
 					  { :icon => 'fa-lock fa-regular', 
 						  :text => 'Passcode-lock your history and bookmarks.' },
 						{ :icon => 'fa-cloud fa-regular', 
 						  :text => 'Backup bookmarks and history to iCloud — or don’t!' },
 					  { :icon => 'fa-share-nodes fa-regular', 
 						:text => 'Reopen a page with archive.is.' },
+						{ :icon => 'fa-layer fa-duotone', 
+							  :text => 'Automate with Shortcuts.' },
 					  { :icon => 'fa-up-right-and-down-left-from-center', 
 						  :text => 'Fullscreen browsing.' }]
 						  
@@ -337,7 +342,7 @@ html lang='en'
 				
 					div.col-sm-6.text-center.order-sm-first
 						h3 100% Private
-						p Incognito is simple: pay once, upfront. No subscriptions or in&#8209;app purchase. No bait&#8209;and&#8209;switch.
+						p Incognito is simple: pay once, upfront. No subscriptions or in&#8209;app purchase. <strong>No bait&#8209;and&#8209;switch.</strong>
 						p.small Some “free” private browser apps use sketchy, potentially unsafe search engines. Incognito lets you choose from Google, Kagi, DuckDuckGo, and many more.
 						button.btn.btn-outline-light type='button' href='https://itunes.apple.com/app/id1490656387' Buy $0.99
 							
