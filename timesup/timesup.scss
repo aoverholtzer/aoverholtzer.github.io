@@ -261,8 +261,21 @@ body#support {
 		margin-left: 0 !important;
 		margin-right: 0 !important;
 	}
-	dd ol > li + li { margin-top: 0.5em; }
-	dd p + ol { margin-top: -0.5em; }
+	dd li + li { 
+		margin-top: 0.5em; 
+	}
+	dd p + ol, dd p + ul { 
+		margin-top: -0.5em;
+	}
+	dt {
+		margin-bottom: 0.5em;
+	}
+	dd {
+		margin-bottom: 2em;
+	}
+	h4 {
+		margin-bottom: 1.33em;
+	}
 }
 
 [data-bs-theme="dark"] {
