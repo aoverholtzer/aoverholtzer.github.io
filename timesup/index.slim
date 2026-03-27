@@ -274,14 +274,14 @@ html lang='en'
 					div.col-sm-5
 						//div.phone.float-sm-end.mb-sm-0.mb-5
 						div.embed-responsive.embed-responsive-9by16.float-sm-end.max333
-							<video class="embed-responsive-item" autoplay muted playsinline preload="metadata" width="100%" onclick="playPauseRestart(this);">
+							<video class="embed-responsive-item" poster="video.jpg" autoplay muted playsinline disablepictureinpicture disableremoteplayback x-webkit-airplay="deny" preload="auto" width="100%" onclick="playPauseRestart(this);">
 							  <source src="video.mp4" type="video/mp4">
 							  Your browser does not support the video tag.
 							</video>
-								
-								//img.img-fluid src='web1.png' srcset='web1.png 1x, web1@2x.png 2x' alt='Fun visual timer counting down with a colorful photo reveal.'
+							
+							<i class="fa-duotone fa-solid fa-circle-play"></i>
 
-					div.col-sm-7.text-sm-left
+					div.col-sm-7.col-lg-5.offset-lg-1.text-center
 						img.rounded-icon.my-3 src='/timesup/icon.png' alt='Time’s Up! App Icon' style='max-width: 180px;'
 						h1.pb-1 Time’s Up!
 						p.mb-4 <strong>Fun visual timers</strong> that you (and your kids) will actually want&nbsp;to&nbsp;use.
@@ -316,7 +316,7 @@ html lang='en'
 						div
 							img.img-fluid src='phone@1x.png' srcset='phone@1x.png 1x, phone@2x.png 2x' alt='Time’s Up! timer app running a colorful classic timer.'
 
-				div.col-sm-7.text-start
+				div.col-sm-7.text-center
 					h2.mb-4 Beautiful, Visual Timers
 
 					- @bullets = [{ :icon => 'fa-palette',
@@ -339,7 +339,7 @@ html lang='en'
 						  :text => 'Schedule and automate timers with Shortcuts.' }]
 
 					- @bullets.each do |row|
-						div.row.g-0.align-items-baseline.mb-3
+						div.row.g-0.align-items-baseline.mb-3.text-start
 							div.col-auto.me-2
 								span.fa-stack
 									span.fa-solid.fa-circle.fa-stack-2x

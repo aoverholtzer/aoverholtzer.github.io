@@ -199,6 +199,7 @@ a.linky {
 	background: black;
 	padding: 0 8px;
 	clip-path: inset(0px round 12.24137931% / 5.916666667%);
+	position: relative;
 	
 	&::before {
 		// padding-top: 177.78%;
@@ -212,6 +213,22 @@ a.linky {
 	@include media-breakpoint-only(xs) {
 		margin: 0 auto;
 	}
+}
+
+.fa-circle-play {
+	display: none !important;
+	position: absolute !important;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 4rem;
+	--fa-primary-color: rgb(1, 1, 1);
+	--fa-secondary-color: rgb(255, 255, 255); --fa-secondary-opacity: 0.8;
+	pointer-events: none;
+}
+
+video:paused + .fa-circle-play {
+	display: block !important;
 }
 
 .slideIn {
