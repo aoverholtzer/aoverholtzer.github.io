@@ -38,6 +38,12 @@
       "oS" : 0,
       "rAC" : 0
     },
+    "\/.claude" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/.claude",
+      "oF" : 0
+    },
     "\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1489,7 +1495,7 @@
     },
     "\/cheatsheet\/csfavicon-152.png" : {
       "ft" : 32768,
-      "iS" : 8853,
+      "iS" : 5361,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/csfavicon-152.png",
       "oF" : 0,
@@ -1510,7 +1516,7 @@
     },
     "\/cheatsheet\/csfavicon.png" : {
       "ft" : 32768,
-      "iS" : 1998,
+      "iS" : 1775,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/csfavicon.png",
       "oF" : 0,
@@ -1611,7 +1617,7 @@
     },
     "\/cheatsheet\/images\/ipad1.jpeg" : {
       "ft" : 16384,
-      "iS" : 197724,
+      "iS" : 244030,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/images\/ipad1.jpg",
@@ -1624,7 +1630,7 @@
     },
     "\/cheatsheet\/images\/ipad2.jpeg" : {
       "ft" : 16384,
-      "iS" : 206368,
+      "iS" : 340033,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/images\/ipad2.jpg",
@@ -1819,7 +1825,7 @@
     },
     "\/cheatsheet\/images\/web-phone.png" : {
       "ft" : 32768,
-      "iS" : 135861,
+      "iS" : 157087,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/images\/web-phone.png",
       "oF" : 0,
@@ -1832,7 +1838,7 @@
     },
     "\/cheatsheet\/images\/web-phone@2x.png" : {
       "ft" : 32768,
-      "iS" : 463637,
+      "iS" : 559564,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/images\/web-phone@2x.png",
       "oF" : 0,
@@ -1845,7 +1851,7 @@
     },
     "\/cheatsheet\/images\/web-watch.png" : {
       "ft" : 32768,
-      "iS" : 39371,
+      "iS" : 39252,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/images\/web-watch.png",
       "oF" : 0,
@@ -1858,7 +1864,7 @@
     },
     "\/cheatsheet\/images\/web-watch@2x.png" : {
       "ft" : 32768,
-      "iS" : 121567,
+      "iS" : 125529,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/images\/web-watch@2x.png",
       "oF" : 0,
@@ -1871,7 +1877,7 @@
     },
     "\/cheatsheet\/images\/web1@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 156366,
+      "iS" : 152455,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/images\/web1@2x.jpg",
@@ -1890,7 +1896,7 @@
       "oAP" : "\/cheatsheet\/images\/web2@2x.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1903,7 +1909,7 @@
       "oAP" : "\/cheatsheet\/images\/web3@2x.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1923,7 +1929,7 @@
     },
     "\/cheatsheet\/images\/web5@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 409010,
+      "iS" : 373106,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/cheatsheet\/images\/web5@2x.jpg",
@@ -1968,7 +1974,7 @@
       "oAP" : "\/cheatsheet\/images\/web8@2x.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7627,7 +7633,7 @@
     },
     "\/incognito\/press\/screenshot-about.png" : {
       "ft" : 32768,
-      "iS" : 96231,
+      "iS" : 83120,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-about.png",
       "oF" : 0,
@@ -7653,7 +7659,7 @@
     },
     "\/incognito\/press\/screenshot-bookmarks.png" : {
       "ft" : 32768,
-      "iS" : 300222,
+      "iS" : 80551,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-bookmarks.png",
       "oF" : 0,
@@ -7679,7 +7685,7 @@
     },
     "\/incognito\/press\/screenshot-browser-share.png" : {
       "ft" : 32768,
-      "iS" : 269139,
+      "iS" : 297974,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-browser-share.png",
       "oF" : 0,
@@ -7705,7 +7711,7 @@
     },
     "\/incognito\/press\/screenshot-browser.png" : {
       "ft" : 32768,
-      "iS" : 224208,
+      "iS" : 194179,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-browser.png",
       "oF" : 0,
@@ -7718,7 +7724,7 @@
     },
     "\/incognito\/press\/screenshot-history-locked.png" : {
       "ft" : 32768,
-      "iS" : 781765,
+      "iS" : 546881,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-history-locked.png",
       "oF" : 0,
@@ -7731,7 +7737,7 @@
     },
     "\/incognito\/press\/screenshot-history.png" : {
       "ft" : 32768,
-      "iS" : 365001,
+      "iS" : 91870,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-history.png",
       "oF" : 0,
@@ -7744,7 +7750,7 @@
     },
     "\/incognito\/press\/screenshot-purchase.png" : {
       "ft" : 32768,
-      "iS" : 161003,
+      "iS" : 268568,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-purchase.png",
       "oF" : 0,
@@ -7757,7 +7763,7 @@
     },
     "\/incognito\/press\/screenshot-safari.png" : {
       "ft" : 32768,
-      "iS" : 549930,
+      "iS" : 540704,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-safari.png",
       "oF" : 0,
@@ -7770,7 +7776,7 @@
     },
     "\/incognito\/press\/screenshot-settings.png" : {
       "ft" : 32768,
-      "iS" : 259465,
+      "iS" : 179379,
       "oA" : 0,
       "oAP" : "\/incognito\/press\/screenshot-settings.png",
       "oF" : 0,
@@ -15221,7 +15227,7 @@
     },
     "\/worldclock\/csfavicon-152.png" : {
       "ft" : 32768,
-      "iS" : 7207,
+      "iS" : 5318,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon-152.png",
       "oF" : 0,
@@ -15234,7 +15240,7 @@
     },
     "\/worldclock\/csfavicon.png" : {
       "ft" : 32768,
-      "iS" : 1786,
+      "iS" : 1711,
       "oA" : 0,
       "oAP" : "\/worldclock\/csfavicon.png",
       "oF" : 0,
@@ -15267,7 +15273,7 @@
     },
     "\/worldclock\/icon.png" : {
       "ft" : 32768,
-      "iS" : 56802,
+      "iS" : 27781,
       "oA" : 0,
       "oAP" : "\/worldclock\/icon.png",
       "oF" : 0,
@@ -15280,7 +15286,7 @@
     },
     "\/worldclock\/images\/devices@1x.png" : {
       "ft" : 32768,
-      "iS" : 273956,
+      "iS" : 62848,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/devices@1x.png",
       "oF" : 0,
@@ -15293,7 +15299,7 @@
     },
     "\/worldclock\/images\/devices@2x.png" : {
       "ft" : 32768,
-      "iS" : 819940,
+      "iS" : 244577,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/devices@2x.png",
       "oF" : 0,
@@ -15306,7 +15312,7 @@
     },
     "\/worldclock\/images\/ios-icon.png" : {
       "ft" : 32768,
-      "iS" : 57621,
+      "iS" : 220785,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/ios-icon.png",
       "oF" : 0,
@@ -15319,7 +15325,7 @@
     },
     "\/worldclock\/images\/ipad1.jpg" : {
       "ft" : 16384,
-      "iS" : 272662,
+      "iS" : 240499,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/ipad1.jpg",
@@ -15332,7 +15338,7 @@
     },
     "\/worldclock\/images\/ipad2.jpg" : {
       "ft" : 16384,
-      "iS" : 299727,
+      "iS" : 122317,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/ipad2.jpg",
@@ -15345,7 +15351,7 @@
     },
     "\/worldclock\/images\/ipad3.jpg" : {
       "ft" : 16384,
-      "iS" : 182099,
+      "iS" : 337820,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/ipad3.jpg",
@@ -15358,7 +15364,7 @@
     },
     "\/worldclock\/images\/ipad4.jpg" : {
       "ft" : 16384,
-      "iS" : 213139,
+      "iS" : 407404,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/ipad4.jpg",
@@ -15371,7 +15377,7 @@
     },
     "\/worldclock\/images\/ipad5.jpg" : {
       "ft" : 16384,
-      "iS" : 168511,
+      "iS" : 582919,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/ipad5.jpg",
@@ -15423,7 +15429,7 @@
     },
     "\/worldclock\/images\/standby1.jpg" : {
       "ft" : 16384,
-      "iS" : 108245,
+      "iS" : 108225,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/standby1.jpg",
@@ -15514,7 +15520,7 @@
     },
     "\/worldclock\/images\/web1@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 125247,
+      "iS" : 91991,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web1@2x.jpg",
@@ -15527,7 +15533,7 @@
     },
     "\/worldclock\/images\/web2@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 144509,
+      "iS" : 117193,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web2@2x.jpg",
@@ -15540,7 +15546,7 @@
     },
     "\/worldclock\/images\/web3@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 63489,
+      "iS" : 67577,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web3@2x.jpg",
@@ -15553,7 +15559,7 @@
     },
     "\/worldclock\/images\/web4@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 66861,
+      "iS" : 70358,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web4@2x.jpg",
@@ -15566,7 +15572,7 @@
     },
     "\/worldclock\/images\/web5@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 61872,
+      "iS" : 190404,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web5@2x.jpg",
@@ -15579,7 +15585,7 @@
     },
     "\/worldclock\/images\/web6@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 73899,
+      "iS" : 142253,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web6@2x.jpg",
@@ -15592,7 +15598,7 @@
     },
     "\/worldclock\/images\/web7@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 75283,
+      "iS" : 154415,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web7@2x.jpg",
@@ -15605,7 +15611,7 @@
     },
     "\/worldclock\/images\/web8@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 89510,
+      "iS" : 288344,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web8@2x.jpg",
@@ -15618,7 +15624,7 @@
     },
     "\/worldclock\/images\/web9@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 86652,
+      "iS" : 180882,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web9@2x.jpg",
@@ -15631,7 +15637,7 @@
     },
     "\/worldclock\/images\/web10@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 149780,
+      "iS" : 292663,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web10@2x.jpg",
@@ -15644,7 +15650,7 @@
     },
     "\/worldclock\/images\/web11@2x.jpg" : {
       "ft" : 16384,
-      "iS" : 148383,
+      "iS" : 262176,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/web11@2x.jpg",
@@ -15709,7 +15715,7 @@
     },
     "\/worldclock\/images\/widget-banner-iphone@2x.png" : {
       "ft" : 32768,
-      "iS" : 178811,
+      "iS" : 157369,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/widget-banner-iphone@2x.png",
       "oF" : 0,
@@ -15722,7 +15728,7 @@
     },
     "\/worldclock\/images\/widget-banner@1x.png" : {
       "ft" : 32768,
-      "iS" : 84996,
+      "iS" : 230075,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/widget-banner@1x.png",
       "oF" : 0,
@@ -15735,7 +15741,7 @@
     },
     "\/worldclock\/images\/widget-banner@2x.png" : {
       "ft" : 32768,
-      "iS" : 220525,
+      "iS" : 608273,
       "oA" : 0,
       "oAP" : "\/worldclock\/images\/widget-banner@2x.png",
       "oF" : 0,
