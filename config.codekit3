@@ -68,6 +68,14 @@
       "oO" : 0,
       "oS" : 1
     },
+    "\/.well-known\/kickstart-exchange.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.well-known\/kickstart-exchange.txt",
+      "oF" : 0
+    },
     "\/263a51d3a0d748e79229cf281535c6ac.txt" : {
       "cB" : 0,
       "ft" : 8192,
